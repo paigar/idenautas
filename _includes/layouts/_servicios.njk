@@ -1,0 +1,25 @@
+<section class="indice">
+  <div class="contenedor estrecho centrar">
+    <article>
+      <h2 class="fs-4 bold">Qué hacemos</h2>
+      <p>
+        Nuestro objetivo es convertirnos en el mejor aliado digital para
+        tí y para tu proyecto. Desarrollamos sitios web específicos y
+        personalizados para cada negocio, de forma que se adapten al
+        producto y a la forma en la que queremos presentarlo.
+      </p>
+      <p>
+        Estas son las principales áreas de servicio en las que podemos
+        aportar nuestro valor añadido:
+      </p>
+    </article>
+  </div>
+  <div class="contenedor">
+    <div class="columnas destacado">
+      {% set articulos = collections.servicios %}
+      {% for articulo in articulos %}
+        {% include "layouts/_cuadroservicio.njk" %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

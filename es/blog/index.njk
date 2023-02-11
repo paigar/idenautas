@@ -1,0 +1,45 @@
+---
+layout: layouts/corporativo.njk
+uuid: 2ad158ff-505d-49f2-bb86-4c058442d84f
+eleventyExcludeFromCollections: true
+templateClass: blog
+permalink: /blog/{% if (pagination.pageNumber > 0) %}pag-{{ pagination.pageNumber + 1 }}/{% endif %}
+titulo: Navegando entre <b>ideas</b>
+intro: <p>En <b>idenautas</b> nos encanta compartir ideas y experiencias sobre el mundo del diseño y el desarrollo web. </p><p>Desde nuestra perspectiva, el aprendizaje es un proceso continuo y nos gusta seguir actualizándonos sobre las últimas tendencias y tecnologías.</p>
+pagination: 
+  data: collections.blog
+  size: 12
+  reverse: true
+  alias: articulosblog
+---
+
+<div class="contenedor">
+  {% set articulos = articulosblog %}
+  <div class="coleccionblog">
+    {% for articulo in articulos %}
+      {% include 'layouts/_cuadroblog.njk' %}
+    {% endfor %}
+  </div>
+
+  <div class="paginacion">
+    {% if pagination.href.previous %}
+      <a href="{{ pagination.href.previous }}">{% include 'svg/ico-left.svg' %}</a>
+    {% else %}{% include 'svg/ico-left.svg' %}
+    {% endif %}
+    <div class="pagina">
+      Página
+      <select name="elegirpagina" id="elegirpagina" onchange="if (this.value) window.location.href=this.value">
+        {%- for pageEntry in pagination.pages %}
+          <option value="{{ pagination.hrefs[ loop.index0 ] }}" {% if page.url == pagination.hrefs[ loop.index0 ] %} selected{% endif %}>{{ loop.index }}</option>
+        {%- endfor %}
+      </select>
+      de {{ pagination.pages.length }}
+    </div>
+    {% if pagination.href.next %}
+      <a href="{{ pagination.href.next }}">{% include 'svg/ico-right.svg' %}</a>
+    {% else %}{% include 'svg/ico-right.svg' %}
+    {% endif %}
+  </div>
+
+</div>
+{% include "layouts/_formcontacto.njk" %}

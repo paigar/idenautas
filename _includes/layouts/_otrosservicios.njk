@@ -1,0 +1,20 @@
+<section class="indice">
+  <div class="contenedor estrecho centrar">
+    <article>
+      <h2 class="fs-4 bold">Más servicios</h2>
+      <p>
+        Además de "{{ titulo | safe }}", en <b>idenautas</b> también podemos ayudarte con estos otros servicios:
+      </p>
+    </article>
+  </div>
+  <div class="contenedor">
+    <div class="columnas">
+      {% set articulos = collections.servicios %}
+      {% for articulo in articulos %}
+        {% if not(articulo.url == page.url) %}
+          {% include "layouts/_cuadroservicio.njk" %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

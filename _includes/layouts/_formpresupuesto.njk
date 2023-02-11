@@ -1,0 +1,76 @@
+<article>
+  <div class="contenedor estrecho">
+    <h2 class="fs-4 bold titulosubr">¡ Hagamos algo juntos !</h2>
+    <p>Necesitamos conocer un poco tu proyecto para empezar a idear su realidad digital.</p>
+    <ul class="listanumerada">
+      <li>
+        <h3>Hablanos de tu proyecto</h3>
+        <p>Explícanos tu idea y los objetivos que quieres conseguir.</p>
+      </li>
+      <li>
+        <h3>Agendamos una conversación informal</h3>
+        <p>Se trata de conocernos mutuamente y analizar las opciones para tu proyecto.</p>
+      </li>
+      <li>
+        <h3>Preparamos un presupuesto a medida</h3>
+        <p>El mejor precio para lograr los objetivos de tu proyecto</p>
+      </li>
+    </ul>
+  </div>
+  <div class="contenedor">
+    <div class="formcontacto presupuesto">
+      <div class="formimagen">
+        {% progImage "0c1ef715-ef33-47cd-b14e-a004ec72e0ce" %}
+      </div>
+      <form class="formulario" name="presupuestoidenautas" action="/pages/success" method="POST" data-netlify="true" netlify-honeypot="campo-idenautas">
+        <h3 class="fs-2">Solicitud de presupuesto</h3>
+        <div class="grupo oculto">
+          <label>Deja este campo en blanco si eres humano:</label>
+          <input name="campo-idenautas" placeholder="Telefono"/>
+        </div>
+        <div class="grupo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre" pattern="[A-Za-z ]{3,32}" required/>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Correo electrónico" required/>
+        </div>
+        <div class="grupo">
+          <label for="presupuesto">Presupuesto:</label>
+          <select name="presupuesto" id="presupuesto" required>
+            <option value="">Presupuesto para el proyecto</option>
+            <option value="Menos de 1.000">Menos de 1.000 €</option>
+            <option value="Entre 1.000 y 3.000">Entre 1.000 € y 3.000 €</option>
+            <option value="Entre 3.000 y 5.000">Entre 3.000 € y 5.000 €</option>
+            <option value="Entre 5.000 y 10.000">Entre 5.000 € y 10.000 €</option>
+            <option value="Más de 10.000">Más de 10.000 €</option>
+          </select>
+          <label for="plazo">Plazo de ejecución:</label>
+          <select name="plazo" id="plazo" placeholder="Plazo de ejecución" required>
+            <option value="">Plazo de ejecución</option>
+            <option value="Inmediato">Inmediato</option>
+            <option value="De 1 a 3 meses">De 1 a 3 meses</option>
+            <option value="De 3 a 6 meses">De 3 a 6 meses</option>
+            <option value="De 6 meses a 1 año">De 6 meses a 1 año</option>
+          </select>
+        </div>
+        <div class="grupo">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Hablanos de tu idea / proyecto" required></textarea>
+        </div>
+        <div class="legal">
+          <input type="checkbox" name="legal" id="legal" value="Acepto las condiciones de uso" required>
+          <label class="fs--1" for="legal">
+            <span class="icono checked">
+              {% include "svg/ico-checked.svg" %}
+            </span>
+            <span class="icono unchecked">
+              {% include "svg/ico-unchecked.svg" %}
+            </span>
+            <span class="texto">He leído y acepto las <a href="/politica-de-privacidad/" target="_blank">condiciones de uso</a></span></label>
+        </div>
+
+        <input class="boton solido" type="submit" value="Enviar"/>
+      </form>
+    </div>
+  </div>
+</article>

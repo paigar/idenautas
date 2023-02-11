@@ -1,0 +1,24 @@
+<a href="/" class="logo">
+  {% include "svg/logo.svg" %}
+</a>
+<div class="menuppal">
+  {% include "layouts/_menuppal.njk" %}
+</div>
+<section class="intro">
+  {% if not uuid %}
+    {% set uuid = "91fc4a78-56df-4725-9d5b-eb14f188c1fe" %}
+  {% endif %}
+  {% progImage uuid %}
+  <div class="texto">
+    <div class="contenedor">
+      {% if titulo %}
+        <h1 class="fs-5 titular">
+          {{ titulo | safe}}
+        </h1>
+      {% endif %}
+      {% if intro %}
+        {{ intro | safe }}
+      {% endif %}
+    </div>
+  </div>
+</section>

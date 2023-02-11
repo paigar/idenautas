@@ -1,0 +1,29 @@
+---
+layout: layouts/corporativo.njk
+uuid: 42821910-d2a6-465b-8aca-383ab446de4a
+titulo: Contacta con <b>idenautas</b>
+templateClass: blog
+---
+
+<div class="contenedor">
+  <div class="formascontacto">
+    <a class="formacontacto" href="mailto:info@idenatutas.com" target="_blank">
+      <span class="icono">{% include 'svg/ico-email.svg' %}</span>
+      <span class="tecto">info@idenatutas.com</span>
+    </a>
+    <a class="formacontacto" href="tel:+34944130535" target="_blank">
+      <span class="icono">{% include 'svg/ico-tfno.svg' %}</span>
+      <span class="tecto">+34 944 130 535</span>
+    </a>
+    <a
+      class="formacontacto"
+      target="_blank"
+      href="https://api.whatsapp.com/send?phone=34605639214"
+    >
+      <span class="icono">{% include 'svg/ico-wassap.svg' %}</span>
+      <span class="tecto">WhatsApp</span>
+    </a>
+  </div>
+</div>
+
+{% include "layouts/_formcontacto.njk" %}

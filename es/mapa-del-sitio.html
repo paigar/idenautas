@@ -1,0 +1,51 @@
+---
+layout: layouts/corporativo.njk
+uuid: 77861d16-46a7-4ed4-80ab-d06efa9991d8
+titulo: Índice de <b>idenautas</b>
+intro: <p>¡Bienvenidos al mapa del sitio! Aquí es donde podrás encontrar todo lo que necesitas saber sobre nuestro sitio con un solo clic. ¿Tienes una pregunta sobre algún servicio en particular? ¿O estás buscando la sección de noticias más recientes? </p><p>¡No hay problema! Con nuestro mapa del sitio, puedes navegar fácilmente por todas las secciones y encontrar lo que estás buscando en un abrir y cerrar de ojos.</p>
+templateClass: sitemap general
+---
+
+<div class="contenedor">
+  <article class="articulo">
+    <ul class="mapa-del-sitio">
+      <li>
+        <a href="/">Inicio</a>
+      </li>
+      <li>
+        <a href="/nosotros">Nosotros</a>
+      </li>
+      <li>
+        <a href="/servicios">Servicios</a>
+        <ul>
+          {%- for entry in collections.servicios %}
+          <li>
+            <a href="{{ entry.url }}"> {{ entry.data.titulo | excerpt }} </a>
+          </li>
+          {%- endfor %}
+        </ul>
+      </li>
+      <li>
+        <a href="/blog">Blog</a>
+        <ul>
+          {%- for entry in collections.blog | reverse %}
+          <li>
+            <a href="{{ entry.url }}"> {{ entry.data.titulo | excerpt }} </a>
+          </li>
+          {%- endfor %}
+        </ul>
+      </li>
+      <li>
+        <a href="/contacto">Contacto</a>
+      </li>
+      <li>
+        <a href="/aviso-legal">Aviso Legal</a>
+      </li>
+      <li>
+        <a href="/politica-de-privacidad">Política de privacidad</a>
+      </li>
+    </ul>
+  </article>
+</div>
+
+{% include "layouts/_formcontacto.njk" %}

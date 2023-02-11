@@ -1,0 +1,30 @@
+---
+layout: layouts/base.njk
+uuid: "2da0c9f6-79c3-4cad-8aea-9bd5c07cc28a"
+titulo: Somos <b>idenautas</b>, <br/>una agencia creativa apasionada del desarrollo web
+templateClass: paginappal
+---
+
+{% include "layouts/_nosotros.njk" %} {% include "layouts/_servicios.njk" %} {%
+include "layouts/_formcontacto.njk" %} {% include "layouts/_introblog.njk" %} {#
+{% set maxPosts = collections.posts.length | min(3) %}
+<h1>
+  Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}
+</h1>
+
+{% set postslist = collections.posts | head(-3) %} {% set postslistCounter =
+collections.posts | length %} {% include "postslist.njk" %}
+
+<p>More posts can be found in <a href="/blog/">the archive</a>.</p>
+
+List all of the pages in the project
+<ul>
+  {%- for entry in collections.all %}
+  <li>
+    <a href="{{ entry.url }}">
+      <code>{{ entry.url }}</code>
+    </a>
+  </li>
+  {%- endfor %}
+</ul>
+#}

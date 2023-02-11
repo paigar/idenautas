@@ -1,0 +1,19 @@
+<section class="centrar diagonal">
+  <div class="contenedor estrecho">
+    <h2 class="fs-4 bold titulosubr">Un rato de lectura</h2>
+    <p class="texto fs-1">
+							En <b>idenautas</b> nos encanta compartir ideas y experiencias sobre el mundo del diseño y el desarrollo web. 
+						</p><br/><br/><br/>
+  </div>
+  <div class="contenedor">
+    {% set articulos = collections.blog | reverse | limit(3) %}
+    <div class="coleccionblog">
+      {% for articulo in articulos %}
+        {% include 'layouts/_cuadroblog.njk' %}
+      {% endfor %}
+    </div>
+    <div class="decision">
+      <a href="/blog/" class="boton solido">Ver todos los artículos</a>
+    </div>
+  </div>
+</section>

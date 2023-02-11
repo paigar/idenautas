@@ -1,0 +1,9 @@
+<div class="cuadroblog">
+  <a href="{{ articulo.url }}">
+    {% progImage articulo.data.uuid %}
+    <span class="texto">
+      <span class="titulo">{{ articulo.data.titulo | safe }}</span>
+      <span class="introtext">{{ articulo.content | excerpt }}</span>
+    </span>
+  </a>
+</div>

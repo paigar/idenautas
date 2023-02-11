@@ -1,0 +1,46 @@
+---
+layout: layouts/base.njk
+templateClass: general
+uuid: bf06d9b9-a58c-4be6-bac7-022e7de7db40
+---
+
+<div class="contenedor estrecho">
+  <article class="articulo">
+    {{ content | safe }}
+  </article>
+</div>
+
+{% if tags == "blog" %}
+  <div class="indice">
+    {# these filters are locale-aware in 2.0.0-canary.14 #}
+    {%- set previousPost = collections.blog | getPreviousCollectionItem %}
+    {%- set nextPost = collections.blog | getNextCollectionItem %}
+    {%- if nextPost or previousPost %}
+      <div class="contenedor">
+        <ul class="anteriorsiguiente">
+          <li>
+            {%- if previousPost %}{{ "i18n.previous" | i18n }}: <a href="{{ previousPost.url }}">{{ previousPost.data.titulo | safe }}</a>
+            {% endif %}
+          </li>
+
+          <li>
+            {%- if nextPost %}{{ "i18n.next" | i18n }}: <a href="{{ nextPost.url }}">{{ nextPost.data.titulo | safe }}</a>
+            {% endif %}
+          </li>
+        </ul>
+      </div>
+    {%- endif %}
+
+    <div class="contenedor">
+      <h2 class="fs-4 bold centrar">También te puede interesar...</h2>
+      <div class="coleccionblog">
+        {% for articulo in collections.blog | randomLimit(3, page.url) %}
+          {% include 'layouts/_cuadroblog.njk' %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  {% include "layouts/_servicios.njk" %}
+  {% include "layouts/_formcontacto.njk" %}
+{% endif %}

@@ -1,0 +1,9 @@
+---
+layout: layouts/base.njk
+---
+{{ content | safe }}
+
+{% if tags == "servicios" %}
+  {% include "layouts/_formpresupuesto.njk" %}
+  {% include "layouts/_otrosservicios.njk" %}
+{% endif %}

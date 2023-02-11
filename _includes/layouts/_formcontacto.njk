@@ -1,0 +1,45 @@
+<article>
+  <div class="contenedor estrecho centrar">
+    <h2 class="fs-4 bold titulosubr">¡ Cuéntanos tu idea !</h2>
+    <p>¡Hey! ¿Quieres hablar con nosotros? ¡Genial! Estamos encantados de escucharte. Ya sea que tengas una pregunta tonta, un comentario épico o simplemente quieras decir hola, estamos aquí para ti. No te preocupes por ser formal, imagina que estuviéramos tomando un café juntos. 😛</p>
+    <p>Rellena el siguiente formulario y nos pondremos en contacto contigo lo antes posible. ¡No esperes más, cuéntanos lo que tienes en mente!</p>
+
+    <div class="formcontacto">
+      <div class="formimagen">
+        {% progImage "2148098a-a0e8-45c8-a791-628a0b16069c/-/mirror" %}
+      </div>
+      <form class="formulario" name="contactoidenautas" action="/pages/success" method="POST" data-netlify="true" netlify-honeypot="campo-idenautas">
+        <h3 class="fs-2">Formulario de contacto</h3>
+        <div class="grupo oculto">
+          <label>Deja este campo en blanco si eres humano:</label>
+          <input name="campo-idenautas" placeholder="Telefono"/>
+        </div>
+        <div class="grupo">
+          <label for="nombre">Nombre:</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Nombre" pattern="[A-Za-z ]{3,32}" required/>
+        </div>
+        <div class="grupo">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Correo electrónico" required/>
+        </div>
+        <div class="grupo">
+          <label for="mensaje">Mensaje:</label>
+          <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea>
+        </div>
+        <div class="legal">
+          <input type="checkbox" name="legal" id="legal" value="Acepto las condiciones de uso" required>
+          <label class="fs--1" for="legal">
+            <span class="icono checked">
+              {% include "svg/ico-checked.svg" %}
+            </span>
+            <span class="icono unchecked">
+              {% include "svg/ico-unchecked.svg" %}
+            </span>
+            <span class="texto">He leído y acepto las <a href="/politica-de-privacidad/" target="_blank">condiciones de uso</a></span></label>
+        </div>
+
+        <input class="boton solido" type="submit" value="Enviar"/>
+      </form>
+    </div>
+  </div>
+</article>

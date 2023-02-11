@@ -1,0 +1,11 @@
+<div class="imagenmastexto{% if articulo.data.posicion %} {{ articulo.data.posicion }}{% endif %}">
+  {% progImage articulo.data.uuid %}
+  <a href="{{ articulo.url }}" class="todo"></a>
+  <div class="texto">
+    <h3>{{ articulo.data.titulo | safe }}</h3>
+    {{ articulo.data.intro | safe }}
+    <p>
+      <a href="{{ articulo.url }}" class="boton solido">Saber más...</a>
+    </p>
+  </div>
+</div>
