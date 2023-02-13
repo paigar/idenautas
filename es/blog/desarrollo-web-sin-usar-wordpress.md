@@ -1,7 +1,7 @@
 ---
 titulo: Desarrollo web sin <b>Wordpress</b>
 uuid: b0eb852e-bd8a-4bc9-8c21-2529027121a2
-date: 2023-02-07
+date: 2023-02-10
 description: Wordpress no es, y no debe ser, la única alternativa que valores o que te ofrezcan para construir tu página web
 ---
 
