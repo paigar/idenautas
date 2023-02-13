@@ -1,6 +1,7 @@
 ---
 titulo: Abrazando el <b>Jamstack</b> en Idenautas
 uuid: 0ec00beb-143a-4487-afcf-52485952173e
+date: 2023-01-25
 ---
 
 El Jamstack es una nueva forma de desarrollar y construir sitios web que combina las mejores características de las tecnologías modernas y el enfoque en el rendimiento. Con el auge de la nube y las tecnologías de micro-servicios, ha llegado el momento de dejar atrás los sistemas de desarrollo tradicionales que utilizan aplicaciones monolíticas y servidores en tiempo real para construir sitios web.

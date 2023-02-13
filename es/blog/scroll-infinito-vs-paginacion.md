@@ -1,6 +1,7 @@
 ---
 titulo: Páginas de scroll infinito vs <b>paginación</b>
 uuid: 0ed3226a-323e-4476-a87c-87b03e09e343
+date: 2023-02-03
 ---
 
 Si has echado un vistazo a este blog ya podrás imaginar mi respuesta a la hora de elegir una página de scroll infinito o separar un índice largo (como el de este blog) en varias páginas diferenciadas. Pero vamos a analizar con un poco de detalle los motivos para tomar una decisión.

@@ -1,6 +1,7 @@
 ---
 titulo: Aplicando el Feng Shui al <b>diseño web</b>
 uuid: 16d0a845-ab2c-499a-9696-42060c9a783c
+date: 2023-01-31
 ---
 
 El Feng Shui es un antiguo arte de la armonización del entorno que se originó en China hace más de 4000 años. Se basa en la idea de que el ambiente en el que vivimos tiene un impacto directo en nuestro bienestar emocional y físico. El Feng Shui busca crear un equilibrio entre los elementos naturales y el entorno construido para mejorar la vida de las personas.

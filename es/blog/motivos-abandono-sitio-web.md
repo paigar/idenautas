@@ -1,6 +1,7 @@
 ---
 titulo: Razones por la que los usuarios <b>abandonan</b> un sitio web
 uuid: 509c2aee-75e6-487a-8ab5-a194e9f3ac28
+date: 2023-01-22
 ---
 
 El abandono de un sitio web puede ser un problema crítico para cualquier negocio o marca que dependa de internet para su presencia y crecimiento. Aunque hay muchas razones por las que los usuarios pueden abandonar un sitio web, hay algunas tendencias y problemas comunes que se deben tener en cuenta para mejorar la experiencia del usuario y retener a los visitantes.

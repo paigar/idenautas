@@ -1,6 +1,7 @@
 ---
 titulo: En ocasiones veo <b>Community Managers</b>
 uuid: c5746d99-850d-4156-8ec5-60384cdc969f
+date: 2023-01-28
 ---
 
 De un tiempo a esta parte, tengo una especie de “síndrome del niño del sexto sentido” que me hace ver Community Managers por todas partes. Se mueven entre nosotros, camuflados entre la gente normal, pero no son como nosotros.

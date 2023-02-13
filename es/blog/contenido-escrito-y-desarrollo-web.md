@@ -1,6 +1,7 @@
 ---
 titulo: Cómo influye el <b>contenido escrito</b> en el desarrollo web
 uuid: 6ec40238-bde1-4afc-b883-6a39d75978ba
+date: 2023-02-02
 ---
 
 En la era digital en la que vivimos, tener un sitio web es esencial para cualquier negocio o marca. Pero, ¿qué sucede cuando nos centramos solo en la estética y la funcionalidad de nuestra página y dejamos de lado el contenido escrito? Es aquí donde la diferencia radica en el éxito o fracaso de nuestra presencia en línea.

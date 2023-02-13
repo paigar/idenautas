@@ -1,6 +1,7 @@
 ---
 titulo: El minimalismo en el <b>diseño web</b>
 uuid: ce2ea858-ffee-436b-9f0d-78161a06ab8b
+date: 2023-01-27
 ---
 
 El minimalismo en el diseño web es un enfoque que se centra en la simplicidad y la eliminación de elementos no esenciales. Se trata de crear una experiencia de usuario sencilla, intuitiva y eficiente, utilizando una combinación de formas y colores básicos, y tipografías legibles y claras.

@@ -1,6 +1,7 @@
 ---
 titulo: Desarrollo web con generadores de contenido <b>estático</b>
 uuid: 00b80c98-0fa0-4f59-b02b-d198339b48ad
+date: 2023-02-04
 ---
 
 Un generador de contenido estático es una herramienta que permite la creación de sitios web estáticos, es decir, sitios web cuyo contenido no cambia dinámicamente a medida que los usuarios interactúan con ellos. En lugar de generar el contenido en tiempo real, se genera de forma previa y se almacena en archivos estáticos que son servidos a los usuarios a través de un servidor web.

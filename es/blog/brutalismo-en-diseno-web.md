@@ -1,6 +1,7 @@
 ---
 titulo: El <b>brutalismo</b> en el diseño web
 uuid: a507666f-56b9-44c5-bf51-0873b353b517
+date: 2023-02-05
 ---
 
 El brutalismo es un estilo de diseño web que se caracteriza por su simplicidad, funcionalidad y falta de ornamentación. Se originó en la década de 1960 y se basa en la idea de que los elementos de una página web deben ser directos y fácilmente comprensibles, sin distracciones. La intención del brutalismo es ofrecer una experiencia de usuario única y diferente, alejándose de los diseños más comunes y estandarizados.

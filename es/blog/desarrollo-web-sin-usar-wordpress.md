@@ -1,6 +1,7 @@
 ---
 titulo: Desarrollo web sin <b>Wordpress</b>
 uuid: b0eb852e-bd8a-4bc9-8c21-2529027121a2
+date: 2023-02-07
 ---
 
 El otro día una potencial cliente me preguntaba sobre las opciones de creación de una página web para su negocio, y todas sus referencias estaban basadas en el uso de Wordpress. Ni por un solo momento se le hubiera pasado por la cabeza utilizar una herramienta que no fuese Wordpress para crear su sitio.

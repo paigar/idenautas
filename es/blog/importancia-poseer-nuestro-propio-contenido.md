@@ -1,6 +1,7 @@
 ---
 titulo: La importancia de ser dueños de <b>nuestro contenido</b>
 uuid: a56af800-ba17-4f78-bc98-6681fdc76ace
+date: 2023-02-08
 ---
 
 La posesión de nuestro propio contenido en Internet nos permite el control total sobre la información y cómo se presenta al público. Si publicamos nuestro contenido en una plataforma externa, estamos sujetos a las políticas y restricciones de esa plataforma, y corremos el riesgo de que nuestro contenido sea eliminado sin previo aviso. Además, poseer nuestro propio contenido en Internet es una forma de asegurar su perpetuidad y accesibilidad en el futuro.

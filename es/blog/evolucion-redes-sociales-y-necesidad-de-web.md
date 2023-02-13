@@ -1,6 +1,7 @@
 ---
 titulo: La evolución de las <b>redes sociales</b> y la necesidad de una página web
 uuid: ac8cf3b5-dcf7-4b66-9f45-73a830b21afb
+date: 2023-02-06
 ---
 
 Con la aparición de las redes sociales, la necesidad de contar con una página web personal o una página corporativa para tu negocio pareció ir diluyéndose. Al fin y al cabo las empresas podían poner toda su información en una página de Facebook y compartir contenido de forma rápida y ágil en Twitter. ¿Realmente era necesario contar con una página web?
