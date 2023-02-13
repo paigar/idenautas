@@ -22,6 +22,10 @@ templateClass: sitemap general
           <li>
             <a href="{{ entry.url }}"> {{ entry.data.titulo | excerpt }} </a>
           </li>
+          {%- endfor %} {%- for entry in collections.otrosservicios %}
+          <li>
+            <a href="{{ entry.url }}"> {{ entry.data.titulo | excerpt }} </a>
+          </li>
           {%- endfor %}
         </ul>
       </li>

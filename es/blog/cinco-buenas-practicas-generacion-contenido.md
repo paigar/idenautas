@@ -2,6 +2,7 @@
 titulo: 5 buenas prácticas en la generación de <b>contenido </b>
 uuid: d330d5cb-b130-46a5-88bf-e7f9f2cd68ed
 date: 2023-01-29
+description: En la creación de contenido para una página web, es fundamental tener en cuenta algunos factores clave que determinarán el éxito o fracaso en la comunicación de nuestro mensaje
 ---
 
 En la creación de contenido para una página web, es fundamental tener en cuenta algunos factores clave que determinarán el éxito o fracaso en la comunicación de nuestro mensaje.

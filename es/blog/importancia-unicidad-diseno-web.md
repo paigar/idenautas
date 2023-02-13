@@ -2,6 +2,7 @@
 titulo: La importancia de la diferenciación en el <b>diseño web</b>
 uuid: 9f48b2ca-7384-4015-a4e2-7ac03b5b2356
 date: 2023-01-26
+description: Es tentador recurrir a frameworks y plantillas para crear sitios web, ya que nos ahorran tiempo y esfuerzo.
 ---
 
 Durante los años, la complejidad de los diseños y contenidos web ha aumentado. Aunque muchas páginas parecen ser simples a primera vista, en realidad, están ocultando soluciones "inteligentes" de diseños responsivos y adaptativos al dispositivo.

@@ -2,6 +2,7 @@
 titulo: <b>Desarrollo web</b> responsable y sostenible
 uuid: 9ea38f9b-9e54-493e-aa0f-8d7bc567f734
 date: 2023-02-01
+description: Debemos empezar a ser conscientes del consumo energético de nuestros servidores y valorar un uso racional del espacio de almacenamiento digital.
 ---
 
 La aparición de diversas herramientas de desarrollo web ha facilitado la creación de sitios web a un público más amplio. Esto es en gran medida positivo, ya que cada vez más personas pueden tener un sitio en internet de manera sencilla y sin muchas complicaciones.

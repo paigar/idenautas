@@ -2,6 +2,7 @@
 titulo: 10 consejos para lograr que tu web <b>trabaje para ti</b> -y no tú para tu web-
 uuid: c9a8d704-4877-48c7-b2f3-c26092493c18
 date: 2023-01-23
+description: En el momento de decidirnos a crear o renovar una página web debemos tener en cuenta una serie de aspectos fundamentales para garantizar el éxito del proyecto
 ---
 
 En muchas ocasiones las empresas deciden crear una página web simplemente porque saben que "es necesario estar en Internet", pero carecen de una estrategia de presencia en Internet que les permita rentabilizar la inversión de dicha página y que les reporte beneficios claros y cuantificables.
