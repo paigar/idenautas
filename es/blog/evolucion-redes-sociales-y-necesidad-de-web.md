@@ -1,6 +1,7 @@
 ---
 titulo: La evolución de las <b>redes sociales</b> y la necesidad de una página web
 uuid: ac8cf3b5-dcf7-4b66-9f45-73a830b21afb
+alt: Varias personas sentadas en un banco los logotipos de redes sociales en el fondo de la imagen
 date: 2023-02-06
 description: Con la aparición de las redes sociales ¿realmente es necesario contar con una página web?
 ---

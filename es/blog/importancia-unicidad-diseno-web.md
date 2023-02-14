@@ -1,6 +1,7 @@
 ---
 titulo: La importancia de la diferenciación en el <b>diseño web</b>
 uuid: 9f48b2ca-7384-4015-a4e2-7ac03b5b2356
+alt: Pantalla de un ordenador mostrando un mundo de fantasia lleno de colores
 date: 2023-01-26
 description: Es tentador recurrir a frameworks y plantillas para crear sitios web, ya que nos ahorran tiempo y esfuerzo.
 ---

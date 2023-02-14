@@ -1,6 +1,7 @@
 ---
 titulo: El minimalismo en el <b>diseño web</b>
 uuid: ce2ea858-ffee-436b-9f0d-78161a06ab8b
+alt: Imagen en blanco y negro de una planta sobre un fondo oscuro
 date: 2023-01-27
 description: El minimalismo en el diseño web es un enfoque que se centra en la simplicidad y la eliminación de elementos no esenciales
 ---

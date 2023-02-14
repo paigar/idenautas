@@ -1,6 +1,7 @@
 ---
 titulo: Un paseo por el cementerio de las tendencias en el <b>diseño web</b>
 uuid: 62e43b07-0b4e-490d-83f2-7098a96409c2
+alt: Ordenador antiguo, lleno de polvo y telarañas
 date: 2023-01-29
 description: Hay muchos elementos, imprescindibles en otras épocas, que hoy en día se antojarían totalmente desfasados y obsoletos en un sitio web, tanto por su estética como por su usabilidad.
 ---

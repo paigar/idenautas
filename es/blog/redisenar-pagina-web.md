@@ -1,6 +1,7 @@
 ---
 titulo: Llega la hora de <b>rediseñar</b> tu página web
 uuid: 58550223-68d5-4846-b1b1-e33adf20de5d
+alt: Hombre tocando la pantalla táctil de un ordenador portátil, arrastrando elementos que componen una imagen
 date: 2023-02-11
 description: La presencia en línea es fundamental para cualquier negocio. Una página web es la herramienta principal para promocionar tu marca, productos y servicios en Internet.
 ---

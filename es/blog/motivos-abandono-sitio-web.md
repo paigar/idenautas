@@ -1,6 +1,7 @@
 ---
 titulo: Razones por la que los usuarios <b>abandonan</b> un sitio web
 uuid: 509c2aee-75e6-487a-8ab5-a194e9f3ac28
+alt: Imagen de un reloj de arena sobre un fondo oscuro
 date: 2023-01-22
 description: El abandono de un sitio web puede ser un problema crítico para cualquier negocio o marca que dependa de internet para su presencia y crecimiento.
 ---

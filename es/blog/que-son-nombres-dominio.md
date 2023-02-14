@@ -1,6 +1,7 @@
 ---
 titulo: Que son los <b>dominios</b> en internet
 uuid: da18e649-845f-426a-a13f-773025e4b00a
+alt: Letras genéricas flotando en el cielo de un mundo imaginario
 date: 2023-01-24
 description: Recuerda que elegir un buen nombre de dominio es importante para la imagen y la presencia en línea de tu negocio.
 ---

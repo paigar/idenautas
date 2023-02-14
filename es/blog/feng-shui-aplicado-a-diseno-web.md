@@ -1,6 +1,7 @@
 ---
 titulo: Aplicando el Feng Shui al <b>diseño web</b>
 uuid: 16d0a845-ab2c-499a-9696-42060c9a783c
+alt: Imagen de cuencos y plantas con inspiración oriental
 date: 2023-01-31
 description: El Feng Shui es un antiguo arte de la armonización del entorno que se originó en China hace más de 4000 años.
 ---

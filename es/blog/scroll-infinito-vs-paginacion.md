@@ -1,6 +1,7 @@
 ---
 titulo: Páginas de scroll infinito vs <b>paginación</b>
 uuid: 0ed3226a-323e-4476-a87c-87b03e09e343
+alt: Pergamino de papel enrollado, pero de gran longitud
 date: 2023-02-03
 description: Una página de scroll infinito es un tipo de diseño de página web en el que el contenido se carga y se muestra automáticamente a medida que el usuario desplaza hacia abajo en la página.
 ---

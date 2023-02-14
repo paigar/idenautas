@@ -1,6 +1,7 @@
 ---
 titulo: 10 consejos para lograr que tu web <b>trabaje para ti</b> -y no tú para tu web-
 uuid: c9a8d704-4877-48c7-b2f3-c26092493c18
+alt: Imagen de un ordenador portátil mostrando una página web
 date: 2023-01-23
 description: En el momento de decidirnos a crear o renovar una página web debemos tener en cuenta una serie de aspectos fundamentales para garantizar el éxito del proyecto
 ---

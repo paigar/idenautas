@@ -1,6 +1,7 @@
 ---
 titulo: <b>Mobile First</b> en diseño y desarrollo web
 uuid: 83765b76-8e49-4ad6-aa0b-37d7e714751a
+alt: Imagen de un teléfono móvil de fantasía
 date: 2023-01-31
 description: Mobile First es una filosofía de diseño web que implica comenzar el proceso de diseño desde la versión móvil de un sitio web, antes de diseñar para dispositivos de escritorio o tabletas.
 ---

@@ -1,6 +1,7 @@
 ---
 titulo: Uso del atributo <b>alt</b> en imágenes
 uuid: cce3a117-a0a8-42d0-aab6-4c48f965bf2c
+alt: Imagen de un paisaje imaginario, con las montañas reflejándose en un gran lago
 date: 2023-02-06
 description: Aunque es importante saber que el atributo "alt" puede ser beneficioso en términos de accesibilidad... ¿cuál es la forma correcta de usarlo?
 ---

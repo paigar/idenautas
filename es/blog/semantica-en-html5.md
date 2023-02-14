@@ -1,6 +1,7 @@
 ---
 titulo: La <b>semántica</b> en HTML5
 uuid: e4e68fab-1f8b-4660-8f4b-56531aa28498
+alt: Pantalla de ordenador con imágenes y gran cantidad de texto
 date: 2023-01-28
 description: En el mundo del desarrollo web, hablamos de contenido semántico cuando los robots comprenden la estructura de un documento y los roles de los elementos dentro de él.
 ---

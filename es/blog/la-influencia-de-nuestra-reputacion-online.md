@@ -1,6 +1,7 @@
 ---
 titulo: La influencia de nuestra <b>reputación on-line</b> en las decisiones de nuestros clientes
 uuid: 0c8d4afc-2fda-4113-9241-f9fc37658b32
+alt: Imagen de una mujer con aspecto de hacker
 date: 2023-02-11
 description: En muchas ocasiones cuando hablamos de posicionamiento en internet estamos considerando tan sólo las estrategias para aparecer en los primeros lugares de las páginas de resultados de los buscadores.
 ---

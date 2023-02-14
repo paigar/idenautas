@@ -1,6 +1,7 @@
 ---
 titulo: Ventajas y desventajas de los Gestores de Contenido más <b>populares</b>
 uuid: 842b1dd9-6239-49b7-8cfa-82eec3b46036
+alt: Imagen con pequeños mundos en burbujas flotando en el cielo
 date: 2023-02-02
 description: Los gestores de contenido son herramientas populares para el desarrollo de sitios web, que permiten a los usuarios crear, gestionar y publicar contenido de manera fácil y eficiente.
 ---

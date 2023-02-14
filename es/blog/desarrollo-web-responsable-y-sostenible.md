@@ -1,6 +1,7 @@
 ---
 titulo: <b>Desarrollo web</b> responsable y sostenible
 uuid: 9ea38f9b-9e54-493e-aa0f-8d7bc567f734
+alt: Imagen de una ciudad verde en una colina llena de vegetación
 date: 2023-02-01
 description: Debemos empezar a ser conscientes del consumo energético de nuestros servidores y valorar un uso racional del espacio de almacenamiento digital.
 ---

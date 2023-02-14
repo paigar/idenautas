@@ -1,6 +1,7 @@
 ---
 titulo: Uso del <b>color</b> en el diseño web
 uuid: cb09a6e7-210e-4f13-bd0f-7b9c4680cb9d
+alt: Cara de una mujer con estallidos de color sobre su rostro
 date: 2023-02-05
 description: El uso del color es una de las herramientas más importantes en el diseño web. Los colores no solo afectan el aspecto visual de un sitio web, sino que también pueden influir en la percepción y la emoción de los usuarios.
 ---

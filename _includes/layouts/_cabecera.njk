@@ -16,7 +16,11 @@
   {% if not uuid %}
     {% set uuid = "91fc4a78-56df-4725-9d5b-eb14f188c1fe" %}
   {% endif %}
-  {% progImage uuid %}
+  {% if not alt %}
+    {% set alt = "" %}
+  {% endif %}
+  {% progImage uuid,
+  alt %}
   <div class="texto">
     <div class="contenedor">
       {% if titulo %}

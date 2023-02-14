@@ -1,6 +1,7 @@
 ---
 titulo: <b>Google</b> y las amenazas a nuestra privacidad en Internet
 uuid: e823f1cf-d1ae-428a-b8fd-acd7f430b0e7
+alt: Imagen de un castillo aterrador en lo alto de una montaña
 date: 2023-01-24
 description: La información que compartimos en línea puede ser utilizada por empresas y organizaciones con fines comerciales o para su análisis y recopilación.
 ---

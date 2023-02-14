@@ -1,6 +1,7 @@
 ---
 titulo: ¿Cuántas páginas debe tener <b>un sitio web</b>?
 uuid: 8ab6474c-016c-47a3-a967-14f4cf2f2e23
+alt: Desarrollador web trabajando en su ordenador portátil
 date: 2023-01-30
 description: Antes de comenzar a diseñar nuestro sitio web será importante tener claro cuál va a ser la arquitectura del sitio y cómo se va a resolver la navegación entre las diferentes páginas
 ---

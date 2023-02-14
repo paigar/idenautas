@@ -115,12 +115,16 @@ module.exports = function (eleventyConfig) {
   // Shortcodes:
   eleventyConfig.addShortcode(
     "progImage",
-    (uuid) =>
+    (uuid, alt = "") =>
       '<div class="imagen cubrir progresivo" data-uuid="' +
       uuid +
+      '" data-alt="' +
+      alt +
       '"><img class="img-small" src="https://ucarecdn.com/' +
       uuid +
-      '/-/preview/100x100/-/format/auto/" alt="" /></div>'
+      '/-/preview/100x100/-/format/auto/" alt="' +
+      alt +
+      '" /></div>'
   );
 
   // Override @11ty/eleventy-dev-server defaults (used only with --serve)

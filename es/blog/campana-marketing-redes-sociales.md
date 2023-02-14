@@ -1,6 +1,7 @@
 ---
 titulo: Planificar y ejecutar una campaña de marketing en <b>redes sociales</b>
 uuid: 720f1260-7170-4fb5-bd36-4cea55b0c91c
+alt: Hombre de espaldas mirando una pantalla con logotipos de redes sociales
 date: 2023-01-30
 description: Aspectos a tener en cuenta para planificar y ejecutar una campaña de marketing en redes sociales exitosa para tu negocio
 ---

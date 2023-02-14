@@ -1,6 +1,7 @@
 ---
 titulo: El valor de la <b>accesibilidad</b> en el diseño web
 uuid: ce4209dc-fe81-4b7d-b55c-99137b0157e6
+alt: Pantalla de un ordenador mostrando un mundo de fantasía
 date: 2023-02-08
 description: Una de las principales ventajas de tener un sitio web accesible es que mejora la experiencia del usuario.
 ---

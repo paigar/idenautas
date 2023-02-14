@@ -1,6 +1,7 @@
 ---
 titulo: Mejores prácticas en <b>UX/UI</b>
 uuid: a17f95d4-a9aa-4d9c-aa90-1b352780100e
+alt: Pájaro con plumas de colores saliendo de la pantalla de un ordenador
 date: 2023-02-09
 description: En el mundo digital de hoy en día, la experiencia de usuario (UX) y la interfaz de usuario (UI) son claves para el éxito de un sitio web o aplicación.
 ---
