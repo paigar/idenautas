@@ -31,6 +31,7 @@ function cargarImagenGrande(marcoImagen) {
     "x" +
     y +
     "/smart_faces/-/format/auto/";
+  imgLarge.alt = marcoImagen.dataset.alt;
   imgLarge.onload = function () {
     imgLarge.classList.add("loaded");
     marcoImagen.removeChild(imgSmall);
