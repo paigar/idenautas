@@ -1,25 +1,17 @@
-<nav>
-  <input type="checkbox" name="abrirmenu" id="abrirmenu" class="oculto">
-  <label for="abrirmenu" class="abrirmenu">
-    <span class="linea arriba"></span>
-    <span class="linea centro"></span>
-    <span class="linea abajo"></span>
-  </label>
-  <ul>
-    <li class="nav-item{% if page.url == "/" %} nav-item-active{% endif %}">
-      <a href="/">Inicio</a>
-    </li>
-    <li class="nav-item{% if "/nosotros/" == page.url %} nav-item-active{% endif %}">
-      <a href="/nosotros">Nosotros</a>
-    </li>
-    <li class="nav-item{% if "/servicios/" in page.url %} nav-item-active{% endif %}">
-      <a href="/servicios">Servicios</a>
-    </li>
-    <li class="nav-item{% if "/blog/" in page.url %} nav-item-active{% endif %}">
-      <a href="/blog">Blog</a>
-    </li>
-    <li class="nav-item{% if "/contacto/" == page.url %} nav-item-active{% endif %}">
-      <a href="/contacto">Contacto</a>
-    </li>
-  </ul>
-</nav>
+<ul>
+  <li class="nav-item{% if page.url == "/" %} nav-item-active{% endif %}">
+    <a href="/">Inicio</a>
+  </li>
+  <li class="nav-item{% if "/nosotros/" == page.url %} nav-item-active{% endif %}">
+    <a href="/nosotros">Nosotros</a>
+  </li>
+  <li class="nav-item{% if "/servicios/" in page.url %} nav-item-active{% endif %}">
+    <a href="/servicios">Servicios</a>
+  </li>
+  <li class="nav-item{% if "/blog/" in page.url %} nav-item-active{% endif %}">
+    <a href="/blog">Blog</a>
+  </li>
+  <li class="nav-item{% if "/contacto/" == page.url %} nav-item-active{% endif %}">
+    <a href="/contacto">Contacto</a>
+  </li>
+</ul>

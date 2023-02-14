@@ -2,7 +2,15 @@
   {% include "svg/logo.svg" %}
 </a>
 <div class="menuppal">
-  {% include "layouts/_menuppal.njk" %}
+  <nav>
+    <input type="checkbox" name="abrirmenu" id="abrirmenu" class="oculto">
+    <label for="abrirmenu" class="abrirmenu">
+      <span class="linea arriba"></span>
+      <span class="linea centro"></span>
+      <span class="linea abajo"></span>
+    </label>
+    {% include "layouts/_menuppal.njk" %}
+  </nav>
 </div>
 <section class="intro">
   {% if not uuid %}
