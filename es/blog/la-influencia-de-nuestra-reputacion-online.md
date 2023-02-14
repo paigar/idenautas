@@ -61,6 +61,6 @@ No olvides que cada vez es más importante para la visualización de la marca po
 
 - **Mejora el posicionamiento en buscadores**: Las empresas con buenas reputaciones en línea suelen aparecer en los primeros resultados de los motores de búsqueda, lo que puede atraer a más clientes potenciales.
 
-En definitiva, nuestra reputación en línea es la suma de muchos factores, y cada vez es más importante para la visualización de nuestra marca por parte de terceros. Por eso, es imprescindible dedicar tiempo a trabajar nuestras relaciones con los clientes en las redes sociales y analizar la difusión de comentarios sobre nuestros productos y servicios en los foros y blogs de nuestro ámbito de interés.
+En definitiva, nuestra reputación en línea es la suma de muchos factores, y cada vez es más importante la visualización de nuestra marca por parte de terceros. Por eso, es imprescindible dedicar tiempo a trabajar nuestras relaciones con los clientes en las redes sociales y analizar la difusión de comentarios sobre nuestros productos y servicios en los foros y blogs de nuestro ámbito de interés.
 
 Si queremos tener éxito en el mundo digital, debemos tener una visión amplia y estratégica del posicionamiento en internet.
