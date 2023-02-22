@@ -1,5 +1,5 @@
 ---
-titulo: No todos los <b>alojamientos web</b> con iguales
+titulo: No todos los <b>alojamientos web</b> son iguales
 uuid: ef9c9546-93fa-464b-8c93-d74882ae7b8f
 alt: Centro de procesamiento de datos, lleno de servidores y luces
 date: 2023-01-24
