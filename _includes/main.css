@@ -1252,10 +1252,8 @@ main .fondo-menu + * {
   display: block;
 }
 .cuadroblog .introtext {
-  max-height: 0;
-  overflow: hidden;
   font-size: var(--fs--1);
-  padding-top: 0;
+  padding-top: 1.5rem;
   display: block;
 }
 ul.anteriorsiguiente {
