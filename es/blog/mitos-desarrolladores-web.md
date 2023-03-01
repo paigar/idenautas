@@ -2,7 +2,7 @@
 titulo: Desmontando mitos sobre los <b>desarrolladores web</b>
 uuid: aad5e2d3-05b8-4cd1-a90c-4b6624aca65a
 alt: Desarrollador web trabajando en su ordenador
-date: 2023-03-01
+date: 2023-03-06
 description: Los desarrolladores web somos profesionales altamente especializados que trabajamos en un campo en constante evolución. Debido a esto, a menudo se crean mitos en torno a nuestro trabajo y habilidades.
 ---
 
