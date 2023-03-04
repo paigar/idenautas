@@ -1,5 +1,6 @@
 ---
 layout: layouts/articulo.njk
+titulo: Política de privacidad
 ---
 
 # Política de privacidad

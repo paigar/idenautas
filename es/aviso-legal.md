@@ -1,5 +1,6 @@
 ---
 layout: layouts/articulo.njk
+titulo: Aviso legal
 ---
 
 # Condiciones de uso
