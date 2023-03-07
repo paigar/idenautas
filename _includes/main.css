@@ -1135,7 +1135,7 @@ main .fondo-menu + * {
   max-height: 50rem;
 }
 .general .header {
-  max-height: 35rem;
+  max-height: 50rem;
 }
 .general .articulo h1 {
   font-size: var(--fs-5);
