@@ -34,7 +34,7 @@ uuid: bf06d9b9-a58c-4be6-bac7-022e7de7db40
     <div class="contenedor">
       <h2 class="fs-4 bold centrar">También te puede interesar...</h2>
       <div class="coleccionblog">
-        {% set ultimosarticulos = collections.blog | reverse | limit(50) %}
+        {% set ultimosarticulos = collections.blog | reverse | limit(60) %}
         {% for articulo in ultimosarticulos | randomLimit(6, page.url) %}
           {% include 'layouts/_cuadroblog.njk' %}
         {% endfor %}

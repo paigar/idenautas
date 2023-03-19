@@ -6,7 +6,7 @@
 						</p><br/><br/><br/>
   </div>
   <div class="contenedor">
-    {% set articulos = collections.blog | reverse | limit(6) %}
+    {% set articulos = collections.blog | reverse | limit(12) %}
     <div class="coleccionblog">
       {% for articulo in articulos %}
         {% include 'layouts/_cuadroblog.njk' %}
