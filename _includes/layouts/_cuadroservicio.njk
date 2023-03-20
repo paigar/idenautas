@@ -1,7 +1,7 @@
 <div class="imagenmastexto{% if articulo.data.posicion %} {{ articulo.data.posicion }}{% endif %}">
   {% progImage articulo.data.uuid,
   articulo.data.alt %}
-  <a href="{{ articulo.url }}" aria-label="{{ articulo.data.titulo | safe }}" class="todo"></a>
+  <a href="{{ articulo.url }}" aria-label="{{ articulo.data.titulo | excerpt }}" class="todo"></a>
   <div class="texto">
     <h3>{{ articulo.data.titulo | safe }}</h3>
     {{ articulo.data.intro | safe }}
