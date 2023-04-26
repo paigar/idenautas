@@ -4,3 +4,4 @@
 [[redirects]]
 from = "*/info@idenautas.com"
 to = "/:splat"
+status = 301
