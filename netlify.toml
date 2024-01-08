@@ -5,3 +5,13 @@
 from = "*/info@idenautas.com"
 to = "/:splat"
 status = 301
+[[redirects]]
+from = "https://www.webspecialista.com/*"
+  to = "https://www.idenautas.com/"
+  status = 301
+  force = true
+[[redirects]]
+from = "https://webspecialista.com/*"
+  to = "https://www.idenautas.com/"
+  status = 301
+  force = true
