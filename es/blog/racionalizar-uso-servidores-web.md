@@ -1,5 +1,5 @@
 ---
-titulo: La importancia de racionalizar el uso de los servidores web
+titulo: La importancia de <b>racionalizar el uso de los servidores web</b>
 uuid: 4d47cec4-1749-43e9-a0dd-849d4c5e4d47
 alt: Imagen de un centro de datos moderno
 date: 2024-07-23
@@ -43,8 +43,6 @@ Desde el diseño y desarrollo web, podemos contribuir adoptando buenas práctica
 Como usuarios, también tenemos un papel que jugar, siendo conscientes de nuestro consumo digital y adoptando hábitos más responsables, como desconectarnos cuando no necesitamos estar en línea o borrar cuentas y datos que ya no usamos.
 
 Internet seguirá creciendo y evolucionando, pero de nosotros depende que lo haga de una forma más sostenible y respetuosa con el planeta. Cada pequeña acción cuenta, y si todos ponemos de nuestra parte, podremos disfrutar de una web más verde y eficiente para todos.
-
-## Referencias
 
 [1]: https://www.nature.com/articles/d41586-018-06610-y
 [2]: https://www.sciencedirect.com/science/article/abs/pii/S1364032117309413
