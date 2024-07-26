@@ -1,5 +1,5 @@
 ---
-titulo: La importancia de <b>racionalizar el uso de los servidores web</b>
+titulo: La importancia de <b>racionalizar</b> el uso de los servidores web
 uuid: 4d47cec4-1749-43e9-a0dd-849d4c5e4d47
 alt: Imagen de un centro de datos moderno
 date: 2024-07-23
