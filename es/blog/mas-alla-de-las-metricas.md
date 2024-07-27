@@ -18,7 +18,7 @@ Métricas como líneas de código o velocidad de desarrollo tienen su lugar. Nos
 - **Incentivan comportamientos contraproducentes.** Enfocarse solo en la velocidad puede llevar a tomar atajos y acumular deuda técnica.
 - **Ignoran el contexto y valor de negocio.** Completar muchas tareas no significa necesariamente que estemos aportando valor real.
 
-Como individuos y como industria, necesitamos una visión más holística de lo que significa ser un buen desarrollador[1]. Una que ponga el foco en los resultados, no solo en los outputs.
+Como individuos y como industria, necesitamos una visión más holística de lo que significa ser un buen desarrollador. Una que ponga el foco en los resultados, no solo en los outputs.
 
 ## Midiendo el impacto en usuarios y negocio
 
@@ -32,11 +32,11 @@ Entonces, ¿cómo podemos medir nuestro impacto real? Aquí hay algunas ideas:
 
 - **Contribución a objetivos del equipo.** Entiende las metas de tu equipo y cómo tu trabajo las hace avanzar. Esto te ayuda a priorizar y a demostrar tu aporte.
 
-Más que una métrica única, se trata de triangular señales de distintas fuentes para pintar una imagen completa de tu impacto[1].
+Más que una métrica única, se trata de triangular señales de distintas fuentes para pintar una imagen completa de tu impacto.
 
 ## Potenciando la experiencia del desarrollador
 
-Pero medir el resultado final es solo una parte de la ecuación. Cada vez más organizaciones entienden que para maximizar el impacto, también hay que enfocarse en mejorar la **experiencia de los propios desarrolladores (DevEx)**[3].
+Pero medir el resultado final es solo una parte de la ecuación. Cada vez más organizaciones entienden que para maximizar el impacto, también hay que enfocarse en mejorar la **experiencia de los propios desarrolladores (DevEx)**.
 
 Esto implica entender y optimizar factores como:
 

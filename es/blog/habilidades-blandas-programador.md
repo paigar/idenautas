@@ -14,7 +14,7 @@ Veamos cuáles son algunas de las habilidades blandas clave que todo programador
 
 ## Comunicación efectiva
 
-La capacidad de **transmitir ideas con claridad** es vital para cualquier profesión, y la programación no es una excepción. Ya sea escribiendo código limpio y bien documentado, explicando conceptos técnicos a compañeros de otros departamentos o presentando el estado de un proyecto, un buen programador debe saber expresarse de forma concisa y efectiva[1].
+La capacidad de **transmitir ideas con claridad** es vital para cualquier profesión, y la programación no es una excepción. Ya sea escribiendo código limpio y bien documentado, explicando conceptos técnicos a compañeros de otros departamentos o presentando el estado de un proyecto, un buen programador debe saber expresarse de forma concisa y efectiva.
 
 Algunas claves para mejorar tus habilidades comunicativas:
 
@@ -28,7 +28,7 @@ Algunas claves para mejorar tus habilidades comunicativas:
 
 Hoy en día el desarrollo de software es una actividad altamente colaborativa. Rara vez un programador trabaja de forma aislada. Lo normal es formar parte de un equipo multidisciplinar junto a otros desarrolladores, diseñadores, testers, etc.
 
-Por eso es fundamental saber **trabajar bien con otros**. Implica ser capaz de compartir conocimientos, aceptar críticas constructivas, ofrecer ayuda cuando se necesita y poner los objetivos del grupo por encima de los individuales[2].
+Por eso es fundamental saber **trabajar bien con otros**. Implica ser capaz de compartir conocimientos, aceptar críticas constructivas, ofrecer ayuda cuando se necesita y poner los objetivos del grupo por encima de los individuales.
 
 Algunos consejos para ser un buen team player:
 
@@ -42,7 +42,7 @@ Algunos consejos para ser un buen team player:
 
 Un buen programador no es sólo alguien que escribe código impecable. También es capaz de **ponerse en el lugar de los demás** para entender sus necesidades y puntos de vista. Esto incluye a compañeros de equipo, clientes, usuarios finales...
 
-La empatía es clave para crear software realmente útil, que resuelva problemas reales de personas reales. Además, las habilidades sociales y la inteligencia emocional son cada vez más valoradas en entornos de trabajo diversos[3].
+La empatía es clave para crear software realmente útil, que resuelva problemas reales de personas reales. Además, las habilidades sociales y la inteligencia emocional son cada vez más valoradas en entornos de trabajo diversos.
 
 Cómo desarrollar tu empatía y habilidades interpersonales:
 
@@ -54,7 +54,7 @@ Cómo desarrollar tu empatía y habilidades interpersonales:
 
 ## Resolución de problemas y pensamiento crítico
 
-Programar es, en esencia, resolver problemas a través del código. Los buenos programadores tienen una **mente analítica y curiosa**, capaz de descomponer retos complejos en piezas más pequeñas y manejables. También cuestionan sus propias soluciones y están abiertos a considerar enfoques alternativos[4].
+Programar es, en esencia, resolver problemas a través del código. Los buenos programadores tienen una **mente analítica y curiosa**, capaz de descomponer retos complejos en piezas más pequeñas y manejables. También cuestionan sus propias soluciones y están abiertos a considerar enfoques alternativos.
 
 Algunas técnicas para potenciar tu capacidad de resolución de problemas:
 
@@ -66,7 +66,7 @@ Algunas técnicas para potenciar tu capacidad de resolución de problemas:
 
 ## Adaptabilidad y aprendizaje continuo
 
-El mundo de la tecnología evoluciona a un ritmo vertiginoso. Lenguajes, frameworks y herramientas que eran punteros hace unos años pueden quedar obsoletos rápidamente. Por eso, una de las habilidades más importantes para un programador es la **capacidad de adaptarse y aprender constantemente**[5].
+El mundo de la tecnología evoluciona a un ritmo vertiginoso. Lenguajes, frameworks y herramientas que eran punteros hace unos años pueden quedar obsoletos rápidamente. Por eso, una de las habilidades más importantes para un programador es la **capacidad de adaptarse y aprender constantemente**.
 
 No se trata de saltar a cada nueva tecnología que aparece, sino de mantener una actitud de curiosidad y apertura hacia nuevas ideas y formas de hacer las cosas. Los buenos programadores disfrutan aprendiendo y no tienen miedo a salir de su zona de confort.
 
