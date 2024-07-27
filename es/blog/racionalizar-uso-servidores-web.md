@@ -10,13 +10,13 @@ description: En este artículo, exploraremos la importancia de racionalizar el u
 
 ## El impacto ambiental de los servidores web
 
-Los centros de datos y servidores web son responsables de alrededor del 2% del [consumo mundial de electricidad](https://www.nature.com/articles/d41586-018-06610-y), lo que equivale a las emisiones de CO2 de toda la industria de la aviación[1]. Esto se debe a que los servidores necesitan estar encendidos las 24 horas del día, los 7 días de la semana, y requieren una gran cantidad de energía para funcionar y mantenerse refrigerados.
+Los centros de datos y servidores web son responsables de alrededor del 2% del [consumo mundial de electricidad](https://www.nature.com/articles/d41586-018-06610-y), lo que equivale a las emisiones de CO2 de toda la industria de la aviación. Esto se debe a que los servidores necesitan estar encendidos las 24 horas del día, los 7 días de la semana, y requieren una gran cantidad de energía para funcionar y mantenerse refrigerados.
 
-Además del consumo eléctrico, los centros de datos también tienen otros impactos ambientales, como el uso de refrigerantes peligrosos, generadores diésel y baterías de metales pesados[2]. Todo esto contribuye a la [huella de carbono](https://es.wikipedia.org/wiki/Huella_de_carbono) de Internet.
+Además del consumo eléctrico, los centros de datos también tienen otros impactos ambientales, como el uso de refrigerantes peligrosos, generadores diésel y baterías de metales pesados. Todo esto contribuye a la [huella de carbono](https://es.wikipedia.org/wiki/Huella_de_carbono) de Internet.
 
 ## La importancia de los sitios web estáticos
 
-Una forma de reducir el impacto ambiental de los sitios web es utilizando [páginas estáticas](https://es.wikipedia.org/wiki/P%C3%A1gina_web_est%C3%A1tica) en lugar de dinámicas siempre que sea posible. Las páginas web estáticas se cargan más rápido y requieren menos recursos del servidor, ya que no necesitan ejecutar consultas a bases de datos o procesar código en cada solicitud[3].
+Una forma de reducir el impacto ambiental de los sitios web es utilizando [páginas estáticas](https://es.wikipedia.org/wiki/P%C3%A1gina_web_est%C3%A1tica) en lugar de dinámicas siempre que sea posible. Las páginas web estáticas se cargan más rápido y requieren menos recursos del servidor, ya que no necesitan ejecutar consultas a bases de datos o procesar código en cada solicitud.
 
 Los sitios estáticos tienen algunas limitaciones, como la falta de interactividad y personalización. Pero para muchos tipos de sitios web, como blogs personales, portfolios, sitios corporativos básicos o landing pages, una web estática es más que suficiente y mucho más eficiente.
 
@@ -32,7 +32,7 @@ Otra forma de racionalizar el uso de los servidores es optimizando el rendimient
 - Escribir código limpio y optimizado, evitando el uso excesivo de plugins y librerías
 - Elegir un [hosting web](https://es.wikipedia.org/wiki/Alojamiento_web) eficiente y ecológico, idealmente alimentado por energías renovables
 
-Todas estas optimizaciones no solo reducen el consumo de recursos del servidor, sino que también mejoran la velocidad de carga y la experiencia del usuario[4]. Es un win-win para el medio ambiente y para los visitantes de tu web.
+Todas estas optimizaciones no solo reducen el consumo de recursos del servidor, sino que también mejoran la velocidad de carga y la experiencia del usuario. Es un win-win para el medio ambiente y para los visitantes de tu web.
 
 ## Hacia un Internet más sostenible
 
@@ -43,8 +43,3 @@ Desde el diseño y desarrollo web, podemos contribuir adoptando buenas práctica
 Como usuarios, también tenemos un papel que jugar, siendo conscientes de nuestro consumo digital y adoptando hábitos más responsables, como desconectarnos cuando no necesitamos estar en línea o borrar cuentas y datos que ya no usamos.
 
 Internet seguirá creciendo y evolucionando, pero de nosotros depende que lo haga de una forma más sostenible y respetuosa con el planeta. Cada pequeña acción cuenta, y si todos ponemos de nuestra parte, podremos disfrutar de una web más verde y eficiente para todos.
-
-[1]: https://www.nature.com/articles/d41586-018-06610-y
-[2]: https://www.sciencedirect.com/science/article/abs/pii/S1364032117309413
-[3]: https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/
-[4]: https://web.dev/fast/
