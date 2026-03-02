@@ -13,14 +13,13 @@
   </nav>
 </div>
 <section class="intro">
-  {% if not uuid %}
-    {% set uuid = "91fc4a78-56df-4725-9d5b-eb14f188c1fe" %}
+  {% if not image %}
+    {% set image = "header/header001.jpeg" %}
   {% endif %}
   {% if not alt %}
     {% set alt = "" %}
   {% endif %}
-  {% progImage uuid,
-  alt %}
+  {% progImage image, alt, mirror %}
   <div class="texto">
     <div class="contenedor">
       {% if titulo %}

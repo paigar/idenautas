@@ -1,6 +1,6 @@
 ---
 titulo: La importancia de la <b>seguridad</b> en el desarrollo web
-uuid: c03bc9a4-1861-4471-baeb-97636b827bbd
+image: blog/blog0081.jpeg
 alt: Diagrama de internet, con un ordenador portátil en el centro y multitud de dispositivos conectados
 date: 2023-03-22
 description: La seguridad en el desarrollo web es un tema crucial y de suma importancia para garantizar la integridad de los datos y la protección de los usuarios.

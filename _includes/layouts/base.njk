@@ -26,13 +26,6 @@
     <meta name="msapplication-config" content="/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
-    {%- set alternateUrls = page.url | locale_links %}
-    {% if alternateUrls.length %}
-      <link rel="alternate" hreflang="{{ lang or metadata.language }}" href="{{ page.url | htmlBaseUrl(metadata.url) }}">
-      {%- for link in alternateUrls %}
-        <link rel="alternate" hreflang="{{ link.lang }}" href="{{ link.url | htmlBaseUrl(metadata.url) }}">
-      {%- endfor %}
-    {%- endif %}
     <!-- Matomo -->
     <script>
       var _paq = window._paq = window._paq || [];
@@ -94,7 +87,7 @@
         let imgLarge = new Image();
         let x = Math.min(3000, marcoImagen.offsetWidth);
         let y = Math.min(3000, marcoImagen.offsetHeight);
-        imgLarge.src = "https://ucarecdn.com/" + marcoImagen.dataset.uuid + "/-/scale_crop/" + x + "x" + y + "/smart_faces/-/format/auto/";
+        imgLarge.src = marcoImagen.dataset.src + "?width=" + x + "&height=" + y + "&format=webp";
         imgLarge.alt = marcoImagen.dataset.alt;
         imgLarge.onload = function () {
           imgLarge

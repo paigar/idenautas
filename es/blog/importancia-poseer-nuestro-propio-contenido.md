@@ -1,6 +1,6 @@
 ---
 titulo: La importancia de ser dueños de <b>nuestro contenido</b>
-uuid: a56af800-ba17-4f78-bc98-6681fdc76ace
+image: blog/blog0038.jpeg
 alt: Hombre sentado rodeado de ordenadores y libros con una ventana abierta a las ideas
 date: 2023-02-11
 description: La posesión de nuestro propio contenido en Internet nos permite el control total sobre la información y cómo se presenta al público.

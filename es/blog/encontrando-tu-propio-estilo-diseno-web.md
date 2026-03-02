@@ -1,6 +1,6 @@
 ---
 titulo: Encontrando tu <b>propio estilo</b> en el diseño web
-uuid: 55d0a46f-6737-4daa-bb3c-e966d40d1b2e
+image: blog/blog0095.jpeg
 alt: Desarrollador web programando con una doble pantalla en un entorno de baja iluminación
 date: 2023-03-28
 description: Al fomentar la diversidad y la inclusión, los equipos de desarrollo pueden crear soluciones más efectivas y significativas

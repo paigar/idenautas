@@ -1,6 +1,6 @@
 ---
 titulo: Diseño web y <b>marca personal</b>
-uuid: 19d13bfa-afc5-4f9d-aa05-f6ea9b630684
+image: blog/blog0118.jpeg
 alt: Maniquí humano con una etiqueta de su marca personal
 date: 2023-04-16
 description: El diseño web puede ayudarte a crear una marca personal sólida en línea

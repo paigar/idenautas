@@ -1,6 +1,6 @@
 ---
 titulo: El síndrome del <b>impostor</b> en el desarrollo web
-uuid: e48f11b4-254c-4318-b383-6be0adedd8aa
+image: blog/blog0077.jpeg
 alt: Hombre con el rostro oculto por una máscara y dando la espalda a una multitud
 date: 2023-03-19
 description: El síndrome del impostor es una sensación de que no eres tan capaz o talentoso como los demás creen que eres.

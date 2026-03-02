@@ -1,6 +1,6 @@
 ---
 titulo: El impacto del diseño web en la <b>marca</b>
-uuid: 757478f2-e22e-42a3-867b-3e87601e816a
+image: blog/blog0073.jpeg
 alt: Ordenador portátil en una mesa de oficina mostrando una imagen loca en su pantalla
 date: 2023-03-17
 description: En el mundo digital, la imagen de marca está estrechamente relacionada con el diseño web de una empresa.

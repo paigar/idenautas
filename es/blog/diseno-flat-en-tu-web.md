@@ -1,6 +1,6 @@
 ---
 titulo: Implementar el <b>diseño flat</b> en tu sitio web
-uuid: 915b7e0b-db67-4927-b347-94cd6c3b0e77
+image: blog/blog0088.jpeg
 alt: Un diseñador web trabajando en su portátil en la oficina
 date: 2023-03-24
 description: El diseño flat se basa en la simplicidad y la minimalismo, y se caracteriza por el uso de formas geométricas simples, colores sólidos y tipografía clara.

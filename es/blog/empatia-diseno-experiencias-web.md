@@ -1,6 +1,6 @@
 ---
 titulo: El papel de la <b>empatía</b> en el diseño de experiencias web significativas
-uuid: 2bb8e25e-f0be-4682-af75-9189a2e3a77f
+image: blog/blog0110.jpeg
 alt: Desarrollador web trabajando con un ordenador portátil
 date: 2023-04-09
 description: La empatía implica comprender las necesidades, deseos y limitaciones de los usuarios

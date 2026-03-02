@@ -1,6 +1,6 @@
 ---
 titulo: Utilizar la <b>antropología</b> en el desarrollo web
-uuid: 3de0bb7f-c120-4dd7-a185-648fd9b83bff
+image: blog/blog0099.jpeg
 alt: Ser humano digitalizándose en la pantalla un ordenador
 date: 2023-03-29
 description: La antropología es el estudio de la cultura y el comportamiento humano.

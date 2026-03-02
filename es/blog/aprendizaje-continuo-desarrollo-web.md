@@ -1,6 +1,6 @@
 ---
 titulo: El aprendizaje continuo en el <b>desarrollo web</b>
-uuid: ece5ee12-40e9-4a80-8319-c0e073faf68f
+image: blog/blog0076.jpeg
 alt: Hombre estudiando en una mesa de despacho y con la mirada perdida en el horizonte
 date: 2023-03-18
 description: El auge de nuevas tecnologías y tendencias ha hecho que sea esencial para los desarrolladores web mantenerse actualizados y aprender continuamente.

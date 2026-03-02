@@ -1,6 +1,6 @@
 ---
 titulo: Cómo aplicar la <b>metodología ágil</b> en el desarrollo web
-uuid: 2351e81b-f2b1-40fa-88d1-564ebf779e75
+image: blog/blog0103.jpeg
 alt: Diagrama con cientos de opciones sobre un escritorio junto a una taza de café
 date: 2023-04-02
 description: La metodología ágil se centra en la entrega continua y la mejora continua del producto

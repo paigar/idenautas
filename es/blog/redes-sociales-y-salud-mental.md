@@ -1,6 +1,6 @@
 ---
 titulo: El impacto de las redes sociales en la <b>salud mental</b>
-uuid: 21b5f3e0-9c65-48a3-bf60-25761fb4e8c4
+image: blog/blog0066.jpeg
 alt: Un hombre joven mirándose al espejo, pero su reflejo es una especie de monstruo
 date: 2023-03-15
 description: El uso excesivo de las redes sociales puede tener un impacto negativo en nuestra salud mental.

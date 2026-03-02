@@ -1,6 +1,6 @@
 ---
 titulo: Mantener la <b>creatividad</b> en el diseño web
-uuid: e46f20d3-2168-4fe9-8d7a-5bdbd1b5ddee
+image: blog/blog0079.jpeg
 alt: Hombre sentado en un escritorio, pensando y varias bombillas encendiéndose a su alrededor
 date: 2023-03-20
 description: La creatividad se relaciona con la capacidad de pensar de forma no convencional y de explorar nuevas posibilidades.

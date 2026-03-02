@@ -1,6 +1,6 @@
 ---
 titulo: Las ventajas del desarrollo web <b>progresivo</b>
-uuid: 350f8999-8efc-40a8-8145-b02730f0cc42
+image: blog/blog0114.jpeg
 alt: Una misma página web visualizándose en una televisión, un ordenador portátil, una tablet y un smartphone
 date: 2023-04-12
 description: Beneficios que el desarrollo web progresivo puede traer tanto para los desarrolladores como para los usuarios finales

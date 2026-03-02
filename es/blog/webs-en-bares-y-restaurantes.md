@@ -1,6 +1,6 @@
 ---
 titulo: La necesidad de tener una web para <b>bares</b> y restaurantes
-uuid: ef3d5178-4064-4e91-a4a4-8c11c5c1595e
+image: blog/blog0062.jpeg
 alt: Imagen de un bar con un mostrador, varios taburetes y pizarras con información de productos y precios
 date: 2023-03-11
 description: Una página web puede ser una herramienta muy efectiva para atraer nuevos clientes, crear una imagen positiva de la marca y mejorar la experiencia del cliente.

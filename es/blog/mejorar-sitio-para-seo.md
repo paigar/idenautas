@@ -1,6 +1,6 @@
 ---
 titulo: Cómo hacer que tu sitio web sea <b>más amigable</b> con los motores de búsqueda
-uuid: 8fe79c8e-aa3b-4ecf-b8c3-f7aa96dbfce4
+image: blog/blog0090.jpeg
 alt: Hombre haciendo estallar una bombilla llena de ideas
 date: 2023-03-25
 description: Una guía detallada para hacer que tu sitio web sea más amigable con los motores de búsqueda.

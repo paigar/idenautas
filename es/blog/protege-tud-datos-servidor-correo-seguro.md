@@ -1,6 +1,6 @@
 ---
 titulo: Protege tus datos y privacidad con un servidor de <b>correo seguro</b>
-uuid: 42418a0b-4497-4aea-b736-d4be2b8a2cb1
+image: blog/blog0101.jpeg
 alt: Icono de un sobre de correo electrónico con un candado indicando su seguridad
 date: 2023-03-30
 description: Muchos proveedores de correo electrónico populares no ofrecen un alto nivel de seguridad y privacidad, lo que ha llevado a la aparición de servicios de correo electrónico seguros.

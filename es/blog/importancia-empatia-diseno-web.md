@@ -1,6 +1,6 @@
 ---
 titulo: La importancia de la <b>empatía</b> en el diseño web
-uuid: 2a02a011-8b8b-4429-97d8-8b31235a210f
+image: blog/blog0098.jpeg
 alt: Cerebro humano enlazando con los pensamientos y sentimientos de otros seres humanos
 date: 2023-03-29
 description: La empatía en el diseño web implica pensar en el usuario final en cada etapa del proceso de diseño y desarrollo.

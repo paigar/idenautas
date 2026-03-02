@@ -1,6 +1,6 @@
 ---
 titulo: La <b>programación creativa</b> en el desarrollo web
-uuid: 23dee320-2f9c-4a10-9f29-572270ccfce1
+image: blog/blog0109.jpeg
 alt: Diseño de una página web centrado un una fotografía central de una mujer con flores en el pelo
 date: 2023-04-08
 description: La programación creativa juega un papel fundamental en el desarrollo de soluciones web innovadoras y únicas

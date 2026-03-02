@@ -1,6 +1,6 @@
 ---
 titulo: Cómo mantener la pasión por el <b>desarrollo web</b> a largo plazo
-uuid: c0bc008d-170e-460e-b30e-779cfcba9f1a
+image: blog/blog0097.jpeg
 alt: Fotografía de un robot paseando por la calle en una ciudad
 date: 2023-03-28
 description: Estrategias efectivas para mantenernos motivados y apasionados por el desarrollo web a largo plazo.

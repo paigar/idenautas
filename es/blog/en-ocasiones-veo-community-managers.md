@@ -1,6 +1,6 @@
 ---
 titulo: En ocasiones veo <b>Community Managers</b>
-uuid: c5746d99-850d-4156-8ec5-60384cdc969f
+image: blog/blog0011.jpeg
 alt: Imagen de una mujer que trabaja como community manager
 date: 2023-01-28
 description: El auge del término y la falta de un tipo de formación específica o determinada para desarrollar la profesión ha propiciado una proliferación inusitada de personas que se proclaman “community managers”

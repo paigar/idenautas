@@ -1,6 +1,6 @@
 ---
 titulo: Las mejores prácticas para el diseño de sitios web <b>multilingües</b>
-uuid: e11079e3-a278-4d6c-abea-f7b252c31330
+image: blog/blog0106.jpeg
 alt: Conjunto de banderas y símbolos de idiomas
 date: 2023-04-05
 description: La creación de un sitio web multilingüe se ha convertido en una necesidad en lugar de una opción

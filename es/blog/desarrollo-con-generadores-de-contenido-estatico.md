@@ -1,6 +1,6 @@
 ---
 titulo: Desarrollo web con generadores de contenido <b>estático</b>
-uuid: 00b80c98-0fa0-4f59-b02b-d198339b48ad
+image: blog/blog0026.jpeg
 alt: Pantalla de ordenador mostrando un mundo lleno de ideas e imaginación
 date: 2023-02-04
 description: Los generadores de contenido estático se están convirtiendo en una herramienta muy popular en el desarrollo web que ofrecen muchas ventajas y motivos para su uso

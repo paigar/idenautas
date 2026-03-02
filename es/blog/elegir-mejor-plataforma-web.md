@@ -1,6 +1,6 @@
 ---
 titulo: Cómo elegir la mejor <b>plataforma</b> para tu sitio web
-uuid: 249ff2ff-0626-4696-9844-9c35d5902913
+image: blog/blog0084.jpeg
 alt: Hombre en el interior de un laberinto intentando elegir el camino correcto
 date: 2023-03-24
 description: Una plataforma bien elegida puede ayudarte a crear un sitio web de alta calidad con facilidad

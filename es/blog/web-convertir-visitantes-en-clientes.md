@@ -1,6 +1,6 @@
 ---
 titulo: Cómo diseñar una página web que convierta <b>visitantes</b> en <b>clientes</b>
-uuid: b4bd8198-7eed-470c-985a-35ffd78be747
+image: blog/blog0112.jpeg
 alt: Una tarjeta de crédito emergiendo de un ordenador portátil
 date: 2023-04-11
 description: Consejos y herramientas prácticas para diseñar una página web que convierta visitantes en clientes

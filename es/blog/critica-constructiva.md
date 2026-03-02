@@ -1,6 +1,6 @@
 ---
 titulo: Cómo lidiar con la crítica constructiva en el <b>desarrollo web</b>
-uuid: 82c83b69-c82f-437f-8b31-fea46a5c6c8e
+image: blog/blog0070.jpeg
 alt: Imagen de una montaña rusa
 date: 2023-03-16
 description: Consejos y estrategias para lidiar con la crítica constructiva en el diseño y desarrollo web de manera saludable y productiva.

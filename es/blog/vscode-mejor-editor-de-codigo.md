@@ -1,6 +1,6 @@
 ---
 titulo: <b>Visual Studio Code</b> ¿el mejor editor de código para desarrollo web?
-uuid: 1a385eab-d19c-4e4e-9a45-61bdd2c467c6
+image: blog/blog0013.jpeg
 alt: Cubo en tres dimensiones, montado con diferentes piezas para formar el conjunto
 date: 2023-01-29
 description: Visual Studio Code (VSCode) es un editor de código fuente gratuito y de código abierto desarrollado por Microsoft.

@@ -1,6 +1,6 @@
 ---
 titulo: Cómo aumentar la conversión en tu sitio web utilizando técnicas de <b>persuasión</b>
-uuid: 30fa701d-6a39-4aea-a381-97d44e1e79ce
+image: blog/blog0050.jpeg
 alt: Hombre mirando un montón de productos para decidir cual comprar
 date: 2023-03-03
 description: La persuasión es una habilidad muy valiosa en el mundo del marketing digital.

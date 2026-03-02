@@ -1,6 +1,6 @@
 ---
 titulo: "<b>Programando con estilo</b>: Cómo tu setup influye en tu productividad"
-uuid: 2f0e64fe-3541-411f-9d94-c0e68ba9a26e
+image: blog/blog0122.png
 alt: Fotografía de un escritorio y un entorno de trabajo ideales, con mobiliario moderno y mucha luz y plantas naturales
 date: 2024-07-25
 description: Discutimos cómo optimizar tu ambiente de trabajo, desde el editor de código hasta la ergonomía, para maximizar tu eficiencia y disfrute al programar.

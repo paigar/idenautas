@@ -1,6 +1,6 @@
 ---
 titulo: Cómo afecta el <b>contenido textual</b> de una web a su posicionamiento
-uuid: 002cb135-2d89-403b-a5a7-6a1615484994
+image: blog/blog0047.jpeg
 alt: Mano escribiendo texto en un libro abierto
 date: 2023-03-01
 description: El contenido textual es uno de los factores más importantes que los motores de búsqueda utilizan para determinar la relevancia de una página web para una búsqueda específica.

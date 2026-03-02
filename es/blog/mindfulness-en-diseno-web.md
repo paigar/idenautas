@@ -1,6 +1,6 @@
 ---
 titulo: Cómo el <b>mindfulness</b> puede mejorar tu trabajo como diseñador web
-uuid: d0c378d1-c7cd-450b-a411-144336610d3a
+image: blog/blog0100.jpeg
 alt: Hombre levitando en mitad de la habitación mientras usa su ordenador portátil
 date: 2023-03-29
 description: Conceptos básicos del mindfulness y cómo se pueden aplicar en el diseño web para mejorar la calidad.

@@ -1,6 +1,6 @@
 ---
 titulo: Cuanto tiempo debe <b>durar</b> un sitio web
-uuid: f6fd6d96-4a4c-4778-aba8-41e72aab3fab
+image: blog/blog0053.jpeg
 alt: Reloj de arena midiendo la duración de un sitio web
 date: 2023-03-05
 description: La duración de un sitio web depende de varios factores, como el propósito del sitio web, el tipo de contenido que contiene y la frecuencia de actualización.

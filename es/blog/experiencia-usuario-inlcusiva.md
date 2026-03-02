@@ -1,6 +1,6 @@
 ---
 titulo: Cómo optimizar tu sitio web para una experiencia de usuario <b>inclusiva</b>
-uuid: 245b1729-8c00-4181-bd82-0e31f3233caa
+image: blog/blog0059.jpeg
 alt: Foto de un hombre ciego, sonriendo
 date: 2023-03-09
 description: En la actualidad, es fundamental que todos los sitios web proporcionen una experiencia inclusiva para los usuarios, independientemente de su capacidad o discapacidad.

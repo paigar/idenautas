@@ -1,6 +1,6 @@
 ---
 titulo: La relación entre el diseño web y la <b>música</b>
-uuid: b63bcac8-ecce-4a30-b449-3a205b426aa8
+image: blog/blog0108.jpeg
 alt: Nota musical sobre un estallido de colores
 date: 2023-04-07
 description: La música y el diseño web también pueden afectar profundamente la percepción y las emociones de las personas

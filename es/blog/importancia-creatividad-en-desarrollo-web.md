@@ -1,6 +1,6 @@
 ---
 titulo: La importancia de la <b>creatividad</b> en el desarrollo web
-uuid: 600af6e2-a997-4e3b-bf5a-6418efb6dee3
+image: blog/blog0061.jpeg
 alt: Bombilla explotando y lanzando ideas al espacio
 date: 2023-03-10
 description: En el mundo del desarrollo web, la creatividad es una habilidad crucial para la creación de sitios web atractivos, innovadores y efectivos.

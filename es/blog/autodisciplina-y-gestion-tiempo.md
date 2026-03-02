@@ -1,6 +1,6 @@
 ---
 titulo: La importancia de la <b>autodisciplina</b> y la gestión del tiempo en el desarrollo web
-uuid: ddbc92a6-2332-40ac-907b-fcac0cdcd84e
+image: blog/blog0078.jpeg
 alt: Dibujo de un hombre sentado delante de un reloj enorme con muchos engranajes que hacen funcionar su trabajo
 date: 2023-03-20
 description: La autodisciplina y la gestión del tiempo son esenciales para mantener un alto nivel de rendimiento y calidad en el trabajo.

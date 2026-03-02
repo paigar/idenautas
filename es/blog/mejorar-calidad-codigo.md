@@ -1,6 +1,6 @@
 ---
 titulo: Cómo mejorar la <b>calidad del código</b> en el desarrollo web
-uuid: a910c68c-abdc-4500-b31b-2b6ced2db8c3
+image: blog/blog0104.jpeg
 alt: Varias pantallas de ordenador mostrando líneas y líneas de código
 date: 2023-04-03
 description: Un código de alta calidad no solo es más fácil de entender y mantener, sino que también reduce los errores y problemas de seguridad

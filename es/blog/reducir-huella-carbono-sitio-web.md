@@ -1,6 +1,6 @@
 ---
 titulo: Cómo reducir la <b>huella de carbono</b> de tu sitio web
-uuid: 4ed7a146-8faa-48f0-a3ba-9c3c7c31d8f0
+image: blog/blog0080.jpeg
 alt: Fábrica liberando grandes cantidades ed humo a través de sus chimeneas
 date: 2023-03-21
 description: A medida que aumenta la cantidad de sitios web, también aumenta su impacto en el medio ambiente.

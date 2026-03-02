@@ -1,6 +1,6 @@
 ---
 titulo: El <b>brutalismo</b> en el diseño web
-uuid: a507666f-56b9-44c5-bf51-0873b353b517
+image: blog/blog0027.jpeg
 alt: Letras de colores de gran tamaño en la pantalla de un ordenador
 date: 2023-02-05
 description: El brutalismo es un estilo de diseño web que se caracteriza por su simplicidad, funcionalidad y falta de ornamentación

@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc -l es/blog/*.md)",
+      "Bash(du -ch 'd:/DEV/Idenautas/_imgweb'/*.png)",
+      "Bash(ls -la 'd:/DEV/Idenautas/_imgweb'/blog*.jpeg)",
+      "Read(//d/DEV/Idenautas/{sum+=$5; count++} END {printf \"\"Count: %d, Avg: %.1f MB, Total: %.0f MB/n\"\", count, \\(sum/count\\)/1048576, sum/**)",
+      "Bash(ls _imgweb/blog*)",
+      "Bash(ls es/blog/*.md)",
+      "WebFetch(domain:images.paigar.es)",
+      "Bash(curl -sI \"https://images.paigar.es/idenautas-img/blog/blog0002.jpeg?width=100&format=webp\")",
+      "Bash(curl -sI \"https://images.paigar.es/idenautas-img/corp/corporativo001.jpeg\")",
+      "Bash(curl -sI \"https://images.paigar.es/idenautas-img/blog/blog0002.jpeg\")",
+      "Bash(curl -sI \"https://images.paigar.es/idenautas-img/header/header001.jpeg\")",
+      "Bash(curl -sI \"https://images.paigar.es/idenautas-img/corporativo/corporativo001.jpeg\")",
+      "Bash(curl -sI \"https://images.paigar.es/idenautas-img/contact/contact001.jpeg\")",
+      "Bash(curl -sI \"https://images.paigar.es/idenautas-img/nos/nos01.png\")",
+      "Bash(grep -r \"lang\" /d/DEV/Idenautas/*.js)",
+      "Bash(git -C \"d:/DEV/Idenautas\" branch -a)",
+      "Bash(npm install)",
+      "Bash(npx @11ty/eleventy)",
+      "Bash(npm view @11ty/eleventy-navigation versions --json)",
+      "Bash(npm view @11ty/eleventy-plugin-rss versions --json)",
+      "Bash(npm view @11ty/eleventy dist-tags --json)"
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 ---
 titulo: Cómo escribir contenido <b>efectivo</b> para tu sitio web
-uuid: 20cb8788-7a64-464f-9027-71351f1aefb8
+image: blog/blog0093.jpeg
 alt: Una montaña de libros en el centro de una biblioteca
 date: 2023-03-27
 description: El contenido que compartes es lo que atraerá a tus usuarios y los mantendrá interesados en tu sitio

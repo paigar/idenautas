@@ -1,6 +1,6 @@
 ---
 titulo: "Diseño web para la <b>economía circular</b>: cómo minimizar los residuos digitales"
-uuid: 742b954f-786b-4932-9076-86b8f87ae351
+image: blog/blog0089.jpeg
 alt: Ciudad urbanizada en torno al planeta tierra, con gran respeto de las zonas verdes y la naturaleza
 date: 2023-03-25
 description: La economía circular se basa en el principio de minimización de residuos y maximización del valor de los recursos.

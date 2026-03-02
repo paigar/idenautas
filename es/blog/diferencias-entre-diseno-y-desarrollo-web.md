@@ -1,6 +1,6 @@
 ---
 titulo: Diferencias entre diseño web y <b>desarrollo web</b>
-uuid: 6b2a8bc8-638a-4784-baa7-2278f11b3043
+image: blog/blog0022.jpeg
 alt: Desarrollador web trabajando delante de su ordenador
 date: 2023-02-02
 description: El diseño web y el desarrollo web son dos áreas diferentes pero complementarias en la creación de un sitio web.

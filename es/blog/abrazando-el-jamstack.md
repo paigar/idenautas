@@ -1,6 +1,6 @@
 ---
 titulo: Abrazando el <b>Jamstack</b> en Idenautas
-uuid: 0ec00beb-143a-4487-afcf-52485952173e
+image: blog/blog0007.jpeg
 alt: Imagen de un desarrollador trabajando en su ordenador y escribiendo código
 date: 2023-01-25
 description: Jamstack permite crear sitios web rápidos, escalables y seguros, que pueden ser cargados y actualizados de forma rápida y eficiente

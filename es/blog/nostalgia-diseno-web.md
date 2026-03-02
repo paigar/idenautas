@@ -1,6 +1,6 @@
 ---
 titulo: Utilizando la <b>nostalgia</b> en el diseño web para crear conexiones emocionales con el usuario
-uuid: 7d18e245-9e52-4c56-8b4c-c93faa931bfb
+image: blog/blog0116.jpeg
 alt: Un poster antiguo de una mujer usando un teléfono
 date: 2023-04-14
 description: Herramientas y técnicas que nos permitan crear conexiones emocionales con el usuario, con el objetivo de que se sienta más involucrado y comprometido con la plataforma

@@ -1,6 +1,6 @@
 ---
 titulo: Cómo afecta el <b>rendimiento</b> de tu web a la experiencia de usuario
-uuid: e07267cb-eadd-4dab-a306-f6a499ac4f49
+image: blog/blog0039.jpeg
 alt: Coche circulando a toda velocidad por una carretera multicolor
 date: 2023-02-11
 description: El rendimiento de un sitio web es un factor clave en la experiencia del usuario, ya que un sitio lento y poco eficiente puede tener un impacto negativo

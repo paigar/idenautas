@@ -1,6 +1,6 @@
 ---
 titulo: "<b>Desarrollo</b> web en la nube: ventajas y desventajas"
-uuid: 7789ab83-db6d-424a-9876-31756aa7c7ef
+image: blog/blog0085.jpeg
 alt: Cielo con nubes, interconectadas mediante líneas de flujo y un diagrama de red
 date: 2023-03-24
 description: La seguridad en el desarrollo web es un tema crucial y de suma importancia para garantizar la integridad de los datos y la protección de los usuarios.

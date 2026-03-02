@@ -1,6 +1,6 @@
 ---
 titulo: Introducción al marketing de <b>contenidos</b>
-uuid: 87beff8c-6707-4d67-a610-5be5b0390715
+image: blog/blog0034.jpeg
 alt: Escritorio con una taza de café, un porter publicitario y numerosos accesorios de oficina
 date: 2023-02-09
 description: El marketing de contenidos es una estrategia de marketing digital que se enfoca en crear y compartir contenido relevante y valioso

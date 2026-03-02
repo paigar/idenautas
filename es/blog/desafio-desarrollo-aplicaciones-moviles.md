@@ -1,6 +1,6 @@
 ---
 titulo: Los desafíos del diseño y desarrollo de <b>aplicaciones</b> móviles
-uuid: 559a2c36-257b-4af6-bca5-de936aa726b6
+image: blog/blog0008.jpeg
 alt: Teléfono móvil con imagen multicolor saliendo de su pantalla
 date: 2023-01-25
 description: Diseñar y desarrollar una aplicación móvil es un proceso complejo que presenta una serie de desafíos únicos.

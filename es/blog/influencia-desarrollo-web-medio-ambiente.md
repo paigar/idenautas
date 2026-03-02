@@ -1,6 +1,6 @@
 ---
 titulo: La influencia del <b>desarrollo web</b> en el medio ambiente
-uuid: 699b29ba-811f-4d3b-a245-531e5fc4ea85
+image: blog/blog0060.jpeg
 alt: Imagen de un hombre convirtiéndose en un árbol
 date: 2023-03-09
 description: El primer paso para comprender la influencia del desarrollo web en el medio ambiente es entender la cantidad de energía que se utiliza para alimentar los servidores web.

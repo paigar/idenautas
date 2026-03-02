@@ -1,6 +1,6 @@
 ---
 titulo: Las <b>animaciones</b> al hacer scroll en una página web
-uuid: afa90636-9ba2-47b4-9382-3f42bbec5b7c
+image: blog/blog0045.jpeg
 alt: Pequeño dibujo animado con forma de monstruo, delante de un ordenador
 date: 2023-02-25
 description: Cuando un usuario hace scroll en una página web, ciertos elementos en la página pueden animarse para agregar interactividad y atractivo visual.

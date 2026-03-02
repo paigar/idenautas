@@ -1,6 +1,6 @@
 ---
 titulo: Consejos para mejorar la <b>productividad</b> como desarrollador
-uuid: 28840ad3-800a-4043-895c-d6b2b4437b67
+image: blog/blog0117.jpeg
 alt: Desarrollador web sentado en su escritorio y abrumado por una cantidad enorme de papeles, proyectos, accesorios, etc...
 date: 2023-04-15
 description: Como desarrollador, sé lo difícil que puede ser a veces mantener la concentración y ser productivo en el trabajo

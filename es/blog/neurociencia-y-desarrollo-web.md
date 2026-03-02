@@ -1,6 +1,6 @@
 ---
 titulo: "Desarrollo web y <b>neurociencia</b>: cómo utilizar la ciencia del cerebro para crear sitios web más efectivos"
-uuid: 8f6cbbc9-8bcc-4e86-b460-746de37357c1
+image: blog/blog0087.jpeg
 alt: Cerebro humano lleno de pinceladas de color
 date: 2023-03-24
 description: El contenido es una parte crucial de cualquier sitio web exitoso.

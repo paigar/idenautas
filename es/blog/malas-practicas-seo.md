@@ -1,6 +1,6 @@
 ---
 titulo: Malas prácticas <b>SEO</b> que debemos evitar
-uuid: 79599ac2-4e9b-46e4-b934-0666a329a60e
+image: blog/blog0058.jpeg
 alt: Un montón de ordenadores de diferentes tamaños y colores
 date: 2023-03-08
 description: Exploramos las malas prácticas en SEO más comunes y cómo evitarlas para no afectar negativamente nuestro sitio web.

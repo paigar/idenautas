@@ -1,6 +1,6 @@
 ---
 titulo: Uso de <b>Tailwind CSS</b> para el desarrollo web
-uuid: 7c77a2f8-cdf1-467e-b72d-4d8b35256b40
+image: blog/blog0046.jpeg
 alt: Ordenador mostrando una pagina web atractiva en la pantalla
 date: 2023-02-28
 description: Tailwind CSS es un framework de diseño web de código abierto que proporciona un conjunto completo de clases CSS predefinidas que se pueden utilizar para construir interfaces de usuario personalizadas.

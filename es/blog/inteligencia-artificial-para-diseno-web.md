@@ -1,6 +1,6 @@
 ---
 titulo: Cómo utilizar la <b>inteligencia artificial</b> en el diseño web
-uuid: 057ead31-a3b1-4c3d-b39d-691e38c05564
+image: blog/blog0102.jpeg
 alt: Imagen de un robot con forma humanoide controlado por un cerebro artificial
 date: 2023-04-01
 description: La utilización de la inteligencia artificial en el diseño web puede proporcionar numerosas ventajas

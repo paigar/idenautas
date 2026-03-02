@@ -1,6 +1,6 @@
 ---
 titulo: Mantener un <b>equilibrio</b> saludable entre el trabajo y la vida personal como desarrollador web
-uuid: 0126cbf6-f6e2-449e-91d3-f11a161fa986
+image: blog/blog0067.jpeg
 alt: Imagen de un desarrollador web trabajando en su ordenador
 date: 2023-03-16
 description: En la industria del diseño y desarrollo web, es fácil caer en la trampa de trabajar horas interminables en proyectos apasionantes, lo que a menudo puede resultar en un desequilibrio entre la vida laboral y personal.

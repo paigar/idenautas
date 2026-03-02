@@ -1,6 +1,6 @@
 ---
 titulo: Cómo aplicar técnicas de <b>gamificación</b> al diseño y desarrollo web
-uuid: 8875261a-c792-41df-866f-b1c6b6ea33fc
+image: blog/blog0041.jpeg
 alt: Máquina de arcade en un paisaje de fantasía
 date: 2023-02-13
 description: La gamificación es una técnica de diseño que utiliza elementos de juego en contextos no lúdicos con el objetivo de aumentar la motivación, el compromiso y la participación de los usuarios.

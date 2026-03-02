@@ -1,6 +1,6 @@
 ---
 titulo: "Cómo el arte puede influir en el <b>diseño web</b>: cómo incorporar la creatividad en tu trabajo"
-uuid: c84e81f4-ca9c-49b1-94d4-48bd8cda065e
+image: blog/blog0091.jpeg
 alt: Estatua en el centro de una sala de un museo
 date: 2023-03-25
 description: La creatividad y la originalidad son aspectos fundamentales del arte que pueden ser aplicados al diseño web.

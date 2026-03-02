@@ -1,6 +1,6 @@
 ---
 titulo: El estilo vintage en <b>diseño web</b>
-uuid: 4851ab1a-c3cb-44a9-a6c6-f26fb42b0a4c
+image: blog/blog0069.jpeg
 alt: Imagen de una furgoneta Volkswagen Transporter clásica
 date: 2023-03-16
 description: El estilo vintage se ha convertido en una tendencia muy popular en el diseño web actual, y muchos sitios web lo han adoptado para crear una estética nostálgica y auténtica.

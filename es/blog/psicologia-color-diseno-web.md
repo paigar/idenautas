@@ -1,6 +1,6 @@
 ---
 titulo: La psicología del color en el <b>diseño web</b>
-uuid: e3f0c7d7-a6cb-46ce-87da-e94af509b37b
+image: blog/blog0063.jpeg
 alt: Imagen de un arcoíris
 date: 2023-03-12
 description: En el diseño web, la elección de los colores es un aspecto crítico que puede influir en la experiencia del usuario.

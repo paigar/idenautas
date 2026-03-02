@@ -1,6 +1,6 @@
 ---
 titulo: Las enfermedades más comunes en <b>desarrolladores web</b>
-uuid: fc6297b2-d5f0-4a9d-a547-3198080b2c2f
+image: blog/blog0072.jpeg
 alt: Imagen de un hospital abandonado
 date: 2023-03-16
 description: El trabajo de los desarrolladores web es una tarea que exige estar mucho tiempo frente a un ordenador, lo que puede generar diversas afecciones físicas y mentales.

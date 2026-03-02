@@ -1,7 +1,7 @@
 ---
 layout: layouts/base.njk
 templateClass: general
-uuid: bf06d9b9-a58c-4be6-bac7-022e7de7db40
+image: header/header003.jpeg
 ---
 
 <div class="contenedor estrecho">
@@ -19,12 +19,12 @@ uuid: bf06d9b9-a58c-4be6-bac7-022e7de7db40
       <div class="contenedor">
         <ul class="anteriorsiguiente">
           <li>
-            {%- if previousPost %}{{ "i18n.previous" | i18n }}: <a href="{{ previousPost.url }}">{{ previousPost.data.titulo | safe }}</a>
+            {%- if previousPost %}Anterior: <a href="{{ previousPost.url }}">{{ previousPost.data.titulo | safe }}</a>
             {% endif %}
           </li>
 
           <li>
-            {%- if nextPost %}{{ "i18n.next" | i18n }}: <a href="{{ nextPost.url }}">{{ nextPost.data.titulo | safe }}</a>
+            {%- if nextPost %}Siguiente: <a href="{{ nextPost.url }}">{{ nextPost.data.titulo | safe }}</a>
             {% endif %}
           </li>
         </ul>

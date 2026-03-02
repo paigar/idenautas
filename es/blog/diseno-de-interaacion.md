@@ -1,6 +1,6 @@
 ---
 titulo: Diseño de <b>interacción</b>
-uuid: b3de749d-8a99-457c-96db-2ccef820b27d
+image: blog/blog0021.jpeg
 alt: Dedo tocando la pantalla táctil de una tableta
 date: 2023-02-01
 description: El diseño de interacción es una disciplina que se encarga de la creación de experiencias de usuario en aplicaciones digitales.

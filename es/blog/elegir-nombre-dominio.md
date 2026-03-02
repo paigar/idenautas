@@ -1,6 +1,6 @@
 ---
 titulo: Como elegir el nombre de <b>dominio</b> de tu página web
-uuid: 8ed84c46-6e9a-452a-b08b-d99d70a2cfc5
+image: blog/blog0065.jpeg
 alt: Un hombre visitando una página web desde su ordenador portátil
 date: 2023-03-14
 description: El dominio de tu sitio web es la dirección única que se utilizará para acceder a tu sitio, por lo que es importante que sea fácil de recordar, identificar y promover

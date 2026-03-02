@@ -1,6 +1,6 @@
 ---
 titulo: La importancia del diseño <b>sostenible</b> en el desarrollo web
-uuid: f238a38d-22a9-4932-89b1-0b82b5f2ba5c
+image: blog/blog0107.jpeg
 alt: Imagen de un paisaje verde y extremadamente bello
 date: 2023-04-06
 description: El diseño sostenible es aquel que tiene en cuenta el impacto ambiental, social y económico de un producto o servicio, y busca minimizarlo

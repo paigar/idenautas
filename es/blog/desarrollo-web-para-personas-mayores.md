@@ -1,6 +1,6 @@
 ---
 titulo: Consideraciones en el desarrollo de páginas web para <b>personas mayores</b>
-uuid: 20be379d-8c9e-47a7-b3ce-522fde6c8e3f
+image: blog/blog0044.jpeg
 alt: Hombre de edad avanzada usando un ordenador portátil
 date: 2023-02-24
 description: Crear un sitio web para personas mayores puede ser un desafío, ya que a menudo tienen necesidades y limitaciones únicas en términos de accesibilidad y usabilidad.

@@ -1,6 +1,6 @@
 ---
 titulo: Desafíos del <b>teletrabajo</b> para los desarrolladores web
-uuid: 99616ca1-aadb-4ea9-aa9d-0821aed1ddf8
+image: blog/blog0051.jpeg
 alt: Desarrollador web trabajando desde su casa
 date: 2023-03-04
 description: El teletrabajo ha sido una tendencia creciente en la industria del desarrollo web, especialmente durante la pandemia de COVID-19. Sin embargo, trabajar desde casa puede presentar desafíos únicos para los desarrolladores web.

@@ -1,6 +1,6 @@
 ---
 titulo: La importancia de la <b>diversidad</b> y la <b>inclusión</b> en el desarrollo web
-uuid: feef043b-f208-4017-8954-e4ec10501f6f
+image: blog/blog0056.jpeg
 alt: Grupo de personas de diferentes etnias, sexos y edades sentados alrededor de una mesa
 date: 2023-03-07
 description: Al fomentar la diversidad y la inclusión, los equipos de desarrollo pueden crear soluciones más efectivas y significativas

@@ -1,6 +1,6 @@
 ---
 titulo: No todos los <b>alojamientos web</b> son iguales
-uuid: ef9c9546-93fa-464b-8c93-d74882ae7b8f
+image: blog/blog0006.jpeg
 alt: Centro de procesamiento de datos, lleno de servidores y luces
 date: 2023-01-24
 description: La calidad del alojamiento es un aspecto clave a considerar en un sitio web, ya que afecta directamente su rendimiento y disponibilidad.

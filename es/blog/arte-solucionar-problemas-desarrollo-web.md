@@ -1,6 +1,6 @@
 ---
 titulo: El arte de <b>solucionar problemas</b> en el desarrollo web
-uuid: dee600c3-7ce1-473f-8ada-7ca691642270
+image: blog/blog0075.jpeg
 alt: Imagen de un puzzle a medio resolver
 date: 2023-03-18
 description: El objetivo de este artículo es proporcionar herramientas y consejos prácticos para mejorar las habilidades de solución de problemas en el desarrollo web.

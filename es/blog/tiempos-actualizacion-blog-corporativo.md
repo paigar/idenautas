@@ -1,6 +1,6 @@
 ---
 titulo: ¿Cada cuanto tiempo se debería actualizar un <b>blog corporativo</b>?
-uuid: 6dd2abe7-9c89-4585-a824-174b330976cd
+image: blog/blog0064.jpeg
 alt: Montones de revistas sobre un escritorio, ordenado y organizado
 date: 2023-03-13
 description: La frecuencia con la que se debe actualizar un blog corporativo depende de varios factores, como el tipo de negocio, el público objetivo y los objetivos de marketing.

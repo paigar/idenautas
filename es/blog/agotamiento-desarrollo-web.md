@@ -1,6 +1,6 @@
 ---
 titulo: "<b>Agotamiento</b> en el desarrollo web: estrategias para prevenirlo"
-uuid: f07b7bba-a8c3-417e-8a46-04c02e2fd3d3
+image: blog/blog0082.jpeg
 alt: Un hombre adormilado y exhausto delante de la pantalla de su ordenador
 date: 2023-03-22
 description: Estrategias más efectivas para prevenir el agotamiento en el desarrollo web.

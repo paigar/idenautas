@@ -1,6 +1,6 @@
 ---
 titulo: "El futuro del <b>ecommerce</b>: ¿hacia dónde se dirige la industria?"
-uuid: 7a2f4b8c-97ae-427f-949b-3e61016b6715
+image: blog/blog0055.jpeg
 alt: Carro de compra virtual
 date: 2023-03-07
 description: Las ventas en línea se han disparado, lo que ha llevado a muchos a preguntarse cuál será el futuro del ecommerce.

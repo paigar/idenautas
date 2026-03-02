@@ -1,6 +1,6 @@
 ---
 titulo: "El <b>futuro</b> del desarrollo web: ¿qué nos depara?"
-uuid: 8dc55647-19b0-48aa-a1a0-83837bc8de0e
+image: blog/blog0043.jpeg
 alt: Imagen futurista de una autopista por la que circula información en forma de luz
 date: 2023-02-22
 description: Exploraremos algunas de las tecnologías emergentes, tendencias y cambios que se esperan en el desarrollo web en el futuro cercano

@@ -1,6 +1,6 @@
 ---
 titulo: "<b>Más allá del código</b>: Habilidades blandas esenciales para el éxito como programador"
-uuid: ddadb167-4add-4d1c-97bb-70aabcf2117b
+image: blog/blog0121.png
 alt: Imagen de un programador delante de su ordenador
 date: 2024-07-24
 description: Exploramos la importancia de la comunicación, colaboración, adaptabilidad y otras habilidades no técnicas clave en la carrera de un desarrollador.

@@ -1,6 +1,6 @@
 ---
 titulo: Cómo trabajar con <b>personas tóxicas</b> en el equipo de desarrollo web y mantener una actitud positiva
-uuid: 2f278cd4-7a75-4cc9-a8bf-08b0cceb2a35
+image: blog/blog0105.jpeg
 alt: Persona hablando on otro grupo de personas en una oficina con actitud de contar mentiras y tergiversar la realidad
 date: 2023-04-04
 description: Trabajar con personas tóxicas puede ser extremadamente desafiante y frustrante

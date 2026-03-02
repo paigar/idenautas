@@ -1,6 +1,6 @@
 ---
 titulo: La importancia del contenido <b>visual</b> en el diseño web
-uuid: 082eb605-8c00-4cdb-b3be-469f231cfc7d
+image: blog/blog0042.jpeg
 alt: Imagen digital de un león, de frente y de perfil
 date: 2023-02-21
 description: El contenido visual en el diseño web es una de las partes más importantes para la creación de una experiencia de usuario efectiva.

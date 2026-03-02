@@ -1,6 +1,6 @@
 ---
 titulo: La importancia de la atención al <b>detalle</b> en el diseño web
-uuid: a0a500b1-6dd9-4634-b0aa-1588090bbdbf
+image: blog/blog0096.jpeg
 alt: Microscopio en un oficina
 date: 2023-03-28
 description: La atención al detalle es fundamental para garantizar una experiencia agradable y efectiva para el usuario.

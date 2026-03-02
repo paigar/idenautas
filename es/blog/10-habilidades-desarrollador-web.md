@@ -1,6 +1,6 @@
 ---
 titulo: 10 <b>habilidades</b> imprescindibles para ser un desarrollador web de éxito
-uuid: 591c9cb0-9615-4494-be4b-ab237d6cf6e0
+image: blog/blog0094.jpeg
 alt: Desarrollador web trabajando en un oficina
 date: 2023-03-27
 description: Un desarrollador web debe ser un experto en múltiples áreas para poder crear sitios web efectivos, atractivos y funcionales

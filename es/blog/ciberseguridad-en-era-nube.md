@@ -1,6 +1,6 @@
 ---
 titulo: <b>Ciberseguridad</b> en la era de la nube
-uuid: eb55c697-c2a2-4003-b530-ea0878583289
+image: blog/blog0052.jpeg
 alt: Imagen de una nube con un candado y una cerradura
 date: 2023-03-04
 description: A medida que más y más datos se mueven a la nube, se ha vuelto más importante que nunca asegurarse de que estos datos estén protegidos.

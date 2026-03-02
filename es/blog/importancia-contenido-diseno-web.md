@@ -1,6 +1,6 @@
 ---
 titulo: La importancia del <b>contenido</b> en el diseño web
-uuid: 8b86dffd-7813-4301-be63-e2011794b639
+image: blog/blog0086.jpeg
 alt: Mesa llena de revistas y un ordenador portátil
 date: 2023-03-24
 description: El contenido es una parte crucial de cualquier sitio web exitoso.

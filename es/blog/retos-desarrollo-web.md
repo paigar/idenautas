@@ -1,6 +1,6 @@
 ---
 titulo: Principales retos en el <b>desarrollo web</b>
-uuid: 086bd3e4-e36f-43a8-a12c-a04c969c6d63
+image: blog/blog0049.jpeg
 alt: Dos pilotos de carreras compitiendo en paralelo en dos ordenadores
 date: 2023-03-02
 description: El desarrollo web puede ser un desafío debido a varios factores. Aquí hay algunos de los retos más comunes que enfrentamos como desarrolladores web.

@@ -1,6 +1,6 @@
 ---
 titulo: "<b>Más allá de las métricas</b>: Midiendo el impacto real de tu trabajo como desarrollador"
-uuid: 45abc3ec-ce92-4ecd-988e-d7b68ca4a81e
+image: blog/blog0123.png
 alt: Imagen de un programador delante de su ordenador
 date: 2024-07-25
 description: Discutimos formas de evaluar y comunicar el valor que aportas más allá de líneas de código o velocidad, considerando satisfacción de usuarios, ROI del negocio, etc.

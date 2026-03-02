@@ -1,6 +1,6 @@
 ---
 titulo: Diseñar un sitio web de un <b>negocio local</b> para mejorar su presencia en línea
-uuid: 6a077093-1002-4e6b-a191-b662e970367f
+image: blog/blog0119.png
 alt: Foto de un pequeño comercio de barrio
 date: 2023-04-16
 description: Es esencial que los negocios locales cuenten con una presencia en línea para poder competir con otras empresas

@@ -1,6 +1,6 @@
 ---
 titulo: Los secretos del diseño web <b>minimalista</b>
-uuid: b75c100c-caae-4605-85d0-9682507467ff
+image: blog/blog0111.jpeg
 alt: Un monitor de ordenador mostrando una web centrada en el vacío del espacio exterior
 date: 2023-04-10
 description: El enfoque minimalista se centra en reducir elementos innecesarios y destacar lo esencial para crear un diseño elegante y funcional

@@ -1,6 +1,6 @@
 ---
 titulo: El papel del <b>pensamiento crítico</b> en el proceso de diseño web
-uuid: a96e00ea-501b-489c-820d-5cc26ec83457
+image: blog/blog0092.jpeg
 alt: Diagrama de un cerebro desglosando y organizando sus pensamientos
 date: 2023-03-26
 description: El pensamiento crítico es un proceso cognitivo que implica analizar, evaluar y sintetizar información para llegar a conclusiones informadas y fundamentadas.

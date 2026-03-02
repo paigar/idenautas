@@ -1,6 +1,6 @@
 ---
 titulo: Análisis de la competencia en el <b>diseño web</b>
-uuid: ecfc3cd0-46bb-4be9-8f1f-8802a2d23c3d
+image: blog/blog0074.jpeg
 alt: Hombre mirando un escaparate y comparando diferentes productos
 date: 2023-03-17
 description: Analizar la competencia en el diseño web se ha convertido en una estrategia esencial para cualquier empresa que busque destacar en línea.

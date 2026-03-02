@@ -1,6 +1,6 @@
 ---
 titulo: "La figura del desarrollador <b>full-stack</b>: ventajas y desventajas"
-uuid: 9da8bb19-1f77-4f53-9372-6822ce9c94e3
+image: blog/blog0115.jpeg
 alt: Desarrollador trabajando en una oficina con multiples pantallas y accesorios
 date: 2023-04-13
 description: Un desarrollador full-stack es un profesional que domina tanto el lado del front-end como el del back-end

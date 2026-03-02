@@ -1,6 +1,6 @@
 ---
 titulo: "Diseño <b>biofílico</b>: cómo incorporar la naturaleza en el diseño web"
-uuid: b7c0a26c-c1e1-41a5-ab44-c70b06fff0ac
+image: blog/blog0083.jpeg
 alt: Un ordenador en mitad de la jungla y mostrando imágenes de naturaleza
 date: 2023-03-23
 description: El diseño biofílico busca incorporar elementos de la naturaleza en el diseño de espacios interiores y exteriores.

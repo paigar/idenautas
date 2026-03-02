@@ -1,6 +1,6 @@
 ---
 titulo: Cómo mejorar tu estrategia de <b>marketing de contenidos</b>
-uuid: 26c3d758-a9a2-4250-8ddf-92d61d0663e0
+image: blog/blog0048.jpeg
 alt: Hombre celebrando su éxito delante de su ordenador portátil
 date: 2023-03-01
 description: Para lograr el éxito, es importante que tu estrategia de marketing de contenidos esté bien planificada y enfocada en las necesidades y preferencias de tu audiencia.

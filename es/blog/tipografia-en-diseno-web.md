@@ -1,6 +1,6 @@
 ---
 titulo: Uso de la <b>tipografía</b> en diseño web
-uuid: 97429e8a-3e0a-4fe7-b0aa-00be28843a57
+image: blog/blog0031.jpeg
 alt: Letras aleatorias de gran tamaño flotando en el cielo de un mundo imaginario
 date: 2023-02-07
 description: Las fuentes de texto son una parte fundamental del diseño gráfico y la comunicación visual, y tienen un impacto significativo en la psicología del lector.

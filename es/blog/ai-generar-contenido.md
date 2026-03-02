@@ -1,6 +1,6 @@
 ---
 titulo: Utilizando una <b>AI</b> para generar contenido para internet
-uuid: 30d13431-dd94-496d-93de-29d07824e6d0
+image: blog/blog0057.jpeg
 alt: Busto de una mujer cuyo cerebro ha sido reemplazado por un ordenador
 date: 2023-03-08
 description: Cada vez más empresas y creadores de contenido están utilizando AI para crear artículos, textos publicitarios, descripciones de productos, títulos y mucho más.

@@ -1,6 +1,6 @@
 ---
 titulo: Creando experiencias web <b>emocionales</b>
-uuid: ecbb4c5f-212d-4727-9137-e8168ed23c0e
+image: blog/blog0071.jpeg
 alt: Pintura del rostro de una persona salpicada de emociones, con fondo en tonos verdes y naranjas
 date: 2023-03-16
 description: El diseño emocional es un enfoque en el diseño que busca crear experiencias que conecten con las emociones de los usuarios.

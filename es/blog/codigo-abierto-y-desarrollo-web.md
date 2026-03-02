@@ -1,6 +1,6 @@
 ---
 titulo: El auge del <b>código abierto</b> y su impacto en el desarrollo web
-uuid: 25867bd5-95ce-4f44-9344-6b0c624ba415
+image: blog/blog0113.jpeg
 alt: Ilustración de un ordenador y varios periféricos utilizando software open source
 date: 2023-04-12
 description: El software libre y de código abierto ofrecen una alternativa muy interesante a las soluciones propietarias

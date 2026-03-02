@@ -1,6 +1,6 @@
 ---
 titulo: Ventajas e inconvenientes del uso de <b>Bootstrap </b> en desarrollo web
-uuid: 6fb054ab-b2d0-4aee-9bac-3c3dec83196d
+image: blog/blog0033.jpeg
 alt: Caja mágica en un entorno de fantasía, llena de ideas e imaginación
 date: 2023-02-09
 description: Aunque Bootstrap tiene muchas ventajas, también tiene algunas desventajas. Una de las principales desventajas es que, debido a su popularidad, muchos sitios web se ven muy similares y pueden carecer de originalidad.

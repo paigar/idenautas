@@ -1,6 +1,6 @@
 ---
 titulo: La importancia de <b>racionalizar</b> el uso de los servidores web
-uuid: 4d47cec4-1749-43e9-a0dd-849d4c5e4d47
+image: blog/blog0120.png
 alt: Imagen de un centro de datos moderno
 date: 2024-07-23
 description: En este artículo, exploraremos la importancia de racionalizar el uso de los servidores web y cómo esto puede ayudar a reducir su impacto en el medio ambiente
