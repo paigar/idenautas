@@ -12,6 +12,9 @@ _images/
 Thumbs.db
 Desktop.ini
 
+# Claude
+.claude/
+
 # Editor
 .vscode/
 *.swp
