@@ -1,0 +1,8 @@
+[
+  { "from": "/servicios/diseno-desarrollo-web-bilbao/", "to": "/servicios/desarrollo-web/" },
+  { "from": "/servicios/diseno-desarrollo-web-bizkaia/", "to": "/servicios/desarrollo-web/" },
+  { "from": "/servicios/diseno-desarrollo-web-euskadi/", "to": "/servicios/desarrollo-web/" },
+  { "from": "/servicios/diseno-desarrollo-web-barakaldo/", "to": "/servicios/desarrollo-web/" },
+  { "from": "/servicios/diseno-desarrollo-web-portugalete/", "to": "/servicios/desarrollo-web/" },
+  { "from": "/servicios/socio-desarrollo-web-bilbao/", "to": "/servicios/socio-desarrollo-web/" }
+]

@@ -1,5 +1,0 @@
-{
-  "layout": "layouts/articulo.njk",
-  "permalink": "/blog/{{ titulo | excerpt | slugify }}/",
-  "tags": ["blog"]
-}

@@ -1,0 +1,37 @@
+---
+layout: layouts/page.njk
+title: Blog
+label: Artículos
+subtitle: Reflexiones, consejos y novedades sobre desarrollo web, diseño y tecnología digital.
+description: Blog de Idenautas. Artículos sobre desarrollo web, diseño, tecnología y estrategia digital.
+heroImage: idenautas-web/blog.png
+permalink: /blog/
+---
+
+<section class="section">
+  <div class="container">
+    <div class="blog-grid">
+      {%- for post in collections.blog | reverse %}
+        {%- set isFeatured = loop.first %}
+        {%- set isWide = (not loop.first) and (loop.index0 % 9 == 0) %}
+        <article class="blog-card{% if isFeatured %} blog-card--featured{% elif isWide %} blog-card--wide{% endif %}" data-reveal>
+          <a href="{{ post.url }}" class="blog-card__link">
+            <div class="blog-card__img">
+              <img src="{{ site.cdn }}{{ post.data.heroImage or 'idenautas-web/general.png' }}?width={% if isFeatured or isWide %}800{% else %}400{% endif %}&quality=60"
+                   alt="{{ post.data.alt or '' }}"
+                   loading="{% if isFeatured %}eager{% else %}lazy{% endif %}"
+                   width="{% if isFeatured or isWide %}800{% else %}400{% endif %}" height="{% if isFeatured or isWide %}450{% else %}225{% endif %}">
+            </div>
+            <div class="blog-card__content">
+              <h2 class="blog-card__title">{{ post.data.title }}</h2>
+              {% if post.data.description %}
+                <p class="blog-card__excerpt">{{ post.data.description }}</p>
+              {% endif %}
+              <span class="blog-card__read">Leer artículo <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+        </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>

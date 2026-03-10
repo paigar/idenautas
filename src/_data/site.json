@@ -1,0 +1,15 @@
+{
+	"name": "Idenautas",
+	"tagline": "Transformamos ideas en realidad digital",
+	"description": "Agencia creativa especializada en desarrollo web desde 2007. Transformamos ideas en realidad digital.",
+	"url": "https://www.idenautas.com",
+	"email": "info@idenautas.com",
+	"phone": "+34 944 130 535",
+	"cdn": "https://images.paigar.es/",
+	"address": {
+		"street": "Avenida Maurice Ravel 16",
+		"city": "Bilbao",
+		"zip": "48007",
+		"country": "Spain"
+	}
+}

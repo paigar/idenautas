@@ -1,0 +1,29 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.name }} — Blog</title>
+    <description>{{ site.description }}</description>
+    <link>{{ site.url }}/blog/</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>es</language>
+    {%- set lastPost = collections.blog | last %}
+    <lastBuildDate>{{ lastPost.date | htmlDateString }}T00:00:00Z</lastBuildDate>
+    {%- for post in collections.blog | reverse %}
+    {%- if loop.index <= 20 %}
+    <item>
+      <title>{{ post.data.title | escape }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | htmlDateString }}T00:00:00Z</pubDate>
+      {%- if post.data.description %}
+      <description>{{ post.data.description | escape }}</description>
+      {%- endif %}
+    </item>
+    {%- endif %}
+    {%- endfor %}
+  </channel>
+</rss>

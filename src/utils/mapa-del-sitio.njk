@@ -1,0 +1,61 @@
+---
+title: Mapa del sitio
+subtitle: "¡Bienvenidos al mapa del sitio! Aquí es donde podrás encontrar todo lo que necesitas saber sobre nuestro sitio con un solo clic. ¿Tienes una pregunta sobre algún servicio en particular? ¿O estás buscando la sección de noticias más recientes?"
+permalink: /mapa-del-sitio/
+layout: layouts/page.njk
+heroImage: idenautas-web/mapasitio.png
+eleventyExcludeFromCollections: true
+---
+
+<section class="page-content sitemap">
+  <div class="container">
+
+    <h2>Índice de Idenautas</h2>
+    <ul>
+      <li>
+        <a href="/">Inicio</a>
+      </li>
+      <li>
+        <a href="/nosotros/">Nosotros</a>
+        <ul>
+          <li>
+            <a href="/por-que-idenautas/">Por qué elegir Idenautas</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <a href="/servicios/">Servicios</a>
+        <ul>
+          {%- for servicio in collections.servicios %}
+            <li>
+              <a href="{{ servicio.url }}">{{ servicio.data.title }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </li>
+      <li>
+        <a href="/blog/">Blog</a>
+        <ul>
+          {%- for post in collections.blog | reverse %}
+            <li>
+              <a href="{{ post.url }}">{{ post.data.title }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </li>
+      <li>
+        <a href="/contacto/">Contacto</a>
+      </li>
+      <li>
+        <a href="/aviso-legal/">Aviso legal</a>
+      </li>
+      <li>
+        <a href="/politica-de-privacidad/">Política de privacidad</a>
+      </li>
+      <li>
+        <a href="/uso-de-cookies/">Política de cookies</a>
+      </li>
+    </ul>
+
+  </div>
+</section>

@@ -1,0 +1,37 @@
+{# ── Formulario de contacto (partial) ─────────────────────── #}
+<div class="svc-budget" style="margin-top: 0;" data-reveal>
+  <div class="svc-budget__form">
+    <h2 class="svc-budget__title">Escríbenos</h2>
+    <form data-form="contacto" novalidate>
+      <p class="sr-only" aria-hidden="true">
+        <label>No rellenar si eres humano <input type="text" name="website"></label>
+      </p>
+      <div class="svc-budget__row">
+        <div class="svc-budget__field">
+          <label for="contacto-nombre" class="sr-only">Nombre</label>
+          <input type="text" id="contacto-nombre" name="nombre" placeholder="Nombre *" required>
+        </div>
+        <div class="svc-budget__field">
+          <label for="contacto-email" class="sr-only">Correo electrónico</label>
+          <input type="email" id="contacto-email" name="email" placeholder="Correo electrónico *" required>
+        </div>
+      </div>
+      <div class="svc-budget__field">
+        <label for="contacto-mensaje" class="sr-only">Mensaje</label>
+        <textarea id="contacto-mensaje" name="mensaje" placeholder="Cuéntanos tu idea o proyecto..." rows="4"></textarea>
+      </div>
+      <div class="svc-budget__privacy">
+        <input type="checkbox" id="privacy-contacto" name="privacy" required>
+        <label for="privacy-contacto">He leído y acepto la <a href="/politica-de-privacidad/">política de privacidad</a>
+        </label>
+      </div>
+      <button type="submit" class="btn btn--primary" data-magnetic="0.2">
+        Enviar mensaje
+        <span class="btn__arrow">→</span>
+      </button>
+    </form>
+  </div>
+  <div class="svc-budget__img">
+    {% img "idenautas-web/contacto_02.png", "Equipo Idenautas", "thumb" %}
+  </div>
+</div>

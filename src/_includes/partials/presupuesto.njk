@@ -1,0 +1,60 @@
+{# ── Solicitud de presupuesto (partial) ──────────────────── #}
+<div class="svc-budget" data-reveal>
+  <div class="svc-budget__form">
+    <h2 class="svc-budget__title">Solicitud de presupuesto</h2>
+    <form data-form="presupuesto" novalidate>
+      <p class="sr-only" aria-hidden="true">
+        <label>No rellenar si eres humano <input type="text" name="website"></label>
+      </p>
+      <div class="svc-budget__row">
+        <div class="svc-budget__field">
+          <label for="budget-nombre" class="sr-only">Nombre</label>
+          <input type="text" id="budget-nombre" name="nombre" placeholder="Nombre *" required>
+        </div>
+        <div class="svc-budget__field">
+          <label for="budget-email" class="sr-only">Correo electrónico</label>
+          <input type="email" id="budget-email" name="email" placeholder="Correo electrónico *" required>
+        </div>
+      </div>
+      <div class="svc-budget__row">
+        <div class="svc-budget__field">
+          <label for="budget-presupuesto" class="sr-only">Presupuesto para el proyecto</label>
+          <select id="budget-presupuesto" name="presupuesto" required>
+            <option value="" disabled selected>Presupuesto para el proyecto</option>
+            <option value="menos-3000">Menos de 3.000 €</option>
+            <option value="3000-6000">3.000 € – 6.000 €</option>
+            <option value="6000-12000">6.000 € – 12.000 €</option>
+            <option value="mas-12000">Más de 12.000 €</option>
+            <option value="no-definido">Aún no lo tengo definido</option>
+          </select>
+        </div>
+        <div class="svc-budget__field">
+          <label for="budget-plazo" class="sr-only">Plazo de ejecución</label>
+          <select id="budget-plazo" name="plazo" required>
+            <option value="" disabled selected>Plazo de ejecución</option>
+            <option value="urgente">Lo antes posible</option>
+            <option value="1-2-meses">1 – 2 meses</option>
+            <option value="3-6-meses">3 – 6 meses</option>
+            <option value="sin-prisa">Sin prisa definida</option>
+          </select>
+        </div>
+      </div>
+      <div class="svc-budget__field">
+        <label for="budget-mensaje" class="sr-only">Mensaje</label>
+        <textarea id="budget-mensaje" name="mensaje" placeholder="Háblanos de tu idea o proyecto..." rows="4"></textarea>
+      </div>
+      <div class="svc-budget__privacy">
+        <input type="checkbox" id="privacy-budget" name="privacy" required>
+        <label for="privacy-budget">He leído y acepto la <a href="/politica-de-privacidad/">política de privacidad</a>
+        </label>
+      </div>
+      <button type="submit" class="btn btn--primary">
+        Enviar solicitud
+        <span class="btn__arrow">→</span>
+      </button>
+    </form>
+  </div>
+  <div class="svc-budget__img">
+    {% img "idenautas-web/contacto_01.png", "Equipo Idenautas", "thumb" %}
+  </div>
+</div>

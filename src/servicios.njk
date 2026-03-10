@@ -1,0 +1,84 @@
+---
+layout: layouts/page.njk
+title: Soluciones digitales a medida
+label: Servicios
+subtitle: Desde Bilbao, ayudamos a empresas y profesionales de toda España a construir su presencia digital con criterio, experiencia y tecnología adecuada a cada proyecto.
+description: Desarrollo web, identidad corporativa, mantenimiento, gestión de contenidos y alojamiento. Soluciones digitales a medida desde Bilbao para toda España.
+heroImage: idenautas-web/servicios_00.png
+---
+
+{# ── Intro — editorial + image breaks right ──────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Nuestro enfoque</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Tu proyecto digital, desde el inicio hasta el resultado</h2>
+      <p class="about-editorial">
+        En idenautas no ofrecemos un catálogo de productos estándar. Cada proyecto comienza con una conversación real sobre lo que necesitas, lo que tienes y lo que quieres conseguir.
+      </p>
+      <p class="about-editorial">
+        Llevamos más de veinte años construyendo presencias digitales para empresas de sectores muy distintos. Los mejores proyectos son los que combinan una buena estrategia de partida con una ejecución técnica rigurosa.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/servicios_00a.png", "Equipo Idenautas trabajando", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── Services Mosaic ─────────────────────────────────────── #}
+<section class="section" style="padding-top: 0">
+  <div class="container">
+    <div class="home-services__header" style="margin-bottom: var(--space-lg)">
+      <div data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Servicios</p>
+        <h2 class="text-2xl">Qué hacemos</h2>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    {% include "partials/servicios-mosaic.njk" %}
+  </div>
+</section>
+
+{# ── Statement ────────────────────────────────────────────── #}
+<section class="section container statement-section">
+  <div class="statement statement--parallax" style="margin-bottom: var(--space-xl)">
+    <div class="statement__parallax-bg" aria-hidden="true">
+      {% img "idenautas-web/nosotros_10.png", "", "hero", "lazy" %}
+    </div>
+    <p class="statement__text" data-split>
+      No hablamos jerga tecnica. Siempre estamos dispuestos a explicar las cosas de manera simple y clara.
+    </p>
+  </div>
+</section>
+
+{# ── Proceso ─────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Proceso</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-lg)">¿Cómo empezamos a trabajar juntos?</h2>
+    </div>
+    <div class="svc-process" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Cuéntanos tu proyecto</h3>
+        <p>Explícanos tu idea, los objetivos que quieres conseguir y en qué punto está tu proyecto ahora mismo. No hace falta que vengas con un briefing cerrado.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Hablamos sin compromiso</h3>
+        <p>Agendamos una conversación informal para conocernos, analizar las opciones y ver qué enfoque tiene más sentido para tu caso concreto.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Presupuesto a medida</h3>
+        <p>Preparamos una propuesta detallada ajustada a tus objetivos y tu presupuesto, sin sorpresas ni costes ocultos.</p>
+      </div>
+    </div>
+
+    {% include "partials/presupuesto.njk" %}
+  </div>
+</section>

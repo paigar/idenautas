@@ -1,33 +1,16 @@
 {
-  "name": "idenautas-web",
-  "version": "8.0.0",
-  "type": "module",
-  "description": "Idenautas Web Factory - Agencia creativa de desarrollo web",
+  "name": "idenautas2026",
+  "version": "1.0.0",
+  "description": "Idenautas Web Factory - Transformamos ideas en realidad digital",
   "scripts": {
-    "build": "npx @11ty/eleventy",
-    "bench": "DEBUG=Eleventy:Benchmark* npx @11ty/eleventy",
-    "watch": "npx @11ty/eleventy --watch",
-    "serve": "npx @11ty/eleventy --serve",
-    "start": "npx @11ty/eleventy --serve --quiet",
-    "debug": "DEBUG=Eleventy* npx @11ty/eleventy"
+    "dev": "eleventy --serve",
+    "build": "eleventy"
   },
-  "author": {
-    "name": "Juanjo Marcos",
-    "email": "juanjo@paigar.es",
-    "url": "https://www.paigar.es"
-  },
-  "license": "MIT",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2",
-    "@11ty/eleventy-navigation": "^1.0.5",
-    "@11ty/eleventy-plugin-rss": "^2.0.4",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.2",
-    "clean-css": "^5.3.2",
-    "html-minifier-terser": "^7.2.0",
-    "luxon": "^3.0.1",
-    "markdown-it-anchor": "^8.6.4"
+    "@11ty/eleventy": "^3.0.0"
   },
   "devDependencies": {
-    "eleventy-plugin-external-links": "^1.1.2"
+    "clean-css": "^5.3.3",
+    "terser": "^5.46.0"
   }
 }

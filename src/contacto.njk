@@ -1,0 +1,62 @@
+---
+layout: layouts/page.njk
+title: Contacta con idenautas
+label: Contacto
+subtitle: "¡Hey! ¿Quieres hablar con nosotros? ¡Genial! Estamos encantados de escucharte. Ya sea que tengas una pregunta tonta, un comentario épico o simplemente quieras decir hola, estamos aquí para ti. No te preocupes por ser formal, imagina que estuviéramos tomando un café juntos."
+description: Contacta con Idenautas. Cuentanos tu idea y la convertiremos en realidad digital. Estamos en Bilbao.
+heroImage: idenautas-web/contacto_03.png
+---
+
+{# ── Mapa + Datos de contacto ─────────────────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Encuéntranos</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-lg)">Dónde estamos y cómo contactar</h2>
+      <div class="contact-info" data-stagger>
+        <div class="contact-info__block" data-stagger-child>
+          <span class="contact-info__icon">{% include "svg/icon-location.svg" %}</span>
+          <div>
+            <h3>Dirección</h3>
+            <p>{{ site.address.street }}</p>
+            <p>{{ site.address.zip }}
+              {{ site.address.city }}, {{ site.address.country }}</p>
+          </div>
+        </div>
+        <div class="contact-info__block" data-stagger-child>
+          <span class="contact-info__icon">{% include "svg/icon-email.svg" %}</span>
+          <div>
+            <h3>Email</h3>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </div>
+        </div>
+        <div class="contact-info__block" data-stagger-child>
+          <span class="contact-info__icon">{% include "svg/icon-phone.svg" %}</span>
+          <div>
+            <h3>Teléfono</h3>
+            <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+          </div>
+        </div>
+        <div class="contact-info__block" data-stagger-child>
+          <span class="contact-info__icon">{% include "svg/icon-whatsapp.svg" %}</span>
+          <div>
+            <h3>WhatsApp</h3>
+            <a href="https://wa.me/34605639214" target="_blank" rel="noopener noreferrer">+34 605 639 214</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      <a href="https://maps.app.goo.gl/LTovhAJUiCW2UwxJA" target="_blank" rel="noopener noreferrer">
+        {% img "idenautas-web/mapa.jpg", "Ubicación de Idenautas en Bilbao — ver en Google Maps", "content" %}
+      </a>
+    </div>
+  </div>
+</section>
+
+{# ── Formulario de contacto ──────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>

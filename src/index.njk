@@ -1,0 +1,206 @@
+---
+layout: layouts/base.njk
+title: Transformamos ideas en realidad digital
+description: Agencia creativa de desarrollo web en Bilbao desde 2007. Creamos experiencias digitales a medida con las ultimas tecnologias.
+heroImage: idenautas-web/idenauta2025.jpg
+---
+
+{# ── Hero ─────────────────────────────────────────────────── #}
+<section class="hero">
+  <div class="hero__bg" aria-hidden="true">
+    {% img "idenautas-web/idenauta2025.jpg", "", "hero", "eager" %}
+  </div>
+
+  <div class="hero__content">
+    <h1 class="hero__title" data-reveal>
+      Transformamos <em class="highlight">ideas</em> en realidad digital
+    </h1>
+    <p class="hero__subtitle" data-reveal data-reveal-delay="0.2">
+      Agencia creativa de desarrollo web en Bilbao. Navegamos por tus ideas y las convertimos en experiencias digitales unicas.
+    </p>
+    <div style="margin-top: var(--space-md)" data-reveal data-reveal-delay="0.4">
+      <a href="/contacto/" class="btn btn--primary" data-magnetic="0.2">
+        Hablemos
+        <span class="btn__arrow">→</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="hero__scroll-hint" aria-hidden="true">
+    scroll
+    <span></span>
+  </div>
+</section>
+
+{# ── Intro ────────────────────────────────────────────────── #}
+<div class="home-intro-section">
+  <section class="section section--large container">
+    <div class="home-intro">
+      <div class="home-intro__heading" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Desde 2005</p>
+        <h2 class="text-2xl">Hacemos cosas geniales</h2>
+      </div>
+      <div class="home-intro__body" data-reveal data-reveal-delay="0.15">
+        <p class="home-intro__text">
+        Somos <strong>idenautas</strong> — navegantes de ideas. Utilizamos las ultimas tecnologias
+        y tendencias para crear experiencias en linea que no solo se vean bien, sino que tambien
+        sean <strong>faciles de usar y escalables</strong>.
+      </p>
+        <p class="home-intro__text" style="margin-top: var(--space-sm)">
+        Nos apasiona ayudar a las empresas a tener una presencia en internet
+        <strong>solida y profesional</strong>. Trabajamos en estrecha colaboracion con nuestros clientes
+        para entender sus necesidades y crear soluciones a medida.
+      </p>
+        <p class="home-intro__text" style="margin-top: var(--space-sm)">
+        Cada proyecto es unico y merece una solucion a medida. Por eso no usamos plantillas
+        ni atajos — <strong>escribimos cada linea de codigo pensando en tu negocio</strong>,
+        en tus usuarios y en los objetivos que quieres alcanzar.
+      </p>
+        <a href="/nosotros/" class="link-arrow" style="margin-top: var(--space-md); display: inline-flex;">Conocenos mejor</a>
+      </div>
+    </div>
+
+    <div class="home-intro__visual" data-reveal="scale" data-reveal-delay="0.3">
+      {% img "idenautas-web/nosotros_01.png", "Equipo Idenautas trabajando", "visual", "lazy", 80 %}
+    </div>
+  </section>
+</div>
+
+{# ── Marquee ──────────────────────────────────────────────── #}
+<div class="marquee-wrap" aria-hidden="true">
+  <div class="marquee">
+    <span class="marquee__item">ideas <span class="dot"></span></span>
+    <span class="marquee__item">creatividad <span class="dot"></span></span>
+    <span class="marquee__item">desarrollo web <span class="dot"></span></span>
+    <span class="marquee__item">identidad <span class="dot"></span></span>
+    <span class="marquee__item">innovacion <span class="dot"></span></span>
+    <span class="marquee__item">experiencias <span class="dot"></span></span>
+    <span class="marquee__item">ideas <span class="dot"></span></span>
+    <span class="marquee__item">creatividad <span class="dot"></span></span>
+    <span class="marquee__item">desarrollo web <span class="dot"></span></span>
+    <span class="marquee__item">identidad <span class="dot"></span></span>
+    <span class="marquee__item">innovacion <span class="dot"></span></span>
+    <span class="marquee__item">experiencias <span class="dot"></span></span>
+  </div>
+</div>
+
+{# ── Services ─────────────────────────────────────────────── #}
+<section class="section section--large">
+  <div class="container">
+    <div class="home-services__header">
+      <div data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Servicios</p>
+        <h2 class="text-2xl">Lo que hacemos</h2>
+      </div>
+      <p class="home-services__intro text-muted" data-reveal data-reveal-delay="0.1">
+        Ofrecemos soluciones digitales completas, desde el concepto hasta el mantenimiento.
+        Todo lo que tu proyecto necesita, bajo un mismo techo.
+      </p>
+    </div>
+  </div>
+
+  <div class="container">
+    {% include "partials/servicios-mosaic.njk" %}
+
+    <div class="services-cta" data-reveal>
+      <a href="/servicios/" class="btn btn--white btn--large" data-magnetic="0.2">
+        Mas sobre nuestros servicios
+        <span class="btn__arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+{# ── Statement ────────────────────────────────────────────── #}
+<section class="statement statement--parallax">
+  <div class="statement__parallax-bg" aria-hidden="true">
+    {% img "idenautas-web/nosotros_06.png", "", "hero", "eager" %}
+  </div>
+  <p class="statement__text" data-split>
+    Nuestro objetivo es convertirnos en el mejor aliado digital para ti y para tu proyecto
+  </p>
+</section>
+
+{# ── Stats ────────────────────────────────────────────────── #}
+<section class="section section--large container">
+  <div class="stats" data-stagger>
+    <div class="stat" data-stagger-child>
+      <div class="stat__number">
+        <span class="rotating-text" data-rotate='["+20 años", "Desde 2005", "+300 webs", "+20 años"]'>+20 años</span>
+      </div>
+      <p class="stat__label">Experiencia contrastada</p>
+    </div>
+    <div class="stat" data-stagger-child>
+      <div class="stat__number">
+        <span class="rotating-text" data-rotate='["Bilbao", "España", "Europa", "Mundo"]'>Bilbao</span>
+      </div>
+      <p class="stat__label">De lo local a lo global</p>
+    </div>
+    <div class="stat" data-stagger-child>
+      <div class="stat__number">
+        <span class="rotating-text" data-rotate='["Jamstack", "WordPress", "PHP", "Joomla", "Node.js"]'>Jamstack</span>
+      </div>
+      <p class="stat__label">Tecnologia puntera</p>
+    </div>
+  </div>
+</section>
+
+{# ── Contacto ─────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div class="home-services__header" style="margin-bottom: var(--space-lg)">
+      <div data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Contacto</p>
+        <h2 class="text-2xl">Cuéntanos tu idea</h2>
+      </div>
+      <p class="home-services__intro text-muted" data-reveal data-reveal-delay="0.1">
+        Cada proyecto empieza con una conversación. Escríbenos sin compromiso y te contamos cómo podemos ayudarte a convertir tu idea en realidad.
+      </p>
+    </div>
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>
+
+{# ── Blog ──────────────────────────────────────────────── #}
+<section class="section section--large">
+  <div class="container">
+    <div class="home-services__header" style="margin-bottom: var(--space-lg)">
+      <div data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Blog</p>
+        <h2 class="text-2xl">Últimos artículos</h2>
+      </div>
+      <p class="home-services__intro text-muted" data-reveal data-reveal-delay="0.1">
+        Reflexiones, consejos y novedades sobre desarrollo web, diseño y tecnología digital.
+      </p>
+    </div>
+    <div class="blog-grid">
+      {%- for post in collections.blog | reverse %}
+        {%- if loop.index <= 6 %}
+          <article class="blog-card" data-reveal>
+            <a href="{{ post.url }}" class="blog-card__link">
+              <div class="blog-card__img">
+                <img src="{{ site.cdn }}{{ post.data.heroImage or 'idenautas-web/general.png' }}?width=400&quality=60"
+                     alt="{{ post.data.alt or '' }}"
+                     loading="lazy"
+                     width="400" height="225">
+              </div>
+              <div class="blog-card__content">
+                <h3 class="blog-card__title">{{ post.data.title }}</h3>
+                {% if post.data.description %}
+                  <p class="blog-card__excerpt">{{ post.data.description }}</p>
+                {% endif %}
+                <span class="blog-card__read">Leer artículo <span aria-hidden="true">→</span></span>
+              </div>
+            </a>
+          </article>
+        {%- endif %}
+      {%- endfor %}
+    </div>
+    <div class="services-cta" data-reveal>
+      <a href="/blog/" class="btn btn--white btn--large" data-magnetic="0.2">
+        Ver todos los artículos
+        <span class="btn__arrow">→</span>
+      </a>
+    </div>
+  </div>
+</section>

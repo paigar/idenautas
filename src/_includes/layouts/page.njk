@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+---
+<section class="page-hero">
+  <div class="page-hero__bg" aria-hidden="true">
+    {% img heroImage or "idenautas-web/general.png", "", "hero", "eager" %}
+  </div>
+  <div class="container">
+    {% if label %}
+      <p class="page-hero__label" data-reveal>{{ label }}</p>
+    {% endif %}
+    <h1 class="page-hero__title" data-split>{{ title }}</h1>
+    {% if subtitle %}
+      <p class="page-hero__subtitle" data-reveal data-reveal-delay="0.2">{{ subtitle }}</p>
+    {% elif description and tags and "blog" in tags %}
+      <p class="page-hero__subtitle" data-reveal data-reveal-delay="0.2">{{ description }}</p>
+    {% endif %}
+  </div>
+</section>
+
+{{ content | safe }}

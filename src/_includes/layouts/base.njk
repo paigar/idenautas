@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <script>
+      document.documentElement.dataset.theme = localStorage.getItem('theme') || 'light'
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      {% if title %}{{ title }} — {% endif %}{{ site.name }} · Web Factory</title>
+    <meta name="description" content="{{ description or site.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <link rel="author" href="/humans.txt">
+    <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+    <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+
+    {# ── Open Graph ──────────────────────────────────────────── #}
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_ES">
+    <meta property="og:site_name" content="{{ site.name }}">
+    <meta property="og:title" content="{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} · Web Factory{% endif %}">
+    <meta property="og:description" content="{{ description or site.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+    {% if ogImage %}
+      {% set ogImg = ogImage %}
+    {% elif heroImage %}
+      {% set ogImg = site.cdn + heroImage + '?width=1200&quality=75' %}
+    {% else %}
+      {% set ogImg = site.url + '/assets/img/og-default.png' %}
+    {% endif %}
+    <meta property="og:image" content="{{ ogImg }}">
+    <meta property="og:image:alt" content="{{ title or site.name }} — {{ site.description }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    {# ── Twitter Card ────────────────────────────────────────── #}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} · Web Factory{% endif %}">
+    <meta name="twitter:description" content="{{ description or site.description }}">
+    <meta name="twitter:image" content="{{ ogImg }}">
+    <meta name="twitter:image:alt" content="{{ title or site.name }} — {{ site.description }}">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} — Blog" href="/feed.xml">
+
+    {# ── Structured Data (JSON-LD) ───────────────────────────── #}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "{{ site.name }}",
+      "description": "{{ site.description }}",
+      "url": "{{ site.url }}",
+      "telephone": "{{ site.phone }}",
+      "email": "{{ site.email }}",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "{{ site.address.street }}",
+        "addressLocality": "{{ site.address.city }}",
+        "postalCode": "{{ site.address.zip }}",
+        "addressCountry": "ES"
+      },
+      "foundingDate": "2005",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Spain"
+      },
+      "knowsLanguage": ["es", "eu", "en"]
+    }
+    </script>
+    {% if breadcrumb %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Inicio",
+          "item": "{{ site.url }}/"
+        }{% for crumb in breadcrumb %},
+        {
+          "@type": "ListItem",
+          "position": {{ loop.index + 1 }},
+          "name": "{{ crumb.name }}",
+          "item": "{{ site.url }}{{ crumb.url }}"
+        }{% endfor %}
+      ]
+    }
+    </script>
+    {% endif %}
+  </head>
+  <body>
+
+    <a href="#main" class="skip-link">Saltar al contenido</a>
+
+    <header class="site-header" data-header>
+      <a href="/" class="logo" aria-label="Idenautas - Inicio">
+        {% include "svg/logo.svg" %}
+      </a>
+      <nav class="nav-desktop">
+        <a href="/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url == '/' }}>Inicio</a>
+        <a href="/nosotros/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url == '/nosotros/' }}>Nosotros</a>
+        <div class="nav-desktop__dropdown" data-dropdown>
+          <a href="/servicios/" class="nav-desktop__link" aria-haspopup="true" aria-expanded="false"{{ ' aria-current="page"' | safe if page.url.startsWith('/servicios/') }}>Servicios</a>
+          <div class="nav-desktop__submenu" role="menu">
+            <a href="/servicios/desarrollo-web/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/desarrollo-web/' }}>Desarrollo web</a>
+            <a href="/servicios/mantenimiento-web/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/mantenimiento-web/' }}>Mantenimiento web</a>
+            <a href="/servicios/identidad-corporativa/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/identidad-corporativa/' }}>Identidad corporativa</a>
+            <a href="/servicios/gestion-contenidos/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/gestion-contenidos/' }}>Gestión de contenidos</a>
+            <a href="/servicios/alojamiento-web/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/alojamiento-web/' }}>Alojamiento y dominios</a>
+          </div>
+        </div>
+        <a href="/blog/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url.startsWith('/blog/') }}>Blog</a>
+        <a href="/contacto/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url == '/contacto/' }}>Contacto</a>
+      </nav>
+      <button class="theme-toggle theme-toggle--header" data-theme-toggle aria-label="Cambiar tema">
+        <svg class="theme-toggle__icon theme-toggle__icon--sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="theme-toggle__icon theme-toggle__icon--moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" data-nav-toggle aria-label="Abrir menu" aria-expanded="false">
+        <span class="nav-toggle__line"></span>
+        <span class="nav-toggle__line"></span>
+      </button>
+    </header>
+
+    <nav class="nav-overlay" data-nav-overlay>
+      <ul class="nav-overlay__list">
+        <li>
+          <a href="/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/' }}>Inicio</a>
+        </li>
+        <li>
+          <a href="/nosotros/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/nosotros/' }}>Nosotros</a>
+        </li>
+        <li>
+          <a href="/servicios/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url.startsWith('/servicios/') }}>Servicios</a>
+          <ul class="nav-overlay__sublist">
+            <li>
+              <a href="/servicios/desarrollo-web/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/desarrollo-web/' }}>Desarrollo web</a>
+            </li>
+            <li>
+              <a href="/servicios/mantenimiento-web/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/mantenimiento-web/' }}>Mantenimiento web</a>
+            </li>
+            <li>
+              <a href="/servicios/identidad-corporativa/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/identidad-corporativa/' }}>Identidad corporativa</a>
+            </li>
+            <li>
+              <a href="/servicios/gestion-contenidos/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/gestion-contenidos/' }}>Gestión de contenidos</a>
+            </li>
+            <li>
+              <a href="/servicios/alojamiento-web/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/alojamiento-web/' }}>Alojamiento y dominios</a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/blog/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url.startsWith('/blog/') }}>Blog</a>
+        </li>
+        <li>
+          <a href="/contacto/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/contacto/' }}>Contacto</a>
+        </li>
+      </ul>
+      <div class="nav-overlay__theme">
+        <button class="theme-toggle theme-toggle--overlay" data-theme-toggle aria-label="Cambiar tema">
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <span class="theme-toggle__label">Cambiar tema</span>
+        </button>
+      </div>
+      <div class="nav-overlay__footer">
+        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+        <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+      </div>
+    </nav>
+
+    <main id="main">
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-bg" aria-hidden="true">
+        {% img "idenautas-web/pie.png", "", "hero" %}
+      </div>
+      <div class="footer-content">
+        <div class="footer-content__top">
+          <p class="footer-cta-text">
+            <b>¿Tienes una idea?</b>
+          </p>
+          <p class="footer-cta-link">Hagamos algo genial juntos</p>
+        </div>
+        <div class="footer-content__bottom">
+          <div class="footer-col">
+            {% include "svg/logo.svg" %}
+            <p class="footer-tagline">{{ site.tagline }}</p>
+            <p class="footer-copyright">&copy; {{ site.name }} S.L.U. 2026</p>
+          </div>
+          <div class="footer-col footer-col--contact">
+            <p>
+              <span class="footer-icon">{% include "svg/icon-location.svg" %}</span>
+              <span>{{ site.address.street }}<br>{{ site.address.zip }}
+                {{ site.address.city }}</span>
+            </p>
+            <p>
+              <span class="footer-icon">{% include "svg/icon-email.svg" %}</span>
+              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+            <p>
+              <span class="footer-icon">{% include "svg/icon-phone.svg" %}</span>
+              <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
+            </p>
+            <p>
+              <span class="footer-icon">{% include "svg/icon-whatsapp.svg" %}</span>
+              <a href="https://wa.me/34605639214" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+            </p>
+          </div>
+          <div class="footer-col">
+            <a href="/">Inicio</a>
+            <a href="/nosotros/">Nosotros</a>
+            <a href="/servicios/">Servicios</a>
+            <a href="/blog/">Blog</a>
+            <a href="/contacto/">Contacto</a>
+          </div>
+          <div class="footer-col">
+            <a href="/aviso-legal/">Aviso legal</a>
+            <a href="/politica-de-privacidad/">Política de privacidad</a>
+            <a href="/uso-de-cookies/">Política de cookies</a>
+            <a href="/mapa-del-sitio/">Mapa del sitio</a>
+            <a href="/feed.xml" target="_blank" rel="noopener noreferrer"><svg class="footer-rss-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56z"/><path d="M4 10.1v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg> Suscripción RSS</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top" data-back-to-top aria-label="Volver arriba">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </a>
+
+    <script src="/assets/js/main.js" defer></script>
+    <link rel="stylesheet" href="/assets/css/cookieconsent.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="/assets/css/cookieconsent.css"></noscript>
+    <script src="/assets/js/cookieconsent.js" defer></script>
+    <script src="/assets/js/cookieconsent-init.js" defer></script>
+  </body>
+</html>

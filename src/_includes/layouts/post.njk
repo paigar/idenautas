@@ -1,0 +1,94 @@
+---
+layout: layouts/page.njk
+---
+<article class="section container prose">
+  {{ content | safe }}
+</article>
+
+{% if tags and "blog" in tags %}
+  {%- set blogPosts = collections.blog %}
+  {%- set currentIndex = 0 %}
+  {%- for post in blogPosts %}
+    {%- if post.url == page.url %}
+      {%- set currentIndex = loop.index0 %}
+    {%- endif %}
+  {%- endfor %}
+  {%- set prevPost = blogPosts[currentIndex - 1] if currentIndex > 0 %}
+  {%- set nextPost = blogPosts[currentIndex + 1] if currentIndex < blogPosts.length - 1 %}
+
+  {% if prevPost or nextPost %}
+    <nav class="post-nav section" aria-label="Navegación entre artículos">
+      <div class="container post-nav__grid">
+        {% if prevPost %}
+          <a href="{{ prevPost.url }}" class="post-nav__link post-nav__link--prev">
+            <span class="post-nav__label">← Anterior</span>
+            <span class="post-nav__title">{{ prevPost.data.title }}</span>
+          </a>
+        {% else %}
+          <span></span>
+        {% endif %}
+        {% if nextPost %}
+          <a href="{{ nextPost.url }}" class="post-nav__link post-nav__link--next">
+            <span class="post-nav__label">Siguiente →</span>
+            <span class="post-nav__title">{{ nextPost.data.title }}</span>
+          </a>
+        {% else %}
+          <span></span>
+        {% endif %}
+      </div>
+    </nav>
+  {% endif %}
+
+  {%- set related = blogPosts | randomSlice(page.url, 6, 50) %}
+
+  {% if related.length > 0 %}
+    <section class="section post-related">
+      <div class="container">
+        <h2 class="post-related__heading">También te puede interesar</h2>
+        <p class="post-related__intro">Reflexiones, consejos y novedades sobre desarrollo web, diseño y tecnología digital.</p>
+        <div class="blog-grid">
+          {%- for post in related %}
+            <article class="blog-card" data-reveal>
+              <a href="{{ post.url }}" class="blog-card__link">
+                <div class="blog-card__img">
+                  <img src="{{ site.cdn }}{{ post.data.heroImage or 'idenautas-web/general.png' }}?width=400&quality=60"
+                       alt="{{ post.data.alt or '' }}"
+                       loading="lazy"
+                       width="400" height="225">
+                </div>
+                <div class="blog-card__content">
+                  <h3 class="blog-card__title">{{ post.data.title }}</h3>
+                  <span class="blog-card__read">Leer artículo <span aria-hidden="true">→</span></span>
+                </div>
+              </a>
+            </article>
+          {%- endfor %}
+        </div>
+      </div>
+    </section>
+  {% endif %}
+
+  <script>
+    (function () {
+      const header = document.querySelector('.site-header');
+      if (!header) return;
+      const progress = document.createElement('div');
+      progress.className = 'reading-progress';
+      progress.setAttribute('aria-hidden', 'true');
+      progress.innerHTML = '<div class="reading-progress__bar"></div>';
+      header.appendChild(progress);
+      const bar = progress.querySelector('.reading-progress__bar');
+      const article = document.querySelector('.prose');
+      if (!article) return;
+      function update() {
+        const rect = article.getBoundingClientRect();
+        const total = article.scrollHeight - window.innerHeight;
+        const scrolled = -rect.top;
+        const pct = Math.min(Math.max(scrolled / total, 0), 1) * 100;
+        bar.style.width = pct + '%';
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+{% endif %}
