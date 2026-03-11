@@ -1764,6 +1764,7 @@ body::after {
 	border-radius: var(--radius);
 	overflow: hidden;
 	aspect-ratio: 21/9;
+	position: relative;
 }
 
 .home-intro__visual .lqip-wrap {
