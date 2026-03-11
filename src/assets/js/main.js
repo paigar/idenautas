@@ -54,28 +54,41 @@
     });
   });
 
-  // ── Header scroll state ─────────────────────────────────────
-  let ticking = false;
+  // ── Unified scroll handler ─────────────────────────────────
+  const backBtn = document.querySelector('[data-back-to-top]');
+  let backBtnVisible = false;
+  let scrollTicking = false;
 
-  function updateHeader() {
-    header.classList.toggle('scrolled', window.scrollY > 80);
-    ticking = false;
+  function onScroll() {
+    const y = window.scrollY;
+    header.classList.toggle('scrolled', y > 80);
+    if (backBtn) {
+      const show = y > 600;
+      if (show !== backBtnVisible) {
+        backBtnVisible = show;
+        backBtn.classList.toggle('is-visible', show);
+      }
+    }
+    scrollTicking = false;
   }
 
   window.addEventListener('scroll', () => {
-    if (!ticking) {
-      requestAnimationFrame(updateHeader);
-      ticking = true;
+    if (!scrollTicking) {
+      requestAnimationFrame(onScroll);
+      scrollTicking = true;
     }
   }, { passive: true });
+  onScroll();
 
   // ── Scroll Animations (single IntersectionObserver) ────────
   const splitElements = document.querySelectorAll('[data-split]');
 
   splitElements.forEach(el => {
-    const words = el.textContent.trim().split(/\s+/).filter(Boolean);
+    const originalText = el.textContent.trim();
+    const words = originalText.split(/\s+/).filter(Boolean);
+    el.setAttribute('aria-label', originalText);
     el.innerHTML = words.map((word, i) =>
-      `<span class="word" style="--word-i:${i}"><span class="word__inner">${word}</span></span>`
+      `<span class="word" style="--word-i:${i}" aria-hidden="true"><span class="word__inner">${word}</span></span>`
     ).join(' ');
   });
 
@@ -313,21 +326,9 @@
     }
   });
 
-  // ── Back to Top ─────────────────────────────────────────────
-  const backBtn = document.querySelector('[data-back-to-top]');
+  // ── Back to Top (click handler) ─────────────────────────────
   if (backBtn) {
-    let visible = false;
-    const toggle = () => {
-      const show = window.scrollY > 600;
-      if (show !== visible) {
-        visible = show;
-        backBtn.classList.toggle('is-visible', show);
-      }
-    };
-    window.addEventListener('scroll', toggle, { passive: true });
-    toggle();
-    backBtn.addEventListener('click', (e) => {
-      e.preventDefault();
+    backBtn.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }

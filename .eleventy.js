@@ -129,6 +129,8 @@ module.exports = function (eleventyConfig) {
 		});
 	});
 
+	eleventyConfig.addFilter("year", () => new Date().getFullYear());
+
 	eleventyConfig.addFilter("lqip", (imgPath) => {
 		return lqipData[imgPath] || "";
 	});
@@ -149,6 +151,7 @@ module.exports = function (eleventyConfig) {
 			loading = "lazy",
 			quality = QUALITY,
 		) {
+			const safeAlt = alt.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 			const cfg = IMG_PRESETS[preset] || IMG_PRESETS.content;
 			const base = CDN + path;
 			const largest = cfg.widths[cfg.widths.length - 1];
@@ -162,7 +165,7 @@ module.exports = function (eleventyConfig) {
 			const width = largest;
 			const height = Math.round((largest * ah) / aw);
 			const lqip = lqipData[path] || `${base}?width=20&quality=30`;
-			return `<div class="lqip-wrap" style="background-image:url('${lqip}')"><img src="${src}" srcset="${srcset}" sizes="${cfg.sizes}" alt="${alt}" loading="${loading}" width="${width}" height="${height}"${priority} onload="this.parentNode.classList.add('loaded')"></div>`;
+			return `<div class="lqip-wrap" style="background-image:url('${lqip}')"><img src="${src}" srcset="${srcset}" sizes="${cfg.sizes}" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}"${priority} onload="this.parentNode.classList.add('loaded')"></div>`;
 		},
 	);
 

@@ -17,7 +17,7 @@
 
   {# ── Card: Desarrollo web ─── #}
   {% if page.url != "/servicios/desarrollo-web/" %}
-  <article class="service-card service-card--{{ pos }}" data-reveal>
+  <div class="service-card service-card--{{ pos }}" data-reveal>
     <span class="service-card__number" aria-hidden="true">01</span>
     <div class="service-card__content">
       <h3 class="service-card__title">Desarrollo web</h3>
@@ -26,9 +26,9 @@
         Desde webs corporativas hasta soluciones técnicas complejas, elegimos la tecnología
         que mejor se adapta a cada proyecto.
       </p>
-      <a href="/servicios/desarrollo-web/" class="svc-card-link">Saber más <span>→</span></a>
+      <a href="/servicios/desarrollo-web/" class="svc-card-link" aria-label="Saber más sobre desarrollo web">Saber más <span aria-hidden="true">→</span></a>
     </div>
-  </article>
+  </div>
   {% set pos = pos + 1 %}
   {% endif %}
 
@@ -39,7 +39,7 @@
 
   {# ── Card: Mantenimiento web ─── #}
   {% if page.url != "/servicios/mantenimiento-web/" %}
-  <article class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.2">
+  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.2">
     <span class="service-card__number" aria-hidden="true">02</span>
     <div class="service-card__content">
       <h3 class="service-card__title">Mantenimiento web</h3>
@@ -47,9 +47,9 @@
         Una web publicada no es una web terminada. Nos encargamos de que tu presencia online
         siga funcionando correctamente: seguridad, actualizaciones, rendimiento y monitorización constante.
       </p>
-      <a href="/servicios/mantenimiento-web/" class="svc-card-link">Saber más <span>→</span></a>
+      <a href="/servicios/mantenimiento-web/" class="svc-card-link" aria-label="Saber más sobre mantenimiento web">Saber más <span aria-hidden="true">→</span></a>
     </div>
-  </article>
+  </div>
   {% set pos = pos + 1 %}
   {% endif %}
 
@@ -60,7 +60,7 @@
 
   {# ── Card: Identidad corporativa ─── #}
   {% if page.url != "/servicios/identidad-corporativa/" %}
-  <article class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.15">
+  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.15">
     <span class="service-card__number" aria-hidden="true">03</span>
     <div class="service-card__content">
       <h3 class="service-card__title">Identidad corporativa</h3>
@@ -69,15 +69,15 @@
         impresión. Ayudamos a definir y construir identidades visuales coherentes, originales
         y adaptadas al público objetivo.
       </p>
-      <a href="/servicios/identidad-corporativa/" class="svc-card-link">Saber más <span>→</span></a>
+      <a href="/servicios/identidad-corporativa/" class="svc-card-link" aria-label="Saber más sobre identidad corporativa">Saber más <span aria-hidden="true">→</span></a>
     </div>
-  </article>
+  </div>
   {% set pos = pos + 1 %}
   {% endif %}
 
   {# ── Card: Gestión de contenidos ─── #}
   {% if page.url != "/servicios/gestion-contenidos/" %}
-  <article class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.2">
+  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.2">
     <span class="service-card__number" aria-hidden="true">04</span>
     <div class="service-card__content">
       <h3 class="service-card__title">Gestión de contenidos</h3>
@@ -86,15 +86,15 @@
         Redactamos y gestionamos los textos teniendo en cuenta la audiencia, el tono de la marca
         y los criterios de posicionamiento orgánico.
       </p>
-      <a href="/servicios/gestion-contenidos/" class="svc-card-link">Saber más <span>→</span></a>
+      <a href="/servicios/gestion-contenidos/" class="svc-card-link" aria-label="Saber más sobre gestión de contenidos">Saber más <span aria-hidden="true">→</span></a>
     </div>
-  </article>
+  </div>
   {% set pos = pos + 1 %}
   {% endif %}
 
   {# ── Card: Alojamiento ─── #}
   {% if page.url != "/servicios/alojamiento-web/" %}
-  <article class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.1">
+  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.1">
     <span class="service-card__number" aria-hidden="true">05</span>
     <div class="service-card__content">
       <h3 class="service-card__title">Alojamiento web y dominios</h3>
@@ -102,9 +102,9 @@
         Gestionamos el alojamiento en servidores optimizados, sin sobredimensionamientos
         ni recursos innecesarios. También nos ocupamos del registro y renovación de dominios.
       </p>
-      <a href="/servicios/alojamiento-web/" class="svc-card-link">Saber más <span>→</span></a>
+      <a href="/servicios/alojamiento-web/" class="svc-card-link" aria-label="Saber más sobre alojamiento web">Saber más <span aria-hidden="true">→</span></a>
     </div>
-  </article>
+  </div>
   {% endif %}
 
   {# ── Image 3: solo cuando se muestran las 5 tarjetas ─── #}

@@ -28,3 +28,6 @@ Desktop.ini
 # Logs
 *.log
 npm-debug.log*
+
+# Trash
+_2023_idenautas_old/
