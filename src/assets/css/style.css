@@ -90,6 +90,28 @@
 	--color-noise-opacity: 0.015;
 }
 
+/* ── LQIP (Low Quality Image Placeholder) ─────────────────── */
+.lqip-wrap {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.lqip-wrap > img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	opacity: 0;
+	transition: opacity 0.4s ease;
+}
+
+.lqip-wrap.loaded > img {
+	opacity: 1;
+}
+
 /* ── Reset ─────────────────────────────────────────────────── */
 *,
 *::before,
@@ -254,12 +276,12 @@ h4 {
 }
 
 .btn--primary {
-	background: var(--color-accent);
-	color: var(--color-bg);
+	background: #c0392b;
+	color: #fff;
 }
 
 .btn--primary:hover {
-	background: #f06a50;
+	background: #d44a33;
 	transform: translateY(-2px);
 	box-shadow: 0 8px 30px var(--color-accent-soft);
 }
@@ -736,11 +758,11 @@ h4 {
 	z-index: -1;
 }
 
+.hero__bg .lqip-wrap,
 .hero__bg img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	opacity: 1;
 }
 
 .hero__bg::after {
@@ -1129,6 +1151,7 @@ h4 {
 	min-height: 220px;
 }
 
+.service-img .lqip-wrap,
 .service-img img {
 	position: absolute;
 	inset: 0;
@@ -1212,6 +1235,7 @@ h4 {
 	z-index: 0;
 }
 
+.statement__parallax-bg .lqip-wrap,
 .statement__parallax-bg img {
 	width: 100%;
 	height: 100%;
@@ -1340,6 +1364,7 @@ h4 {
 	overflow: hidden;
 }
 
+.footer-bg .lqip-wrap,
 .footer-bg img {
 	width: 100%;
 	height: 100%;
@@ -1422,6 +1447,7 @@ h4 {
 
 .footer-col a {
 	display: block;
+	padding-block: 0.35em;
 	transition: color 0.3s;
 }
 
@@ -1450,7 +1476,8 @@ h4 {
 }
 
 .footer-col--contact a {
-	display: inline;
+	display: inline-block;
+	padding-block: 0.25em;
 }
 
 .footer-col--legal {
@@ -1729,6 +1756,7 @@ body::after {
 	aspect-ratio: 21/9;
 }
 
+.home-intro__visual .lqip-wrap,
 .home-intro__visual img {
 	width: 100%;
 	height: 100%;
@@ -3270,10 +3298,14 @@ body::after {
 	overflow: hidden;
 }
 
+.blog-card__img .lqip-wrap,
 .blog-card__img img {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+}
+
+.blog-card__img img {
 	transition: transform 0.4s var(--ease-out);
 }
 

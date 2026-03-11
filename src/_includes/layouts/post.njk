@@ -51,10 +51,14 @@ layout: layouts/page.njk
             <article class="blog-card" data-reveal>
               <a href="{{ post.url }}" class="blog-card__link">
                 <div class="blog-card__img">
-                  <img src="{{ site.cdn }}{{ post.data.heroImage or 'idenautas-web/general.png' }}?width=400&quality=60"
-                       alt="{{ post.data.alt or '' }}"
-                       loading="lazy"
-                       width="400" height="225">
+                  {%- set cardImg = post.data.heroImage or 'idenautas-web/general.png' -%}
+                  <div class="lqip-wrap" style="background-image:url('{{ cardImg | lqip }}')">
+                    <img src="{{ site.cdn }}{{ cardImg }}?width=400&quality=60"
+                         alt="{{ post.data.alt or '' }}"
+                         loading="lazy"
+                         width="400" height="225"
+                         onload="this.parentNode.classList.add('loaded')">
+                  </div>
                 </div>
                 <div class="blog-card__content">
                   <h3 class="blog-card__title">{{ post.data.title }}</h3>

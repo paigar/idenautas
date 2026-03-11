@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Idenautas Web Factory - Transformamos ideas en realidad digital",
   "scripts": {
+    "lqip": "node scripts/generate-lqip.js",
+    "start": "eleventy --serve",
     "dev": "eleventy --serve",
     "build": "eleventy"
   },

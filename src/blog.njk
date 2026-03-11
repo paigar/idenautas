@@ -17,10 +17,14 @@ permalink: /blog/
         <article class="blog-card{% if isFeatured %} blog-card--featured{% elif isWide %} blog-card--wide{% endif %}" data-reveal>
           <a href="{{ post.url }}" class="blog-card__link">
             <div class="blog-card__img">
-              <img src="{{ site.cdn }}{{ post.data.heroImage or 'idenautas-web/general.png' }}?width={% if isFeatured or isWide %}800{% else %}400{% endif %}&quality=60"
-                   alt="{{ post.data.alt or '' }}"
-                   loading="{% if isFeatured %}eager{% else %}lazy{% endif %}"
-                   width="{% if isFeatured or isWide %}800{% else %}400{% endif %}" height="{% if isFeatured or isWide %}450{% else %}225{% endif %}">
+              {%- set cardImg = post.data.heroImage or 'idenautas-web/general.png' -%}
+              <div class="lqip-wrap" style="background-image:url('{{ cardImg | lqip }}')">
+                <img src="{{ site.cdn }}{{ cardImg }}?width={% if isFeatured or isWide %}800{% else %}400{% endif %}&quality=60"
+                     alt="{{ post.data.alt or '' }}"
+                     loading="{% if isFeatured %}eager{% else %}lazy{% endif %}"
+                     width="{% if isFeatured or isWide %}800{% else %}400{% endif %}" height="{% if isFeatured or isWide %}450{% else %}225{% endif %}"
+                     onload="this.parentNode.classList.add('loaded')">
+              </div>
             </div>
             <div class="blog-card__content">
               <h2 class="blog-card__title">{{ post.data.title }}</h2>
