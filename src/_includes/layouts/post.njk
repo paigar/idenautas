@@ -62,6 +62,9 @@ layout: layouts/page.njk
                 </div>
                 <div class="blog-card__content">
                   <h3 class="blog-card__title">{{ post.data.title }}</h3>
+                  {% if post.data.description %}
+                    <p class="blog-card__excerpt">{{ post.data.description }}</p>
+                  {% endif %}
                   <span class="blog-card__read">Leer artículo <span aria-hidden="true">→</span></span>
                 </div>
               </a>
