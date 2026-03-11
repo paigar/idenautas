@@ -33,8 +33,8 @@
   // ── Accessible Dropdown ────────────────────────────────────
   document.querySelectorAll('[data-dropdown]').forEach(dropdown => {
     const trigger = dropdown.querySelector('[aria-haspopup]');
-    const menu = dropdown.querySelector('[role="menu"]');
-    if (!trigger || !menu) return;
+    const submenu = dropdown.querySelector('.nav-desktop__submenu');
+    if (!trigger || !submenu) return;
 
     function open() { trigger.setAttribute('aria-expanded', 'true'); }
     function close() { trigger.setAttribute('aria-expanded', 'false'); }
@@ -86,10 +86,11 @@
   splitElements.forEach(el => {
     const originalText = el.textContent.trim();
     const words = originalText.split(/\s+/).filter(Boolean);
-    el.setAttribute('aria-label', originalText);
-    el.innerHTML = words.map((word, i) =>
-      `<span class="word" style="--word-i:${i}" aria-hidden="true"><span class="word__inner">${word}</span></span>`
-    ).join(' ');
+    el.innerHTML =
+      `<span class="sr-only">${originalText}</span>` +
+      words.map((word, i) =>
+        `<span class="word" style="--word-i:${i}" aria-hidden="true"><span class="word__inner">${word}</span></span>`
+      ).join(' ');
   });
 
   const scrollObserver = new IntersectionObserver((entries) => {

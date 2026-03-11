@@ -110,12 +110,12 @@
         <a href="/nosotros/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url == '/nosotros/' }}>Nosotros</a>
         <div class="nav-desktop__dropdown" data-dropdown>
           <a href="/servicios/" class="nav-desktop__link" aria-haspopup="true" aria-expanded="false"{{ ' aria-current="page"' | safe if page.url.startsWith('/servicios/') }}>Servicios</a>
-          <div class="nav-desktop__submenu" role="menu">
-            <a href="/servicios/desarrollo-web/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/desarrollo-web/' }}>Desarrollo web</a>
-            <a href="/servicios/mantenimiento-web/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/mantenimiento-web/' }}>Mantenimiento web</a>
-            <a href="/servicios/identidad-corporativa/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/identidad-corporativa/' }}>Identidad corporativa</a>
-            <a href="/servicios/gestion-contenidos/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/gestion-contenidos/' }}>Gestión de contenidos</a>
-            <a href="/servicios/alojamiento-web/" class="nav-desktop__sublink" role="menuitem"{{ ' aria-current="page"' | safe if page.url == '/servicios/alojamiento-web/' }}>Alojamiento y dominios</a>
+          <div class="nav-desktop__submenu">
+            <a href="/servicios/desarrollo-web/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/desarrollo-web/' }}>Desarrollo web</a>
+            <a href="/servicios/mantenimiento-web/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/mantenimiento-web/' }}>Mantenimiento web</a>
+            <a href="/servicios/identidad-corporativa/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/identidad-corporativa/' }}>Identidad corporativa</a>
+            <a href="/servicios/gestion-contenidos/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/gestion-contenidos/' }}>Gestión de contenidos</a>
+            <a href="/servicios/alojamiento-web/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/alojamiento-web/' }}>Alojamiento y dominios</a>
           </div>
         </div>
         <a href="/blog/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url.startsWith('/blog/') }}>Blog</a>
