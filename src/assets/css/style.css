@@ -97,6 +97,8 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	width: 100%;
+	height: 100%;
 }
 
 .lqip-wrap > img {
