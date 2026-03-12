@@ -45,6 +45,11 @@ eleventyExcludeFromCollections: true
       <li>
         <a href="/blog/">Blog</a>
         <ul>
+          {%- for slug, data in etiquetas %}
+            <li>
+              <a href="/blog/{{ slug }}/">{{ data.nombre }}</a>
+            </li>
+          {%- endfor %}
           {%- for post in collections.blog | reverse %}
             <li>
               <a href="{{ post.url }}">{{ post.data.title }}</a>

@@ -14,4 +14,15 @@ eleventyExcludeFromCollections: true
   </url>
   {%- endif %}
   {%- endfor %}
+  {%- set excluded = ["/servicios/", "/blog/", "/mapa-del-sitio/", "/aviso-legal/", "/politica-de-privacidad/", "/uso-de-cookies/"] %}
+  {%- for url in excluded %}
+  <url>
+    <loc>{{ site.url }}{{ url }}</loc>
+  </url>
+  {%- endfor %}
+  {%- for slug, data in etiquetas %}
+  <url>
+    <loc>{{ site.url }}/blog/{{ slug }}/</loc>
+  </url>
+  {%- endfor %}
 </urlset>
