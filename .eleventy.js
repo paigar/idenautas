@@ -131,6 +131,13 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addFilter("year", () => new Date().getFullYear());
 
+	eleventyConfig.addGlobalData("inlineCSS", () => {
+		const cssDir = path.join(SRC_DIR, "_includes", "css");
+		const style = fs.readFileSync(path.join(cssDir, "style.css"), "utf8");
+		const cookie = fs.readFileSync(path.join(cssDir, "cookieconsent.css"), "utf8");
+		return new CleanCSS({ level: 2 }).minify(style + cookie).styles;
+	});
+
 	eleventyConfig.addFilter("lqip", (imgPath) => {
 		return lqipData[imgPath] || "";
 	});
@@ -177,19 +184,6 @@ module.exports = function (eleventyConfig) {
 	// ── Asset Minification (post-build) ──────────────────────
 	eleventyConfig.on("eleventy.after", async () => {
 		const outDir = path.join(__dirname, "_site", "assets");
-
-		// CSS
-		const cssDir = path.join(outDir, "css");
-		if (fs.existsSync(cssDir)) {
-			const minifier = new CleanCSS({ level: 2 });
-			fs.readdirSync(cssDir)
-				.filter((f) => f.endsWith(".css"))
-				.forEach((f) => {
-					const fp = path.join(cssDir, f);
-					const result = minifier.minify(fs.readFileSync(fp, "utf8"));
-					if (!result.errors.length) fs.writeFileSync(fp, result.styles);
-				});
-		}
 
 		// JS
 		const jsDir = path.join(outDir, "js");

@@ -46,7 +46,7 @@
     {% if heroImage %}
     <link rel="preload" as="image" href="{{ site.cdn }}{{ heroImage }}?width=1920&quality=75" imagesrcset="{{ site.cdn }}{{ heroImage }}?width=480&quality=75 480w, {{ site.cdn }}{{ heroImage }}?width=960&quality=75 960w, {{ site.cdn }}{{ heroImage }}?width=1920&quality=75 1920w" imagesizes="100vw" fetchpriority="high">
     {% endif %}
-    <link rel="stylesheet" href="/assets/css/style.css?v={{ build }}">
+    <style>{{ inlineCSS | safe }}</style>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} — Blog" href="/feed.xml">
 
     {# ── Structured Data (JSON-LD) ───────────────────────────── #}
@@ -243,8 +243,6 @@
     </button>
 
     <script src="/assets/js/main.js?v={{ build }}" defer></script>
-    <link rel="stylesheet" href="/assets/css/cookieconsent.css?v={{ build }}" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="/assets/css/cookieconsent.css?v={{ build }}"></noscript>
     <script src="/assets/js/cookieconsent.js?v={{ build }}" defer></script>
     <script src="/assets/js/cookieconsent-init.js?v={{ build }}" defer></script>
   </body>
