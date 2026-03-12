@@ -1,0 +1,226 @@
+---
+layout: layouts/page.njk
+title: Web sostenible
+label: Web sostenible
+subtitle: "No es un sello ni un eslogan. Es la consecuencia directa de construir webs con la arquitectura adecuada: ligeras, rápidas y respetuosas con los recursos."
+description: Desarrollo web sostenible en Idenautas. Webs ligeras, eficientes y con menor huella de carbono. Nuestro compromiso real con la sostenibilidad digital.
+permalink: /web-sostenible/
+heroImage: idenautas-web/nosotros_11.png
+breadcrumb:
+  - name: Nosotros
+    url: /nosotros/
+  - name: Web sostenible
+    url: /web-sostenible/
+---
+
+{# ── Intro — esto no es greenwashing ────────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Sostenibilidad</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">No es un sello. Es cómo construimos.</h2>
+      <p class="about-editorial">
+        Cada vez que alguien visita una web, hay un servidor que se enciende, procesa una petición, consulta una base de datos, ensambla una página y la envía. Multiplica eso por miles de visitas al día y millones de webs en el mundo. Internet consume entre un 2% y un 4% de la energía global — tanto como la industria de la aviación.
+      </p>
+      <p class="about-editorial">
+        La mayoría de ese consumo es invisible y, en muchos casos, innecesario. Una web corporativa no necesita un servidor trabajando en cada visita para mostrar el mismo contenido que mostraba hace cinco minutos. Pero así es como funcionan la mayoría de los sitios web hoy.
+      </p>
+      <p class="about-editorial">
+        En Idenautas no construimos webs sostenibles como ejercicio de marketing. Las construimos así porque la arquitectura que elegimos — Jamstack — elimina de raíz ese procesamiento innecesario. La sostenibilidad no es un añadido: es una consecuencia natural de hacer las cosas bien.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/nosotros_12.png", "Desarrollo web sostenible", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── El impacto real — datos concretos ── bg-alt ─────────── #}
+<div class="about-idenauta-wrap">
+  <section class="about-idenauta">
+    <div class="about-idenauta__img" data-reveal="left">
+      {% img "idenautas-web/nosotros_13.png", "Impacto real de una web sostenible", "content" %}
+    </div>
+    <div class="about-idenauta__body">
+      <div class="about-idenauta__content" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Impacto real</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Los números que nadie te cuenta</h2>
+        <p class="about-editorial">
+          La web media emite aproximadamente <strong>1,76 gramos de CO₂ por cada visita</strong>. Parece poco, pero con 10.000 visitas al mes son más de 200 kg de CO₂ al año — el equivalente a un vuelo Madrid-Londres.
+        </p>
+        <p class="about-editorial">
+          Un sitio Jamstack bien construido puede reducir esa cifra a menos de <strong>0,2 gramos por visita</strong>. Con el mismo tráfico, hablamos de poco más de 20 kg al año. Una reducción del 90% sin sacrificar nada en diseño, funcionalidad ni experiencia de usuario.
+        </p>
+        <p class="about-editorial">
+          No es un ejercicio teórico. Herramientas como <strong>Website Carbon Calculator</strong> o <strong>Ecograder</strong> permiten medir estas cifras de forma objetiva. Puedes comprobar el resultado en cualquier web que construyamos.
+        </p>
+        <p class="about-editorial" style="font-weight: 600; color: var(--color-text)">
+          La sostenibilidad web no se declara. Se mide.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── Qué hacemos en concreto — cards ────────────────────── #}
+<section class="about-tech-section">
+  <div class="container">
+    <div class="about-tech__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Prácticas concretas</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Lo que hacemos, no lo que decimos</h2>
+      <p class="about-tech__intro">
+        Estas no son intenciones. Son decisiones técnicas que aplicamos en cada proyecto y que tienen un impacto directo en el consumo de recursos.
+      </p>
+    </div>
+    <div class="about-tech__grid about-tech__grid--cols-3" data-stagger>
+      <div class="about-tech__card about-tech__card--wide" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">01</span>
+        <h3>HTML pre-generado, cero procesamiento por visita</h3>
+        <p>Nuestros sitios se generan una vez y se sirven como archivos estáticos. Cada visita recibe el archivo directamente, sin que un servidor tenga que trabajar. Eso reduce el consumo energético por visita a una fracción de lo que consume un sitio dinámico equivalente.</p>
+      </div>
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">04</span>
+        <h3>Distribución por CDN global</h3>
+        <p>Los archivos se distribuyen a través de una red de servidores repartidos por el mundo. Cada visitante recibe la web desde el nodo más cercano, reduciendo la distancia que los datos tienen que recorrer.</p>
+        <p>Menos distancia significa menos saltos de red, menos energía en la transmisión y tiempos de respuesta más cortos. Es eficiencia pura.</p>
+      </div>
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">02</span>
+        <h3>Imágenes optimizadas al máximo</h3>
+        <p>Formatos modernos (WebP, AVIF), tamaños adaptados a cada dispositivo, carga diferida y placeholders de baja calidad mientras se descargan. Cada kilobyte ahorrado es energía que no se consume.</p>
+      </div>
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">05</span>
+        <h3>Código limpio, sin peso muerto</h3>
+        <p>No cargamos frameworks de JavaScript de cientos de kilobytes para animar un botón. No incluimos librerías enteras para usar una función. No añadimos código que el navegador tenga que descargar, parsear y ejecutar sin necesidad.</p>
+        <p>Cada línea de código tiene un coste energético: en la transferencia, en el procesamiento del navegador y en la batería del dispositivo del usuario. Escribimos solo lo necesario.</p>
+        <p>CSS y JavaScript minificados, HTML semántico y ligero. Sin capas de abstracción innecesarias.</p>
+      </div>
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V4a2 2 0 0 1 2-2h8.5L20 7.5V20a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-3"/><polyline points="14 2 14 8 20 8"/><line x1="2" y1="15" x2="10" y2="15"/><line x1="2" y1="12" x2="8" y2="12"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">03</span>
+        <h3>Tipografías sin dependencias externas</h3>
+        <p>Las fuentes se alojan localmente, con subsets que incluyen solo los caracteres necesarios. Sin llamadas a servidores externos de Google Fonts ni descargas de archivos pesados que el usuario no necesita.</p>
+      </div>
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">06</span>
+        <h3>Sin base de datos ni plugins</h3>
+        <p>Un sitio estático no necesita base de datos, no ejecuta PHP en cada petición ni depende de plugins que consumen recursos. Menos capas de software, menos consumo, menos superficie de ataque.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── Esto también es negocio ─────────────────────────────── #}
+<section class="section about-intro about-intro--reverse svc-section--alt">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Negocio</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">La sostenibilidad que también mejora tus resultados</h2>
+      <p class="about-editorial">
+        Todo lo que hace una web más sostenible la hace también más competitiva. Menos peso significa carga más rápida. Carga más rápida significa mejor posicionamiento en Google. Mejor posicionamiento significa más visitas. Y más visitas con buena experiencia significan más conversiones.
+      </p>
+      <p class="about-editorial">
+        No es casualidad que los sitios que mejor puntúan en Core Web Vitals sean también los más eficientes energéticamente. Google ya penaliza las webs lentas. La velocidad no es un extra: es un factor de ranking.
+      </p>
+      <p class="about-editorial">
+        Además, la normativa europea avanza hacia la exigencia de transparencia en el impacto ambiental de los servicios digitales. Las empresas que ya trabajan con arquitecturas eficientes estarán un paso por delante cuando esas regulaciones lleguen.
+      </p>
+      <p class="about-editorial" style="font-weight: 600; color: var(--color-text)">
+        Hacer las cosas bien para el planeta y hacerlas bien para tu negocio <br/>no son caminos distintos. Son el mismo.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="left">
+      {% img "idenautas-web/nosotros_14.png", "Web sostenible y resultados de negocio", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── Lectura recomendada — enlaces al blog ────────────────── #}
+<section class="about-tech-section">
+  <div class="container">
+    <div class="about-tech__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Profundiza</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Si quieres saber más</h2>
+      <p class="about-tech__intro">
+        Llevamos años escribiendo sobre sostenibilidad web en nuestro blog. Estos son algunos artículos donde profundizamos en cada aspecto.
+      </p>
+    </div>
+    <div class="about-tech__grid" data-stagger>
+      <div class="about-tech__card about-tech__card--inverted" data-stagger-child>
+        <span class="about-tech__index" aria-hidden="true">01</span>
+        <h3>
+          <a href="/blog/como-reducir-la-huella-de-carbono-de-tu-sitio-web/" style="color: var(--color-accent)">Cómo reducir la huella de carbono de tu sitio web</a>
+        </h3>
+        <p>Estrategias concretas y herramientas para medir y reducir las emisiones de tu presencia digital.</p>
+      </div>
+      <div class="about-tech__card about-tech__card--inverted" data-stagger-child>
+        <span class="about-tech__index" aria-hidden="true">02</span>
+        <h3>
+          <a href="/blog/la-importancia-de-racionalizar-el-uso-de-los-servidores-web/" style="color: var(--color-accent)">La importancia de racionalizar el uso de los servidores</a>
+        </h3>
+        <p>Por qué la mayoría de las webs consumen más recursos de los que necesitan y qué podemos hacer al respecto.</p>
+      </div>
+      <div class="about-tech__card about-tech__card--inverted" data-stagger-child>
+        <span class="about-tech__index" aria-hidden="true">03</span>
+        <h3>
+          <a href="/blog/desarrollo-web-responsable-y-sostenible/" style="color: var(--color-accent)">Desarrollo web responsable y sostenible</a>
+        </h3>
+        <p>Una visión general de qué significa hacer desarrollo web con criterio medioambiental.</p>
+      </div>
+      <div class="about-tech__card about-tech__card--inverted" data-stagger-child>
+        <span class="about-tech__index" aria-hidden="true">04</span>
+        <h3>
+          <a href="/blog/la-importancia-del-diseno-sostenible-en-el-desarrollo-web/" style="color: var(--color-accent)">La importancia del diseño sostenible en el desarrollo web</a>
+        </h3>
+        <p>Mejores prácticas, herramientas y ejemplos reales de webs diseñadas con criterio medioambiental.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── CTA ───────────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Siguiente paso</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-lg); max-width: 20ch">¿Quieres una web que funcione bien y pese poco?</h2>
+    </div>
+    <div class="svc-process" style="margin-bottom: var(--space-lg)" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Cuéntanos tu proyecto</h3>
+        <p>Cada web es diferente. Necesitamos entender qué necesitas para proponerte la solución más eficiente.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Te mostramos los números</h3>
+        <p>Podemos medir la huella de tu web actual y comparar con lo que conseguiríamos con una arquitectura más eficiente. Datos, no promesas.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Propuesta con criterio</h3>
+        <p>Una propuesta técnica donde la sostenibilidad no es un extra, sino parte de la solución desde el primer momento.</p>
+      </div>
+    </div>
+
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>

@@ -1,0 +1,236 @@
+---
+layout: layouts/page.njk
+title: Preguntas frecuentes
+label: Preguntas frecuentes
+subtitle: "Las dudas más habituales que nos plantean las empresas antes de empezar a trabajar con nosotros. Sin rodeos, sin letra pequeña."
+description: Preguntas frecuentes sobre desarrollo web en Idenautas. Precios, plazos, tecnología, mantenimiento y todo lo que necesitas saber antes de dar el paso.
+permalink: /preguntas-frecuentes/
+heroImage: idenautas-web/faq.png
+breadcrumb:
+  - name: Preguntas frecuentes
+    url: /preguntas-frecuentes/
+---
+
+{# ── Schema FAQPage ──────────────────────────────────────── #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Necesito tener claro lo que quiero antes de contactar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. Precisamente para eso está la primera conversación. Nos vale con saber a qué se dedica tu negocio, qué tienes ahora (si tienes algo) y qué te gustaría conseguir. A partir de ahí, te ayudamos a definir el resto."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿También hacéis logotipos e identidad visual?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Diseñamos logotipos, manuales de marca y toda la identidad visual que tu negocio necesita. Si ya tienes imagen corporativa, la respetamos y adaptamos al entorno digital. Si no la tienes, podemos crearla desde cero."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cuánto cuesta una web profesional?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende del proyecto. No es lo mismo una web corporativa de cinco páginas que un sitio con blog, multiidioma y gestión de contenidos. Lo que sí podemos decir: trabajamos con presupuesto cerrado. Lo que acordamos es lo que cobraremos, sin sorpresas ni costes ocultos."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cuánto se tarda en tener la web lista?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un proyecto típico suele estar listo en cuatro a ocho semanas desde la aprobación de la propuesta. El factor que más influye en los plazos no suele ser el desarrollo, sino la preparación del contenido por parte del cliente. Te ayudamos con eso si lo necesitas."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué es Jamstack y por qué lo usáis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jamstack es una arquitectura web moderna que genera las páginas una sola vez y las sirve como archivos estáticos. El resultado: webs ultrarrápidas, seguras y con un coste de mantenimiento muy bajo. Lo usamos porque es lo que mejor funciona para la mayoría de proyectos que hacemos."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Puedo actualizar yo el contenido de mi web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Dependiendo del proyecto, configuramos un panel de gestión de contenidos (CMS) o te formamos para que puedas hacer los cambios tú mismo. También ofrecemos un servicio de gestión de contenidos si prefieres que nos encarguemos nosotros."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Y si necesito algo que Jamstack no puede hacer?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "También trabajamos con WordPress, Joomla y desarrollo a medida. La tecnología se elige en función de lo que el proyecto necesita, no al revés. Si Jamstack no encaja, te lo diremos y te propondremos la alternativa más adecuada."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cómo es el proceso de trabajo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Empieza con una conversación sin compromiso. Después preparamos una propuesta detallada. Si la aceptas, arrancamos con fases claras: definición, diseño, desarrollo y entrega. En cada fase validamos contigo antes de avanzar."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué pasa cuando la web está terminada?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Te formamos para que puedas gestionar lo que necesites. Y no desaparecemos: ofrecemos mantenimiento y soporte continuo para que tu web siga funcionando bien con el tiempo."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Hay costes recurrentes después del lanzamiento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El dominio y el alojamiento tienen un coste anual que es inevitable. El mantenimiento web es opcional pero recomendable: incluye actualizaciones, copias de seguridad, monitorización y soporte técnico. Te explicamos exactamente qué incluye cada cuota antes de que decidas."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿El código de mi web es mío?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí, completamente. El código, el diseño y todos los contenidos son propiedad del cliente. No hay ataduras ni cláusulas de permanencia. Si en algún momento decides trabajar con otra agencia, te entregamos todo lo necesario para la transición."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué incluye el mantenimiento web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende del plan, pero en general: actualizaciones de seguridad, copias de respaldo periódicas, monitorización de disponibilidad, soporte técnico y pequeñas modificaciones de contenido."
+        }
+      }
+    ]
+  }
+</script>
+
+{# ── Antes de empezar ───────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Antes de empezar</p>
+      <h2 class="text-2xl">Las dudas del principio</h2>
+    </div>
+    <div class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Necesito tener claro lo que quiero antes de contactar?</h3>
+        <p class="faq-item__answer">No. Precisamente para eso está la primera conversación. Nos vale con saber a qué se dedica tu negocio, qué tienes ahora (si tienes algo) y qué te gustaría conseguir. A partir de ahí, te ayudamos a definir el resto.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿También hacéis logotipos e identidad visual?</h3>
+        <p class="faq-item__answer">Sí. Diseñamos logotipos, manuales de marca y toda la <a href="/servicios/identidad-corporativa/">identidad visual</a> que tu negocio necesita. Si ya tienes imagen corporativa, la respetamos y adaptamos al entorno digital. Si no la tienes, podemos crearla desde cero.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Cuánto cuesta una web profesional?</h3>
+        <p class="faq-item__answer">Depende del proyecto. No es lo mismo una web corporativa de cinco páginas que un sitio con blog, multiidioma y gestión de contenidos. Lo que sí podemos decir: trabajamos con <strong>presupuesto cerrado</strong>. Lo que acordamos es lo que cobraremos, sin sorpresas ni costes ocultos.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Cuánto se tarda en tener la web lista?</h3>
+        <p class="faq-item__answer">Un proyecto típico suele estar listo en <strong>cuatro a ocho semanas</strong> desde la aprobación de la propuesta. El factor que más influye en los plazos no suele ser el desarrollo, sino la preparación del contenido por parte del cliente. Te ayudamos con eso si lo necesitas a través de nuestro <a href="/servicios/gestion-contenidos/">servicio de gestión de contenidos</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── Sobre la tecnología ── bg-alt ──────────────────────── #}
+<section class="faq-section svc-section--alt">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Tecnología</p>
+      <h2 class="text-2xl">Sobre cómo construimos las webs</h2>
+    </div>
+    <div class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Qué es Jamstack y por qué lo usáis?</h3>
+        <p class="faq-item__answer">Jamstack es una arquitectura web moderna que genera las páginas una sola vez y las sirve como archivos estáticos. El resultado: webs ultrarrápidas, seguras y con un coste de mantenimiento muy bajo. Lo usamos porque es lo que mejor funciona para la mayoría de proyectos que hacemos. Si quieres saber más, lo explicamos en detalle en <a href="/nuestra-filosofia-web/">nuestra filosofía web</a>.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Puedo actualizar yo el contenido de mi web?</h3>
+        <p class="faq-item__answer">Sí. Dependiendo del proyecto, configuramos un panel de gestión de contenidos (CMS) o te formamos para que puedas hacer los cambios tú mismo. También ofrecemos un <a href="/servicios/gestion-contenidos/">servicio de gestión de contenidos</a> si prefieres que nos encarguemos nosotros.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Y si necesito algo que Jamstack no puede hacer?</h3>
+        <p class="faq-item__answer">También trabajamos con WordPress, Joomla y <a href="/servicios/desarrollo-web/">desarrollo a medida</a>. La tecnología se elige en función de lo que el proyecto necesita, no al revés. Si Jamstack no encaja, te lo diremos y te propondremos la alternativa más adecuada.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── Sobre el proceso ───────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Proceso</p>
+      <h2 class="text-2xl">Cómo es trabajar con nosotros</h2>
+    </div>
+    <div class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Cómo es el proceso de trabajo?</h3>
+        <p class="faq-item__answer">Empieza con una conversación sin compromiso. Después preparamos una propuesta detallada. Si la aceptas, arrancamos el proyecto con fases claras: definición, diseño, desarrollo y entrega. En cada fase validamos contigo antes de avanzar. Sin sorpresas en la entrega final.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Puedo ver cómo va el proyecto durante el desarrollo?</h3>
+        <p class="faq-item__answer">Sí. Compartimos avances en cada fase y no avanzamos a la siguiente sin tu aprobación. No es un proceso en el que desaparecemos durante semanas y volvemos con algo que no esperabas. Estamos en contacto constante.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Qué pasa cuando la web está terminada?</h3>
+        <p class="faq-item__answer">Te formamos para que puedas gestionar lo que necesites. Y no desaparecemos: ofrecemos <a href="/servicios/mantenimiento-web/">mantenimiento y soporte</a> continuo para que tu web siga funcionando bien con el tiempo. Actualizaciones, mejoras, contenido nuevo — lo que haga falta.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── Costes y propiedad ── bg-alt ────────────────────────── #}
+<section class="faq-section svc-section--alt">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Dinero y propiedad</p>
+      <h2 class="text-2xl">Lo que cuesta y lo que es tuyo</h2>
+    </div>
+    <div class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Hay costes recurrentes después del lanzamiento?</h3>
+        <p class="faq-item__answer">El dominio y el <a href="/servicios/alojamiento-web/">alojamiento</a> tienen un coste anual que es inevitable. El mantenimiento web es opcional pero recomendable: incluye actualizaciones, copias de seguridad, monitorización y soporte técnico. Te explicamos exactamente qué incluye cada cuota antes de que decidas.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿El código de mi web es mío?</h3>
+        <p class="faq-item__answer">Sí, completamente. El código, el diseño y todos los contenidos son propiedad del cliente. No hay ataduras ni cláusulas de permanencia. Si en algún momento decides trabajar con otra agencia, te entregamos todo lo necesario para la transición.</p>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <h3 class="faq-item__question">¿Qué incluye el mantenimiento web?</h3>
+        <p class="faq-item__answer">Depende del plan, pero en general: actualizaciones de seguridad, copias de respaldo periódicas, monitorización de disponibilidad, soporte técnico y pequeñas modificaciones de contenido. Todo detallado en nuestra página de <a href="/servicios/mantenimiento-web/">mantenimiento web</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── CTA ───────────────────────────────────────────────────── #}
+<section class="svc-section">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Siguiente paso</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-lg); max-width: 20ch">¿Tienes una pregunta que no está aquí?</h2>
+    </div>
+    <div class="svc-process" style="margin-bottom: var(--space-lg)" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Escríbenos o llámanos</h3>
+        <p>No mordemos. Si tienes cualquier duda sobre tu proyecto, la tecnología o el proceso, pregúntanos directamente. Sin compromiso.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Te respondemos con claridad</h3>
+        <p>Sin jerga técnica innecesaria, sin respuestas vagas. Te contamos las cosas como son para que puedas tomar una decisión informada.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Y si encajamos, hablamos</h3>
+        <p>Una conversación informal para conocernos, entender tu caso y ver si tiene sentido trabajar juntos.</p>
+      </div>
+    </div>
+
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>

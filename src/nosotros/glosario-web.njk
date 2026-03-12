@@ -1,0 +1,205 @@
+---
+layout: layouts/page.njk
+title: Glosario web
+label: Glosario web
+subtitle: "Un diccionario claro y sin jerga innecesaria con los términos que usamos cuando hablamos de desarrollo web, posicionamiento, seguridad y alojamiento."
+description: Glosario de términos web explicados de forma clara. CMS, Jamstack, SEO, SSL, hosting, Core Web Vitals y todo lo que necesitas saber para entender tu proyecto web.
+permalink: /glosario-web/
+heroImage: idenautas-web/glosario.png
+breadcrumb:
+  - name: Glosario web
+    url: /glosario-web/
+---
+
+{# ── Desarrollo y tecnología ─────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Desarrollo y tecnología</p>
+      <h2 class="text-2xl">Las herramientas con las que construimos</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">CMS (Content Management System)</dt>
+        <dd class="faq-item__answer">Un sistema de gestión de contenidos. Es el panel desde el que se pueden añadir, editar o eliminar textos, imágenes y páginas de una web sin tocar código. WordPress y Joomla son los más conocidos. Nosotros configuramos el CMS que mejor encaje con cada proyecto y formamos al cliente para que lo use con autonomía. Más sobre esto en nuestra <a href="/blog/ventajas-y-desventajas-de-los-gestores-de-contenido-mas-populares/">comparativa de CMS</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Jamstack</dt>
+        <dd class="faq-item__answer">Una arquitectura web moderna en la que las páginas se generan de antemano y se sirven como archivos estáticos. No hay base de datos en cada visita, lo que se traduce en webs más rápidas, más seguras y más baratas de mantener. Es nuestra apuesta principal y la tecnología con la que está construida esta misma web. Lo explicamos en detalle en <a href="/nuestra-filosofia-web/">nuestra filosofía web</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Frontend y backend</dt>
+        <dd class="faq-item__answer">El <strong>frontend</strong> es todo lo que el visitante ve e interactúa: diseño, botones, animaciones, textos. El <strong>backend</strong> es lo que ocurre detrás: bases de datos, lógica de negocio, procesamiento de formularios. En un proyecto web completo, ambas partes tienen que funcionar bien y comunicarse correctamente.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">API</dt>
+        <dd class="faq-item__answer">Una interfaz que permite que dos sistemas se comuniquen entre sí. Por ejemplo, cuando una web muestra un mapa de Google o procesa un pago con tarjeta, lo hace a través de una API. Trabajamos con APIs de terceros para integrar pasarelas de pago, CRMs, servicios de envío y cualquier sistema externo que el proyecto necesite.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Diseño responsive</dt>
+        <dd class="faq-item__answer">Un enfoque de diseño que hace que la web se adapte automáticamente al tamaño de cada pantalla: móvil, tableta o escritorio. No se trata de tener "una versión para móvil", sino de que el mismo sitio funcione bien en cualquier dispositivo. Todos nuestros proyectos son responsive por defecto. Más sobre este enfoque en nuestro artículo sobre <a href="/blog/mobile-first-en-diseno-y-desarrollo-web/">mobile first</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Framework</dt>
+        <dd class="faq-item__answer">Un conjunto de herramientas y convenciones que facilitan el desarrollo de software. En vez de construir todo desde cero, un framework proporciona una estructura base sobre la que trabajar. Ejemplos habituales: Eleventy para sitios estáticos, Bootstrap para interfaces, Node.js para aplicaciones del lado del servidor.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Plugin o extensión</dt>
+        <dd class="faq-item__answer">Un módulo adicional que amplía las funciones de una plataforma. En WordPress, por ejemplo, un plugin puede añadir un formulario de contacto, una tienda online o un sistema de reservas. La clave está en elegir bien: pocos, de calidad y bien mantenidos. Un exceso de plugins es una de las causas más habituales de webs lentas e inseguras.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+{# ── Rendimiento ── bg-alt ────────────────────────────────── #}
+<section class="faq-section svc-section--alt">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Rendimiento web</p>
+      <h2 class="text-2xl">Lo que hace que una web sea rápida</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Core Web Vitals</dt>
+        <dd class="faq-item__answer">Un conjunto de métricas de Google que miden la experiencia real del usuario: velocidad de carga visible (LCP), estabilidad visual (CLS) y capacidad de respuesta ante interacciones (INP). Son un factor de posicionamiento y un buen indicador de la calidad técnica de una web. Las optimizamos en cada proyecto. Hablamos de ellas en <a href="/blog/como-afecta-el-rendimiento-de-tu-web-a-la-experiencia-de-usuario/">rendimiento web y experiencia de usuario</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">CDN (Content Delivery Network)</dt>
+        <dd class="faq-item__answer">Una red de servidores distribuidos por todo el mundo que sirve los archivos de tu web desde la ubicación más cercana al visitante. El resultado: tiempos de carga más cortos, especialmente para usuarios que están lejos del servidor principal. Nuestros proyectos Jamstack se despliegan sobre CDN por defecto.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Caché</dt>
+        <dd class="faq-item__answer">Un sistema que almacena temporalmente copias de los recursos de una web (imágenes, estilos, scripts) para no tener que descargarlos de nuevo en cada visita. Una buena estrategia de caché reduce drásticamente los tiempos de carga a partir de la segunda visita.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Lazy loading</dt>
+        <dd class="faq-item__answer">Una técnica que consiste en cargar las imágenes y otros recursos pesados solo cuando el usuario se desplaza hasta ellos, en lugar de descargar todo de golpe al abrir la página. Mejora el tiempo de carga inicial y reduce el consumo de datos, especialmente en móviles.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Minificación</dt>
+        <dd class="faq-item__answer">El proceso de eliminar espacios, comentarios y caracteres innecesarios del código fuente (CSS, JavaScript, HTML) para reducir su tamaño. El resultado es el mismo para el navegador, pero el archivo pesa menos y se descarga más rápido. Es una optimización básica que aplicamos en todos los proyectos.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+{# ── SEO y posicionamiento ────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">SEO y posicionamiento</p>
+      <h2 class="text-2xl">Cómo consigue Google encontrar tu web</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">SEO (Search Engine Optimization)</dt>
+        <dd class="faq-item__answer">El conjunto de técnicas que ayudan a que una web aparezca en los primeros resultados de los buscadores. Incluye aspectos técnicos (velocidad, estructura, metadatos), de contenido (textos relevantes y bien escritos) y de autoridad (enlaces desde otros sitios). No es magia: es trabajo constante y bien hecho. Más en <a href="/blog/como-hacer-que-tu-sitio-web-sea-mas-amigable-con-los-motores-de-busqueda/">cómo mejorar tu sitio para SEO</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Metadatos (title y description)</dt>
+        <dd class="faq-item__answer">Fragmentos de texto que describen cada página de tu web. El <strong>title</strong> es el título que aparece en la pestaña del navegador y en los resultados de Google. La <strong>description</strong> es el resumen que se muestra debajo. Bien escritos, son la primera oportunidad de convencer a alguien de que haga clic en tu resultado.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Sitemap</dt>
+        <dd class="faq-item__answer">Un archivo XML que lista todas las páginas de un sitio web y le dice a los buscadores cuáles existen y con qué frecuencia se actualizan. Es como un índice que facilita la indexación. Todos nuestros proyectos incluyen un sitemap generado automáticamente.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Datos estructurados (Schema)</dt>
+        <dd class="faq-item__answer">Un formato de marcado que ayuda a los buscadores a entender mejor el contenido de una página. Por ejemplo, le dice a Google que un texto es una pregunta frecuente, una receta, un producto o un evento. Cuando Google interpreta estos datos, puede mostrar <strong>rich snippets</strong>: resultados enriquecidos con estrellas, precios, imágenes o desplegables que destacan sobre el resto.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Indexación</dt>
+        <dd class="faq-item__answer">El proceso por el que un buscador descubre, analiza y almacena una página web en su base de datos. Si una página no está indexada, no aparecerá en los resultados de búsqueda. La velocidad de carga, la estructura del sitio y el sitemap influyen directamente en la velocidad y calidad de la indexación.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Contenido textual y posicionamiento</dt>
+        <dd class="faq-item__answer">El texto de una web es, junto con la estructura técnica, el factor más importante para el posicionamiento. Google necesita texto para entender de qué trata cada página. Un sitio con poco contenido textual o con textos genéricos tiene muy pocas posibilidades de posicionar bien. Lo explicamos en <a href="/blog/como-afecta-el-contenido-textual-de-una-web-a-su-posicionamiento/">contenido textual y posicionamiento web</a>.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+{# ── Seguridad ── bg-alt ──────────────────────────────────── #}
+<section class="faq-section svc-section--alt">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Seguridad</p>
+      <h2 class="text-2xl">Lo que protege tu web y a tus visitantes</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">SSL / TLS y HTTPS</dt>
+        <dd class="faq-item__answer">Un certificado SSL (o su versión más moderna, TLS) cifra la comunicación entre el navegador del visitante y el servidor. Cuando un sitio lo tiene activo, la URL empieza por <strong>https://</strong> y el navegador muestra un candado. Es imprescindible para la confianza del usuario, para el SEO y, en muchos casos, obligatorio por ley. Lo incluimos en todos nuestros proyectos.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Copia de seguridad (backup)</dt>
+        <dd class="faq-item__answer">Una copia completa de los archivos y la base de datos de tu web, almacenada de forma segura fuera del servidor principal. Si algo sale mal — un error humano, un ataque o un fallo técnico — la copia de seguridad permite restaurar el sitio a un estado anterior. Nuestros planes de <a href="/servicios/mantenimiento-web/">mantenimiento</a> incluyen copias periódicas y automatizadas.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Malware</dt>
+        <dd class="faq-item__answer">Software malicioso que puede infectar una web para robar datos, redirigir visitantes a sitios fraudulentos o enviar spam. Las webs con CMS desactualizados o contraseñas débiles son las más vulnerables. Las webs estáticas basadas en Jamstack eliminan muchos de estos vectores de ataque al no tener base de datos ni panel de administración expuesto.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Firewall de aplicación web (WAF)</dt>
+        <dd class="faq-item__answer">Un sistema que filtra el tráfico web y bloquea peticiones maliciosas antes de que lleguen al servidor. Protege contra ataques comunes como inyección SQL, cross-site scripting (XSS) o intentos de fuerza bruta. Es una capa de defensa especialmente importante en sitios con CMS o formularios.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+{# ── Dominio y alojamiento ────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Dominio y alojamiento</p>
+      <h2 class="text-2xl">Dónde vive tu web</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Dominio</dt>
+        <dd class="faq-item__answer">La dirección que los usuarios escriben en el navegador para llegar a tu web (por ejemplo, <strong>idenautas.es</strong>). Se registra anualmente y es propiedad del titular. Elegir un buen dominio es importante: corto, fácil de recordar y relacionado con tu marca. Lo contamos en <a href="/blog/como-elegir-el-nombre-de-dominio-de-tu-pagina-web/">cómo elegir un nombre de dominio</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">DNS (Domain Name System)</dt>
+        <dd class="faq-item__answer">El sistema que traduce los nombres de dominio en direcciones IP. Cuando alguien escribe tu dominio en el navegador, el DNS le dice a qué servidor debe conectarse para cargar la web. Una configuración DNS correcta es fundamental para que todo funcione: web, correo electrónico y subdominios.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Hosting o alojamiento web</dt>
+        <dd class="faq-item__answer">El servicio que almacena los archivos de tu web y los sirve a los visitantes. La calidad del hosting influye directamente en la velocidad, la disponibilidad y la seguridad del sitio. No todos los alojamientos son iguales: un hosting barato puede salir caro en rendimiento y soporte. Lo explicamos en <a href="/blog/no-todos-los-alojamientos-web-son-iguales/">no todos los alojamientos son iguales</a>. Nosotros ofrecemos un <a href="/servicios/alojamiento-web/">servicio de alojamiento</a> adaptado a cada tipo de proyecto.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Migración web</dt>
+        <dd class="faq-item__answer">El proceso de trasladar una web de un servidor a otro, de una tecnología a otra o de un dominio a otro. Una migración mal ejecutada puede provocar pérdida de posicionamiento, errores 404 y caída del tráfico. Lo hacemos con un protocolo que incluye redirecciones, verificación de contenido y monitorización posterior.</dd>
+      </div>
+    </dl>
+  </div>
+</section>
+
+{# ── CTA ──────────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">¿Echas algo en falta?</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-lg); max-width: 20ch">Cuéntanos qué término necesitas que expliquemos</h2>
+    </div>
+    <div class="svc-process" style="margin-bottom: var(--space-lg)" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Si no está aquí, pregúntanos</h3>
+        <p>Este glosario crece con las dudas reales de nuestros clientes. Si hay algún término que no entiendes o que no encuentras aquí, escríbenos y lo añadimos.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Sin jerga innecesaria</h3>
+        <p>Nuestro compromiso es explicar las cosas de forma clara. Si en algún momento usamos un término que no queda claro, queremos saberlo.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Más allá del glosario</h3>
+        <p>Si lo que necesitas es entender cómo aplicar todo esto a tu proyecto concreto, hablemos. Sin compromiso.</p>
+      </div>
+    </div>
+
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>
