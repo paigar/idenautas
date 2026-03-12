@@ -1,7 +1,7 @@
 ---
 title: "La obsesión por los cuatro 100 en Lighthouse"
 alt: Un desarrollador mirando fijamente la pantalla con los resultados de Lighthouse
-date: 2026-03-12
+date: 2026-03-10
 heroImage: idenautas-web/blog/125.png
 description: Perseguir la puntuación perfecta en Lighthouse puede convertirse en una trampa. Exploramos qué mide realmente esta herramienta, qué técnicas merecen la pena y cuándo es mejor parar de optimizar.
 ---

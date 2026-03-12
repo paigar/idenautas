@@ -1,0 +1,183 @@
+---
+layout: layouts/page.njk
+title: Nuestra filosofía web
+label: Sobre nosotros
+subtitle: "Creemos en una web rápida, ligera y respetuosa con los recursos. Así es como trabajamos y por qué elegimos las herramientas que elegimos."
+description: Descubre la filosofía de desarrollo web de Idenautas. Jamstack, Eleventy, sostenibilidad digital e IndieWeb. Webs rápidas, ligeras y con criterio.
+permalink: /nuestra-filosofia-web/
+heroImage: idenautas-web/filosofia_00.png
+breadcrumb:
+  - name: Nosotros
+    url: /nosotros/
+  - name: Nuestra filosofía web
+    url: /nuestra-filosofia-web/
+---
+
+{# ── Intro — editorial + image ──────────────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Filosofía</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Menos servidor, más sentido</h2>
+      <p class="about-editorial">
+        Hay una forma de construir webs que no necesita servidores procesando cada visita, ni bases de datos respondiendo cada clic, ni infraestructuras sobredimensionadas para mostrar lo que al final es contenido estático. Esa forma tiene nombre: <strong>Jamstack</strong>.
+      </p>
+      <p class="about-editorial">
+        No es una moda ni un capricho técnico. Es una decisión consciente que afecta a la velocidad de tu web, a su seguridad, a su coste de mantenimiento y, sí, también al planeta. Porque cada petición innecesaria a un servidor es energía que se consume sin razón.
+      </p>
+      <p class="about-editorial">
+        En Idenautas abrazamos esta filosofía desde hace años. No porque sea lo más fácil de vender, sino porque es lo que más sentido tiene cuando te paras a pensar en lo que realmente necesita un sitio web.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/filosofia_01.png", "Filosofía web de Idenautas", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── Qué es Jamstack — image breaks left ── bg-alt #}
+<div class="about-idenauta-wrap">
+  <section class="about-idenauta">
+    <div class="about-idenauta__img" data-reveal="left">
+      {% img "idenautas-web/filosofia_02.png", "Arquitectura Jamstack", "content" %}
+    </div>
+    <div class="about-idenauta__body">
+      <div class="about-idenauta__content" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Arquitectura</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Jamstack: webs que ya están hechas cuando las visitas</h2>
+        <p class="about-editorial">
+          En una web tradicional, cada vez que alguien entra en una página el servidor tiene que trabajar: consultar la base de datos, ensamblar el HTML, procesar plugins y devolver el resultado. Multiplica eso por cientos o miles de visitas y tienes un servidor esforzándose constantemente para servir, muchas veces, exactamente el mismo contenido.
+        </p>
+        <p class="about-editorial">
+          Con Jamstack, ese trabajo se hace <strong>una sola vez</strong>, en el momento de la publicación. El resultado son archivos HTML listos para servir, que se distribuyen a través de una CDN global. Cuando alguien visita tu web, recibe el archivo directamente. Sin esperas, sin procesamiento, sin puntos de fallo.
+        </p>
+        <p class="about-editorial" style="font-weight: 600; color: var(--color-text)">
+          Más rápido, más seguro, más eficiente. <br/>No porque lo digamos nosotros, sino porque es pura lógica.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── Beneficios — cards ───────────────────────────────────── #}
+<section class="about-tech-section">
+  <div class="container">
+    <div class="about-tech__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Ventajas reales</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Por qué elegimos este camino</h2>
+      <p class="about-tech__intro">
+        No se trata de tecnología por la tecnología. Cada decisión técnica tiene consecuencias directas en la experiencia, el coste y el impacto de tu web.
+      </p>
+    </div>
+    <div class="about-tech__grid about-tech__grid--cols-3" data-stagger>
+      <div class="about-tech__card about-tech__card--wide" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">01</span>
+        <h3>Velocidad sin trucos</h3>
+        <p>Un sitio pre-generado servido desde una CDN carga en milisegundos. No hay consultas a base de datos, no hay procesamiento en servidor, no hay cuellos de botella. La velocidad no es una optimización posterior: es una consecuencia natural de la arquitectura.</p>
+      </div>
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">04</span>
+        <h3>Sostenibilidad digital</h3>
+        <p>Internet consume entre un 2% y un 4% de la energía global. Cada petición a un servidor, cada consulta a una base de datos, cada procesamiento innecesario contribuye a esa cifra.</p>
+        <p>Un sitio Jamstack reduce drásticamente los recursos necesarios para funcionar. Menos procesamiento, menos transferencia de datos, menos energía. No es un gesto simbólico: es una reducción real y medible del impacto ambiental de tu presencia digital.</p>
+        <p>Elegir una arquitectura eficiente es también una decisión medioambiental.</p>
+      </div>
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">02</span>
+        <h3>Seguridad por diseño</h3>
+        <p>Sin base de datos que atacar, sin panel de administración expuesto, sin plugins con vulnerabilidades conocidas. La superficie de ataque de un sitio estático es mínima. La seguridad no es una capa que se añade: viene de serie.</p>
+      </div>
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">05</span>
+        <h3>Eleventy: nuestra herramienta</h3>
+        <p>Dentro del ecosistema Jamstack, elegimos Eleventy como generador de sitios estáticos. No es el más popular, pero sí el más alineado con nuestra filosofía.</p>
+        <p>Eleventy es ligero, flexible y no impone ningún framework de JavaScript en el navegador. Tu web no carga React, Vue ni Angular si no lo necesita. Solo HTML, CSS y el JavaScript justo y necesario.</p>
+        <p>Es open source, tiene una comunidad activa y comprometida, y respeta un principio que compartimos: hacer más con menos.</p>
+      </div>
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">03</span>
+        <h3>Menor coste de mantenimiento</h3>
+        <p>Sin servidor que administrar, sin actualizaciones críticas de seguridad cada semana, sin bases de datos que optimizar. El coste operativo de un sitio Jamstack es una fracción del de un sitio dinámico equivalente.</p>
+      </div>
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">06</span>
+        <h3>Tu contenido es tuyo</h3>
+        <p>Creemos en los principios de la IndieWeb: tu contenido debe vivir en tu dominio, bajo tu control. No en una plataforma que puede cambiar las reglas, cerrar o monetizar tus datos. Tu web es tu casa digital, y debería comportarse como tal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── No es para todos — editorial + image ── bg-alt ────── #}
+<div class="about-idenauta-wrap">
+  <section class="about-idenauta">
+    <div class="about-idenauta__img" data-reveal="left">
+      {% img "idenautas-web/filosofia_03.png", "Decisiones técnicas con criterio", "content" %}
+    </div>
+    <div class="about-idenauta__body">
+      <div class="about-idenauta__content" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Honestidad</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Jamstack no es para todo (y eso está bien)</h2>
+        <p class="about-editorial">
+          Seríamos poco honestos si dijéramos que Jamstack es la solución a todo. No lo es. Si necesitas un e-commerce con miles de productos y gestión de inventario en tiempo real, probablemente necesites otra cosa. Si tu equipo actualiza contenido diez veces al día y necesita un panel visual, quizá WordPress sea más adecuado.
+        </p>
+        <p class="about-editorial">
+          Lo que sí podemos decir es que para webs corporativas, portfolios, blogs, landing pages y sitios informativos, Jamstack ofrece ventajas difíciles de igualar. Y para esos casos, es lo que recomendamos con total convicción.
+        </p>
+        <p class="about-editorial">
+          Conocemos WordPress, Joomla y otras plataformas. Sabemos cuándo son la mejor opción. Pero cuando Jamstack encaja, los beneficios en velocidad, seguridad, coste y sostenibilidad son innegables.
+        </p>
+        <p class="about-editorial" style="font-weight: 600; color: var(--color-text)">
+          Elegimos la herramienta que mejor sirve al proyecto, <br/>no la que más nos conviene a nosotros.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── CTA ───────────────────────────────────────────────────── #}
+<section class="svc-section">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Siguiente paso</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-lg)">¿Te interesa este enfoque?</h2>
+    </div>
+    <div class="svc-process" style="margin-bottom: var(--space-lg)" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Cuéntanos tu proyecto</h3>
+        <p>Cada web es diferente. Necesitamos entender qué necesitas para saber si Jamstack es la mejor opción para ti.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Te explicamos sin jerga</h3>
+        <p>Nada de tecnicismos innecesarios. Te contamos las opciones, los pros y contras, y decidimos juntos.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Propuesta a medida</h3>
+        <p>Presupuesto claro, plazos realistas y una solución técnica pensada para tu caso concreto.</p>
+      </div>
+    </div>
+
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>

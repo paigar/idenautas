@@ -1,7 +1,7 @@
 ---
 title: Web Components nativos, interfaces sin frameworks
 alt: Piezas de un puzzle encajando para formar una interfaz web
-date: 2026-03-11
+date: 2026-03-05
 heroImage: idenautas-web/blog/124.png
 description: Los Web Components nativos permiten crear elementos reutilizables directamente en el navegador, sin depender de frameworks externos. Descubre cómo Custom Elements, Shadow DOM y HTML Templates pueden simplificar tu desarrollo web.
 ---

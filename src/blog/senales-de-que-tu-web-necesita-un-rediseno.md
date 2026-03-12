@@ -2,7 +2,7 @@
 title: 7 señales de que tu web necesita un rediseño
 alt: Pantalla de ordenador mostrando una web anticuada junto a un boceto de diseño moderno
 heroImage: idenautas-web/blog/123.png
-date: 2026-03-10
+date: 2026-03-01
 description: Tu página web es la primera impresión que muchos clientes tienen de tu negocio. Descubre las señales que indican que ha llegado el momento de renovarla.
 ---
 
