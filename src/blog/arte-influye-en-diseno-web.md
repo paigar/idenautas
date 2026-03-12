@@ -4,6 +4,7 @@ alt: Estatua en el centro de una sala de un museo
 date: 2023-03-25
 heroImage: idenautas-web/blog/086.png
 description: La creatividad y la originalidad son aspectos fundamentales del arte que pueden ser aplicados al diseño web.
+tags: ["diseno-web", "creatividad-e-innovacion"]
 ---
 
 Hoy quiero hablar sobre la importancia de incorporar el arte y la creatividad en el trabajo. Como desarrollador/a web, es fácil caer en la rutina de seguir las mismas fórmulas y patrones que hemos utilizado en el pasado. Sin embargo, esto puede llevar a diseños aburridos y poco inspirados que no llamen la atención de tus clientes ni de los usuarios de los sitios web.

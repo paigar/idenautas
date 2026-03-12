@@ -4,6 +4,7 @@ alt: Cerebro humano enlazando con los pensamientos y sentimientos de otros seres
 date: 2023-03-29
 heroImage: idenautas-web/blog/096.png
 description: La empatía en el diseño web implica pensar en el usuario final en cada etapa del proceso de diseño y desarrollo.
+tags: ["experiencia-de-usuario"]
 ---
 
 El diseño web no solo se trata de crear sitios web visualmente atractivos, sino también de crear experiencias de usuario óptimas y accesibles. En este sentido, la empatía es una habilidad fundamental que los diseñadores web deben poseer para entender mejor las necesidades y deseos de los usuarios, y crear diseños que satisfagan sus necesidades de manera efectiva.

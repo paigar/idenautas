@@ -4,6 +4,7 @@ alt: Diseño de una página web centrado un una fotografía central de una mujer
 date: 2023-04-08
 heroImage: idenautas-web/blog/106.png
 description: La programación creativa juega un papel fundamental en el desarrollo de soluciones web innovadoras y únicas
+tags: ["creatividad-e-innovacion"]
 ---
 
 En la actualidad, el desarrollo web no se limita simplemente a la creación de páginas web estáticas, sino que se ha convertido en un campo que permite la creación de experiencias digitales interactivas y sorprendentes. En este contexto, la programación creativa juega un papel fundamental en el desarrollo de soluciones web innovadoras y únicas.

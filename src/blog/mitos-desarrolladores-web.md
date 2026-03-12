@@ -4,6 +4,7 @@ alt: Desarrollador web trabajando en su ordenador
 date: 2023-03-06
 heroImage: idenautas-web/blog/053.png
 description: Los desarrolladores web somos profesionales altamente especializados que trabajamos en un campo en constante evolución. Debido a esto, a menudo se crean mitos en torno a nuestro trabajo y habilidades.
+tags: ["vida-profesional"]
 ---
 
 Los desarrolladores web somos profesionales altamente especializados que trabajamos en un campo en constante evolución. Debido a esto, a menudo se crean mitos en torno a nuestro trabajo y habilidades. A continuación vamos a explorar algunos de los mitos más comunes sobre los desarrolladores web y la verdad detrás de ellos.

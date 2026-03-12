@@ -4,6 +4,7 @@ alt: Un reloj de arena digital desmoronándose sobre la pantalla de un portátil
 date: 2026-03-12
 heroImage: idenautas-web/blog/128.png
 description: Todas las webs envejecen. Lo importante no es evitarlo, sino saber cuándo iterar, cuándo rediseñar y por qué el mantenimiento continuo es más sostenible que empezar de cero cada tres años.
+tags: ["negocio-y-estrategia"]
 ---
 
 Hay una verdad incómoda que nadie te cuenta cuando lanzas un sitio web: el día que lo publicas es el día que empieza a envejecer. No es una cuestión de si, sino de cuándo. Y curiosamente, aceptar eso es lo más sano que puedes hacer por tu presencia digital.

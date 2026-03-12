@@ -4,6 +4,7 @@ alt: Foto de un pequeño comercio de barrio
 date: 2023-04-16
 heroImage: idenautas-web/blog/116.png
 description: Es esencial que los negocios locales cuenten con una presencia en línea para poder competir con otras empresas
+tags: ["negocio-y-estrategia"]
 ---
 
 En la actualidad, es esencial que los negocios locales cuenten con una presencia en línea para poder competir con otras empresas. Un sitio web es una herramienta fundamental para lograr esto, ya que permite que los clientes potenciales encuentren información sobre el negocio, sus productos o servicios, horarios y ubicación. Además, un sitio web efectivo puede ayudar a mejorar la reputación en línea y aumentar la visibilidad del negocio en los motores de búsqueda.

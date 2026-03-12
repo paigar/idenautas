@@ -4,6 +4,7 @@ alt: Hombre mirando un montón de productos para decidir cual comprar
 date: 2023-03-03
 heroImage: idenautas-web/blog/049.png
 description: La persuasión es una habilidad muy valiosa en el mundo del marketing digital.
+tags: ["experiencia-de-usuario"]
 ---
 
 La persuasión es una habilidad muy valiosa en el mundo del marketing digital. Se trata de convencer a un usuario para que realice una determinada acción, ya sea comprar un producto, suscribirse a una newsletter o descargar un recurso. A continuación, te mostraremos algunas técnicas de persuasión que puedes utilizar para aumentar la conversión en tu sitio web.

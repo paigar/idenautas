@@ -4,6 +4,7 @@ alt: Grupo de personas de diferentes etnias, sexos y edades sentados alrededor d
 date: 2023-03-07
 heroImage: idenautas-web/blog/054.png
 description: Al fomentar la diversidad y la inclusión, los equipos de desarrollo pueden crear soluciones más efectivas y significativas
+tags: ["vida-profesional"]
 ---
 
 El desarrollo web es una industria en constante evolución que requiere una amplia variedad de habilidades y perspectivas. Sin embargo, a menudo existe una falta de diversidad en la industria, lo que puede limitar la capacidad de los equipos de desarrollo web para crear soluciones efectivas y adecuadas para todas las audiencias. Además, la falta de inclusión puede hacer que ciertos grupos se sientan excluidos o ignorados, lo que puede dañar la reputación de una empresa o marca.

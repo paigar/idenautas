@@ -4,6 +4,7 @@ alt: Pequeño dibujo animado con forma de monstruo, delante de un ordenador
 date: 2023-02-25
 heroImage: idenautas-web/blog/044.png
 description: Cuando un usuario hace scroll en una página web, ciertos elementos en la página pueden animarse para agregar interactividad y atractivo visual.
+tags: ["creatividad-e-innovacion", "experiencia-de-usuario"]
 ---
 
 Las animaciones al hacer scroll se han convertido en una tendencia popular en el diseño web. Cuando un usuario hace scroll en una página web, ciertos elementos en la página pueden animarse para agregar interactividad y atractivo visual.

@@ -4,6 +4,7 @@ alt: Dibujo de un hombre sentado delante de un reloj enorme con muchos engranaje
 date: 2023-03-20
 heroImage: idenautas-web/blog/076.png
 description: La autodisciplina y la gestión del tiempo son esenciales para mantener un alto nivel de rendimiento y calidad en el trabajo.
+tags: ["vida-profesional"]
 ---
 
 El desarrollo web es una industria en constante evolución y crecimiento, y como resultado, puede ser muy exigente y estresante. Los desarrolladores web a menudo enfrentan plazos ajustados, proyectos complejos y problemas técnicos que requieren una solución rápida y efectiva. En este entorno de trabajo exigente, la autodisciplina y la gestión del tiempo son esenciales para mantener un alto nivel de rendimiento y calidad en el trabajo.

@@ -4,6 +4,7 @@ alt: Logotipo de Wordpress en 3d
 date: 2023-02-10
 heroImage: idenautas-web/blog/035.png
 description: Wordpress no es, y no debe ser, la única alternativa que valores o que te ofrezcan para construir tu página web
+tags: ["desarrollo-tecnico"]
 ---
 
 El otro día una potencial cliente me preguntaba sobre las opciones de creación de una página web para su negocio, y todas sus referencias estaban basadas en el uso de Wordpress. Ni por un solo momento se le hubiera pasado por la cabeza utilizar una herramienta que no fuese Wordpress para crear su sitio.

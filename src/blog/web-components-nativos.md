@@ -4,6 +4,7 @@ alt: Piezas de un puzzle encajando para formar una interfaz web
 date: 2026-03-05
 heroImage: idenautas-web/blog/124.png
 description: Los Web Components nativos permiten crear elementos reutilizables directamente en el navegador, sin depender de frameworks externos. Descubre cómo Custom Elements, Shadow DOM y HTML Templates pueden simplificar tu desarrollo web.
+tags: ["desarrollo-tecnico"]
 ---
 
 En el mundo del desarrollo web actual, parece que cada proyecto necesita un framework. React, Vue, Angular, Svelte... la lista no deja de crecer. Pero, ¿y si el propio navegador ya ofreciera una forma estándar de crear componentes reutilizables? Eso es exactamente lo que proporcionan los Web Components nativos.

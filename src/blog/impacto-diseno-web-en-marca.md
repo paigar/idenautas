@@ -4,6 +4,7 @@ alt: Ordenador portátil en una mesa de oficina mostrando una imagen loca en su 
 heroImage: idenautas-web/blog/121.png
 date: 2023-03-17
 description: En el mundo digital, la imagen de marca está estrechamente relacionada con el diseño web de una empresa.
+tags: ["diseno-web", "negocio-y-estrategia"]
 ---
 
 La imagen de marca es uno de los activos más valiosos de cualquier empresa. Una imagen de marca positiva puede influir en la decisión de compra del consumidor y puede ser un factor importante en la construcción de la lealtad del cliente a largo plazo.

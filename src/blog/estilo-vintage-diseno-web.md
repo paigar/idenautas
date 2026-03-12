@@ -4,6 +4,7 @@ alt: Imagen de una furgoneta Volkswagen Transporter clásica
 date: 2023-03-16
 heroImage: idenautas-web/blog/070.png
 description: El estilo vintage se ha convertido en una tendencia muy popular en el diseño web actual, y muchos sitios web lo han adoptado para crear una estética nostálgica y auténtica.
+tags: ["diseno-web"]
 ---
 
 En el mundo del diseño web, siempre ha habido una fascinación por el estilo vintage y retro. El uso de elementos nostálgicos y estilos de diseño antiguos puede proporcionar una sensación de calidez y autenticidad a una página web.

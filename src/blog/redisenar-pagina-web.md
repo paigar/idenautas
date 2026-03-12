@@ -4,6 +4,7 @@ alt: Hombre tocando la pantalla táctil de un ordenador portátil, arrastrando e
 date: 2023-02-12
 heroImage: idenautas-web/blog/039.png
 description: La presencia en línea es fundamental para cualquier negocio. Una página web es la herramienta principal para promocionar tu marca, productos y servicios en Internet.
+tags: ["negocio-y-estrategia"]
 ---
 
 La presencia en línea es fundamental para cualquier negocio. Una página web es la herramienta principal para promocionar tu marca, productos y servicios en Internet.

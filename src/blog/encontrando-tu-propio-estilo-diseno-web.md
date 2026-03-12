@@ -4,6 +4,7 @@ alt: Desarrollador web programando con una doble pantalla en un entorno de baja 
 date: 2023-03-28
 heroImage: idenautas-web/blog/092.png
 description: Al fomentar la diversidad y la inclusión, los equipos de desarrollo pueden crear soluciones más efectivas y significativas
+tags: ["diseno-web"]
 ---
 
 La identidad de marca es un aspecto crucial para cualquier empresa, y el diseño web juega un papel importante en la creación de esa identidad. Al crear un estilo propio en el diseño web, puedes diferenciarte de la competencia y transmitir la personalidad y los valores de tu marca de manera efectiva. En este artículo, exploraremos por qué es importante tener un estilo propio en el diseño web, cómo puedes encontrar tu propio estilo y algunos consejos útiles para ayudarte en el proceso.

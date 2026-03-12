@@ -4,6 +4,7 @@ alt: Fábrica liberando grandes cantidades ed humo a través de sus chimeneas
 date: 2023-03-21
 heroImage: idenautas-web/blog/078.png
 description: A medida que aumenta la cantidad de sitios web, también aumenta su impacto en el medio ambiente.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 La tecnología y el desarrollo web están en constante evolución, y cada vez más personas están utilizando internet en todo el mundo. Sin embargo, a medida que aumenta la cantidad de sitios web, también aumenta su impacto en el medio ambiente. Cada vez es más importante que los desarrolladores y diseñadores web tomen medidas para reducir la huella de carbono de sus sitios web.

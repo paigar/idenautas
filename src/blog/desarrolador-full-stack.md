@@ -4,6 +4,7 @@ alt: Desarrollador trabajando en una oficina con multiples pantallas y accesorio
 date: 2023-04-13
 heroImage: idenautas-web/blog/112.png
 description: Un desarrollador full-stack es un profesional que domina tanto el lado del front-end como el del back-end
+tags: ["desarrollo-tecnico", "vida-profesional"]
 ---
 
 Hoy quiero hablar de la figura del desarrollador full-stack y sus ventajas y desventajas. Soy un desarrollador web y he tenido la oportunidad de trabajar en diferentes proyectos y equipos, lo que me ha permitido conocer en profundidad las fortalezas y debilidades de esta figura.

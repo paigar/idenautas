@@ -4,6 +4,7 @@ alt: Imagen de una mujer con aspecto de hacker
 date: 2023-02-11
 heroImage: idenautas-web/blog/037.png
 description: En muchas ocasiones cuando hablamos de posicionamiento en internet estamos considerando tan sólo las estrategias para aparecer en los primeros lugares de las páginas de resultados de los buscadores.
+tags: ["contenido-y-marketing"]
 ---
 
 En el mundo digital, el posicionamiento en internet es un factor clave para el éxito de una marca o empresa. Sin embargo, muchas veces cometemos el error de limitar el concepto de posicionamiento en internet únicamente a aparecer en los primeros resultados de los buscadores. Es decir, nos confundimos con el posicionamiento en buscadores.

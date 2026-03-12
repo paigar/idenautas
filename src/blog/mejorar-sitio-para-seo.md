@@ -4,6 +4,7 @@ alt: Hombre haciendo estallar una bombilla llena de ideas
 date: 2023-03-25
 heroImage: idenautas-web/blog/088.png
 description: Una guía detallada para hacer que tu sitio web sea más amigable con los motores de búsqueda.
+tags: ["contenido-y-marketing", "experiencia-de-usuario"]
 ---
 
 ## I. Introducción

@@ -4,6 +4,7 @@ alt: Caja mágica en un entorno de fantasía, llena de ideas e imaginación
 date: 2023-02-09
 heroImage: idenautas-web/blog/034.png
 description: Aunque Bootstrap tiene muchas ventajas, también tiene algunas desventajas. Una de las principales desventajas es que, debido a su popularidad, muchos sitios web se ven muy similares y pueden carecer de originalidad.
+tags: ["desarrollo-tecnico"]
 ---
 
 Bootstrap es un framework o conjunto de herramientas de diseño web, que permite crear sitios web y aplicaciones de forma rápida y sencilla.

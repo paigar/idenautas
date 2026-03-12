@@ -3,6 +3,25 @@ layout: layouts/page.njk
 ---
 <article class="section container prose">
   {{ content | safe }}
+
+  {% if tags and "blog" in tags %}
+    {%- set mainTag = "" %}
+    {%- for tag in tags %}
+      {%- if tag != "blog" and etiquetas[tag] and not mainTag %}
+        {%- set mainTag = tag %}
+      {%- endif %}
+    {%- endfor %}
+
+    <div class="post-tags">
+      <span class="post-tags__label">Etiquetado como:</span>
+      {%- for tag in tags %}
+        {%- if tag != "blog" and etiquetas[tag] %}
+          <a href="/blog/{{ tag }}/" class="post-tag">{{ etiquetas[tag].nombre }}</a>
+        {%- endif %}
+      {%- endfor %}
+      <a href="/blog/" class="post-tags__back">Volver al blog <span aria-hidden="true">→</span></a>
+    </div>
+  {% endif %}
 </article>
 
 {% if tags and "blog" in tags %}
@@ -39,13 +58,17 @@ layout: layouts/page.njk
     </nav>
   {% endif %}
 
-  {%- set related = blogPosts | randomSlice(page.url, 6, 50) %}
+  {%- if mainTag %}
+    {%- set related = collections[mainTag] | randomSlice(page.url, 6, 50) %}
+  {%- else %}
+    {%- set related = blogPosts | randomSlice(page.url, 6, 50) %}
+  {%- endif %}
 
   {% if related.length > 0 %}
     <section class="section post-related">
       <div class="container">
-        <h2 class="post-related__heading">También te puede interesar</h2>
-        <p class="post-related__intro">Reflexiones, consejos y novedades sobre desarrollo web, diseño y tecnología digital.</p>
+        <h2 class="post-related__heading">{{ "Otros artículos sobre " + (etiquetas[mainTag].nombre | lower) if mainTag and etiquetas[mainTag] else "También te puede interesar" }}</h2>
+        <p class="post-related__intro">{{ etiquetas[mainTag].descripcion if mainTag and etiquetas[mainTag] else "Reflexiones, consejos y novedades sobre desarrollo web, diseño y tecnología digital." }}</p>
         <div class="blog-grid">
           {%- for post in related %}
             <article class="blog-card" data-reveal>
@@ -78,7 +101,8 @@ layout: layouts/page.njk
   <script>
     (function () {
       const header = document.querySelector('.site-header');
-      if (!header) return;
+      if (!header) 
+        return;
       const progress = document.createElement('div');
       progress.className = 'reading-progress';
       progress.setAttribute('aria-hidden', 'true');
@@ -86,7 +110,8 @@ layout: layouts/page.njk
       header.appendChild(progress);
       const bar = progress.querySelector('.reading-progress__bar');
       const article = document.querySelector('.prose');
-      if (!article) return;
+      if (!article) 
+        return;
       function update() {
         const rect = article.getBoundingClientRect();
         const total = article.scrollHeight - window.innerHeight;
@@ -94,7 +119,7 @@ layout: layouts/page.njk
         const pct = Math.min(Math.max(scrolled / total, 0), 1) * 100;
         bar.style.width = pct + '%';
       }
-      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('scroll', update, {passive: true});
       update();
     })();
   </script>

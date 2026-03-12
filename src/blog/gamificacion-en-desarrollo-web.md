@@ -4,6 +4,7 @@ alt: Máquina de arcade en un paisaje de fantasía
 date: 2023-02-13
 heroImage: idenautas-web/blog/040.png
 description: La gamificación es una técnica de diseño que utiliza elementos de juego en contextos no lúdicos con el objetivo de aumentar la motivación, el compromiso y la participación de los usuarios.
+tags: ["experiencia-de-usuario", "creatividad-e-innovacion"]
 ---
 
 La gamificación es una técnica de diseño que utiliza elementos de juego en contextos no lúdicos con el objetivo de aumentar la motivación, el compromiso y la participación de los usuarios.

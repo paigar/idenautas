@@ -4,6 +4,7 @@ alt: Diagrama con cientos de opciones sobre un escritorio junto a una taza de ca
 date: 2023-04-02
 heroImage: idenautas-web/blog/100.png
 description: La metodología ágil se centra en la entrega continua y la mejora continua del producto
+tags: ["desarrollo-tecnico"]
 ---
 
 El desarrollo web es un campo en constante evolución, y los desarrolladores necesitan estar al tanto de las últimas tendencias y metodologías para mantenerse competitivos. Una de las metodologías más populares en el desarrollo de software es la metodología ágil, que se centra en la entrega continua y la mejora continua del producto.

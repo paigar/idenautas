@@ -4,6 +4,7 @@ alt: Varias personas sentadas en un banco los logotipos de redes sociales en el 
 date: 2023-02-06
 heroImage: idenautas-web/blog/028.png
 description: Con la aparición de las redes sociales ¿realmente es necesario contar con una página web?
+tags: ["contenido-y-marketing"]
 ---
 
 Con la aparición de las redes sociales, la necesidad de contar con una página web personal o una página corporativa para tu negocio pareció ir diluyéndose. Al fin y al cabo las empresas podían poner toda su información en una página de Facebook y compartir contenido de forma rápida y ágil en Twitter. ¿Realmente era necesario contar con una página web?

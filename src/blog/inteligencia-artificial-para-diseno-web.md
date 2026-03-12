@@ -4,6 +4,7 @@ alt: Imagen de un robot con forma humanoide controlado por un cerebro artificial
 date: 2023-04-01
 heroImage: idenautas-web/blog/099.png
 description: La utilización de la inteligencia artificial en el diseño web puede proporcionar numerosas ventajas
+tags: ["creatividad-e-innovacion"]
 ---
 
 En los últimos años, la **inteligencia artificial** (IA) ha tenido un gran impacto en el mundo del diseño y desarrollo web. La capacidad de la IA para analizar grandes cantidades de datos y tomar decisiones inteligentes ha abierto un mundo de posibilidades para la personalización, la automatización y la optimización en el diseño web.

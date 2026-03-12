@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/003.png
 alt: Imagen de un castillo aterrador en lo alto de una montaña
 date: 2023-01-24
 description: La información que compartimos en línea puede ser utilizada por empresas y organizaciones con fines comerciales o para su análisis y recopilación.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 La privacidad en línea es un tema cada vez más importante y relevante en nuestro mundo digitalizado. Las grandes empresas tecnológicas, como Google, han sido objeto de críticas por su manejo de la información personal de los usuarios.

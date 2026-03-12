@@ -4,6 +4,7 @@ alt: Diagrama de un cerebro desglosando y organizando sus pensamientos
 date: 2023-03-26
 heroImage: idenautas-web/blog/089.png
 description: El pensamiento crítico es un proceso cognitivo que implica analizar, evaluar y sintetizar información para llegar a conclusiones informadas y fundamentadas.
+tags: ["vida-profesional"]
 ---
 
 La web ha pasado de ser un simple escaparate para las empresas a convertirse en una herramienta fundamental para la interacción y comunicación con los clientes. La competencia en línea es cada vez más intensa, por lo que es esencial que los diseñadores web se aseguren de que su trabajo sea el mejor posible. En este contexto, el pensamiento crítico es una habilidad fundamental que los diseñadores web deben poseer para tener éxito.

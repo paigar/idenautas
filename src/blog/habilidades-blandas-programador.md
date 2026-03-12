@@ -4,6 +4,7 @@ alt: Imagen de un programador delante de su ordenador
 date: 2024-07-24
 heroImage: idenautas-web/blog/118.png
 description: Exploramos la importancia de la comunicación, colaboración, adaptabilidad y otras habilidades no técnicas clave en la carrera de un desarrollador.
+tags: ["vida-profesional"]
 ---
 
 En el mundo del desarrollo de software, las **habilidades técnicas** son fundamentales. Dominar lenguajes de programación, frameworks y herramientas es imprescindible para tener éxito como programador. Sin embargo, hay otro conjunto de capacidades igual de importantes que a veces pasan desapercibidas: las llamadas **"soft skills" o habilidades blandas**.

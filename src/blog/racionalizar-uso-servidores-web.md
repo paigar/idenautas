@@ -4,6 +4,7 @@ alt: Imagen de un centro de datos moderno
 date: 2024-07-23
 heroImage: idenautas-web/blog/117.png
 description: En este artículo, exploraremos la importancia de racionalizar el uso de los servidores web y cómo esto puede ayudar a reducir su impacto en el medio ambiente
+tags: ["sostenibilidad-y-etica"]
 ---
 
 ¿Alguna vez te has preguntado qué hay detrás de cada clic que haces en Internet? Puede parecer magia, pero la realidad es que detrás de cada página web hay una compleja infraestructura de [servidores web](https://es.wikipedia.org/wiki/Servidor_web) y [centros de datos](https://es.wikipedia.org/wiki/Centro_de_procesamiento_de_datos) que consumen una enorme cantidad de energía. En este artículo, exploraremos la importancia de racionalizar el uso de los servidores web y cómo esto puede ayudar a reducir su impacto en el [medio ambiente](https://es.wikipedia.org/wiki/Medio_ambiente).

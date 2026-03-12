@@ -4,6 +4,7 @@ alt: Reloj de arena midiendo la duración de un sitio web
 date: 2023-03-05
 heroImage: idenautas-web/blog/052.png
 description: La duración de un sitio web depende de varios factores, como el propósito del sitio web, el tipo de contenido que contiene y la frecuencia de actualización.
+tags: ["negocio-y-estrategia"]
 ---
 
 La duración de un sitio web depende de varios factores, como el propósito del sitio web, el tipo de contenido que contiene y la frecuencia de actualización. En general, un sitio web debe durar tanto como sea necesario para cumplir con sus objetivos y proporcionar valor a los usuarios.

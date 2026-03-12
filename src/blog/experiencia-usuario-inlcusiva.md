@@ -4,6 +4,7 @@ alt: Foto de un hombre ciego, sonriendo
 date: 2023-03-09
 heroImage: idenautas-web/blog/058.png
 description: En la actualidad, es fundamental que todos los sitios web proporcionen una experiencia inclusiva para los usuarios, independientemente de su capacidad o discapacidad.
+tags: ["experiencia-de-usuario"]
 ---
 
 En la actualidad, es fundamental que todos los sitios web proporcionen una experiencia inclusiva para los usuarios, independientemente de su capacidad o discapacidad.

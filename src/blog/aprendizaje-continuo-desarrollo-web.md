@@ -4,6 +4,7 @@ alt: Hombre estudiando en una mesa de despacho y con la mirada perdida en el hor
 date: 2023-03-18
 heroImage: idenautas-web/blog/073.png
 description: El auge de nuevas tecnologías y tendencias ha hecho que sea esencial para los desarrolladores web mantenerse actualizados y aprender continuamente.
+tags: ["vida-profesional"]
 ---
 
 El desarrollo web es un campo en constante evolución y cambio. En los últimos años, el auge de nuevas tecnologías y tendencias ha hecho que sea esencial para los desarrolladores web mantenerse actualizados y aprender continuamente.

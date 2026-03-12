@@ -4,6 +4,7 @@ alt: Dedo tocando la pantalla táctil de una tableta
 date: 2023-02-01
 heroImage: idenautas-web/blog/020.png
 description: El diseño de interacción es una disciplina que se encarga de la creación de experiencias de usuario en aplicaciones digitales.
+tags: ["experiencia-de-usuario", "diseno-web"]
 ---
 
 El diseño de interacción (Interaction Design) se enfoca en la creación de experiencias de usuario intuitivas y satisfactorias a través de la interacción con un producto digital, como una página web, aplicación móvil o software.

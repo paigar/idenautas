@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/006.png
 alt: Imagen de un desarrollador trabajando en su ordenador y escribiendo código
 date: 2023-01-25
 description: Jamstack permite crear sitios web rápidos, escalables y seguros, que pueden ser cargados y actualizados de forma rápida y eficiente
+tags: ["desarrollo-tecnico"]
 ---
 
 El Jamstack es una nueva forma de desarrollar y construir sitios web que combina las mejores características de las tecnologías modernas y el enfoque en el rendimiento. Con el auge de la nube y las tecnologías de micro-servicios, ha llegado el momento de dejar atrás los sistemas de desarrollo tradicionales que utilizan aplicaciones monolíticas y servidores en tiempo real para construir sitios web.

@@ -4,6 +4,7 @@ alt: Pantalla de ordenador mostrando una web anticuada junto a un boceto de dise
 heroImage: idenautas-web/blog/123.png
 date: 2026-03-01
 description: Tu página web es la primera impresión que muchos clientes tienen de tu negocio. Descubre las señales que indican que ha llegado el momento de renovarla.
+tags: ["negocio-y-estrategia"]
 ---
 
 Tu página web trabaja para ti las 24 horas del día, los 7 días de la semana. Es tu escaparate, tu comercial y tu carta de presentación. Pero como cualquier herramienta, se desgasta con el tiempo. Lo que era moderno hace tres o cuatro años hoy puede estar ahuyentando a tus clientes potenciales sin que lo sepas.

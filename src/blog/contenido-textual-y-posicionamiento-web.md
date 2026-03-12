@@ -4,6 +4,7 @@ alt: Mano escribiendo texto en un libro abierto
 date: 2023-03-01
 heroImage: idenautas-web/blog/046.png
 description: El contenido textual es uno de los factores más importantes que los motores de búsqueda utilizan para determinar la relevancia de una página web para una búsqueda específica.
+tags: ["contenido-y-marketing"]
 ---
 
 La relación entre el contenido textual de una página web y su posicionamiento en los motores de búsqueda es una de las áreas más importantes del marketing digital.

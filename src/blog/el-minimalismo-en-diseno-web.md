@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/009.png
 alt: Imagen en blanco y negro de una planta sobre un fondo oscuro
 date: 2023-01-27
 description: El minimalismo en el diseño web es un enfoque que se centra en la simplicidad y la eliminación de elementos no esenciales
+tags: ["diseno-web"]
 ---
 
 El minimalismo en el diseño web es un enfoque que se centra en la simplicidad y la eliminación de elementos no esenciales. Se trata de crear una experiencia de usuario sencilla, intuitiva y eficiente, utilizando una combinación de formas y colores básicos, y tipografías legibles y claras.

@@ -4,6 +4,7 @@ alt: Hombre en el interior de un laberinto intentando elegir el camino correcto
 date: 2023-03-24
 heroImage: idenautas-web/blog/083.png
 description: Una plataforma bien elegida puede ayudarte a crear un sitio web de alta calidad con facilidad
+tags: ["negocio-y-estrategia"]
 ---
 
 La elección de la plataforma adecuada es un aspecto fundamental para el éxito de cualquier sitio web. Una plataforma bien elegida puede ayudarte a crear un sitio web de alta calidad con facilidad, mientras que una plataforma inadecuada puede llevar a problemas técnicos y limitar tus opciones de personalización y expansión.

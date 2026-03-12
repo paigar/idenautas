@@ -4,6 +4,7 @@ alt: Hombre con el rostro oculto por una máscara y dando la espalda a una multi
 date: 2023-03-19
 heroImage: idenautas-web/blog/075.png
 description: El síndrome del impostor es una sensación de que no eres tan capaz o talentoso como los demás creen que eres.
+tags: ["vida-profesional"]
 ---
 
 El desarrollo web es un campo emocionante y desafiante que requiere habilidades y conocimientos avanzados. Pero incluso los desarrolladores web más talentosos pueden experimentar el síndrome del impostor, una sensación de que no son lo suficientemente buenos o que no merecen su éxito. Este sentimiento puede afectar negativamente la confianza y la productividad de los desarrolladores web, y en última instancia, su carrera.

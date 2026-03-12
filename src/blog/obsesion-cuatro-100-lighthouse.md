@@ -4,6 +4,7 @@ alt: Un desarrollador mirando fijamente la pantalla con los resultados de Lighth
 date: 2026-03-10
 heroImage: idenautas-web/blog/125.png
 description: Perseguir la puntuación perfecta en Lighthouse puede convertirse en una trampa. Exploramos qué mide realmente esta herramienta, qué técnicas merecen la pena y cuándo es mejor parar de optimizar.
+tags: ["negocio-y-estrategia"]
 ---
 
 Si eres desarrollador web, conoces la sensación. Abres Lighthouse, lanzas el análisis y aparecen cuatro círculos. Performance: 96. Accessibility: 93. Best Practices: 100. SEO: 100. Dos de cuatro. Casi perfecto. _Casi_. Y ese _casi_ te persigue.

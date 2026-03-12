@@ -4,6 +4,7 @@ alt: Imagen de una montaña rusa
 date: 2023-03-16
 heroImage: idenautas-web/blog/067.png
 description: Consejos y estrategias para lidiar con la crítica constructiva en el diseño y desarrollo web de manera saludable y productiva.
+tags: ["vida-profesional"]
 ---
 
 Recibir críticas constructivas es una parte importante del proceso de diseño y desarrollo web. Aunque puede ser difícil escuchar comentarios negativos sobre nuestro trabajo, es fundamental aprender a manejar la crítica constructiva de manera efectiva para mejorar nuestras habilidades y garantizar que nuestros proyectos sean los mejores posibles.

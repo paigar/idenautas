@@ -1,0 +1,42 @@
+{
+  "diseno-web": {
+    "nombre": "Diseño web",
+    "descripcion": "Estética, tendencias, tipografía, color y estilos visuales en el diseño de sitios web.",
+    "heroImage": "idenautas-web/tag_01.png"
+  },
+  "experiencia-de-usuario": {
+    "nombre": "Experiencia de usuario",
+    "descripcion": "UX/UI, accesibilidad, usabilidad y diseño centrado en las personas.",
+    "heroImage": "idenautas-web/tag_02.png"
+  },
+  "contenido-y-marketing": {
+    "nombre": "Contenido y marketing",
+    "descripcion": "Estrategia de contenidos, SEO, redes sociales y copywriting para la web.",
+    "heroImage": "idenautas-web/tag_03.png"
+  },
+  "desarrollo-tecnico": {
+    "nombre": "Desarrollo técnico",
+    "descripcion": "Programación, frameworks, herramientas y arquitectura técnica para la web.",
+    "heroImage": "idenautas-web/tag_04.png"
+  },
+  "vida-profesional": {
+    "nombre": "Vida profesional",
+    "descripcion": "Habilidades, bienestar, productividad y desarrollo de carrera en el mundo digital.",
+    "heroImage": "idenautas-web/tag_05.png"
+  },
+  "sostenibilidad-y-etica": {
+    "nombre": "Sostenibilidad y ética",
+    "descripcion": "Impacto ambiental, seguridad, privacidad y desarrollo web responsable.",
+    "heroImage": "idenautas-web/tag_06.png"
+  },
+  "negocio-y-estrategia": {
+    "nombre": "Negocio y estrategia",
+    "descripcion": "Costes, plataformas, rediseño y estrategia digital para empresas y profesionales.",
+    "heroImage": "idenautas-web/tag_07.png"
+  },
+  "creatividad-e-innovacion": {
+    "nombre": "Creatividad e innovación",
+    "descripcion": "Inteligencia artificial, tendencias emergentes y enfoques creativos en el desarrollo web.",
+    "heroImage": "idenautas-web/tag_08.png"
+  }
+}

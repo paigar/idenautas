@@ -4,6 +4,7 @@ alt: Imagen de un puzzle a medio resolver
 date: 2023-03-18
 heroImage: idenautas-web/blog/074.png
 description: El objetivo de este artículo es proporcionar herramientas y consejos prácticos para mejorar las habilidades de solución de problemas en el desarrollo web.
+tags: ["vida-profesional"]
 ---
 
 ## I. Introducción

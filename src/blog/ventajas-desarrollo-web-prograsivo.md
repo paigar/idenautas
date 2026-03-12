@@ -4,6 +4,7 @@ alt: Una misma página web visualizándose en una televisión, un ordenador port
 date: 2023-04-12
 heroImage: idenautas-web/blog/111.png
 description: Beneficios que el desarrollo web progresivo puede traer tanto para los desarrolladores como para los usuarios finales
+tags: ["desarrollo-tecnico"]
 ---
 
 En este artículo vamos a hablar sobre el desarrollo web progresivo, una técnica que permite crear sitios web que se adaptan a diferentes dispositivos y conexiones de forma eficiente y escalable. Veremos sus ventajas y cómo puede mejorar la experiencia de usuario en la web.

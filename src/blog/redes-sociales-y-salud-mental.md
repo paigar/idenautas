@@ -4,6 +4,7 @@ alt: Un hombre joven mirándose al espejo, pero su reflejo es una especie de mon
 date: 2023-03-15
 heroImage: idenautas-web/blog/065.png
 description: El uso excesivo de las redes sociales puede tener un impacto negativo en nuestra salud mental.
+tags: ["vida-profesional"]
 ---
 
 Las redes sociales son una herramienta de comunicación y entretenimiento cada vez más utilizada en nuestra vida cotidiana. A través de ellas, podemos conectarnos con amigos y familiares, compartir fotos y videos, e incluso recibir noticias de última hora. Sin embargo, el uso excesivo de las redes sociales puede tener un impacto negativo en nuestra salud mental.

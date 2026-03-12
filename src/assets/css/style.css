@@ -3506,6 +3506,130 @@ body::after {
 	margin-bottom: var(--space-lg);
 }
 
+/* ── Tag Filter ─────────────────────────────────────────── */
+
+.tag-filter {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: var(--space-xs);
+	flex-wrap: wrap;
+}
+
+.tag-filter__label {
+	font-size: var(--text-base);
+	color: var(--color-text-muted);
+}
+
+.tag-filter__wrap {
+	position: relative;
+	display: inline-block;
+}
+
+.tag-filter__wrap::after {
+	content: "";
+	position: absolute;
+	right: 0.75em;
+	top: 50%;
+	width: 0.5em;
+	height: 0.5em;
+	border-right: 2px solid var(--color-text);
+	border-bottom: 2px solid var(--color-text);
+	transform: translateY(-65%) rotate(45deg);
+	pointer-events: none;
+}
+
+.tag-filter__select {
+	font-family: var(--font-display);
+	font-size: var(--text-base);
+	font-weight: 600;
+	color: var(--color-text);
+	background: var(--color-bg);
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	border-radius: 0.25em;
+	padding: 0.5em 2.25em 0.5em 0.85em;
+	cursor: pointer;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.tag-filter__select:hover,
+.tag-filter__select:focus {
+	border-color: var(--color-accent);
+	outline: none;
+}
+
+/* ── Post Tags ──────────────────────────────────────────── */
+
+.post-tags {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: var(--space-xs);
+	margin-top: var(--space-lg);
+	padding-top: var(--space-md);
+	border-top: 1px solid var(--color-border);
+}
+
+.post-tags__label {
+	font-size: var(--text-sm);
+	color: var(--color-text-muted);
+	margin-right: var(--space-2xs);
+}
+
+.post-tags__back {
+	margin-left: auto;
+	font-size: var(--text-sm);
+	font-family: var(--font-display);
+	color: var(--color-text-muted);
+	text-decoration: none;
+	transition: color 0.2s;
+}
+
+.post-tags__back:hover {
+	color: var(--color-accent);
+}
+
+.post-tag {
+	position: relative;
+	display: inline-block;
+	padding: 0.45em 1em 0.45em 2.5em;
+	font-size: var(--text-sm);
+	font-family: var(--font-display);
+	color: var(--color-bg) !important;
+	background: var(--color-text);
+	text-decoration: none !important;
+	border-radius: 0.35rem;
+	clip-path: polygon(
+		1.75em 0,
+		100% 0,
+		100% 100%,
+		1.75em 100%,
+		0.15em 62%,
+		0.15em 38%
+	);
+	transition:
+		color 0.2s,
+		background 0.2s;
+}
+
+.post-tag::before {
+	content: "";
+	position: absolute;
+	left: 1.1em;
+	top: 50%;
+	width: 0.4em;
+	height: 0.4em;
+	background: var(--color-bg);
+	border-radius: 50%;
+	transform: translateY(-50%);
+}
+
+.post-tag:hover {
+	background: var(--color-accent);
+}
+
 /* ── Back to Top ─────────────────────────────────────────── */
 
 .back-to-top {

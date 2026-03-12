@@ -4,6 +4,7 @@ alt: Desarrollador web trabajando con un ordenador portátil
 date: 2023-04-09
 heroImage: idenautas-web/blog/107.png
 description: La empatía implica comprender las necesidades, deseos y limitaciones de los usuarios
+tags: ["experiencia-de-usuario"]
 ---
 
 En el diseño de experiencias web, la empatía juega un papel fundamental. La empatía se refiere a la capacidad de ponerse en el lugar de otra persona y comprender sus sentimientos y perspectivas. En el contexto del diseño de experiencias web, la empatía implica comprender las necesidades, deseos y limitaciones de los usuarios para poder crear experiencias significativas y satisfactorias.

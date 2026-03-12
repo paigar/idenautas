@@ -1,12 +1,18 @@
 ---
 layout: layouts/page.njk
-title: Blog
-label: Artículos
-subtitle: Reflexiones, consejos y novedades sobre desarrollo web, diseño y tecnología digital.
-description: Blog de Idenautas. Artículos sobre desarrollo web, diseño, tecnología y estrategia digital.
-heroImage: idenautas-web/blog.png
-permalink: /blog/
+pagination:
+  data: etiquetas
+  size: 1
+  alias: etiquetaSlug
+  resolve: keys
+permalink: /blog/{{ etiquetaSlug }}/
 eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "{{ etiquetas[etiquetaSlug].nombre }}"
+  label: "Blog"
+  subtitle: "{{ etiquetas[etiquetaSlug].descripcion }}"
+  heroImage: "{{ etiquetas[etiquetaSlug].heroImage }}"
+  description: "{{ etiquetas[etiquetaSlug].descripcion }}"
 ---
 
 <section class="section svc-section--alt" style="padding-block: var(--space-sm);">
@@ -17,7 +23,7 @@ eleventyExcludeFromCollections: true
         <select class="tag-filter__select" onchange="window.location.href=this.value" aria-label="Filtrar por etiqueta">
           <option value="/blog/">Todos</option>
           {%- for slug, data in etiquetas %}
-            <option value="/blog/{{ slug }}/">{{ data.nombre }}</option>
+            <option value="/blog/{{ slug }}/"{% if slug == etiquetaSlug %} selected{% endif %}>{{ data.nombre }}</option>
           {%- endfor %}
         </select>
       </span>
@@ -28,7 +34,8 @@ eleventyExcludeFromCollections: true
 <section class="section" style="padding-top: var(--space-lg);">
   <div class="container">
     <div class="blog-grid">
-      {%- for post in collections.blog | reverse %}
+      {%- set tagPosts = collections[etiquetaSlug] %}
+      {%- for post in tagPosts | reverse %}
         {%- set isFeatured = loop.first %}
         {%- set isWide = (not loop.first) and (loop.index0 % 9 == 0) %}
         <article class="blog-card{% if isFeatured %} blog-card--featured{% elif isWide %} blog-card--wide{% endif %}" data-reveal>

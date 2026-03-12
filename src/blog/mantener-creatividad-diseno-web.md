@@ -4,6 +4,7 @@ alt: Hombre sentado en un escritorio, pensando y varias bombillas encendiéndose
 date: 2023-03-20
 heroImage: idenautas-web/blog/077.png
 description: La creatividad se relaciona con la capacidad de pensar de forma no convencional y de explorar nuevas posibilidades.
+tags: ["diseno-web"]
 ---
 
 En la era digital en la que vivimos, la presencia en línea de una empresa o marca es fundamental para su éxito en el mercado. Hoy en día, tener una página web atractiva y funcional es un requisito indispensable para cualquier negocio que desee captar la atención de su público y ofrecer una experiencia de usuario satisfactoria.

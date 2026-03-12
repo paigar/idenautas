@@ -4,6 +4,7 @@ alt: Un ordenador en mitad de la jungla y mostrando imágenes de naturaleza
 date: 2023-03-23
 heroImage: idenautas-web/blog/080.png
 description: El diseño biofílico busca incorporar elementos de la naturaleza en el diseño de espacios interiores y exteriores.
+tags: ["diseno-web"]
 ---
 
 La naturaleza ha sido una fuente de inspiración para los seres humanos durante siglos. Sin embargo, en la era digital actual, la mayoría de nuestra vida se desarrolla en el mundo virtual, donde las interacciones con la naturaleza son limitadas. El diseño biofílico surge como una respuesta a esta desconexión y busca incorporar elementos de la naturaleza en el diseño de espacios interiores y exteriores. Este enfoque también se ha aplicado en el diseño web para crear una conexión más natural entre los usuarios y los sitios web.

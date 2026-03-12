@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/008.png
 alt: Pantalla de un ordenador mostrando un mundo de fantasia lleno de colores
 date: 2023-01-26
 description: Es tentador recurrir a frameworks y plantillas para crear sitios web, ya que nos ahorran tiempo y esfuerzo.
+tags: ["diseno-web"]
 ---
 
 Durante los años, la complejidad de los diseños y contenidos web ha aumentado. Aunque muchas páginas parecen ser simples a primera vista, en realidad, están ocultando soluciones "inteligentes" de diseños responsivos y adaptativos al dispositivo.

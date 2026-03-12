@@ -4,6 +4,7 @@ alt: Hombre de espaldas mirando una pantalla con logotipos de redes sociales
 date: 2023-01-30
 heroImage: idenautas-web/blog/015.png
 description: Aspectos a tener en cuenta para planificar y ejecutar una campaña de marketing en redes sociales exitosa para tu negocio
+tags: ["contenido-y-marketing"]
 ---
 
 A continuación te presentamos los principales aspectos a tener en cuenta para planificar y ejecutar una campaña de marketing en redes sociales exitosa para tu negocio.

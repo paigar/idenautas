@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/002.png
 alt: Imagen de un ordenador portátil mostrando una página web
 date: 2023-01-23
 description: En el momento de decidirnos a crear o renovar una página web debemos tener en cuenta una serie de aspectos fundamentales para garantizar el éxito del proyecto
+tags: ["negocio-y-estrategia"]
 ---
 
 Cuando se trata de crear un sitio web, es fácil perder de vista el propósito original del proyecto. En lugar de ser una herramienta que trabaja para ti, puede convertirse en un proyecto que requiere una gran cantidad de tiempo y energía, sin proporcionar los resultados deseados.

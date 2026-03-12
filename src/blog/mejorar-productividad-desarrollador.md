@@ -4,6 +4,7 @@ alt: Desarrollador web sentado en su escritorio y abrumado por una cantidad enor
 date: 2023-04-15
 heroImage: idenautas-web/blog/114.png
 description: Como desarrollador, sé lo difícil que puede ser a veces mantener la concentración y ser productivo en el trabajo
+tags: ["vida-profesional"]
 ---
 
 Como desarrollador, sé lo difícil que puede ser a veces mantener la concentración y ser productivo en el trabajo. Hay días en los que la inspiración parece no llegar y otros en los que el tiempo se escapa entre las manos. Sin embargo, con el tiempo y la práctica, he aprendido algunos consejos que me han ayudado a mejorar mi productividad como desarrollador.

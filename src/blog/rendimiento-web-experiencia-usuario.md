@@ -4,6 +4,7 @@ alt: Coche circulando a toda velocidad por una carretera multicolor
 date: 2023-02-11
 heroImage: idenautas-web/blog/038.png
 description: El rendimiento de un sitio web es un factor clave en la experiencia del usuario, ya que un sitio lento y poco eficiente puede tener un impacto negativo
+tags: ["experiencia-de-usuario"]
 ---
 
 El rendimiento de un sitio web es un factor clave en la experiencia del usuario, ya que un sitio lento y poco eficiente puede tener un impacto negativo en la forma en que los visitantes interactúan con el sitio y en su disposición para volver en el futuro.

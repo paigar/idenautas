@@ -4,6 +4,7 @@ alt: Imagen de un programador delante de su ordenador
 date: 2024-07-25
 heroImage: idenautas-web/blog/119.png
 description: Discutimos formas de evaluar y comunicar el valor que aportas más allá de líneas de código o velocidad, considerando satisfacción de usuarios, ROI del negocio, etc.
+tags: ["vida-profesional"]
 ---
 
 Como desarrolladores, a menudo nos enfocamos en **métricas cuantitativas** para evaluar nuestro desempeño y productividad. Líneas de código escritas, número de commits, velocidad en completar tareas... Pero ¿realmente capturan estas cifras el **valor real** que aportamos?

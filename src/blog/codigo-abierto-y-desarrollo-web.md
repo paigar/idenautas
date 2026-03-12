@@ -4,6 +4,7 @@ alt: Ilustración de un ordenador y varios periféricos utilizando software open
 date: 2023-04-12
 heroImage: idenautas-web/blog/110.png
 description: El software libre y de código abierto ofrecen una alternativa muy interesante a las soluciones propietarias
+tags: ["desarrollo-tecnico"]
 ---
 
 El código abierto ha ido ganando popularidad en los últimos años, no solo en el mundo del desarrollo web sino en toda la industria tecnológica. El software libre y de código abierto ofrece una alternativa a las soluciones propietarias, permitiendo que el conocimiento y la tecnología estén disponibles para cualquier persona. En este artículo, exploraremos el auge del código abierto en el desarrollo web y su impacto en la industria.

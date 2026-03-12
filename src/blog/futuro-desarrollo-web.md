@@ -4,6 +4,7 @@ alt: Imagen futurista de una autopista por la que circula información en forma 
 date: 2023-02-22
 heroImage: idenautas-web/blog/042.png
 description: Exploraremos algunas de las tecnologías emergentes, tendencias y cambios que se esperan en el desarrollo web en el futuro cercano
+tags: ["creatividad-e-innovacion", "negocio-y-estrategia"]
 ---
 
 El desarrollo web ha evolucionado rápidamente en las últimas décadas, impulsado por los avances en tecnología y las demandas cambiantes del mercado. En la actualidad, el desarrollo web es fundamental para la mayoría de las empresas y organizaciones, y se espera que siga siendo una industria en constante crecimiento en los próximos años.

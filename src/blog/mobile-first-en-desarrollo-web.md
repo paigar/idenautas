@@ -4,6 +4,7 @@ alt: Imagen de un teléfono móvil de fantasía
 date: 2023-01-31
 heroImage: idenautas-web/blog/018.png
 description: Mobile First es una filosofía de diseño web que implica comenzar el proceso de diseño desde la versión móvil de un sitio web, antes de diseñar para dispositivos de escritorio o tabletas.
+tags: ["experiencia-de-usuario"]
 ---
 
 Mobile First es una filosofía de diseño web que implica comenzar el proceso de diseño desde la versión móvil de un sitio web o aplicación, antes de diseñar para dispositivos de escritorio o tabletas.

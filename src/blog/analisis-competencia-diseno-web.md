@@ -4,6 +4,7 @@ alt: Hombre mirando un escaparate y comparando diferentes productos
 date: 2023-03-17
 heroImage: idenautas-web/blog/072.png
 description: Analizar la competencia en el diseño web se ha convertido en una estrategia esencial para cualquier empresa que busque destacar en línea.
+tags: ["contenido-y-marketing"]
 ---
 
 La competencia en línea es cada vez más fuerte y destacar en un mercado digital saturado puede ser un gran desafío para cualquier empresa. Por eso, analizar la competencia en el diseño web se ha convertido en una estrategia esencial para cualquier empresa que busque destacar en línea.

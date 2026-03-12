@@ -4,6 +4,7 @@ alt: Una balanza con monedas en un lado y líneas de código en el otro
 date: 2026-02-05
 heroImage: idenautas-web/blog/127.png
 description: El precio de una página web varía enormemente. Explicamos qué factores determinan el coste real de un proyecto web y por qué elegir la opción más barata puede salir caro.
+tags: ["negocio-y-estrategia"]
 ---
 
 Es probablemente la pregunta más frecuente que recibimos: "¿Cuánto cuesta una página web?". Y la respuesta honesta siempre es la misma: depende. No por evasión, sino porque la diferencia entre una web de 500 euros y una de 5.000 es real, tangible y tiene consecuencias directas en el resultado.

@@ -4,6 +4,7 @@ alt: Dos pilotos de carreras compitiendo en paralelo en dos ordenadores
 date: 2023-03-02
 heroImage: idenautas-web/blog/048.png
 description: El desarrollo web puede ser un desafío debido a varios factores. Aquí hay algunos de los retos más comunes que enfrentamos como desarrolladores web.
+tags: ["desarrollo-tecnico"]
 ---
 
 El desarrollo web puede ser un desafío debido a varios factores. Aquí hay algunos de los retos más comunes que enfrentamos como desarrolladores web:

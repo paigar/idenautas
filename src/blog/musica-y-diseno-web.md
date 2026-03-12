@@ -4,6 +4,7 @@ alt: Nota musical sobre un estallido de colores
 date: 2023-04-07
 heroImage: idenautas-web/blog/105.png
 description: La música y el diseño web también pueden afectar profundamente la percepción y las emociones de las personas
+tags: ["diseno-web"]
 ---
 
 El diseño web y la música son dos disciplinas creativas que, a primera vista, pueden parecer muy diferentes. Sin embargo, hay una conexión entre ellas que va más allá de lo superficial. En este artículo, exploraremos la relación entre el diseño web y la música y cómo se pueden complementar mutuamente para crear experiencias únicas y memorables en línea.

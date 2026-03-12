@@ -4,6 +4,7 @@ alt: Mesa llena de revistas y un ordenador portátil
 date: 2023-03-24
 heroImage: idenautas-web/blog/084.png
 description: El contenido es una parte crucial de cualquier sitio web exitoso.
+tags: ["contenido-y-marketing", "diseno-web"]
 ---
 
 En la era digital en la que vivimos, el diseño web se ha convertido en una parte esencial de la presencia en línea de una empresa o marca. Muchas veces, se presta mucha atención al diseño visual del sitio web, pero se descuida la importancia del contenido en el diseño web. Sin embargo, el contenido es una parte crucial de cualquier sitio web exitoso, y su calidad puede tener un impacto significativo en la experiencia del usuario y el éxito del sitio web.

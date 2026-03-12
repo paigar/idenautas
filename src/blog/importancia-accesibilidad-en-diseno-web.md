@@ -4,6 +4,7 @@ alt: Pantalla de un ordenador mostrando un mundo de fantasía
 date: 2023-02-08
 heroImage: idenautas-web/blog/031.png
 description: Una de las principales ventajas de tener un sitio web accesible es que mejora la experiencia del usuario.
+tags: ["experiencia-de-usuario"]
 ---
 
 La accesibilidad en el diseño web es un tema que a menudo se pasa por alto, pero es vital para asegurar que todas las personas, independientemente de sus habilidades, puedan utilizar y acceder a un sitio web con facilidad. A continuación vamos a hablar sobre la importancia de la accesibilidad en el diseño web y cómo puede mejorar la experiencia de los usuarios.

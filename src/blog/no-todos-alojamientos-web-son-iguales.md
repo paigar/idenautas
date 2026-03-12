@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/004.png
 alt: Centro de procesamiento de datos, lleno de servidores y luces
 date: 2023-01-24
 description: La calidad del alojamiento es un aspecto clave a considerar en un sitio web, ya que afecta directamente su rendimiento y disponibilidad.
+tags: ["negocio-y-estrategia"]
 ---
 
 Cuando se trata de crear un sitio web, elegir el alojamiento web adecuado es una de las decisiones más importantes que se deben tomar. El alojamiento web es esencialmente el lugar donde se aloja el sitio web en línea, por lo que es crucial que sea de alta calidad y cumpla con todas las necesidades del sitio web.

@@ -4,6 +4,7 @@ alt: Pájaro con plumas de colores saliendo de la pantalla de un ordenador
 date: 2023-02-09
 heroImage: idenautas-web/blog/033.png
 description: En el mundo digital de hoy en día, la experiencia de usuario (UX) y la interfaz de usuario (UI) son claves para el éxito de un sitio web o aplicación.
+tags: ["experiencia-de-usuario"]
 ---
 
 UX/UI son las siglas de User Experience (Experiencia de Usuario) y User Interface (Interfaz de Usuario), respectivamente. Se refieren a la combinación de aspectos técnicos y estéticos que determinan cómo los usuarios interactúan con un sitio web o aplicación.

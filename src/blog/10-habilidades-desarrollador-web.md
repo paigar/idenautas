@@ -4,6 +4,7 @@ alt: Desarrollador web trabajando en un oficina
 date: 2023-03-27
 heroImage: idenautas-web/blog/090.png
 description: Un desarrollador web debe ser un experto en múltiples áreas para poder crear sitios web efectivos, atractivos y funcionales
+tags: ["desarrollo-tecnico", "vida-profesional"]
 ---
 
 En la actualidad, el desarrollo web se ha convertido en una de las profesiones más demandadas y valoradas en el mundo digital. Los desarrolladores web deben poseer una variedad de habilidades para destacarse en este campo competitivo y exigente. Desde la capacidad de resolver problemas hasta la capacidad de trabajar en equipo, un desarrollador web debe ser un experto en múltiples áreas para poder crear sitios web efectivos, atractivos y funcionales.

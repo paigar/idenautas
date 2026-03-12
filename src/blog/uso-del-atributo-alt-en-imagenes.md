@@ -4,6 +4,7 @@ alt: Imagen de un paisaje imaginario, con las montañas reflejándose en un gran
 date: 2023-02-06
 heroImage: idenautas-web/blog/029.png
 description: Aunque es importante saber que el atributo "alt" puede ser beneficioso en términos de accesibilidad... ¿cuál es la forma correcta de usarlo?
+tags: ["experiencia-de-usuario"]
 ---
 
 Hoy en día, todo el mundo en la industria del diseño web sabe lo importante que es la accesibilidad. Se habla de ello constantemente y se insta a los clientes a tomarlo en serio. Es indudable el impacto que tiene en la web y en aquellos que la utilizan.

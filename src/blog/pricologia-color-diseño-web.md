@@ -4,6 +4,7 @@ alt: Cara de una mujer con estallidos de color sobre su rostro
 date: 2023-02-05
 heroImage: idenautas-web/blog/027.png
 description: El uso del color es una de las herramientas más importantes en el diseño web. Los colores no solo afectan el aspecto visual de un sitio web, sino que también pueden influir en la percepción y la emoción de los usuarios.
+tags: ["diseno-web"]
 ---
 
 El uso del color es una de las herramientas más importantes en el diseño web. Los colores no solo afectan el aspecto visual de un sitio web, sino que también pueden influir en la percepción y la emoción de los usuarios. A continuación, se presentan algunas pautas y consejos sobre cómo utilizar el color en el diseño web de manera efectiva.

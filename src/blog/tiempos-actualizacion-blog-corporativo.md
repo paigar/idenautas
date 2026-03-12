@@ -4,6 +4,7 @@ alt: Montones de revistas sobre un escritorio, ordenado y organizado
 date: 2023-03-13
 heroImage: idenautas-web/blog/063.png
 description: La frecuencia con la que se debe actualizar un blog corporativo depende de varios factores, como el tipo de negocio, el público objetivo y los objetivos de marketing.
+tags: ["contenido-y-marketing"]
 ---
 
 La frecuencia con la que se debe actualizar un blog corporativo depende de varios factores, como el tipo de negocio, el público objetivo y los objetivos de marketing. En general, **se recomienda publicar al menos una vez a la semana** para mantener a los lectores comprometidos y atraer nuevos visitantes al sitio web.

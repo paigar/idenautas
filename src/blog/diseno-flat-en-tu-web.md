@@ -4,6 +4,7 @@ alt: Un diseñador web trabajando en su portátil en la oficina
 date: 2023-03-24
 heroImage: idenautas-web/blog/082.png
 description: El diseño flat se basa en la simplicidad y la minimalismo, y se caracteriza por el uso de formas geométricas simples, colores sólidos y tipografía clara.
+tags: ["diseno-web"]
 ---
 
 El diseño flat o diseño plano se ha convertido en una tendencia muy popular en la actualidad, tanto en el diseño web como en el diseño de interfaces para aplicaciones móviles y de escritorio. Esta tendencia se caracteriza por la simplicidad en la presentación de los elementos gráficos, con una estética minimalista que busca eliminar cualquier tipo de efecto que simule la tridimensionalidad o profundidad en los objetos.

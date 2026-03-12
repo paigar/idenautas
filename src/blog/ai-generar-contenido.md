@@ -4,6 +4,7 @@ alt: Busto de una mujer cuyo cerebro ha sido reemplazado por un ordenador
 date: 2023-03-08
 heroImage: idenautas-web/blog/056.png
 description: Cada vez más empresas y creadores de contenido están utilizando AI para crear artículos, textos publicitarios, descripciones de productos, títulos y mucho más.
+tags: ["contenido-y-marketing", "creatividad-e-innovacion"]
 ---
 
 La inteligencia artificial (AI) se ha convertido en una herramienta poderosa para generar contenido en internet. Cada vez más empresas y creadores de contenido están utilizando AI para crear artículos, textos publicitarios, descripciones de productos, títulos y mucho más.

@@ -4,6 +4,7 @@ alt: Pantalla de ordenador mostrando un mundo lleno de ideas e imaginación
 date: 2023-02-04
 heroImage: idenautas-web/blog/025.png
 description: Los generadores de contenido estático se están convirtiendo en una herramienta muy popular en el desarrollo web que ofrecen muchas ventajas y motivos para su uso
+tags: ["desarrollo-tecnico"]
 ---
 
 Un generador de contenido estático es una herramienta que permite la creación de sitios web estáticos, es decir, sitios web cuyo contenido no cambia dinámicamente a medida que los usuarios interactúan con ellos. En lugar de generar el contenido en tiempo real, se genera de forma previa y se almacena en archivos estáticos que son servidos a los usuarios a través de un servidor web.

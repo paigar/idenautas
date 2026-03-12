@@ -4,6 +4,7 @@ alt: Diagrama de internet, con un ordenador portátil en el centro y multitud de
 heroImage: idenautas-web/blog/122.png
 date: 2023-03-22
 description: La seguridad en el desarrollo web es un tema crucial y de suma importancia para garantizar la integridad de los datos y la protección de los usuarios.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 En la actualidad, la seguridad en el desarrollo web es un tema crucial y de suma importancia para garantizar la integridad de los datos y la protección de los usuarios. Cada vez son más comunes los ataques informáticos, las violaciones de privacidad y los robos de datos, por lo que es fundamental que los desarrolladores web adopten medidas de seguridad apropiadas para proteger sus sitios web.s

@@ -4,6 +4,7 @@ alt: Imagen de un bar con un mostrador, varios taburetes y pizarras con informac
 date: 2023-03-11
 heroImage: idenautas-web/blog/061.png
 description: Una página web puede ser una herramienta muy efectiva para atraer nuevos clientes, crear una imagen positiva de la marca y mejorar la experiencia del cliente.
+tags: ["negocio-y-estrategia"]
 ---
 
 Tener una página web es cada vez más importante para cualquier tipo de negocio, incluyendo bares y restaurantes. Una página web puede ser una herramienta muy efectiva para atraer nuevos clientes, crear una imagen positiva de la marca y mejorar la experiencia del cliente.

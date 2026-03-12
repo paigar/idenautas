@@ -4,6 +4,7 @@ alt: Escritorio con una taza de café, un porter publicitario y numerosos acceso
 date: 2023-02-09
 heroImage: idenautas-web/blog/032.png
 description: El marketing de contenidos es una estrategia de marketing digital que se enfoca en crear y compartir contenido relevante y valioso
+tags: ["contenido-y-marketing"]
 ---
 
 El marketing de contenidos es una estrategia de marketing digital que se enfoca en crear y compartir contenido relevante y valioso para un público objetivo específico con el objetivo de atraer, retener y convertir clientes potenciales. La idea es ofrecer información útil, educativa o entretenida que resuelva las necesidades o problemas de los usuarios y, al mismo tiempo, refuerce la imagen de marca y genere confianza y lealtad.

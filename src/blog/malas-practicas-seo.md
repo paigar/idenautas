@@ -4,6 +4,7 @@ alt: Un montón de ordenadores de diferentes tamaños y colores
 date: 2023-03-08
 heroImage: idenautas-web/blog/057.png
 description: Exploramos las malas prácticas en SEO más comunes y cómo evitarlas para no afectar negativamente nuestro sitio web.
+tags: ["contenido-y-marketing"]
 ---
 
 El SEO es una de las estrategias más importantes en el mundo del marketing digital, ya que permite aumentar la visibilidad y el tráfico hacia un sitio web. Sin embargo, en ocasiones algunos profesionales o empresas utilizan malas prácticas para mejorar su posicionamiento, lo que puede ser perjudicial a largo plazo.

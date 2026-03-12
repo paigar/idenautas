@@ -4,6 +4,7 @@ alt: Un monitor de ordenador mostrando una web centrada en el vacío del espacio
 date: 2023-04-10
 heroImage: idenautas-web/blog/108.png
 description: El enfoque minimalista se centra en reducir elementos innecesarios y destacar lo esencial para crear un diseño elegante y funcional
+tags: ["diseno-web"]
 ---
 
 En el mundo del diseño web, la simplicidad es la clave del éxito. El diseño web minimalista se ha convertido en una tendencia popular en los últimos años gracias a su capacidad para crear una experiencia de usuario agradable y fácil de usar. El enfoque minimalista se centra en reducir elementos innecesarios y destacar lo esencial para crear un diseño elegante y funcional.

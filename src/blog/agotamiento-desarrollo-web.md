@@ -4,6 +4,7 @@ alt: Un hombre adormilado y exhausto delante de la pantalla de su ordenador
 date: 2023-03-22
 heroImage: idenautas-web/blog/079.png
 description: Estrategias más efectivas para prevenir el agotamiento en el desarrollo web.
+tags: ["vida-profesional"]
 ---
 
 La tecnología ha avanzado de manera exponencial en los últimos años y, junto con ella, el desarrollo web se ha vuelto una tarea cada vez más compleja y exigente. Los profesionales de esta área enfrentan una gran cantidad de responsabilidades, desde la creación de aplicaciones y la solución de problemas técnicos, hasta el cumplimiento de plazos y objetivos de negocio.

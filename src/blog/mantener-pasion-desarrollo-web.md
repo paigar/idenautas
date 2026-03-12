@@ -4,6 +4,7 @@ alt: Fotografía de un robot paseando por la calle en una ciudad
 date: 2023-03-28
 heroImage: idenautas-web/blog/094.png
 description: Estrategias efectivas para mantenernos motivados y apasionados por el desarrollo web a largo plazo.
+tags: ["vida-profesional"]
 ---
 
 Ser desarrollador web es una profesión apasionante que implica estar constantemente aprendiendo y actualizando nuestras habilidades. Sin embargo, a veces puede ser difícil mantener la pasión por lo que hacemos a largo plazo, especialmente cuando nos enfrentamos a obstáculos o a tareas rutinarias.

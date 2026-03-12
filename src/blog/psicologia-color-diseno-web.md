@@ -4,6 +4,7 @@ alt: Imagen de un arcoíris
 date: 2023-03-12
 heroImage: idenautas-web/blog/062.png
 description: En el diseño web, la elección de los colores es un aspecto crítico que puede influir en la experiencia del usuario.
+tags: ["diseno-web"]
 ---
 
 La **psicología del color** es una disciplina que estudia cómo los colores influyen en las emociones y el comportamiento humano. En el diseño web, la elección de los colores es un aspecto crítico que puede influir en la experiencia del usuario.

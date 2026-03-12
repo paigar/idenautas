@@ -4,6 +4,7 @@ alt: Carro de compra virtual
 date: 2023-03-07
 heroImage: idenautas-web/blog/055.png
 description: Las ventas en línea se han disparado, lo que ha llevado a muchos a preguntarse cuál será el futuro del ecommerce.
+tags: ["negocio-y-estrategia", "creatividad-e-innovacion"]
 ---
 
 El comercio electrónico ha experimentado un crecimiento constante en los últimos años, y su importancia ha sido aún más relevante en el contexto de la pandemia de COVID-19. Las ventas en línea se han disparado, lo que ha llevado a muchos a preguntarse cuál será el futuro del ecommerce.

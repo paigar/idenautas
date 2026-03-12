@@ -4,6 +4,7 @@ alt: Ser humano digitalizándose en la pantalla un ordenador
 date: 2023-03-29
 heroImage: idenautas-web/blog/095.png
 description: La antropología es el estudio de la cultura y el comportamiento humano.
+tags: ["creatividad-e-innovacion", "experiencia-de-usuario"]
 ---
 
 El desarrollo web es una tarea compleja que implica muchos aspectos técnicos y creativos. Pero en el corazón de cualquier sitio web exitoso se encuentra el usuario y su experiencia en el sitio. Es por eso que es importante no solo entender los aspectos técnicos del desarrollo web, sino también entender al usuario y sus necesidades.

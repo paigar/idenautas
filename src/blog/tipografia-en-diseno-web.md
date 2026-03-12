@@ -4,6 +4,7 @@ alt: Letras aleatorias de gran tamaño flotando en el cielo de un mundo imaginar
 date: 2023-02-07
 heroImage: idenautas-web/blog/030.png
 description: Las fuentes de texto son una parte fundamental del diseño gráfico y la comunicación visual, y tienen un impacto significativo en la psicología del lector.
+tags: ["diseno-web"]
 ---
 
 Las fuentes de texto son una parte fundamental del diseño gráfico y la comunicación visual, y tienen un impacto significativo en la psicología del lector. Las fuentes de texto no solo afectan la legibilidad y la estética de un texto, sino que también pueden influir en las emociones y actitudes de los lectores.

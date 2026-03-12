@@ -4,6 +4,7 @@ alt: Hombre de edad avanzada usando un ordenador portátil
 date: 2023-02-24
 heroImage: idenautas-web/blog/043.png
 description: Crear un sitio web para personas mayores puede ser un desafío, ya que a menudo tienen necesidades y limitaciones únicas en términos de accesibilidad y usabilidad.
+tags: ["experiencia-de-usuario"]
 ---
 
 El uso de internet por personas mayores se ha convertido en una parte cada vez más importante de la vida cotidiana.

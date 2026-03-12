@@ -4,6 +4,7 @@ alt: Ordenador antiguo, lleno de polvo y telarañas
 date: 2023-01-29
 heroImage: idenautas-web/blog/012.png
 description: Hay muchos elementos, imprescindibles en otras épocas, que hoy en día se antojarían totalmente desfasados y obsoletos en un sitio web, tanto por su estética como por su usabilidad.
+tags: ["diseno-web"]
 ---
 
 Para bien o para mal, todos aquellos que llevamos trabajando con páginas web más años de los que estamos dispuesto a reconocer, hemos ido viendo cómo las modas y tendencias en internet han cambiado y evolucionado a lo largo del tiempo.

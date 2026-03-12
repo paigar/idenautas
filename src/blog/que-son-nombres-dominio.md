@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/005.png
 alt: Letras genéricas flotando en el cielo de un mundo imaginario
 date: 2023-01-24
 description: Recuerda que elegir un buen nombre de dominio es importante para la imagen y la presencia en línea de tu negocio.
+tags: ["contenido-y-marketing"]
 ---
 
 ¿Alguna vez te has preguntado cómo encontrar una página web en internet? Bueno, pues la respuesta está en el nombre de dominio.

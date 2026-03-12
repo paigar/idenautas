@@ -4,6 +4,7 @@ alt: Un servidor apagado junto a una web que carga a toda velocidad
 date: 2026-02-18
 heroImage: idenautas-web/blog/126.png
 description: Los sitios web estáticos han vuelto con fuerza. Descubre por qué las webs más rápidas, seguras y económicas de 2026 no necesitan un servidor tradicional ni una base de datos.
+tags: ["desarrollo-tecnico"]
 ---
 
 Cuando alguien dice "web estática", muchos piensan en páginas de los años 90: texto plano, fondos de colores chillones y contadores de visitas. Pero en 2026, las webs estáticas son probablemente lo más moderno que puedes construir. Y lo más rápido.

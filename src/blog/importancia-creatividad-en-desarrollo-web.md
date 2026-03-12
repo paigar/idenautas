@@ -4,6 +4,7 @@ alt: Bombilla explotando y lanzando ideas al espacio
 date: 2023-03-10
 heroImage: idenautas-web/blog/060.png
 description: En el mundo del desarrollo web, la creatividad es una habilidad crucial para la creación de sitios web atractivos, innovadores y efectivos.
+tags: ["creatividad-e-innovacion", "diseno-web"]
 ---
 
 En el mundo del desarrollo web, la creatividad es una habilidad crucial para la creación de sitios web atractivos, innovadores y efectivos. La creatividad en el desarrollo web se trata de encontrar nuevas formas de presentar contenido y funcionalidades de una manera visualmente atractiva y fácil de usar.

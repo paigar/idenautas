@@ -4,6 +4,7 @@ alt: Ordenador portátil con gran cantidad de texto en su pantalla
 date: 2023-02-02
 heroImage: idenautas-web/blog/022.png
 description: El contenido escrito es un factor clave en la creación de un sitio web exitoso. No solo atrae tráfico y visitantes, sino que también es el núcleo de nuestro SEO
+tags: ["contenido-y-marketing"]
 ---
 
 En la era digital en la que vivimos, tener un sitio web es esencial para cualquier negocio o marca. Pero, ¿qué sucede cuando nos centramos solo en la estética y la funcionalidad de nuestra página y dejamos de lado el contenido escrito? Es aquí donde la diferencia radica en el éxito o fracaso de nuestra presencia en línea.

@@ -4,6 +4,7 @@ alt: Persona hablando on otro grupo de personas en una oficina con actitud de co
 date: 2023-04-04
 heroImage: idenautas-web/blog/102.png
 description: Trabajar con personas tóxicas puede ser extremadamente desafiante y frustrante
+tags: ["vida-profesional"]
 ---
 
 El desarrollo web es un campo que requiere una gran cantidad de trabajo en equipo. Trabajar en un ambiente de equipo saludable y positivo es clave para el éxito de cualquier proyecto de desarrollo web. Sin embargo, cuando una persona tóxica se introduce en el equipo, puede afectar negativamente el ambiente de trabajo, disminuir la productividad y, en última instancia, el éxito del proyecto.

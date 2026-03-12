@@ -4,6 +4,7 @@ alt: Una tarjeta de crédito emergiendo de un ordenador portátil
 date: 2023-04-11
 heroImage: idenautas-web/blog/109.png
 description: Consejos y herramientas prácticas para diseñar una página web que convierta visitantes en clientes
+tags: ["experiencia-de-usuario", "negocio-y-estrategia"]
 ---
 
 Diseñar una página web atractiva y funcional es un gran paso para atraer visitantes a tu sitio web. Pero, ¿cómo convertir a esos visitantes en clientes potenciales? La respuesta radica en el diseño de la página web para la conversión.

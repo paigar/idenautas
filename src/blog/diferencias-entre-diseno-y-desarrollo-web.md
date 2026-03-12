@@ -4,6 +4,7 @@ alt: Desarrollador web trabajando delante de su ordenador
 date: 2023-02-02
 heroImage: idenautas-web/blog/023.png
 description: El diseño web y el desarrollo web son dos áreas diferentes pero complementarias en la creación de un sitio web.
+tags: ["experiencia-de-usuario", "desarrollo-tecnico"]
 ---
 
 El diseño web y el desarrollo web son dos áreas diferentes pero complementarias en la creación de un sitio web. Aunque a menudo se utilizan indistintamente, es importante conocer las diferencias entre ellas.

@@ -4,6 +4,7 @@ alt: Icono de un sobre de correo electrónico con un candado indicando su seguri
 date: 2023-03-30
 heroImage: idenautas-web/blog/098.png
 description: Muchos proveedores de correo electrónico populares no ofrecen un alto nivel de seguridad y privacidad, lo que ha llevado a la aparición de servicios de correo electrónico seguros.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 En la era digital en la que vivimos, el correo electrónico es uno de los medios de comunicación más utilizados en el mundo. Sin embargo, la seguridad y privacidad de nuestros correos electrónicos se ha vuelto cada vez más cuestionable en los últimos años. Muchos proveedores de correo electrónico populares no ofrecen un alto nivel de seguridad y privacidad, lo que ha llevado a la aparición de servicios de correo electrónico seguros.

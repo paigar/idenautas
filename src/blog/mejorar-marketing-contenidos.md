@@ -4,6 +4,7 @@ alt: Hombre celebrando su éxito delante de su ordenador portátil
 date: 2023-03-01
 heroImage: idenautas-web/blog/047.png
 description: Para lograr el éxito, es importante que tu estrategia de marketing de contenidos esté bien planificada y enfocada en las necesidades y preferencias de tu audiencia.
+tags: ["contenido-y-marketing"]
 ---
 
 El marketing de contenidos es una de las formas más efectivas de atraer y retener a tu público objetivo y mejorar la visibilidad de tu marca. Sin embargo, para lograr el éxito, es importante que tu estrategia de marketing de contenidos esté bien planificada y enfocada en las necesidades y preferencias de tu audiencia.

@@ -4,6 +4,7 @@ alt: Maniquí humano con una etiqueta de su marca personal
 date: 2023-04-16
 heroImage: idenautas-web/blog/115.png
 description: El diseño web puede ayudarte a crear una marca personal sólida en línea
+tags: ["diseno-web", "negocio-y-estrategia"]
 ---
 
 En la actualidad, tener una **marca personal** sólida es esencial para destacar en un mercado cada vez más competitivo. Y en el entorno digital, el **diseño web** juega un papel clave en la construcción de una marca personal efectiva y coherente en línea.

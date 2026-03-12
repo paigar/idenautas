@@ -4,6 +4,7 @@ alt: Cielo con nubes, interconectadas mediante líneas de flujo y un diagrama de
 date: 2023-03-24
 heroImage: idenautas-web/blog/081.png
 description: La seguridad en el desarrollo web es un tema crucial y de suma importancia para garantizar la integridad de los datos y la protección de los usuarios.
+tags: ["desarrollo-tecnico", "sostenibilidad-y-etica"]
 ---
 
 El desarrollo web en la nube se refiere a la creación y administración de aplicaciones y sitios web en línea, utilizando servicios de computación en la nube. En lugar de tener que instalar y configurar software y servidores en local, el desarrollo web en la nube permite a los desarrolladores trabajar en un entorno virtualizado, en línea y escalable.

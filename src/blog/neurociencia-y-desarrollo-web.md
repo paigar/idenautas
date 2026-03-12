@@ -4,6 +4,7 @@ alt: Cerebro humano lleno de pinceladas de color
 date: 2023-03-24
 heroImage: idenautas-web/blog/085.png
 description: El contenido es una parte crucial de cualquier sitio web exitoso.
+tags: ["creatividad-e-innovacion", "experiencia-de-usuario"]
 ---
 
 La efectividad del diseño web es crucial para el éxito de cualquier sitio web, ya sea para la venta de productos, para la educación, para la comunicación o para cualquier otro propósito. El diseño web efectivo se basa en una comprensión profunda del comportamiento humano y de cómo interactuamos con la tecnología. La neurociencia es un campo de estudio que se enfoca en el cerebro y el sistema nervioso, y puede proporcionar información valiosa para los diseñadores web que buscan mejorar la efectividad de sus diseños.

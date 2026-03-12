@@ -4,6 +4,7 @@ alt: Ciudad urbanizada en torno al planeta tierra, con gran respeto de las zonas
 date: 2023-03-25
 heroImage: idenautas-web/blog/087.png
 description: La economía circular se basa en el principio de minimización de residuos y maximización del valor de los recursos.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 En la actualidad, la economía circular se ha convertido en una tendencia importante en muchos sectores, incluido el diseño y desarrollo web. La economía circular se basa en el principio de minimización de residuos y maximización del valor de los recursos, y busca reducir el impacto negativo del consumo y la producción en el medio ambiente.

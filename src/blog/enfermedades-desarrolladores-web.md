@@ -4,6 +4,7 @@ alt: Imagen de un hospital abandonado
 date: 2023-03-16
 heroImage: idenautas-web/blog/068.png
 description: El trabajo de los desarrolladores web es una tarea que exige estar mucho tiempo frente a un ordenador, lo que puede generar diversas afecciones físicas y mentales.
+tags: ["vida-profesional"]
 ---
 
 El trabajo de los desarrolladores web es una tarea que exige estar mucho tiempo frente a un ordenador, lo que puede generar diversas afecciones físicas y mentales.

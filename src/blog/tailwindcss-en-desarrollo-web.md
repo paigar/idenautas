@@ -4,6 +4,7 @@ alt: Ordenador mostrando una pagina web atractiva en la pantalla
 date: 2023-02-28
 heroImage: idenautas-web/blog/045.png
 description: Tailwind CSS es un framework de diseño web de código abierto que proporciona un conjunto completo de clases CSS predefinidas que se pueden utilizar para construir interfaces de usuario personalizadas.
+tags: ["desarrollo-tecnico"]
 ---
 
 Tailwind CSS es un framework de diseño web de código abierto que proporciona un conjunto completo de clases CSS predefinidas que se pueden utilizar para construir interfaces de usuario personalizadas. El enfoque de Tailwind es proporcionar una base sólida para diseñadores y desarrolladores que desean construir interfaces de usuario personalizadas de manera rápida y eficiente.

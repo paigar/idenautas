@@ -4,6 +4,7 @@ alt: Un hombre visitando una página web desde su ordenador portátil
 date: 2023-03-14
 heroImage: idenautas-web/blog/064.png
 description: El dominio de tu sitio web es la dirección única que se utilizará para acceder a tu sitio, por lo que es importante que sea fácil de recordar, identificar y promover
+tags: ["contenido-y-marketing"]
 ---
 
 Cuando se trata de elegir el dominio de tu página web, hay varios factores a considerar para asegurarte de elegir el adecuado. El dominio de tu sitio web es la dirección única que se utilizará para acceder a tu sitio, por lo que es importante que sea fácil de recordar, identificar y promover.

@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/007.png
 alt: Teléfono móvil con imagen multicolor saliendo de su pantalla
 date: 2023-01-25
 description: Diseñar y desarrollar una aplicación móvil es un proceso complejo que presenta una serie de desafíos únicos.
+tags: ["desarrollo-tecnico"]
 ---
 
 Los dispositivos móviles se han convertido en una parte integral de nuestras vidas diarias. Con más de 3.5 mil millones de usuarios de teléfonos inteligentes en todo el mundo, no es de extrañar que el mercado de las aplicaciones móviles esté en auge.

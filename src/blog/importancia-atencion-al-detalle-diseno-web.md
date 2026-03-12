@@ -4,6 +4,7 @@ alt: Microscopio en un oficina
 date: 2023-03-28
 heroImage: idenautas-web/blog/093.png
 description: La atención al detalle es fundamental para garantizar una experiencia agradable y efectiva para el usuario.
+tags: ["experiencia-de-usuario"]
 ---
 
 En el diseño web, la atención al detalle es fundamental para garantizar una experiencia agradable y efectiva para el usuario. Pequeños detalles como la elección de los colores y la tipografía, la optimización de la velocidad de carga del sitio web y la corrección de errores pueden marcar una gran diferencia en la percepción del usuario sobre la calidad y la credibilidad del sitio web.

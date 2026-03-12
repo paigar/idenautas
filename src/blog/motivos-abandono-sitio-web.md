@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/001.png
 alt: Imagen de un reloj de arena sobre un fondo oscuro
 date: 2023-01-22
 description: El abandono de un sitio web puede ser un problema crítico para cualquier negocio o marca que dependa de internet para su presencia y crecimiento.
+tags: ["experiencia-de-usuario"]
 ---
 
 El abandono de un sitio web puede ser un problema crítico para cualquier negocio o marca que dependa de internet para su presencia y crecimiento. Aunque hay muchas razones por las que los usuarios pueden abandonar un sitio web, hay algunas tendencias y problemas comunes que se deben tener en cuenta para mejorar la experiencia del usuario y retener a los visitantes.

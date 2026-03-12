@@ -4,6 +4,7 @@ alt: Desarrollador web trabajando desde su casa
 date: 2023-03-04
 heroImage: idenautas-web/blog/051.png
 description: El teletrabajo ha sido una tendencia creciente en la industria del desarrollo web, especialmente durante la pandemia de COVID-19. Sin embargo, trabajar desde casa puede presentar desafíos únicos para los desarrolladores web.
+tags: ["vida-profesional"]
 ---
 
 El teletrabajo ha sido una tendencia creciente en la industria del desarrollo web, especialmente durante la pandemia de COVID-19. Sin embargo, trabajar desde casa puede presentar desafíos únicos para los desarrolladores web.

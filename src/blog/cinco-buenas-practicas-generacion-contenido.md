@@ -4,6 +4,7 @@ alt: Libro abierto en el que se muestra un paisaje de fantasía
 date: 2023-01-29
 heroImage: idenautas-web/blog/013.png
 description: En la creación de contenido para una página web, es fundamental tener en cuenta algunos factores clave que determinarán el éxito o fracaso en la comunicación de nuestro mensaje
+tags: ["contenido-y-marketing"]
 ---
 
 La generación de contenido es una tarea fundamental en el mundo digital. Ya sea para blogs, redes sociales, páginas web o cualquier otro tipo de plataforma en línea, el contenido de calidad es esencial para llegar a la audiencia y generar un impacto positivo. La creación de contenido de calidad no es solo una cuestión de escribir o producir algo interesante, sino que también implica seguir una serie de buenas prácticas que aseguren su eficacia y calidad.

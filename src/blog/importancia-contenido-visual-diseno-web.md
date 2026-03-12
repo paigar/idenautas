@@ -4,6 +4,7 @@ alt: Imagen digital de un león, de frente y de perfil
 date: 2023-02-21
 heroImage: idenautas-web/blog/041.png
 description: El contenido visual en el diseño web es una de las partes más importantes para la creación de una experiencia de usuario efectiva.
+tags: ["diseno-web"]
 ---
 
 El contenido visual en el diseño web es una de las partes más importantes para la creación de una experiencia de usuario efectiva. A través de imágenes, gráficos, videos, ilustraciones y otros elementos visuales, se puede crear una experiencia de usuario más atractiva y agradable, además de mejorar la comprensión de la información presentada en el sitio web.

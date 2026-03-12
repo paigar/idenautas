@@ -4,6 +4,7 @@ alt: Gran manifestación recorriendo las calles de una ciudad
 date: 2023-03-16
 heroImage: idenautas-web/blog/071.png
 description: En el contexto del diseño y desarrollo web, la ética se refiere a los principios que rigen la conducta de los profesionales al crear y mantener sitios web y aplicaciones en línea.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 El diseño y desarrollo web es un campo que ha experimentado un crecimiento exponencial en los últimos años, gracias a la creciente demanda de presencia en línea para empresas y personas en todo el mundo.

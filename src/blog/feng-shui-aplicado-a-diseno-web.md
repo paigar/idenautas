@@ -4,6 +4,7 @@ alt: Imagen de cuencos y plantas con inspiración oriental
 date: 2023-01-31
 heroImage: idenautas-web/blog/017.png
 description: El Feng Shui es un antiguo arte de la armonización del entorno que se originó en China hace más de 4000 años.
+tags: ["diseno-web"]
 ---
 
 El Feng Shui es un antiguo sistema filosófico chino que se basa en la armonía y el equilibrio entre las personas y su entorno. En la actualidad, el Feng Shui se ha aplicado a muchos ámbitos de la vida, incluyendo el diseño de interiores, la arquitectura y el diseño web. Al aplicar los principios del Feng Shui al diseño web, es posible crear sitios web armoniosos, equilibrados y energéticos que mejoren la experiencia del usuario y la eficacia del sitio web.

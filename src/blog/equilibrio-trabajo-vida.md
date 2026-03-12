@@ -4,6 +4,7 @@ alt: Imagen de un desarrollador web trabajando en su ordenador
 date: 2023-03-16
 heroImage: idenautas-web/blog/069.png
 description: En la industria del diseño y desarrollo web, es fácil caer en la trampa de trabajar horas interminables en proyectos apasionantes, lo que a menudo puede resultar en un desequilibrio entre la vida laboral y personal.
+tags: ["vida-profesional"]
 ---
 
 En la industria del diseño y desarrollo web, es fácil caer en la trampa de trabajar horas interminables en proyectos apasionantes, lo que a menudo puede resultar en un desequilibrio entre la vida laboral y personal.

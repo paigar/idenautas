@@ -4,6 +4,7 @@ alt: Varias pantallas de ordenador mostrando líneas y líneas de código
 date: 2023-04-03
 heroImage: idenautas-web/blog/101.png
 description: Un código de alta calidad no solo es más fácil de entender y mantener, sino que también reduce los errores y problemas de seguridad
+tags: ["desarrollo-tecnico"]
 ---
 
 El código es la base del desarrollo web. Es la herramienta que permite crear aplicaciones, sitios web y software en general. Por ello, la calidad del código es crucial para asegurar el éxito de un proyecto de desarrollo web.

@@ -4,6 +4,7 @@ alt: Un poster antiguo de una mujer usando un teléfono
 date: 2023-04-14
 heroImage: idenautas-web/blog/113.png
 description: Herramientas y técnicas que nos permitan crear conexiones emocionales con el usuario, con el objetivo de que se sienta más involucrado y comprometido con la plataforma
+tags: ["diseno-web"]
 ---
 
 En el mundo del diseño web, la experiencia del usuario es fundamental para el éxito de una página o sitio web. En este sentido, es importante utilizar herramientas y técnicas que nos permitan crear conexiones emocionales con el usuario, con el objetivo de que se sienta más involucrado y comprometido con la plataforma. Una de estas herramientas es la nostalgia.

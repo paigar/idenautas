@@ -4,6 +4,7 @@ alt: Hombre levitando en mitad de la habitación mientras usa su ordenador port�
 date: 2023-03-29
 heroImage: idenautas-web/blog/097.png
 description: Conceptos básicos del mindfulness y cómo se pueden aplicar en el diseño web para mejorar la calidad.
+tags: ["vida-profesional"]
 ---
 
 El mindfulness es una técnica de meditación que se ha popularizado en los últimos años por sus beneficios para la salud mental y física. Se trata de estar presente en el momento presente y prestar atención a las sensaciones, pensamientos y emociones sin juzgarlos ni reaccionar ante ellos de forma automática.

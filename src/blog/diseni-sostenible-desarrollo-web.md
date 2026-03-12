@@ -4,6 +4,7 @@ alt: Imagen de un paisaje verde y extremadamente bello
 date: 2023-04-06
 heroImage: idenautas-web/blog/104.png
 description: El diseño sostenible es aquel que tiene en cuenta el impacto ambiental, social y económico de un producto o servicio, y busca minimizarlo
+tags: ["diseno-web", "sostenibilidad-y-etica"]
 ---
 
 La sostenibilidad es un tema cada vez más relevante en la sociedad y en todos los ámbitos, incluyendo el diseño web. El diseño sostenible se enfoca en la creación de sitios web que minimicen su impacto ambiental, optimicen su eficiencia y promuevan la responsabilidad social. En este artículo exploraremos la importancia del diseño sostenible en el desarrollo web y cómo podemos aplicar prácticas sostenibles en nuestra labor como diseñadores y desarrolladores web.

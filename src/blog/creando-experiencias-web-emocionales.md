@@ -4,6 +4,7 @@ alt: Pintura del rostro de una persona salpicada de emociones, con fondo en tono
 date: 2023-03-16
 heroImage: idenautas-web/blog/066.png
 description: El diseño emocional es un enfoque en el diseño que busca crear experiencias que conecten con las emociones de los usuarios.
+tags: ["experiencia-de-usuario", "diseno-web"]
 ---
 
 El diseño emocional es un enfoque en el diseño que busca crear experiencias que conecten con las emociones de los usuarios, con el objetivo de generar una respuesta emocional positiva y, en última instancia, mejorar la experiencia del usuario. A medida que las empresas se vuelven cada vez más conscientes de la importancia de la experiencia del usuario, el diseño emocional se ha convertido en una tendencia cada vez más popular en el mundo del diseño web.

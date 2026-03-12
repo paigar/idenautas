@@ -4,6 +4,7 @@ alt: Hombre sentado rodeado de ordenadores y libros con una ventana abierta a la
 date: 2023-02-11
 heroImage: idenautas-web/blog/036.png
 description: La posesión de nuestro propio contenido en Internet nos permite el control total sobre la información y cómo se presenta al público.
+tags: ["negocio-y-estrategia"]
 ---
 
 La posesión de nuestro propio contenido en Internet nos permite el control total sobre la información y cómo se presenta al público. Si publicamos nuestro contenido en una plataforma externa, estamos sujetos a las políticas y restricciones de esa plataforma, y corremos el riesgo de que nuestro contenido sea eliminado sin previo aviso. Además, poseer nuestro propio contenido en Internet es una forma de asegurar su perpetuidad y accesibilidad en el futuro.

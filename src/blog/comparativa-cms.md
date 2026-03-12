@@ -4,6 +4,7 @@ alt: Imagen con pequeños mundos en burbujas flotando en el cielo
 date: 2023-02-02
 heroImage: idenautas-web/blog/021.png
 description: Los gestores de contenido son herramientas populares para el desarrollo de sitios web, que permiten a los usuarios crear, gestionar y publicar contenido de manera fácil y eficiente.
+tags: ["desarrollo-tecnico", "negocio-y-estrategia"]
 ---
 
 Los gestores de contenido (CMS, por sus siglas en inglés) son herramientas populares para el desarrollo de sitios web, que permiten a los usuarios crear, gestionar y publicar contenido de manera fácil y eficiente.

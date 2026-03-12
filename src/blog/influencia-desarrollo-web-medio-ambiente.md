@@ -4,6 +4,7 @@ alt: Imagen de un hombre convirtiéndose en un árbol
 date: 2023-03-09
 heroImage: idenautas-web/blog/059.png
 description: El primer paso para comprender la influencia del desarrollo web en el medio ambiente es entender la cantidad de energía que se utiliza para alimentar los servidores web.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 El impacto ambiental es un tema cada vez más importante en todo el mundo y el sector tecnológico no es una excepción. A medida que la tecnología sigue avanzando, es importante considerar cómo el desarrollo web puede influir en el medio ambiente. Desde la energía utilizada para alimentar los servidores web hasta la producción de dispositivos para acceder a la web, el desarrollo web tiene un impacto significativo en nuestro planeta.

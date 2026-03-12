@@ -4,6 +4,7 @@ heroImage: idenautas-web/blog/011.png
 alt: Pantalla de ordenador con imágenes y gran cantidad de texto
 date: 2023-01-28
 description: En el mundo del desarrollo web, hablamos de contenido semántico cuando los robots comprenden la estructura de un documento y los roles de los elementos dentro de él.
+tags: ["desarrollo-tecnico"]
 ---
 
 El diseño web y la programación han evolucionado mucho a lo largo de los años, y con el avance de la tecnología, es cada vez más importante prestar atención a la estructura y la semántica de los documentos HTML. Si se planifica cuidadosamente la estructura de los documentos HTML, se puede ayudar a los robots a comprender mejor el significado del contenido.

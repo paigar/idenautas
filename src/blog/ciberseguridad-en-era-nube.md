@@ -4,6 +4,7 @@ alt: Imagen de una nube con un candado y una cerradura
 date: 2023-03-04
 heroImage: idenautas-web/blog/050.png
 description: A medida que más y más datos se mueven a la nube, se ha vuelto más importante que nunca asegurarse de que estos datos estén protegidos.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 La nube ha transformado la forma en que almacenamos y compartimos información. Hoy en día, muchas empresas y organizaciones están migrando sus datos y aplicaciones a la nube, aprovechando las ventajas que ofrece, como la accesibilidad remota y el almacenamiento escalable.

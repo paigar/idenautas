@@ -4,6 +4,7 @@ alt: Cubo en tres dimensiones, montado con diferentes piezas para formar el conj
 date: 2023-01-29
 heroImage: idenautas-web/blog/014.png
 description: Visual Studio Code (VSCode) es un editor de código fuente gratuito y de código abierto desarrollado por Microsoft.
+tags: ["desarrollo-tecnico"]
 ---
 
 Visual Studio Code (VS Code) es un editor de código fuente desarrollado por Microsoft que se utiliza principalmente para la creación de software y aplicaciones web. Se caracteriza por ser una herramienta gratuita, ligera y altamente personalizable, lo que lo convierte en una opción popular para desarrolladores de todo el mundo.

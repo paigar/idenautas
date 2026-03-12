@@ -4,6 +4,7 @@ alt: Imagen de una ciudad verde en una colina llena de vegetación
 date: 2023-02-01
 heroImage: idenautas-web/blog/019.png
 description: Debemos empezar a ser conscientes del consumo energético de nuestros servidores y valorar un uso racional del espacio de almacenamiento digital.
+tags: ["sostenibilidad-y-etica"]
 ---
 
 La aparición de diversas herramientas de desarrollo web ha facilitado la creación de sitios web a un público más amplio. Esto es en gran medida positivo, ya que cada vez más personas pueden tener un sitio en internet de manera sencilla y sin muchas complicaciones.

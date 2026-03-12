@@ -4,6 +4,7 @@ alt: Una montaña de libros en el centro de una biblioteca
 date: 2023-03-27
 heroImage: idenautas-web/blog/091.png
 description: El contenido que compartes es lo que atraerá a tus usuarios y los mantendrá interesados en tu sitio
+tags: ["contenido-y-marketing"]
 ---
 
 Sabemos que el contenido es una parte fundamental de cualquier página web. Ya sea que estés creando una tienda en línea, un blog o un sitio web para tu empresa, el contenido que compartes es lo que atraerá a tus usuarios y los mantendrá interesados en tu sitio.

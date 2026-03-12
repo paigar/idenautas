@@ -4,6 +4,7 @@ alt: Fotografía de un escritorio y un entorno de trabajo ideales, con mobiliari
 date: 2024-07-25
 heroImage: idenautas-web/blog/120.png
 description: Discutimos cómo optimizar tu ambiente de trabajo, desde el editor de código hasta la ergonomía, para maximizar tu eficiencia y disfrute al programar.
+tags: ["vida-profesional"]
 ---
 
 Como desarrolladores, pasamos largas horas sentados frente a nuestros ordenadores, tecleando líneas de código. Pero, ¿alguna vez te has parado a pensar cómo tu entorno y setup de trabajo afectan a tu rendimiento y bienestar? Elegir el equipo y configuración adecuados puede marcar una gran diferencia en tu productividad y disfrute al programar.

@@ -4,6 +4,7 @@ alt: Desarrollador web trabajando en su ordenador portátil
 date: 2023-01-30
 heroImage: idenautas-web/blog/016.png
 description: Antes de comenzar a diseñar nuestro sitio web será importante tener claro cuál va a ser la arquitectura del sitio y cómo se va a resolver la navegación entre las diferentes páginas
+tags: ["experiencia-de-usuario", "negocio-y-estrategia"]
 ---
 
 El número de páginas que debe tener un sitio web es una pregunta habitual en la creación de un nuevo proyecto, tanto por parte de los clientes como por parte de los diseñadores.
