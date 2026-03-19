@@ -81,7 +81,7 @@ Antes de optimizar, necesitas saber dónde estás. Hay dos formas de medir:
 
 **Datos de laboratorio.** Son mediciones simuladas que puedes hacer en cualquier momento. No cuentan para el posicionamiento, pero son útiles para diagnosticar problemas:
 
-- **Lighthouse** (integrado en Chrome DevTools). Te da puntuaciones y recomendaciones específicas.
+- **Lighthouse** (integrado en Chrome DevTools). Te da puntuaciones y recomendaciones específicas. Merece la pena entender [qué mide realmente y cuándo parar de optimizar]({% blogUrl "obsesion-cuatro-100-lighthouse" %}).
 - **WebPageTest.** Permite hacer pruebas desde diferentes ubicaciones y conexiones, lo que es útil para entender cómo experimentan tu web usuarios de distintos perfiles.
 
 La diferencia entre datos de campo y datos de laboratorio puede ser significativa. Una página puede obtener puntuación perfecta en Lighthouse y tener problemas en el mundo real porque los usuarios acceden desde dispositivos más lentos o con peores conexiones. Siempre prioriza los datos de campo.
@@ -102,7 +102,7 @@ El LCP depende fundamentalmente de lo rápido que llegue el contenido principal 
 
 INP es la métrica donde más webs tienen problemas, porque depende directamente de la cantidad y calidad del JavaScript que se ejecuta:
 
-**Reduce el JavaScript de terceros.** Cada widget de chat, cada herramienta de analítica, cada script de redes sociales que añades compite por el tiempo de procesamiento del navegador. Cada uno de ellos puede retrasar la respuesta a las interacciones del usuario. Audita todo lo que tienes instalado y elimina lo que no sea estrictamente necesario.
+**Reduce el JavaScript de terceros.** Cada widget de chat, cada herramienta de analítica, cada script de redes sociales que añades compite por el tiempo de procesamiento del navegador. El [coste oculto de los scripts de terceros]({% blogUrl "coste-oculto-plugins-scripts-terceros" %}) va mucho más allá del rendimiento: también afecta a la privacidad de tus visitantes y a tu seguridad. Cada uno de ellos puede retrasar la respuesta a las interacciones del usuario. Audita todo lo que tienes instalado y elimina lo que no sea estrictamente necesario.
 
 **Divide las tareas largas.** Cuando un script necesita hacer mucho trabajo, el navegador no puede responder a clics o toques hasta que termina. La solución es dividir las tareas largas en trozos más pequeños que permitan al navegador atender las interacciones entre medias. Esto es especialmente importante en menús, filtros y formularios.
 
@@ -124,11 +124,11 @@ Los cambios de diseño inesperados casi siempre se deben a elementos que se carg
 
 ## Webs estáticas: la ventaja natural
 
-Hay un tipo de web que parte con ventaja en todas las Core Web Vitals: las webs estáticas. Cuando una página no necesita que un servidor ejecute código para generarla, cuando el HTML ya está creado de antemano y se sirve directamente, los tiempos de respuesta son mínimos.
+Hay un tipo de web que parte con ventaja en todas las Core Web Vitals: las [webs construidas con arquitectura Jamstack](/servicios/desarrollo-web-jamstack/). Cuando una página no necesita que un servidor ejecute código para generarla, cuando el HTML ya está creado de antemano y se sirve directamente, los tiempos de respuesta son mínimos.
 
 No hay consultas a bases de datos. No hay procesamiento en el servidor. No hay frameworks que necesiten arrancar en el navegador. El servidor envía un archivo HTML y el navegador lo muestra. Esa simplicidad se traduce directamente en mejor LCP, mejor INP y mejor CLS.
 
-Esto no significa que una web estática sea siempre la mejor opción para todos. Pero sí que para la mayoría de webs corporativas, de profesionales, de pequeños negocios y de blogs, un sitio estático bien construido ofrece un rendimiento que es muy difícil de igualar con plataformas dinámicas sobrecargadas de plugins.
+Esto no significa que una web estática sea siempre la mejor opción para todos. Pero sí que para la mayoría de webs corporativas, de profesionales, de pequeños negocios y de blogs, un sitio estático bien construido ofrece un rendimiento que es muy difícil de igualar con plataformas dinámicas sobrecargadas de plugins. Y además de rápidas, [las webs estáticas también son las más sostenibles]({% blogUrl "tu-web-contamina" %}).
 
 ## No optimices a ciegas
 

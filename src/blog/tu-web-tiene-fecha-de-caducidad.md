@@ -61,7 +61,7 @@ Con una web pasa exactamente lo mismo:
 
 **Revisión de contenido trimestral**. Cada tres meses, dedica una hora a revisar qué sigue siendo válido y qué necesita actualización. Es poco tiempo comparado con la reescritura total que necesitarás si dejas pasar dos años sin tocar nada.
 
-**Auditorías de rendimiento periódicas**. Lighthouse, Core Web Vitals, pruebas de accesibilidad. No como una obsesión por el número perfecto, sino como un chequeo médico rutinario que detecta problemas antes de que se conviertan en emergencias.
+**Auditorías de rendimiento periódicas**. [Lighthouse y Core Web Vitals]({% blogUrl "core-web-vitals-2026" %}), pruebas de accesibilidad. No como una obsesión por el número perfecto, sino como un chequeo médico rutinario que detecta problemas antes de que se conviertan en emergencias.
 
 **Iteraciones de diseño incrementales**. No necesitas un rediseño completo para que tu web se sienta actual. A veces basta con actualizar la tipografía, ajustar la paleta de color o modernizar un componente clave. Cambios pequeños que, acumulados, mantienen la web fresca sin el trauma del borrón y cuenta nueva.
 
@@ -83,7 +83,7 @@ Hay un aspecto que rara vez se menciona en estas conversaciones: el impacto ambi
 
 El mantenimiento continuo es, desde esta perspectiva, la opción más sostenible. Produces menos residuo digital, consumes menos recursos en el proceso de desarrollo, y mantienes una única infraestructura optimizada en lugar de alternar entre lo viejo que agoniza y lo nuevo que no termina de nacer.
 
-No es el argumento más glamuroso, pero en un sector que genera entre un 2% y un 4% de las emisiones globales de CO₂, cada decisión cuenta.
+No es el argumento más glamuroso, pero en un sector que [genera entre un 2% y un 4% de las emisiones globales de CO₂]({% blogUrl "tu-web-contamina" %}), cada decisión cuenta.
 
 ## Planificar la caducidad desde el diseño
 
@@ -91,7 +91,7 @@ La mejor estrategia contra la obsolescencia no es combatirla, sino anticiparla. 
 
 **Arquitectura modular**. Componentes independientes que se pueden actualizar o reemplazar sin afectar al resto. Si tu header, tu sistema de navegación y tu footer son módulos autónomos, puedes modernizar cada uno por separado.
 
-**Contenido separado de la presentación**. Cuando tu contenido vive en un CMS o en archivos estructurados independientes del diseño, cambiar la capa visual no requiere tocar el contenido, y viceversa. Esta separación es una de las mayores ventajas de las arquitecturas Jamstack.
+**Contenido separado de la presentación**. Cuando tu contenido vive en un CMS o en archivos estructurados independientes del diseño, cambiar la capa visual no requiere tocar el contenido, y viceversa. Esta separación es una de las mayores ventajas de [las arquitecturas Jamstack](/servicios/desarrollo-web-jamstack/).
 
 **Documentación mínima pero útil**. No hace falta un manual de 50 páginas. Pero un README que explique las decisiones de diseño, las convenciones de código y dónde vive cada cosa ahorra horas cuando vuelves a un proyecto después de meses sin tocarlo.
 

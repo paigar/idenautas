@@ -1,0 +1,285 @@
+---
+layout: layouts/page.njk
+title: Heredamos tu web · Idenautas
+label: Heredamos tu web
+subtitle: "La persona que te hizo la web ya no está. No tienes las claves. No sabes dónde está alojada. Y la web sigue ahí, intocable, sin que nadie pueda tocarla. Eso tiene solución."
+description: Tu diseñador web ha desaparecido y no tienes acceso a tu web. Reconstruimos tu web desde cero a partir de lo que hay, sin necesitar las credenciales de la instalación anterior. La nueva web es tuya, completamente.
+permalink: /heredamos-tu-web/
+heroImage: idenautas-web/hereda-web_00.png
+breadcrumb:
+  - name: Nosotros
+    url: /nosotros/
+  - name: Heredamos tu web
+    url: /heredamos-tu-web/
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Podéis reconstruir mi web si no tengo ningún acceso?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Trabajamos a partir de lo que es públicamente visible: el frontend de tu web. Capturamos el contenido, las imágenes y la estructura, y reconstruimos todo con arquitectura moderna. No necesitamos acceso al panel de administración ni al servidor anterior."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa si tampoco tengo acceso al dominio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende de cómo esté registrado. Si el dominio está a tu nombre y tienes acceso al email de contacto del registrador, la recuperación es sencilla. Si no tienes ese acceso, hay procedimientos formales pero no siempre tienen éxito. Si el dominio está a nombre de la agencia anterior, la situación es más complicada y puede requerir negociación o, en última instancia, registrar un dominio nuevo. Lo analizamos contigo desde el principio y te decimos qué opciones reales tienes en tu caso concreto."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Perderé el posicionamiento en Google que tenía?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Hacemos todo lo posible para preservarlo. Mantenemos las mismas URLs cuando es posible, o configuramos redirecciones 301 cuando hay que cambiarlas. La nueva web es más rápida, lo que suele mejorar el posicionamiento respecto a la situación anterior."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa con mis cuentas de correo del dominio?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las cuentas de correo vinculadas al dominio se gestionan por separado de la web. Durante el proceso nos aseguramos de que el correo no se vea interrumpido en ningún momento. Si necesitas migrar las cuentas a un nuevo proveedor, también te ayudamos con eso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Podré actualizar el contenido yo mismo en la nueva web?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí, y esa es precisamente una de las ventajas del cambio. La nueva web tiene un sistema de edición de contenido adaptado a tu nivel técnico real. Sin depender de nadie para cambiar un texto, actualizar un precio o añadir una página nueva."
+      }
+    }
+  ]
+}
+</script>
+
+{# ── Intro ─────────────────────────────────────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Una situación más habitual de lo que parece</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Tu web se quedó huérfana. Nosotros la adoptamos.</h2>
+      <p class="about-editorial">
+        En más de veinte años trabajando con empresas en el País Vasco, este es el caso que más veces hemos visto: alguien le hizo la web a una empresa hace años — un autónomo, una pequeña agencia, un conocido —, esa persona desapareció, y la empresa se quedó con una web que no puede tocar porque no tiene las claves de nada.
+      </p>
+      <p class="about-editorial">
+        No sabes en qué servidor está alojada. No tienes el usuario del panel de administración. No sabes dónde se renueva el dominio ni qué tarjeta tiene asociada. La web está ahí, funcionando o no, pero es completamente inaccesible para ti.
+      </p>
+      <p class="about-editorial">
+        No necesitamos esas claves para empezar. Podemos reconstruir tu web a partir de lo que existe en el navegador — el contenido visible, las imágenes, la estructura —, y la nueva web queda con el alojamiento y el código a tu nombre desde el primer día. Con el dominio la situación es más compleja y depende de cómo esté registrado, pero también lo analizamos y te decimos desde el principio qué opciones reales tienes.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/hereda-web_01.png", "Empresa sin acceso a su propia web buscando una solución", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── El problema en detalle ── bg-alt ──────────────────────── #}
+<div class="about-idenauta-wrap">
+  <section class="about-idenauta">
+    <div class="about-idenauta__img" data-reveal="left">
+      {% img "idenautas-web/hereda-web_02.png", "Web abandonada sin mantenimiento y sin acceso administrativo", "content" %}
+    </div>
+    <div class="about-idenauta__body">
+      <div class="about-idenauta__content" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Lo que pasa mientras tanto</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Una web sin dueño se deteriora sola</h2>
+        <p class="about-editorial">
+          El alojamiento sigue renovándose en una tarjeta antigua que en algún momento dejará de funcionar. El dominio tiene una fecha de caducidad que nadie vigila. Si la web está en WordPress, lleva meses o años sin actualizarse: plugins con vulnerabilidades conocidas, versiones de PHP en fin de vida, una base de datos que nadie optimiza.
+        </p>
+        <p class="about-editorial">
+          Mientras tanto, la empresa no puede cambiar ni un número de teléfono. No puede añadir un nuevo servicio. No puede corregir un error. Cualquier modificación, por pequeña que sea, requiere encontrar a alguien que consiga acceso a algo a lo que no hay acceso.
+        </p>
+        <p class="about-editorial">
+          Y cuando alguien intenta recuperar el acceso por las vías normales — contactar con el proveedor de hosting, recuperar la contraseña del dominio —, se encuentra con que todo está registrado a nombre de la persona que ya no está, y sin sus datos personales no hay forma de recuperarlo por la vía rápida.
+        </p>
+        <p class="about-editorial" style="font-weight: 600; color: var(--color-text)">
+          Es una situación de bloqueo total. Y la solución más eficiente, en la mayoría de los casos, no es intentar recuperar el acceso a lo que hay — es construir algo nuevo que esta vez sí sea tuyo.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── Qué hacemos ── cards ──────────────────────────────────── #}
+<section class="about-tech-section">
+  <div class="container">
+    <div class="about-tech__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Cómo lo resolvemos</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Lo que hacemos cuando heredamos tu web</h2>
+      <p class="about-tech__intro">
+        No necesitamos acceso a nada de lo anterior. Solo necesitamos la URL y tu autorización para empezar.
+      </p>
+    </div>
+    <div class="about-tech__grid about-tech__grid--cols-3" data-stagger>
+
+      <div class="about-tech__card about-tech__card--wide" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">01</span>
+        <h3>Auditoría desde el exterior</h3>
+        <p>Analizamos todo lo que es visible y auditable sin acceso interno: el contenido publicado, la estructura de páginas, las URLs, el estado del posicionamiento en Google, la velocidad de carga y el estado técnico general de la web. Con eso sabemos exactamente qué hay y qué vale la pena conservar.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">02</span>
+        <h3>Rescate del contenido</h3>
+        <p>Capturamos todo el contenido visible: textos, imágenes, documentos enlazados, estructura de navegación. Lo organizamos, lo limpiamos y lo dejamos listo para la nueva web.</p>
+        <p>Si hay contenido que no aparece en el frontend pero que tienes en otro formato — documentos Word, PDFs, correos con textos originales —, también lo integramos. Partimos de todo lo que tienes, no solo de lo que está online.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">03</span>
+        <h3>Dominio: lo que se puede y lo que no</h3>
+        <p>Si el dominio está a tu nombre y tienes acceso al email de contacto del registrador, la transferencia es sencilla. Si no tienes ese acceso, hay procedimientos formales, pero no siempre tienen éxito. Si está a nombre de la agencia anterior, puede requerir negociación o registrar un dominio alternativo.</p>
+        <p>Lo analizamos desde el principio y te explicamos qué opciones reales tienes antes de empezar. El alojamiento de la nueva web siempre queda a tu nombre desde el primer día.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">04</span>
+        <h3>Web nueva con arquitectura moderna</h3>
+        <p>Construimos la nueva web con Jamstack: sin base de datos, sin panel de administración expuesto, sin plugins que actualizar. Una web que no requiere mantenimiento técnico y que no puede quedarse bloqueada porque alguien tiene las claves.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">05</span>
+        <h3>SEO protegido</h3>
+        <p>Aunque la web anterior estuviera en mal estado técnico, puede llevar años indexada en Google con cierta autoridad acumulada. La preservamos.</p>
+        <p>Mantenemos las URLs cuando es posible y configuramos redirecciones 301 cuando hay que cambiarlas. El cambio de plataforma, bien hecho, no cuesta posicionamiento — en la mayoría de los casos lo mejora porque la nueva web es más rápida.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">06</span>
+        <h3>Traspaso completo y formación</h3>
+        <p>Al terminar, tienes acceso a todo: dominio, alojamiento, repositorio del código y sistema de edición de contenido. Te formamos para que puedas actualizar la web de forma autónoma. Y si en el futuro decides trabajar con otro proveedor, puedes hacerlo sin depender de nosotros.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{# ── Señales de que estás en esta situación ── bg-alt ────────── #}
+<section class="section about-intro about-intro--reverse svc-section--alt">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">¿Te reconoces aquí?</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Señales de que tu web está en manos de nadie</h2>
+      <p class="about-editorial">
+        No siempre es tan dramático como "mi diseñador web desapareció". A veces la situación se va deteriorando despacio hasta que algo fuerza el momento de actuar:
+      </p>
+      <div class="prose" style="margin-bottom: var(--space-md)">
+        <ul style="margin-top: var(--space-sm)">
+          <li>La última persona que tocó tu web ya no trabaja contigo y no responde mensajes.</li>
+          <li>Para cambiar cualquier cosa, tienes que pedírselo a alguien que cada vez tarda más en responder.</li>
+          <li>No sabes con qué empresa tienes contratado el dominio ni el alojamiento.</li>
+          <li>Tu web tiene errores visibles que llevan meses ahí sin que nadie los corrija.</li>
+          <li>Recibes avisos de renovación de hosting a una dirección que ya no usas.</li>
+          <li>La web tiene información desactualizada que te genera problemas con los clientes.</li>
+          <li>Tienes miedo de que el dominio caduque y no sabes cómo evitarlo.</li>
+        </ul>
+      </div>
+      <p class="about-editorial">
+        Si reconoces alguna de estas situaciones, no hace falta esperar a que algo se rompa para actuar. Cuanto antes se gestione el traspaso, más opciones hay de hacerlo bien.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="left">
+      {% img "idenautas-web/hereda-web_03.png", "Lista de señales de que tu web está abandonada o sin mantenimiento", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── FAQ ───────────────────────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan en estas situaciones</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Podéis reconstruir mi web si no tengo ningún acceso?</dt>
+        <dd class="faq-item__answer">Sí. Trabajamos a partir de lo que es públicamente visible: el frontend de tu web. Capturamos el contenido, las imágenes y la estructura, y reconstruimos todo con arquitectura moderna. No necesitamos acceso al panel de administración ni al servidor anterior.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué pasa si tampoco tengo acceso al dominio?</dt>
+        <dd class="faq-item__answer">Depende de cómo esté registrado. Si está a tu nombre y tienes acceso al email de contacto del registrador, la recuperación es directa. Si no tienes ese acceso, existen procedimientos formales, pero no siempre tienen éxito. Si el dominio está registrado a nombre de la agencia anterior, la situación es más complicada — puede resolverse por negociación o, si eso no funciona, la alternativa es registrar un dominio nuevo similar. Lo que sí hacemos desde el primer momento es analizar tu caso concreto y explicarte qué opciones reales tienes, sin venderte soluciones que no podemos garantizar.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Perderé el posicionamiento en Google que tenía?</dt>
+        <dd class="faq-item__answer">Hacemos todo lo posible para preservarlo. Mantenemos las mismas URLs cuando es posible, o configuramos redirecciones 301 cuando hay que cambiarlas. La nueva web es más rápida, lo que suele mejorar el posicionamiento respecto a la situación anterior.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué pasa con mis cuentas de correo del dominio?</dt>
+        <dd class="faq-item__answer">Las cuentas de correo vinculadas al dominio se gestionan por separado de la web. Durante el proceso nos aseguramos de que el correo no se vea interrumpido en ningún momento. Si necesitas migrar las cuentas a un nuevo proveedor, también te ayudamos con eso.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Podré actualizar el contenido yo mismo en la nueva web?</dt>
+        <dd class="faq-item__answer">Sí, y esa es precisamente una de las ventajas del cambio. La nueva web tiene un sistema de edición de contenido adaptado a tu nivel técnico real. Sin depender de nadie para cambiar un texto, actualizar un precio o añadir una página nueva.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
+{# ── CTA ───────────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Empezamos hoy</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md); max-width: 24ch">¿Tu web lleva tiempo sin que nadie pueda tocarla?</h2>
+      <p class="about-editorial" style="max-width: 60ch; margin-bottom: var(--space-lg)">
+        Danos la URL. Con eso ya podemos hacer una primera auditoría y decirte qué tiene tu web actual, qué se puede conservar y qué implicaría reconstruirla. Sin necesitar acceso a nada, sin compromiso y sin coste.
+      </p>
+    </div>
+    <div class="svc-process" style="margin-bottom: var(--space-lg)" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Danos la URL</h3>
+        <p>Con la dirección de tu web actual podemos empezar. No necesitamos contraseñas, accesos ni ningún dato técnico para hacer la primera valoración.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Te contamos qué hay</h3>
+        <p>Analizamos la web y te explicamos qué tiene, en qué estado está y qué implicaría reconstruirla. Claro, sin tecnicismos y sin compromiso.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Propuesta cerrada</h3>
+        <p>Si decides seguir adelante, recibes una propuesta con alcance, plazos y precio fijo. Esta vez, todo a tu nombre desde el primer día.</p>
+      </div>
+    </div>
+
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>

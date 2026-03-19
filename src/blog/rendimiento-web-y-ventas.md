@@ -31,7 +31,7 @@ Cada visita que rebota es una oportunidad perdida. Y si esa visita venía de un 
 
 ## El SEO también depende de la velocidad
 
-Google incorporó las Core Web Vitals como factor de posicionamiento en 2021 y desde entonces su peso en el algoritmo no ha hecho más que aumentar. Las Core Web Vitals son métricas que miden la experiencia real de los usuarios: qué tan rápido carga el contenido principal, qué tan bien responde la página a las interacciones y si los elementos de la página se mueven de forma inesperada mientras carga.
+Google incorporó las [Core Web Vitals]({% blogUrl "core-web-vitals-2026" %}) como factor de posicionamiento en 2021 y desde entonces su peso en el algoritmo no ha hecho más que aumentar. Son métricas que miden la experiencia real de los usuarios: qué tan rápido carga el contenido principal, qué tan bien responde la página a las interacciones y si los elementos de la página se mueven de forma inesperada mientras carga.
 
 Una web lenta no solo pierde visitantes directamente. También aparece más abajo en los resultados de búsqueda, lo que significa que recibe menos tráfico orgánico, lo que a su vez reduce las oportunidades de venta. Es un ciclo que se retroalimenta en la dirección equivocada.
 
@@ -43,11 +43,11 @@ Los culpables habituales no son difíciles de identificar. Las instalaciones de 
 
 No es un problema de WordPress en sí. Es un problema de cómo se construyen y mantienen muchas webs: sin pensar en el rendimiento como una prioridad desde el principio, añadiendo capas sobre capas hasta que la web se convierte en algo pesado e inmanejable.
 
-Los scripts de terceros agravan el problema. Un widget de chat, un píxel de seguimiento, un reproductor de vídeo incrustado, un mapa de Google: cada uno añade peticiones externas, código adicional y tiempo de carga. Por separado parecen inofensivos. Juntos pueden suponer varios segundos de retraso.
+Los [scripts de terceros]({% blogUrl "coste-oculto-plugins-scripts-terceros" %}) agravan el problema. Un widget de chat, un píxel de seguimiento, un reproductor de vídeo incrustado, un mapa de Google: cada uno añade peticiones externas, código adicional y tiempo de carga. Por separado parecen inofensivos. Juntos pueden suponer varios segundos de retraso.
 
 ## La ventaja de empezar bien
 
-Una de las razones por las que trabajamos con arquitecturas Jamstack y sitios estáticos es precisamente esta: la velocidad no es algo que haya que optimizar después. Es la consecuencia natural de cómo está construida la web.
+Una de las razones por las que trabajamos con [arquitecturas Jamstack](/servicios/desarrollo-web-jamstack/) y sitios estáticos es precisamente esta: la velocidad no es algo que haya que optimizar después. Es la consecuencia natural de cómo está construida la web.
 
 Cuando una página ya está generada de antemano y se sirve directamente desde una red de distribución global, no hay servidor procesando código, no hay consultas a bases de datos, no hay plugins compitiendo por recursos. El navegador recibe el HTML y lo muestra. El resultado son tiempos de carga que son muy difíciles de igualar con plataformas dinámicas sin un trabajo de optimización constante y costoso.
 

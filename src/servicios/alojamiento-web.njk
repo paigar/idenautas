@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+order: 6
 title: Alojamiento web y registro de dominios
 label: Alojamiento web
 subtitle: Gestionamos el alojamiento de tu proyecto en servidores optimizados y nos ocupamos de que tu dominio esté siempre registrado y renovado a tiempo.
@@ -127,7 +128,7 @@ breadcrumb:
         Los planes de hosting compartido de bajo coste suelen alojar cientos de sitios en el mismo servidor, lo que provoca rendimiento impredecible y problemas de seguridad cruzados. El soporte técnico en estos servicios también tiende a ser lento y poco personalizado.
       </p>
       <p class="about-editorial">
-        Para un negocio que depende de su web para generar contactos, ventas o credibilidad, el alojamiento no es el lugar donde conviene ahorrar. Una caída de varios días, una vulnerabilidad no detectada o una restauración mal ejecutada pueden costar mucho más que la diferencia entre un hosting económico y uno gestionado con criterio.
+        Para un negocio que depende de su web para generar contactos, ventas o credibilidad, el alojamiento no es el lugar donde conviene ahorrar. Además, <a href="{% blogUrl "tu-web-contamina" %}">un alojamiento eficiente también reduce la huella de carbono de tu presencia digital</a>. Una caída de varios días, una vulnerabilidad no detectada o una restauración mal ejecutada pueden costar mucho más que la diferencia entre un hosting económico y uno gestionado con criterio.
       </p>
       <p class="about-editorial" style="font-weight: 600; color: var(--color-text)">
         No ofrecemos el alojamiento más barato del mercado. Ofrecemos el alojamiento adecuado para cada tipo de proyecto, gestionado por las mismas personas que lo han desarrollado y que conocen en detalle su funcionamiento.
@@ -168,8 +169,91 @@ breadcrumb:
   </div>
 </section>
 
+{# ── FAQ + Schema ─────────────────────────────────────────── #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Podéis alojar una web que no hayáis desarrollado vosotros?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Antes de asumir el alojamiento revisamos la tecnología del sitio y su estado actual para asegurarnos de que la migración se puede hacer correctamente y de que el entorno es adecuado para esa web. Si hay problemas técnicos previos, los identificamos y los resolvemos antes de la migración."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿En qué se diferencia vuestro alojamiento del hosting compartido barato?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El hosting compartido de bajo coste aloja cientos de sitios en el mismo servidor, lo que genera rendimiento impredecible, problemas de seguridad cruzados y soporte técnico lento o inexistente. Nuestro servicio incluye configuración específica para cada tipo de proyecto, monitorización activa, backups verificados y el mismo equipo que conoce la web desde el desarrollo. Es un servicio gestionado, no un espacio de almacenamiento."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Los servidores están en Europa?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Trabajamos con proveedores con infraestructura en Europa, lo que es relevante para proyectos con requisitos de cumplimiento RGPD estrictos o para clientes del sector público. Si tienes requisitos específicos sobre la ubicación de los datos, cuéntanoslo y buscamos la solución más adecuada."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué pasa si mi web necesita más recursos cuando crezca?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Lo gestionamos sin migraciones complejas ni interrupciones del servicio. Si el proyecto crece —más tráfico, más contenido, más funcionalidades— ajustamos el plan de alojamiento de forma progresiva. Para webs Jamstack servidas desde CDN, el escalado es especialmente sencillo porque la arquitectura está diseñada para ello."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿El registro y la renovación del dominio también lo gestionáis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Nos encargamos del registro de nuevos dominios y de la renovación de los existentes, con alertas anticipadas para que ningún dominio caduque sin previo aviso. Si el dominio está registrado en otro proveedor y quieres centralizarlo con nosotros, también gestionamos la transferencia."
+        }
+      }
+    ]
+  }
+</script>
+
+<section class="faq-section section svc-section--alt">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan sobre alojamiento web</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Podéis alojar una web que no hayáis desarrollado vosotros?</dt>
+        <dd class="faq-item__answer">Sí. Antes de asumir el alojamiento revisamos la tecnología del sitio y su estado actual para asegurarnos de que la migración se puede hacer correctamente y de que el entorno es adecuado para esa web. Si hay problemas técnicos previos, los identificamos y los resolvemos antes de la migración.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿En qué se diferencia vuestro alojamiento del hosting compartido barato?</dt>
+        <dd class="faq-item__answer">El hosting compartido de bajo coste aloja cientos de sitios en el mismo servidor, lo que genera rendimiento impredecible, problemas de seguridad cruzados y soporte técnico lento o inexistente. Nuestro servicio incluye configuración específica para cada tipo de proyecto, monitorización activa, backups verificados y el mismo equipo que conoce la web desde el desarrollo. Es un servicio gestionado, no un espacio de almacenamiento.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Los servidores están en Europa?</dt>
+        <dd class="faq-item__answer">Sí. Trabajamos con proveedores con infraestructura en Europa, lo que es relevante para proyectos con requisitos de cumplimiento RGPD estrictos o para clientes del sector público. Si tienes requisitos específicos sobre la ubicación de los datos, cuéntanoslo y buscamos la solución más adecuada.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué pasa si mi web necesita más recursos cuando crezca?</dt>
+        <dd class="faq-item__answer">Lo gestionamos sin migraciones complejas ni interrupciones del servicio. Si el proyecto crece —más tráfico, más contenido, más funcionalidades— ajustamos el plan de alojamiento de forma progresiva. Para webs Jamstack servidas desde CDN, el escalado es especialmente sencillo porque la arquitectura está diseñada para ello.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿El registro y la renovación del dominio también lo gestionáis?</dt>
+        <dd class="faq-item__answer">Sí. Nos encargamos del registro de nuevos dominios y de la renovación de los existentes, con alertas anticipadas para que ningún dominio caduque sin previo aviso. Si el dominio está registrado en otro proveedor y quieres centralizarlo con nosotros, también gestionamos la transferencia.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
 {# ── Otros servicios ──────────────────────────────────────── #}
-<section class="section svc-section--alt">
+<section class="section">
   <div class="container">
     <div class="home-services__header" style="margin-bottom: var(--space-lg)">
       <div data-reveal>

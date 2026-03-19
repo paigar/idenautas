@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+order: 2
 title: Desarrollo web Jamstack con Eleventy
 label: Desarrollo Jamstack
 subtitle: "Webs ultrarrápidas, seguras y de bajo mantenimiento construidas con arquitectura Jamstack. Sin bases de datos expuestas, sin plugins que rompen, sin sorpresas."
@@ -43,13 +44,13 @@ breadcrumb:
         <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Por qué importa</p>
         <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Lo que cambia cuando una web es Jamstack</h2>
         <p class="about-editorial">
-          Una web construida con arquitectura Jamstack llega al navegador en décimas de segundo. No en uno o dos segundos — en décimas. Esa diferencia se traduce en menos rebotes, más conversiones y mejor posicionamiento en Google, que desde 2021 penaliza las páginas lentas en sus rankings.
+          Una web construida con arquitectura Jamstack llega al navegador en décimas de segundo. No en uno o dos segundos — en décimas. Esa diferencia se traduce en <a href="{% blogUrl "rendimiento-web-y-ventas" %}">menos rebotes, más conversiones</a> y mejor posicionamiento en Google, que desde 2021 penaliza las páginas lentas en sus rankings.
         </p>
         <p class="about-editorial">
           Sin servidor de aplicaciones expuesto y sin base de datos accesible, la superficie de ataque es mínima. No hay inyecciones SQL posibles, no hay exploits de PHP, no hay vulnerabilidades de plugins. La seguridad deja de ser algo que hay que gestionar activamente y se convierte en una propiedad del sistema.
         </p>
         <p class="about-editorial" style="font-weight: 600; color: var(--color-text)">
-          Esta misma web está construida con Jamstack. Lo que ves es lo que conseguimos para nuestros clientes.
+          Esta misma web está construida con Jamstack. Lo que ves es lo que conseguimos para nuestros clientes. Si quieres ver cómo se compara con WordPress en detalle, tenemos una <a href="/jamstack-vs-wordpress/" style="color: var(--color-accent)">comparativa honesta entre Jamstack y WordPress</a>.
         </p>
       </div>
     </div>
@@ -73,7 +74,7 @@ breadcrumb:
         </div>
         <span class="about-tech__index" aria-hidden="true">01</span>
         <h3>Velocidad real</h3>
-        <p>Tiempos de carga por debajo de un segundo desde el primer día. Puntuaciones de 95–100 en Core Web Vitals. Una CDN global sirve tu web desde el servidor más cercano al visitante, sin ningún procesamiento en el camino.</p>
+        <p>Tiempos de carga por debajo de un segundo desde el primer día. Puntuaciones de 95–100 en <a href="{% blogUrl "core-web-vitals-explicados" %}">Core Web Vitals</a>. Una CDN global sirve tu web desde el servidor más cercano al visitante, sin ningún procesamiento en el camino.</p>
       </div>
       <div class="about-tech__card" data-stagger-child>
         <div class="about-tech__icon" aria-hidden="true">
@@ -201,8 +202,103 @@ breadcrumb:
   </div>
 </section>
 
+{# ── FAQ + Schema ─────────────────────────────────────────── #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué es Jamstack y en qué se diferencia de WordPress?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jamstack es una arquitectura web donde las páginas se generan una sola vez durante el despliegue y se sirven como archivos estáticos desde una CDN. A diferencia de WordPress, no hay base de datos ni servidor de aplicaciones activos cuando alguien visita la web. El resultado es una carga mucho más rápida, prácticamente cero superficie de ataque y un mantenimiento mínimo."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Una web Jamstack puede tener un panel para editar contenidos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Jamstack no significa que el contenido sea fijo. Configuramos un CMS headless —como Decap CMS, Sanity o una solución a medida— que permite editar contenido desde una interfaz visual sin necesidad de conocimientos técnicos. Los cambios se publican cuando el cliente los aprueba, con una sola acción."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Puedo migrar mi web actual de WordPress a Jamstack sin perder el posicionamiento?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. En las migraciones de WordPress a Jamstack gestionamos todas las redirecciones 301 para preservar las URLs existentes y la autoridad de dominio acumulada. La mejora de velocidad tras la migración suele tener un efecto positivo en el posicionamiento a medio plazo."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cuánto cuesta el alojamiento de una web Jamstack?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Significativamente menos que un hosting WordPress convencional. Servir archivos estáticos desde una CDN tiene un coste mínimo —en muchos proyectos es gratuito o de pocos euros al mes— frente a los 20–200€ mensuales de un servidor con PHP y MySQL. El ahorro en infraestructura es uno de los argumentos más sólidos de la arquitectura Jamstack."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Para qué tipo de proyectos no es adecuado Jamstack?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Jamstack no es la mejor opción para e-commerce de gran escala con cientos de referencias y gestión de stock en tiempo real, para aplicaciones web con lógica de negocio compleja en el servidor, o para proyectos que requieren contenido personalizado por usuario en tiempo real sin APIs externas. Para estos casos existen otras arquitecturas más adecuadas y te lo diremos desde el principio."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué generador de sitios estáticos usáis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Usamos Eleventy (11ty) como generador principal. Es extremadamente flexible, sin opiniones sobre el stack de frontend, y produce sitios muy ligeros. Para proyectos con componentes interactivos complejos usamos Astro. Ambos compilan a HTML estático y se despliegan en CDN."
+        }
+      }
+    ]
+  }
+</script>
+
+<section class="faq-section section svc-section--alt">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan sobre desarrollo Jamstack</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué es Jamstack y en qué se diferencia de WordPress?</dt>
+        <dd class="faq-item__answer">Jamstack es una arquitectura web donde las páginas se generan una sola vez durante el despliegue y se sirven como archivos estáticos desde una CDN. A diferencia de WordPress, no hay base de datos ni servidor de aplicaciones activos cuando alguien visita la web. El resultado es una carga mucho más rápida, prácticamente cero superficie de ataque y un mantenimiento mínimo.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Una web Jamstack puede tener un panel para editar contenidos?</dt>
+        <dd class="faq-item__answer">Sí. Jamstack no significa que el contenido sea fijo. Configuramos un CMS headless —como Decap CMS, Sanity o una solución a medida— que permite editar contenido desde una interfaz visual sin necesidad de conocimientos técnicos. Los cambios se publican cuando el cliente los aprueba, con una sola acción. Más detalle en nuestro artículo sobre <a href="/blog/que-es-un-cms-headless/">qué es un CMS headless</a>.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Puedo migrar mi web actual de WordPress a Jamstack sin perder el posicionamiento?</dt>
+        <dd class="faq-item__answer">Sí. En las migraciones de WordPress a Jamstack gestionamos todas las redirecciones 301 para preservar las URLs existentes y la autoridad de dominio acumulada. La mejora de velocidad tras la migración suele tener un efecto positivo en el posicionamiento a medio plazo.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cuánto cuesta el alojamiento de una web Jamstack?</dt>
+        <dd class="faq-item__answer">Significativamente menos que un hosting WordPress convencional. Servir archivos estáticos desde una CDN tiene un coste mínimo —en muchos proyectos es gratuito o de pocos euros al mes— frente a los 20–200€ mensuales de un servidor con PHP y MySQL. El ahorro en infraestructura es uno de los argumentos más sólidos de la arquitectura Jamstack. Más contexto en nuestro artículo sobre <a href="/blog/despliegue-web-moderno/">despliegue web moderno</a>.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Para qué tipo de proyectos no es adecuado Jamstack?</dt>
+        <dd class="faq-item__answer">Jamstack no es la mejor opción para e-commerce de gran escala con cientos de referencias y gestión de stock en tiempo real, para aplicaciones web con lógica de negocio compleja en el servidor, o para proyectos que requieren contenido personalizado por usuario en tiempo real sin APIs externas. Para estos casos existen otras arquitecturas más adecuadas y te lo diremos desde el principio.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué generador de sitios estáticos usáis?</dt>
+        <dd class="faq-item__answer">Usamos Eleventy (11ty) como generador principal. Es extremadamente flexible, sin opiniones sobre el stack de frontend, y produce sitios muy ligeros. Para proyectos con componentes interactivos complejos usamos Astro. Puedes ver nuestra comparativa en el artículo <a href="/blog/astro-vs-eleventy/">Astro vs Eleventy</a>.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
 {# ── Otros servicios ──────────────────────────────────────── #}
-<section class="section svc-section--alt">
+<section class="section">
   <div class="container">
     <div class="home-services__header" style="margin-bottom: var(--space-lg)">
       <div data-reveal>

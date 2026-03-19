@@ -94,7 +94,7 @@ breadcrumb:
         </div>
 
       </div>
-      <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Comparativa detallada en nuestro artículo <a href="/blog/astro-vs-eleventy/">Astro vs Eleventy: dos generadores, dos filosofías</a>.</p>
+      <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Comparativa detallada en nuestro artículo <a href="{% blogUrl "astro-vs-eleventy" %}">Astro vs Eleventy: dos generadores, dos filosofías</a>.</p>
     </div>
   </section>
 </div>
@@ -140,7 +140,7 @@ breadcrumb:
       </div>
 
     </dl>
-    <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Más sobre el proceso de despliegue en <a href="/blog/despliegue-web-moderno/">cómo funciona un despliegue web moderno</a>.</p>
+    <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Más sobre el proceso de despliegue en <a href="{% blogUrl "despliegue-web-moderno" %}">cómo funciona un despliegue web moderno</a>.</p>
   </div>
 </section>
 
@@ -185,7 +185,7 @@ breadcrumb:
         </div>
 
       </dl>
-      <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Más sobre cómo elegir en <a href="/blog/que-es-un-cms-headless/">qué es un CMS headless y por qué cambia las reglas del juego</a>.</p>
+      <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Más sobre cómo elegir en <a href="{% blogUrl "que-es-un-cms-headless" %}">qué es un CMS headless y por qué cambia las reglas del juego</a>.</p>
     </div>
   </section>
 </div>
@@ -209,7 +209,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/jamstack-explicado-sin-tecnicismos/">Jamstack explicado sin tecnicismos</a>
+                <a href="{% blogUrl "jamstack-explicado-sin-tecnicismos" %}">Jamstack explicado sin tecnicismos</a>
               </h3>
               <p>Qué es la arquitectura Jamstack, por qué existe y qué consecuencias tiene en velocidad, seguridad y coste. El punto de entrada a la serie.</p>
             </div>
@@ -221,7 +221,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/que-es-eleventy/">Qué es Eleventy y por qué lo usamos en Idenautas</a>
+                <a href="{% blogUrl "que-es-eleventy" %}">Qué es Eleventy y por qué lo usamos en Idenautas</a>
               </h3>
               <p>El generador de sitios estáticos con el que construimos nuestros proyectos: qué es, cómo funciona y qué lo diferencia de otras opciones.</p>
             </div>
@@ -233,7 +233,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/eleventy-vs-wordpress/">Eleventy vs WordPress: cuándo elegir cada uno</a>
+                <a href="{% blogUrl "eleventy-vs-wordpress" %}">Eleventy vs WordPress: cuándo elegir cada uno</a>
               </h3>
               <p>Una comparativa honesta. No son competidores directos: resuelven problemas distintos. Entender cuándo usar cada uno puede ahorrarte mucho tiempo y dinero.</p>
             </div>
@@ -245,7 +245,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/migracion-wordpress-a-eleventy/">De WordPress a Eleventy: cómo es el proceso de migración</a>
+                <a href="{% blogUrl "migracion-wordpress-a-eleventy" %}">De WordPress a Eleventy: cómo es el proceso de migración</a>
               </h3>
               <p>Qué se migra, qué se reconstruye y qué hay que planificar. Una guía práctica del proceso completo.</p>
             </div>
@@ -257,7 +257,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/tu-web-no-necesita-base-de-datos/">Por qué tu web probablemente no necesita base de datos</a>
+                <a href="{% blogUrl "tu-web-no-necesita-base-de-datos" %}">Por qué tu web probablemente no necesita base de datos</a>
               </h3>
               <p>La base de datos se convirtió en el componente por defecto. Para la mayoría de proyectos, es una capa de complejidad que no aporta nada.</p>
             </div>
@@ -269,7 +269,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/core-web-vitals-explicados/">Core Web Vitals explicados sin tecnicismos</a>
+                <a href="{% blogUrl "core-web-vitals-explicados" %}">Core Web Vitals explicados sin tecnicismos</a>
               </h3>
               <p>LCP, CLS, INP: las métricas que Google usa como factor de posicionamiento y lo que significan en la práctica.</p>
             </div>
@@ -281,7 +281,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/rendimiento-web-y-ventas/">Una web lenta pierde clientes: los datos que convencen</a>
+                <a href="{% blogUrl "rendimiento-web-y-ventas" %}">Una web lenta pierde clientes: los datos que convencen</a>
               </h3>
               <p>No es intuición. Hay datos concretos sobre la relación entre velocidad de carga, conversiones y posicionamiento.</p>
             </div>
@@ -293,7 +293,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/que-es-un-cms-headless/">Qué es un CMS headless y por qué cambia las reglas del juego</a>
+                <a href="{% blogUrl "que-es-un-cms-headless" %}">Qué es un CMS headless y por qué cambia las reglas del juego</a>
               </h3>
               <p>Cómo funciona la edición de contenido en un sitio Jamstack, qué opciones existen y cuándo tiene sentido cada una.</p>
             </div>
@@ -305,7 +305,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/astro-vs-eleventy/">Astro vs Eleventy: dos generadores estáticos, dos filosofías</a>
+                <a href="{% blogUrl "astro-vs-eleventy" %}">Astro vs Eleventy: dos generadores estáticos, dos filosofías</a>
               </h3>
               <p>En qué se parecen, en qué se diferencian y qué tipo de proyecto encaja mejor con cada uno.</p>
             </div>
@@ -317,7 +317,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>
-                <a href="/blog/despliegue-web-moderno/">Cómo funciona un despliegue web moderno: de Git a producción en segundos</a>
+                <a href="{% blogUrl "despliegue-web-moderno" %}">Cómo funciona un despliegue web moderno: de Git a producción en segundos</a>
               </h3>
               <p>Del modelo FTP al pipeline automatizado: Netlify, alternativas europeas y por qué este modelo es más fiable y reversible.</p>
             </div>

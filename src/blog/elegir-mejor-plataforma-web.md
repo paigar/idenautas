@@ -17,7 +17,7 @@ No existe la plataforma perfecta. Existe la plataforma adecuada para lo que nece
 
 **WordPress.** Mueve aproximadamente el 40% de todos los sitios web del mundo, lo que dice bastante. Es flexible, tiene un ecosistema enorme de plugins y temas, y se puede adaptar a casi cualquier tipo de proyecto. Su curva de aprendizaje es mayor que la de los constructores visuales, y requiere mantenimiento activo — actualizaciones, copias de seguridad, atención a la seguridad. Pero a cambio tienes control real sobre tu web.
 
-**Generadores de contenido estático como Jekyll, Hugo o Astro.** Son más técnicos pero ofrecen algo que los anteriores no pueden igualar en rendimiento: páginas que se generan de antemano, sin bases de datos, que cargan a velocidades difíciles de superar. Son ideales para blogs, portfolios y webs de empresa que no necesitan actualizaciones constantes. No son para usuarios sin perfil técnico.
+**Generadores de contenido estático como Jekyll, Hugo, Eleventy o Astro.** Son más técnicos pero ofrecen algo que los anteriores no pueden igualar en rendimiento: páginas que se generan de antemano, sin bases de datos, que cargan a velocidades difíciles de superar. Son ideales para blogs, portfolios y webs de empresa que no necesitan actualizaciones constantes. Si te planteas esta opción, nuestro artículo sobre [Astro vs Eleventy]({% blogUrl "astro-vs-eleventy" %}) explica las diferencias entre los dos generadores más usados hoy. No son para usuarios sin perfil técnico, aunque el uso de un CMS headless puede resolverlo.
 
 **Plataformas de e-commerce.** Shopify es la opción más popular para montar una tienda sin complicaciones: funciona bien, incluye todo lo necesario y el soporte es sólido. WooCommerce es su alternativa sobre WordPress, con más flexibilidad pero también más complejidad. Para tiendas grandes con catálogos extensos, Magento o PrestaShop tienen más músculo, aunque también requieren más inversión técnica.
 
@@ -43,4 +43,4 @@ Y si vas a trabajar con una agencia o desarrollador, pídele que te explique por
 
 ---
 
-La plataforma es la base sobre la que construyes todo lo demás. Elegirla bien al principio ahorra muchos problemas después. Pero tampoco hay que paralizarse: si empiezas con algo que luego se queda corto, se puede migrar. No es el fin del mundo.
+La plataforma es la base sobre la que construyes todo lo demás. Elegirla bien al principio ahorra muchos problemas después. Pero tampoco hay que paralizarse: si empiezas con algo que luego se queda corto, se puede migrar. No es el fin del mundo. Si te interesa entender qué ofrece la [arquitectura Jamstack](/servicios/desarrollo-web-jamstack/) como alternativa a las plataformas dinámicas habituales, es un punto de partida que vale la pena conocer.

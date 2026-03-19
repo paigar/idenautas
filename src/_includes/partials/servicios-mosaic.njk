@@ -38,17 +38,19 @@
     {% img "idenautas-web/nosotros_02.png", "Equipo Idenautas trabajando", "mosaic" %}
   </div>
 
-  {# ── Card: Mantenimiento web ─── #}
-  {% if page.url != "/servicios/mantenimiento-web/" %}
+  {# ── Card: Desarrollo Jamstack ─── #}
+  {% if page.url != "/servicios/desarrollo-web-jamstack/" %}
   <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.2">
     <span class="service-card__number" aria-hidden="true">02</span>
     <div class="service-card__content">
-      <h3 class="service-card__title">Mantenimiento web</h3>
+      <h3 class="service-card__title">Desarrollo Jamstack</h3>
       <p class="service-card__text">
-        Una web publicada no es una web terminada. Nos encargamos de que tu presencia online
-        siga funcionando correctamente: seguridad, actualizaciones, rendimiento y monitorización constante.
+        Sitios web ultrarrápidos, seguros y de bajo mantenimiento construidos con arquitectura
+        Jamstack y Eleventy. Sin bases de datos expuestas, sin plugins que rompen, sin ciclos
+        interminables de actualizaciones. La mejor opción para webs corporativas, portfolios
+        y blogs que quieren rendir al máximo con el mínimo esfuerzo de mantenimiento.
       </p>
-      <a href="/servicios/mantenimiento-web/" class="svc-card-link" aria-label="Saber más sobre mantenimiento web">Saber más <span aria-hidden="true">→</span></a>
+      <a href="/servicios/desarrollo-web-jamstack/" class="svc-card-link" aria-label="Saber más sobre desarrollo Jamstack">Saber más <span aria-hidden="true">→</span></a>
     </div>
   </div>
   {% set pos = pos + 1 %}
@@ -76,10 +78,26 @@
   {% set pos = pos + 1 %}
   {% endif %}
 
-  {# ── Card: Gestión de contenidos ─── #}
-  {% if page.url != "/servicios/gestion-contenidos/" %}
+  {# ── Card: Mantenimiento web ─── #}
+  {% if page.url != "/servicios/mantenimiento-web/" %}
   <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.2">
     <span class="service-card__number" aria-hidden="true">04</span>
+    <div class="service-card__content">
+      <h3 class="service-card__title">Mantenimiento web</h3>
+      <p class="service-card__text">
+        Una web publicada no es una web terminada. Nos encargamos de que tu presencia online
+        siga funcionando correctamente: seguridad, actualizaciones, rendimiento y monitorización constante.
+      </p>
+      <a href="/servicios/mantenimiento-web/" class="svc-card-link" aria-label="Saber más sobre mantenimiento web">Saber más <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  {% set pos = pos + 1 %}
+  {% endif %}
+
+  {# ── Card: Gestión de contenidos ─── #}
+  {% if page.url != "/servicios/gestion-contenidos/" %}
+  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.1">
+    <span class="service-card__number" aria-hidden="true">05</span>
     <div class="service-card__content">
       <h3 class="service-card__title">Gestión de contenidos</h3>
       <p class="service-card__text">
@@ -95,8 +113,8 @@
 
   {# ── Card: Alojamiento ─── #}
   {% if page.url != "/servicios/alojamiento-web/" %}
-  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.1">
-    <span class="service-card__number" aria-hidden="true">05</span>
+  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.15">
+    <span class="service-card__number" aria-hidden="true">06</span>
     <div class="service-card__content">
       <h3 class="service-card__title">Alojamiento web y dominios</h3>
       <p class="service-card__text">
@@ -107,23 +125,6 @@
     </div>
   </div>
   {% set pos = pos + 1 %}
-  {% endif %}
-
-  {# ── Card: Desarrollo Jamstack ─── #}
-  {% if page.url != "/servicios/desarrollo-web-jamstack/" %}
-  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.15">
-    <span class="service-card__number" aria-hidden="true">06</span>
-    <div class="service-card__content">
-      <h3 class="service-card__title">Desarrollo Jamstack</h3>
-      <p class="service-card__text">
-        Sitios web ultrarrápidos, seguros y de bajo mantenimiento construidos con arquitectura
-        Jamstack y Eleventy. Sin bases de datos expuestas, sin plugins que rompen, sin ciclos
-        interminables de actualizaciones. La mejor opción para webs corporativas, portfolios
-        y blogs que quieren rendir al máximo con el mínimo esfuerzo de mantenimiento.
-      </p>
-      <a href="/servicios/desarrollo-web-jamstack/" class="svc-card-link" aria-label="Saber más sobre desarrollo Jamstack">Saber más <span aria-hidden="true">→</span></a>
-    </div>
-  </div>
   {% endif %}
 
   {# ── Image 3 ─── #}

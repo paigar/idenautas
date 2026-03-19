@@ -47,4 +47,4 @@ Esto no significa publicar en todos lados sin criterio. Significa identificar d�
 
 ---
 
-El contenido textual no es solo SEO. Es la forma en que una web le explica al mundo qué hace, para quién lo hace y por qué merece la pena. Cuando eso está bien resuelto, el posicionamiento es casi una consecuencia natural.
+El contenido textual no es solo SEO. Es la forma en que una web le explica al mundo qué hace, para quién lo hace y por qué merece la pena. Cuando eso está bien resuelto, el posicionamiento es casi una consecuencia natural. Si quieres cubrir también la parte técnica, en nuestro artículo sobre [cómo hacer tu web más amigable para los buscadores]({% blogUrl "mejorar-sitio-para-seo" %}) encontrarás las bases de la optimización técnica.

@@ -30,9 +30,9 @@ En nuestro propio sitio, el camino fue más o menos así:
 
 **Accessibility de 93 a 100** fue relativamente directo. El problema eran ratios de contraste insuficientes en algunos botones y áreas táctiles demasiado pequeñas en el footer. Ajustar el color del botón principal de `var(--color-accent)` a un `#c0392b` con ratio 5.05:1 y añadir padding a los enlaces del pie resolvió ambas cosas. Cambios pequeños, impacto grande.
 
-**Performance de 96 a 98** requirió más trabajo. Implementamos LQIP (Low Quality Image Placeholders) con data URIs en base64, añadimos `preconnect` al CDN de imágenes, preload para las hero images con `imagesrcset`, y atributos `width` y `height` explícitos en todas las imágenes para eliminar el CLS.
+**Performance de 96 a 98** requirió más trabajo. Implementamos LQIP (Low Quality Image Placeholders) con data URIs en base64, añadimos `preconnect` al CDN de imágenes, preload para las hero images con `imagesrcset`, y atributos `width` y `height` explícitos en todas las imágenes para eliminar el CLS. También auditamos todos los [scripts de terceros]({% blogUrl "coste-oculto-plugins-scripts-terceros" %}) activos — varios de ellos eran los principales culpables del tiempo de bloqueo del hilo principal.
 
-**Performance de 98 a 100** es donde la cosa se pone interesante. El LCP depende de una imagen servida desde un CDN externo. Por mucho que optimices, hay una latencia de red que no controlas. Esos 2 puntos restantes están, literalmente, fuera de tu alcance.
+**Performance de 98 a 100** es donde la cosa se pone interesante. El LCP depende de una imagen servida desde un CDN externo. (Si quieres entender a fondo qué mide cada métrica y cómo han evolucionado, nuestro artículo sobre [Core Web Vitals en 2026]({% blogUrl "core-web-vitals-2026" %}) cubre todos los detalles.) Por mucho que optimices, hay una latencia de red que no controlas. Esos 2 puntos restantes están, literalmente, fuera de tu alcance.
 
 ## Cuando la optimización se vuelve contraproducente
 

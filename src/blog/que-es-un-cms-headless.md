@@ -17,7 +17,7 @@ En un CMS tradicional como WordPress, el contenido y la presentación están peg
 
 Un CMS headless separa esas dos capas. El backend —que es donde vive el contenido— existe de forma independiente. El editor escribe, modifica y organiza el contenido en una interfaz cómoda. Pero ese contenido no tiene un frontend asignado: se expone a través de una API que cualquier aplicación puede consultar.
 
-La palabra "headless" hace referencia precisamente a eso: al CMS le falta la cabeza, es decir, el frontend. La cabeza se la pone quien construye el sitio, eligiendo la tecnología que mejor encaje: Eleventy, Next.js, Astro o cualquier otra. La separación es completa. El contenido fluye a través de la API hasta el generador de sitios estáticos, que produce el HTML final durante el proceso de build.
+La palabra "headless" hace referencia precisamente a eso: al CMS le falta la cabeza, es decir, el frontend. La cabeza se la pone quien construye el sitio, eligiendo la tecnología que mejor encaje: [Eleventy, Astro]({% blogUrl "astro-vs-eleventy" %}) o cualquier otra. La separación es completa. El contenido fluye a través de la API hasta el generador de sitios estáticos, que produce el HTML final durante el proceso de build.
 
 ## Cómo encaja en el flujo Jamstack
 
@@ -49,4 +49,4 @@ No hay una respuesta universal. Lo que sí es cierto es que la arquitectura head
 
 ---
 
-Si estás pensando en migrar tu web a una arquitectura estática o si ya tienes un sitio Jamstack y quieres darle a tu cliente una forma cómoda de editar el contenido, hay opciones para cada situación. En Idenautas trabajamos con distintos enfoques según lo que cada proyecto necesita, desde integraciones con Decap CMS hasta soluciones de edición completamente a medida.
+Si estás pensando en migrar tu web a [una arquitectura estática](/servicios/desarrollo-web-jamstack/) o si ya tienes un sitio Jamstack y quieres darle a tu cliente una forma cómoda de editar el contenido, hay opciones para cada situación. En Idenautas trabajamos con distintos enfoques según lo que cada proyecto necesita, desde integraciones con Decap CMS hasta soluciones de edición completamente a medida.

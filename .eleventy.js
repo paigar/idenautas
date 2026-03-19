@@ -149,6 +149,14 @@ module.exports = function (eleventyConfig) {
 		return shuffled.slice(0, count);
 	});
 
+	eleventyConfig.addShortcode("blogUrl", function (fileSlug) {
+		const blog =
+			this.ctx && this.ctx.collections && this.ctx.collections.blog;
+		if (!blog) return "#";
+		const post = blog.find((p) => p.fileSlug === fileSlug);
+		return post ? post.url : "#";
+	});
+
 	eleventyConfig.addShortcode(
 		"img",
 		function (

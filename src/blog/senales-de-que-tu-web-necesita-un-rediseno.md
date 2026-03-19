@@ -23,7 +23,7 @@ Si cuando visitas tu propia web desde el móvil tienes que hacer zoom para leer 
 
 ## La velocidad de carga te deja en evidencia
 
-Tres segundos. Eso es lo que tarda un usuario medio en abandonar una web que no ha terminado de cargar. Y Google lo sabe: la velocidad de carga es un factor de posicionamiento desde hace años, y con las Core Web Vitals se ha convertido en algo medible y concreto.
+Tres segundos. Eso es lo que tarda un usuario medio en abandonar una web que no ha terminado de cargar. Y Google lo sabe: la velocidad de carga es un factor de posicionamiento desde hace años, y con las [Core Web Vitals]({% blogUrl "core-web-vitals-2026" %}) se ha convertido en algo medible y concreto.
 
 Las causas habituales son conocidas: imágenes sin optimizar, código CSS y JavaScript hinchado tras años de parches, plugins innecesarios o un servidor de alojamiento que se ha quedado pequeño. A veces la solución es optimizar lo que hay. Pero cuando la base tecnológica es antigua, un rediseño desde cero suele ser más eficiente y rentable a medio plazo que seguir poniendo tiritas.
 
@@ -81,4 +81,4 @@ No todas las señales anteriores tienen que darse a la vez. A veces basta con un
 
 Lo importante es no esperar a que la web se convierta en un obstáculo para tu negocio. Un rediseño a tiempo es una inversión, no un gasto. Es la oportunidad de repensar tu presencia digital, alinearla con tus objetivos actuales y construir una base sólida para los próximos años.
 
-En Idenautas llevamos desde 2005 ayudando a empresas a dar este paso. Si reconoces alguna de estas señales en tu propia web, quizá sea el momento de que hablemos.
+Y si quieres entender bien cuándo merece la pena hacer un rediseño completo frente a mantener y evolucionar lo que tienes, profundizamos en eso en el artículo sobre [la fecha de caducidad de las webs]({% blogUrl "tu-web-tiene-fecha-de-caducidad" %}). En Idenautas llevamos desde 2005 ayudando a empresas a dar este paso. Si reconoces alguna de estas señales en tu propia web, quizá sea el momento de que hablemos.

@@ -25,19 +25,37 @@ eleventyExcludeFromCollections: true
             <a href="/nuestra-filosofia-web/">Nuestra filosofía web</a>
           </li>
           <li>
-            <a href="/desarrollo-web-bilbao/">Diseño y desarrollo web en Bilbao</a>
+            <a href="/alternativas-a-wordpress/">Alternativas a WordPress</a>
           </li>
           <li>
-            <a href="/web-sostenible/">Web sostenible</a>
+            <a href="/jamstack-vs-wordpress/">Jamstack vs WordPress</a>
+          </li>
+          <li>
+            <a href="/migracion-wordpress-a-jamstack/">Migración de WordPress a Jamstack</a>
+          </li>
+          <li>
+            <a href="/migracion-joomla-a-jamstack/">Migración de Joomla a Jamstack</a>
+          </li>
+          <li>
+            <a href="/heredamos-tu-web/">Heredamos tu web</a>
+          </li>
+          <li>
+            <a href="/rediseno-web-profesional/">Rediseño web profesional</a>
+          </li>
+          <li>
+            <a href="/nosotros/agencia-jamstack-bilbao/">Desarrollo web Jamstack en Bilbao</a>
+          </li>
+          <li>
+            <a href="/nosotros/agencia-jamstack-espana/">Desarrollo web Jamstack en España</a>
+          </li>
+          <li>
+            <a href="/desarrollo-web-bilbao/">Diseño y desarrollo web en Bilbao</a>
           </li>
           <li>
             <a href="/desarrollo-web-bizkaia/">Diseño y desarrollo web en Bizkaia</a>
           </li>
           <li>
-            <a href="/alternativas-a-wordpress/">Alternativas a WordPress</a>
-          </li>
-          <li>
-            <a href="/rediseno-web-profesional/">Rediseño web profesional</a>
+            <a href="/web-sostenible/">Web sostenible</a>
           </li>
           <li>
             <a href="/webs-para-despachos-profesionales/">Webs para despachos profesionales</a>
@@ -56,7 +74,7 @@ eleventyExcludeFromCollections: true
       <li>
         <a href="/servicios/">Servicios</a>
         <ul>
-          {%- for servicio in collections.servicios %}
+          {%- for servicio in collections.servicios | sort(false, false, 'data.order') %}
             <li>
               <a href="{{ servicio.url }}">{{ servicio.data.title }}</a>
             </li>

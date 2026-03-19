@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+order: 5
 title: Gestión y redacción de contenidos web
 label: Gestión de contenidos
 subtitle: El contenido es lo que hace encontrable a un sitio web y lo que convence a quien llega. Redactamos los textos de tu proyecto con criterio editorial y visión SEO.
@@ -72,7 +73,7 @@ breadcrumb:
       <div class="svc-feature" data-stagger-child>
         <svg class="svc-feature__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <h3>Investigación de palabras clave</h3>
-        <p>Identificamos los términos y las preguntas que usa el público objetivo cuando busca en Google. Esas palabras clave se integran de forma natural en una redacción fluida.</p>
+        <p>Identificamos los términos y las preguntas que usa el público objetivo cuando busca en Google. Esas palabras clave se integran de forma natural en una redacción fluida. Más sobre <a href="{% blogUrl "contenido-textual-y-posicionamiento-web" %}">cómo el contenido textual afecta al posicionamiento</a>.</p>
       </div>
       <div class="svc-feature" data-stagger-child>
         <svg class="svc-feature__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="21" y1="10" x2="3" y2="10"/><line x1="21" y1="6" x2="3" y2="6"/><line x1="21" y1="14" x2="3" y2="14"/><line x1="21" y1="18" x2="3" y2="18"/></svg>
@@ -146,8 +147,91 @@ breadcrumb:
   </div>
 </section>
 
+{# ── FAQ + Schema ─────────────────────────────────────────── #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Necesito contratar redacción si ya tengo textos en mi web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende de si esos textos están cumpliendo su función. Si tu web tiene pocas visitas orgánicas, si la gente llega y no contacta, o si los textos simplemente no reflejan bien lo que haces, merece la pena revisarlos. Podemos hacer una auditoría de contenidos que identifique qué funciona, qué hay que mejorar y qué falta."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cómo conseguís que los textos suenen como mi marca y no como textos genéricos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El proceso empieza con una fase de briefing en profundidad: quién eres, qué haces, a quién te diriges, qué te diferencia y cómo hablas habitualmente. A partir de ahí definimos la voz editorial del proyecto. Los textos se revisan con el cliente antes de publicarse y se ajustan hasta que el resultado sea genuinamente tuyo."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cuántos artículos de blog necesito para empezar a posicionar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No hay una cifra mágica. Diez artículos bien enfocados en los temas que busca tu audiencia son más efectivos que cincuenta artículos genéricos. Lo que importa es la relevancia, la consistencia y que cada artículo responda bien a una intención de búsqueda concreta. Un calendario editorial realista y sostenible vale más que un arranque masivo seguido de meses de silencio."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Podéis mejorar los textos de una web que ya está publicada?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Es uno de los encargos más habituales. Analizamos los textos existentes, identificamos los problemas —falta de claridad, tono inadecuado, ausencia de palabras clave relevantes, CTAs débiles— y reescribimos lo que hace falta sin tocar lo que ya funciona bien."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Hacéis también contenido para redes sociales?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Nuestra especialidad es el contenido web: páginas, artículos de blog, fichas de producto y textos de landing pages. El contenido para redes sociales tiene una lógica diferente y no es algo que ofrezcamos habitualmente. Lo que sí hacemos es asegurarnos de que el contenido web esté bien estructurado para que compartirlo en redes sea fácil y efectivo."
+        }
+      }
+    ]
+  }
+</script>
+
+<section class="faq-section section svc-section--alt">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan sobre gestión de contenidos</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Necesito contratar redacción si ya tengo textos en mi web?</dt>
+        <dd class="faq-item__answer">Depende de si esos textos están cumpliendo su función. Si tu web tiene pocas visitas orgánicas, si la gente llega y no contacta, o si los textos simplemente no reflejan bien lo que haces, merece la pena revisarlos. Podemos hacer una auditoría de contenidos que identifique qué funciona, qué hay que mejorar y qué falta.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cómo conseguís que los textos suenen como mi marca y no como textos genéricos?</dt>
+        <dd class="faq-item__answer">El proceso empieza con una fase de briefing en profundidad: quién eres, qué haces, a quién te diriges, qué te diferencia y cómo hablas habitualmente. A partir de ahí definimos la voz editorial del proyecto. Los textos se revisan con el cliente antes de publicarse y se ajustan hasta que el resultado sea genuinamente tuyo.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cuántos artículos de blog necesito para empezar a posicionar?</dt>
+        <dd class="faq-item__answer">No hay una cifra mágica. Diez artículos bien enfocados en los temas que busca tu audiencia son más efectivos que cincuenta artículos genéricos. Lo que importa es la relevancia, la consistencia y que cada artículo responda bien a una intención de búsqueda concreta. Un calendario editorial realista y sostenible vale más que un arranque masivo seguido de meses de silencio.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Podéis mejorar los textos de una web que ya está publicada?</dt>
+        <dd class="faq-item__answer">Sí. Es uno de los encargos más habituales. Analizamos los textos existentes, identificamos los problemas —falta de claridad, tono inadecuado, ausencia de palabras clave relevantes, CTAs débiles— y reescribimos lo que hace falta sin tocar lo que ya funciona bien.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Hacéis también contenido para redes sociales?</dt>
+        <dd class="faq-item__answer">Nuestra especialidad es el contenido web: páginas, artículos de blog, fichas de producto y textos de landing pages. El contenido para redes sociales tiene una lógica diferente y no es algo que ofrezcamos habitualmente. Lo que sí hacemos es asegurarnos de que el contenido web esté bien estructurado para que compartirlo en redes sea fácil y efectivo.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
 {# ── Otros servicios ──────────────────────────────────────── #}
-<section class="section svc-section--alt">
+<section class="section">
   <div class="container">
     <div class="home-services__header" style="margin-bottom: var(--space-lg)">
       <div data-reveal>

@@ -7,7 +7,7 @@ description: Las redes sociales son terreno alquilado. Si eres autónomo y toda 
 tags: ["negocio-y-estrategia", "contenido-y-marketing"]
 ---
 
-Si eres autónomo, es probable que en algún momento te hayan dicho que necesitas estar en redes sociales. Y es verdad que pueden ser útiles. Pero hay algo que casi nadie te dice: las redes sociales son terreno alquilado. Tú pones el contenido, el esfuerzo y el tiempo, pero las reglas las pone otro. Y esas reglas cambian cuando quieren, sin avisarte y sin pedirte permiso.
+Si eres autónomo, es probable que en algún momento te hayan dicho que necesitas estar en redes sociales. Y es verdad que pueden ser útiles. Pero hay algo que casi nadie te dice: las redes sociales son terreno alquilado. El [movimiento indie web]({% blogUrl "indie-web-y-la-web-que-queremos" %}) lleva años insistiendo en exactamente eso: tu dominio propio es el único espacio digital que controlas de verdad. Tú pones el contenido, el esfuerzo y el tiempo, pero las reglas las pone otro. Y esas reglas cambian cuando quieren, sin avisarte y sin pedirte permiso.
 
 Tu página web, en cambio, es tuya. Es el único espacio digital donde tú decides qué se muestra, cómo se muestra y a quién le llega. Y para un autónomo que vive de su reputación y de la confianza que genera, eso no es un detalle menor. Es la base de todo.
 
@@ -45,7 +45,7 @@ Una página web propia funciona como tu sede digital. Es el sitio al que llegan 
 
 **Muestras tu trabajo como merece.** Un portfolio en Instagram se pierde entre stories y reels. En tu web, puedes presentar cada proyecto con contexto, explicar el proceso, mostrar resultados y dejar que tu trabajo hable con profundidad. Un cliente potencial que ve tres proyectos bien explicados en tu web se convence más que viendo treinta imágenes sueltas en un carrusel.
 
-**Te encuentran en Google.** Las redes sociales son ecosistemas cerrados. Si alguien busca "diseñador gráfico en Bilbao" o "consultora de marketing para startups", no va a encontrar tu perfil de Instagram. Pero sí puede encontrar tu web, si está bien hecha y tiene contenido relevante.
+**Te encuentran en Google.** Las redes sociales son ecosistemas cerrados. Si alguien busca "diseñador gráfico en Bilbao" o "consultora de marketing para startups", no va a encontrar tu perfil de Instagram. Pero sí puede encontrar tu web, si está bien hecha y tiene contenido relevante. Las bases de [cómo hacer que tu web posicione]({% blogUrl "mejorar-sitio-para-seo" %}) no son tan complicadas como parecen.
 
 **Funciona las 24 horas.** Tu web está ahí mientras duermes, mientras estás con un cliente, mientras estás de vacaciones. No necesita que publiques cada día para seguir existiendo. Un buen contenido en tu web puede atraer visitas durante meses o años.
 

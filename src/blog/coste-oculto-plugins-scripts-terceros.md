@@ -35,7 +35,7 @@ Cada script de terceros que se carga en tu web necesita tiempo y recursos del na
 
 **Más peso, más tiempo de carga.** Un script de analíticas puede pesar 50 KB. Un widget de chat, 200 KB. Un reproductor de vídeo incrustado, 500 KB o más. Súmalos todos y puedes estar añadiendo varios megabytes de código que tu visitante tiene que descargar antes de poder usar tu web con normalidad. Y eso sin contar las imágenes, las fuentes y el contenido real de tu página.
 
-**Bloqueo del hilo principal.** El navegador tiene un único hilo principal para procesar JavaScript. Mientras está ejecutando el código de un widget de chat, no puede responder al clic que acaba de hacer tu visitante en el menú. Esto afecta directamente al INP, una de las Core Web Vitals que Google usa para evaluar tu web.
+**Bloqueo del hilo principal.** El navegador tiene un único hilo principal para procesar JavaScript. Mientras está ejecutando el código de un widget de chat, no puede responder al clic que acaba de hacer tu visitante en el menú. Esto afecta directamente al INP, una de las [Core Web Vitals]({% blogUrl "core-web-vitals-2026" %}) que Google usa para evaluar tu web y, desde 2021, como factor de posicionamiento.
 
 **Peticiones HTTP adicionales.** Cada script suele necesitar conectarse a servidores externos para descargar archivos, enviar datos o cargar recursos adicionales. Cada conexión nueva añade latencia. Y muchos scripts cargan otros scripts a su vez, creando cadenas de dependencias que multiplican el problema.
 
@@ -75,7 +75,7 @@ Cada byte que se transfiere por internet consume energía. Cada conexión a un s
 
 Una web sobrecargada de scripts no solo es lenta para el usuario. También consume más recursos del planeta. Puede parecer insignificante a nivel individual, pero multiplicado por miles de visitas al mes, la diferencia entre una web ligera y una web inflada es real y medible.
 
-Si te importa la huella de carbono de tu presencia digital, reducir los scripts de terceros es una de las acciones más efectivas que puedes tomar. No solo por el peso que eliminas, sino porque cada script que quitas también elimina las conexiones a servidores externos, las transferencias de datos y el procesamiento innecesario.
+Si te importa la [huella de carbono de tu presencia digital]({% blogUrl "tu-web-contamina" %}), reducir los scripts de terceros es una de las acciones más efectivas que puedes tomar. No solo por el peso que eliminas, sino porque cada script que quitas también elimina las conexiones a servidores externos, las transferencias de datos y el procesamiento innecesario.
 
 ## El coste en control y dependencia
 

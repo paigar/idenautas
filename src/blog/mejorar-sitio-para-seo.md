@@ -27,7 +27,7 @@ Una vez identificadas las palabras clave relevantes, úsalas en el título de la
 
 ## Contenido: la única apuesta que no falla
 
-Google lleva años perfeccionando su capacidad para distinguir el contenido realmente útil del contenido relleno. El algoritmo actual premia las páginas que responden bien y en profundidad a lo que el usuario busca.
+Google lleva años perfeccionando su capacidad para distinguir el contenido realmente útil del contenido relleno. El algoritmo actual premia las páginas que responden bien y en profundidad a lo que el usuario busca. Si quieres profundizar en la relación entre [contenido textual y posicionamiento]({% blogUrl "contenido-textual-y-posicionamiento-web" %}), tenemos un artículo específico sobre eso.
 
 Eso implica varias cosas concretas: contenido original (no copiado de otras webs), información actualizada y relevante, estructura clara con encabezados que ayuden al lector a navegar, y una longitud adecuada al tema, ni corta ni inflada artificialmente.
 
@@ -43,7 +43,7 @@ Los encabezados (`<h1>`, `<h2>`, `<h3>`) comunican la jerarquía del contenido. 
 
 ## Velocidad y rendimiento: cada segundo cuenta
 
-Google mide la velocidad de carga como factor de ranking, y tiene sentido: los usuarios abandonan las páginas lentas. La prueba de PageSpeed Insights es el punto de partida para saber cómo está tu web.
+Google mide la velocidad de carga como factor de ranking, y tiene sentido: los usuarios abandonan las páginas lentas. La prueba de PageSpeed Insights es el punto de partida para saber cómo está tu web. Las métricas que evalúa Google tienen nombre: se llaman [Core Web Vitals]({% blogUrl "core-web-vitals-2026" %}) y en 2026 son más exigentes que hace unos años.
 
 Los problemas más habituales son imágenes demasiado grandes sin comprimir, código CSS y JavaScript que bloquea el renderizado, falta de caché y un hosting de baja calidad. Comprimir imágenes (sin perder calidad visible), activar la compresión gzip, usar lazy loading para imágenes que no están en el viewport inicial y minimizar los archivos CSS y JavaScript son mejoras técnicas que pueden cambiar significativamente los tiempos de carga.
 

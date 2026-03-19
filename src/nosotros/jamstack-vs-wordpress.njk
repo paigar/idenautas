@@ -1,0 +1,311 @@
+---
+layout: layouts/page.njk
+title: Jamstack vs WordPress · Comparativa honesta
+label: Jamstack vs WordPress
+subtitle: "No es una cuestión de cuál es mejor en abstracto. Es una cuestión de cuál encaja mejor con lo que necesitas. Aquí lo explicamos sin rodeos."
+description: Comparativa honesta entre Jamstack y WordPress. Velocidad, seguridad, costes, mantenimiento y para quién tiene sentido cada uno. Sin marketing, con datos reales.
+permalink: /jamstack-vs-wordpress/
+heroImage: idenautas-web/jamstack-vs-wp_00.png
+breadcrumb:
+  - name: Nosotros
+    url: /nosotros/
+  - name: Jamstack vs WordPress
+    url: /jamstack-vs-wordpress/
+---
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Es Jamstack mejor que WordPress?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende del caso de uso. Jamstack es objetivamente mejor en velocidad, seguridad y coste de mantenimiento. WordPress es mejor cuando necesitas un e-commerce complejo, un equipo editorial grande con flujos de aprobación o funcionalidades muy específicas del ecosistema de plugins. Para la mayoría de webs corporativas, de servicios o blogs, Jamstack es la opción más sólida."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Puedo editar el contenido yo mismo con Jamstack?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Con un CMS headless conectado, la interfaz de edición puede ser tan sencilla o más que la de WordPress. La diferencia es que el CMS gestiona solo el contenido, no el aspecto visual de la web. Para la mayoría de usuarios que editan textos, imágenes y páginas, la experiencia es equivalente."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cuánto más cuesta una web Jamstack que una con WordPress?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El coste de desarrollo inicial es comparable. La diferencia está en el coste total a medio plazo: una web Jamstack elimina las licencias anuales de tema y plugins, reduce el hosting a casi cero y no requiere mantenimiento técnico mensual. En uno o dos años, el ahorro acumulado supera con claridad la diferencia de inversión inicial si la hubiera."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿WordPress posiciona mejor en Google que Jamstack?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No. El posicionamiento depende del contenido, los enlaces y la velocidad de carga, no del CMS. En velocidad, Jamstack tiene una ventaja estructural sobre WordPress, y Google pondera la velocidad como factor de ranking desde 2021. Una web Jamstack bien construida supera habitualmente a una web WordPress equivalente en Core Web Vitals."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué pasa si necesito una tienda online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Para e-commerce sencillo, Jamstack puede integrarse con soluciones como Snipcart o Stripe sin necesidad de WooCommerce. Para tiendas con gestión de inventario compleja, muchos pedidos diarios y flujos logísticos avanzados, WordPress con WooCommerce o una plataforma dedicada puede ser más adecuado. Lo valoramos caso por caso."
+        }
+      }
+    ]
+  }
+</script>
+
+{# ── Intro ─────────────────────────────────────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Sin marketing</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Una comparativa que no te va a decir que WordPress es basura</h2>
+      <p class="about-editorial">
+        WordPress mueve más del 40% de la web. No es un accidente. Es una plataforma madura, con un ecosistema enorme y una comunidad activa. Si llevamos años recomendando Jamstack en su lugar para ciertos proyectos no es porque WordPress sea malo — es porque para muchos casos hay una opción mejor.
+      </p>
+      <p class="about-editorial">
+        Esta comparativa no está escrita para convencerte de nada. Está escrita para que entiendas exactamente en qué se diferencian, dónde cada uno tiene ventaja real y para qué tipo de proyecto tiene sentido cada opción. Con eso, la decisión es tuya.
+      </p>
+      <p class="about-editorial">
+        Si después de leerla quieres una opinión sobre tu caso concreto, nos la pides y te la damos. Sin coste y sin compromiso.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/jamstack-vs-wp_01.png", "Comparativa técnica entre Jamstack y WordPress", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── Tabla comparativa ─────────────────────────────────────── #}
+<div class="about-idenauta-wrap  svc-section--alt">
+  <section class="section container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Resumen</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">De un vistazo</h2>
+    </div>
+    <div class="page-content" style="padding: 0; overflow-x: auto" data-reveal>
+      <table style="background-color: var(--color-bg);">
+        <thead>
+          <tr>
+            <th style="background-color: var(--color-text); color: var(--color-bg);">Aspecto</th>
+            <th style="background-color: var(--color-text); color: var(--color-bg);">WordPress</th>
+            <th style="background-color: var(--color-text); color: var(--color-bg);">Jamstack</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <strong>Velocidad de carga</strong>
+            </td>
+            <td>Variable. Depende del hosting, plugins y caché configurada. Raramente por debajo de 1 segundo.</td>
+            <td>Muy alta. Las páginas se sirven desde CDN como archivos estáticos. Tiempos habituales de 200-400 ms.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Seguridad</strong>
+            </td>
+            <td>Requiere atención activa. Panel de administración expuesto, base de datos accesible, vulnerabilidades frecuentes en plugins.</td>
+            <td>Sin servidor de aplicaciones ni base de datos expuestos. La superficie de ataque es estructuralmente mínima.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Coste inicial</strong>
+            </td>
+            <td>Comparable o algo menor, según el proyecto.</td>
+            <td>Comparable. El ahorro real se acumula en el mantenimiento posterior.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Coste de mantenimiento</strong>
+            </td>
+            <td>Alto. Hosting, licencias anuales de tema y plugins, actualizaciones técnicas periódicas.</td>
+            <td>Muy bajo. Alojamiento en CDN casi gratuito, sin licencias ni mantenimiento técnico recurrente.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>SEO</strong>
+            </td>
+            <td>Bueno con configuración correcta. La velocidad puede ser un lastre si no se optimiza bien.</td>
+            <td>Excelente. Velocidad estructuralmente superior, Core Web Vitals en verde sin optimizaciones adicionales.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Edición de contenido</strong>
+            </td>
+            <td>Panel visual integrado, familiar y sencillo para cualquier perfil.</td>
+            <td>Requiere un CMS headless para edición visual. Curva de adaptación inicial, luego equivalente.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>E-commerce</strong>
+            </td>
+            <td>Sólido con WooCommerce para tiendas medianas y grandes.</td>
+            <td>Viable para tiendas sencillas. Menos adecuado para catálogos muy complejos.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Escalabilidad</strong>
+            </td>
+            <td>Necesita infraestructura más potente (y cara) a medida que crece el tráfico.</td>
+            <td>Escala sin coste adicional. La CDN absorbe picos de tráfico sin configuración extra.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+{# ── Desglose por dimensión ── cards ───────────────────────── #}
+<section class="about-tech-section">
+  <div class="container">
+    <div class="about-tech__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Análisis detallado</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Dimensión a dimensión</h2>
+      <p class="about-tech__intro">
+        Los titulares son fáciles. Aquí explicamos el porqué de cada diferencia, sin simplificaciones.
+      </p>
+    </div>
+    <div class="about-tech__grid about-tech__grid--cols-3" data-stagger>
+
+      <div class="about-tech__card about-tech__card--wide" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">01</span>
+        <h3>Velocidad — ventaja estructural de Jamstack</h3>
+        <p>WordPress genera cada página en el momento de la visita: consulta la base de datos, ejecuta PHP y ensambla el HTML. Aunque se use caché, hay capas de latencia inevitables. Con Jamstack, la página ya está generada y se sirve directamente desde una CDN global — el servidor más cercano al usuario, sin procesamiento. La diferencia <a href="{% blogUrl "rendimiento-web-y-ventas" %}">es medible y tiene impacto en negocio</a>: menos rebote, más conversiones, mejor posicionamiento.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">02</span>
+        <h3>Seguridad — WordPress es el objetivo más atacado</h3>
+        <p>No porque WordPress sea inseguro por diseño, sino porque su cuota de mercado lo convierte en el objetivo más rentable para los atacantes. El panel en <code>/wp-admin</code> es escaneado por bots de forma continua. Cada plugin es una superficie de ataque potencial.</p>
+        <p>En Jamstack no hay panel de administración público ni base de datos accesible. No hay nada que atacar en tiempo de ejecución. La seguridad no se gestiona — es una consecuencia de la arquitectura.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">03</span>
+        <h3>Coste — el truco está en el mantenimiento</h3>
+        <p>El coste inicial puede ser similar. La diferencia real aparece con el tiempo: licencias anuales de tema y plugins, hosting con PHP y MySQL, horas de mantenimiento técnico. En uno o dos años, el coste acumulado de una web WordPress supera con claridad al de una web Jamstack equivalente.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">04</span>
+        <h3>SEO — la velocidad es el factor decisivo</h3>
+        <p>Google pondera la velocidad de carga en sus rankings desde 2021 a través de los <a href="{% blogUrl "core-web-vitals-explicados" %}">Core Web Vitals</a>. Una web Jamstack obtiene puntuaciones altas de forma estructural, sin optimizaciones adicionales. Una web WordPress con constructores visuales y plugins acumulados raramente alcanza esas puntuaciones sin trabajo técnico específico y constante.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">05</span>
+        <h3>Edición de contenido — WordPress gana en facilidad inicial</h3>
+        <p>El panel de WordPress es familiar para millones de personas. No requiere configuración adicional para empezar a editar. Esa es una ventaja real, especialmente para equipos sin experiencia técnica.</p>
+        <p>Con Jamstack, la edición de contenido requiere conectar un CMS headless. La interfaz resultante puede ser tan sencilla como la de WordPress, pero hay una curva de adaptación inicial. Para equipos que editan contenido con frecuencia, esto es un punto a considerar seriamente.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">06</span>
+        <h3>Funcionalidades — WordPress tiene más ecosistema</h3>
+        <p>Para funcionalidades muy específicas — membresías, marketplaces, e-commerce complejo —, el ecosistema de plugins de WordPress no tiene rival. Si tu proyecto depende de funcionalidades avanzadas que ya existen como plugins maduros, WordPress puede ser la opción más práctica.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{# ── Para quién es cada uno ── bg-alt ──────────────────────── #}
+<div class="about-idenauta-wrap">
+  <section class="about-idenauta">
+    <div class="about-idenauta__img" data-reveal="left">
+      {% img "idenautas-web/jamstack-vs-wp_02.png", "Elegir entre Jamstack y WordPress según el tipo de proyecto", "content" %}
+    </div>
+    <div class="about-idenauta__body">
+      <div class="about-idenauta__content" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">La pregunta correcta</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-md)">¿Para qué proyecto tiene sentido cada uno?</h2>
+        <p class="about-editorial">
+          <strong>Jamstack encaja bien</strong> si tienes una web corporativa, un sitio de servicios, un portfolio, un blog o una landing page. Si tu contenido cambia con moderación y no necesitas edición en tiempo real por un equipo grande. Si valoras la velocidad, la seguridad y no querer ocuparte del mantenimiento técnico. Si quieres que el coste de alojamiento sea mínimo a largo plazo.
+        </p>
+        <p class="about-editorial">
+          <strong>WordPress puede ser mejor</strong> si tienes una tienda online mediana o grande con inventario complejo. Si tu equipo editorial publica varias veces al día con flujos de revisión y aprobación. Si hay funcionalidades concretas que ya existen como plugins maduros y reconstruirlas supondría un coste desproporcionado.
+        </p>
+        <p class="about-editorial">
+          <strong>La mayoría de pymes</strong> — una empresa de servicios, un despacho profesional, un restaurante, un comercio local — no necesita nada de lo que WordPress aporta específicamente. Necesita una web rápida, segura, que no requiera mantenimiento y que aparezca bien en Google. Para eso, Jamstack es mejor opción en casi todos los casos.
+        </p>
+        <p class="about-editorial" style="font-weight: 600; color: var(--color-text)">
+          Si tienes dudas sobre cuál encaja con tu proyecto, cuéntanoslo. Te damos una opinión honesta, sin interés en venderte nada concreto.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── FAQ ───────────────────────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan sobre la comparativa</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Es Jamstack mejor que WordPress?</dt>
+        <dd class="faq-item__answer">Depende del caso de uso. Jamstack es objetivamente mejor en velocidad, seguridad y coste de mantenimiento. WordPress es mejor cuando necesitas un e-commerce complejo, un equipo editorial grande con flujos de aprobación o funcionalidades muy específicas del ecosistema de plugins. Para la mayoría de webs corporativas, de servicios o blogs, Jamstack es la opción más sólida.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Puedo editar el contenido yo mismo con Jamstack?</dt>
+        <dd class="faq-item__answer">Sí. Con un CMS headless conectado, la interfaz de edición puede ser tan sencilla o más que la de WordPress. La diferencia es que el CMS gestiona solo el contenido, no el aspecto visual de la web. Para la mayoría de usuarios que editan textos, imágenes y páginas, la experiencia es equivalente.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cuánto más cuesta una web Jamstack que una con WordPress?</dt>
+        <dd class="faq-item__answer">El coste de desarrollo inicial es comparable. La diferencia está en el coste total a medio plazo: una web Jamstack elimina las licencias anuales de tema y plugins, reduce el hosting a casi cero y no requiere mantenimiento técnico mensual. En uno o dos años, el ahorro acumulado supera con claridad la diferencia de inversión inicial si la hubiera.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿WordPress posiciona mejor en Google que Jamstack?</dt>
+        <dd class="faq-item__answer">No. El posicionamiento depende del contenido, los enlaces y la velocidad de carga, no del CMS. En velocidad, Jamstack tiene una ventaja estructural sobre WordPress, y Google pondera la velocidad como factor de ranking desde 2021. Una web Jamstack bien construida supera habitualmente a una web WordPress equivalente en Core Web Vitals.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué pasa si necesito una tienda online?</dt>
+        <dd class="faq-item__answer">Para e-commerce sencillo, Jamstack puede integrarse con soluciones como Snipcart o Stripe sin necesidad de WooCommerce. Para tiendas con gestión de inventario compleja, muchos pedidos diarios y flujos logísticos avanzados, WordPress con WooCommerce o una plataforma dedicada puede ser más adecuado. Lo valoramos caso por caso.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
+{# ── CTA ───────────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">¿Tienes dudas sobre tu caso?</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md); max-width: 26ch">Cuéntanos qué necesitas y te decimos qué encaja mejor</h2>
+      <p class="about-editorial" style="max-width: 60ch; margin-bottom: var(--space-lg)">
+        No tenemos interés en venderte una tecnología concreta. Tenemos interés en que tu web funcione bien. Si después de leer esto tienes dudas sobre qué tiene más sentido para tu proyecto, cuéntanoslo y te damos una opinión directa.
+      </p>
+    </div>
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>

@@ -1,0 +1,319 @@
+---
+layout: layouts/page.njk
+title: Migración de WordPress a Jamstack · Idenautas
+label: Migración desde WordPress
+subtitle: "Tu web con WordPress funciona, pero cada vez te cuesta más mantenerla. Actualizaciones que rompen cosas, plugins que se quedan obsoletos, velocidad que no mejora. Hay una salida."
+description: Migración de WordPress a Jamstack. Trasladamos tu web a arquitectura estática moderna sin perder el contenido ni el posicionamiento. Más rápida, más segura y sin el peso del ecosistema de plugins.
+permalink: /migracion-wordpress-a-jamstack/
+heroImage: idenautas-web/wp-jamstack_00.png
+breadcrumb:
+  - name: Nosotros
+    url: /nosotros/
+  - name: Migración desde WordPress
+    url: /migracion-wordpress-a-jamstack/
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Pierdo el contenido y el posicionamiento al migrar desde WordPress?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. El contenido se migra íntegramente: entradas, páginas, imágenes, documentos. Y el posicionamiento se protege manteniendo las mismas URLs o configurando redirecciones 301 correctas. En todos los proyectos de migración que hemos realizado, el posicionamiento mejoró después del cambio porque la nueva web es significativamente más rápida."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa con mi contenido creado con Elementor o Divi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El contenido visual creado con constructores como Elementor o Divi está almacenado en formato propietario dentro de la base de datos. Lo extraemos, lo limpiamos y lo reconstruimos en HTML semántico correcto. El resultado visual es equivalente o mejor, y el contenido queda en formatos abiertos y portables."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo seguir editando el contenido sin conocimientos técnicos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Configuramos el sistema de edición que mejor se adapte a tu forma de trabajar: un CMS headless con interfaz visual similar a WordPress, o un sistema de archivos de texto que resulta muy cómodo para equipos pequeños. En cualquier caso, no necesitas tocar código para publicar o actualizar contenido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Cuánto tarda la migración?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Depende del volumen de contenido y la complejidad de la web actual. Una web corporativa de diez o veinte páginas puede estar migrada en pocas semanas. Un sitio con cientos de entradas de blog necesita más tiempo para trasladar y revisar el contenido. En la propuesta inicial te damos plazos concretos para tu caso."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Sale más caro migrar que seguir con WordPress?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "La inversión inicial es comparable a una web nueva. La diferencia real está en el coste acumulado posterior: sin licencias anuales de temas y plugins, con alojamiento prácticamente gratuito en CDN, y sin horas de mantenimiento técnico mensual. En uno o dos años la diferencia de coste total es muy significativa."
+      }
+    }
+  ]
+}
+</script>
+
+{# ── Intro ─────────────────────────────────────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">El problema que ya conoces</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">WordPress escala muy bien hasta que deja de hacerlo</h2>
+      <p class="about-editorial">
+        WordPress funciona. Es la plataforma más usada del mundo, tiene un ecosistema enorme y para muchos casos es una solución razonable. No estamos aquí para decirte que WordPress es malo — hemos trabajado con él durante años y conocemos perfectamente lo que hace bien.
+      </p>
+      <p class="about-editorial">
+        Lo que sí sabemos es que hay un punto de inflexión. Cuando los plugins se acumulan, cuando las actualizaciones empiezan a dar miedo, cuando el alojamiento cuesta cada vez más y el rendimiento no termina de mejorar, WordPress se convierte en una fuente de fricción constante. No es que la plataforma haya cambiado — es que el coste de mantenerla empieza a superar el valor que aporta.
+      </p>
+      <p class="about-editorial">
+        La alternativa no es buscar un WordPress más limpio o un alojamiento más caro. Es cambiar el modelo: una web que no requiere mantenimiento técnico porque no hay motor que mantener. Si quieres entender el proceso con detalle antes de dar el paso, tenemos un <a href="{% blogUrl "migracion-wordpress-a-eleventy" %}" style="color: var(--color-accent)">artículo completo sobre cómo funciona la migración</a>. Y si tu caso es que ni siquiera tienes acceso a la instalación porque la persona que te la hizo ya no está, tenemos una guía específica: <a href="/heredamos-tu-web/" style="color: var(--color-accent)">heredamos tu web</a>.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/wp-jamstack_01.png", "Migración de WordPress a arquitectura Jamstack moderna", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── El problema concreto ── bg-alt ────────────────────────── #}
+<div class="about-idenauta-wrap">
+  <section class="about-idenauta">
+    <div class="about-idenauta__img" data-reveal="left">
+      {% img "idenautas-web/wp-jamstack_02.png", "Deuda técnica acumulada en una instalación WordPress con muchos plugins", "content" %}
+    </div>
+    <div class="about-idenauta__body">
+      <div class="about-idenauta__content" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">La raíz del problema</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-md)">El peso que arrastra una instalación WordPress madura</h2>
+        <p class="about-editorial">
+          Una web WordPress típica en producción tiene entre veinte y cuarenta plugins instalados. Cada uno fue la solución a un problema concreto en su momento. El resultado es una pila de dependencias que nadie diseñó como sistema — simplemente creció. Y cada actualización del core de WordPress puede romper cualquiera de esas dependencias.
+        </p>
+        <p class="about-editorial">
+          A eso se suma el problema del contenido atrapado. Si usas Elementor, Divi o cualquier constructor visual, tu contenido está codificado en un formato propietario dentro de la base de datos. Cambiar de constructor o de plataforma significa reescribir cada página desde cero. Tu contenido es técnicamente tuyo, pero sacarlo tiene un coste real.
+        </p>
+        <p class="about-editorial">
+          Y luego está la seguridad. WordPress es el CMS más atacado del mundo, no porque sea inseguro por diseño, sino porque su ubicuidad lo convierte en el objetivo más rentable. El panel de administración en <code>/wp-admin</code> es escaneado por bots constantemente. Cada plugin instalado es una superficie de ataque adicional. <a href="{% blogUrl "tu-web-contamina" %}" style="color: var(--color-accent)">El coste real de mantener esa infraestructura</a> es mayor de lo que parece en la factura mensual del hosting.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── Qué ganas al migrar ── cards ──────────────────────────── #}
+<section class="about-tech-section">
+  <div class="container">
+    <div class="about-tech__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">El resultado</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Lo que cambia cuando migras a Jamstack</h2>
+      <p class="about-tech__intro">
+        No es una promesa de mejora vaga. Son cambios medibles que tienen impacto directo en el rendimiento, la seguridad y el coste de tu web.
+      </p>
+    </div>
+    <div class="about-tech__grid about-tech__grid--cols-3" data-stagger>
+
+      <div class="about-tech__card about-tech__card--wide" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">01</span>
+        <h3>De segundos a décimas de segundo</h3>
+        <p>Con WordPress, cada visita genera una consulta a la base de datos, ejecuta PHP y ensambla el HTML en el momento. Con Jamstack, las páginas ya están generadas y se sirven desde una CDN global. La diferencia de velocidad es de un orden de magnitud. Y esa diferencia <a href="{% blogUrl "rendimiento-web-y-ventas" %}">se traduce directamente en menos rebotes y más conversiones</a>.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">02</span>
+        <h3>Sin wp-admin expuesto</h3>
+        <p>El panel de administración de WordPress es el objetivo más escaneado por bots de ataque en toda la web. Desaparece. No hay base de datos accesible, no hay PHP que ejecutar, no hay panel de administración público. La superficie de ataque se reduce a cero porque no hay servidor de aplicaciones que comprometer.</p>
+        <p>La seguridad deja de ser algo que hay que gestionar activamente y se convierte en una propiedad del sistema.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">03</span>
+        <h3>Sin licencias anuales</h3>
+        <p>Tema premium, constructor visual, plugins de SEO, plugins de seguridad, plugins de caché, plugins de formularios. Cada uno con su licencia anual. Después de la migración, ese coste recurrente desaparece. El alojamiento en CDN puede costar prácticamente cero.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">04</span>
+        <h3>Core Web Vitals en verde</h3>
+        <p>Google mide la velocidad de carga como factor de ranking desde 2021. Una web WordPress con constructores visuales y plugins acumulados raramente consigue puntuaciones altas en PageSpeed. Las webs que construimos pasan los <a href="{% blogUrl "core-web-vitals-explicados" %}">Core Web Vitals</a> con holgura, lo que mejora el posicionamiento de forma orgánica.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">05</span>
+        <h3>Contenido liberado del constructor</h3>
+        <p>El contenido creado en Elementor o Divi está atrapado en shortcodes y metadatos propietarios dentro de la base de datos. Sacarlo sin una migración planificada es costoso y propenso a errores.</p>
+        <p>Después de la migración, tu contenido está en Markdown o en un CMS headless estándar. Es portable, versionable y no depende de ningún constructor como intermediario.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">06</span>
+        <h3>Cero mantenimiento técnico</h3>
+        <p>No hay actualizaciones de plugins que aplicar, no hay base de datos que optimizar, no hay backups que configurar, no hay incidencias de servidor que resolver. La web simplemente funciona, sin requerir atención técnica periódica.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{# ── Proceso de migración ── timeline ──────────────────────── #}
+<section class="about-timeline-section svc-section--alt">
+  <div class="container">
+    <div class="about-history">
+      <div class="about-history__heading" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Cómo lo hacemos</p>
+        <h2 class="text-2xl">El proceso de migración, paso a paso</h2>
+      </div>
+      <div class="about-history__body">
+        <div class="svc-tl" data-stagger>
+          <div class="svc-tl__line" aria-hidden="true"></div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>Auditoría de la instalación actual</h3>
+              <p>Analizamos la instalación WordPress: plugins activos, tema y constructor visual, estructura de contenidos, URLs, estado del posicionamiento actual y velocidad de carga. Con esa información identificamos qué funcionalidades tienen uso real, cuáles se pueden eliminar y cuáles hay que reimplementar. El resultado es una propuesta con alcance y precio cerrado.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>Extracción y limpieza del contenido</h3>
+              <p>Exportamos el contenido desde la base de datos de WordPress: entradas, páginas, imágenes, documentos adjuntos y metadatos. El contenido generado con constructores visuales se limpia del formato propietario y se convierte a HTML semántico limpio. El resultado es contenido portátil, sin dependencias del constructor original.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>Diseño y construcción de la nueva web</h3>
+              <p>Construimos la nueva web con Eleventy y arquitectura Jamstack. El diseño puede ser una evolución del actual o un rediseño completo — lo decidimos contigo según el objetivo. Las funcionalidades que resolvían plugins — formularios, galerías, buscadores — se reimplementan de forma nativa o con integraciones modernas, sin dependencia de plugins de terceros.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>SEO y redirecciones</h3>
+              <p>Mapeamos todas las URLs de WordPress y configuramos redirecciones 301 para preservar el posicionamiento acumulado. Revisamos metadatos, estructura de encabezados, sitemap y datos estructurados. El objetivo no es mantener el posicionamiento — es mejorarlo, aprovechando que la nueva web es significativamente más rápida.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>Puesta en marcha y traspaso</h3>
+              <p>Desplegamos en el dominio definitivo sin tiempo de inactividad. Verificamos que todo funciona correctamente antes de desactivar WordPress. Te formamos en el nuevo flujo de edición de contenido y dejamos el sistema documentado para que puedas trabajar de forma completamente autónoma.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── FAQ ───────────────────────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan antes de migrar desde WordPress</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Pierdo el contenido y el posicionamiento al migrar desde WordPress?</dt>
+        <dd class="faq-item__answer">No. El contenido se migra íntegramente: entradas, páginas, imágenes, documentos. Y el posicionamiento se protege manteniendo las mismas URLs o configurando redirecciones 301 correctas. En todos los proyectos de migración que hemos realizado, el posicionamiento mejoró después del cambio porque la nueva web es significativamente más rápida.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué pasa con mi contenido creado con Elementor o Divi?</dt>
+        <dd class="faq-item__answer">El contenido visual creado con constructores está almacenado en formato propietario dentro de la base de datos. Lo extraemos, lo limpiamos y lo reconstruimos en HTML semántico correcto. El resultado visual es equivalente o mejor, y el contenido queda en formatos abiertos y portables, sin dependencia de ningún constructor.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Puedo seguir editando el contenido sin conocimientos técnicos?</dt>
+        <dd class="faq-item__answer">Sí. Configuramos el sistema de edición que mejor se adapte a tu forma de trabajar: un CMS headless con interfaz visual similar a WordPress, o un sistema de archivos de texto muy cómodo para equipos pequeños. No necesitas tocar código para publicar o actualizar contenido.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cuánto tarda la migración?</dt>
+        <dd class="faq-item__answer">Depende del volumen de contenido y la complejidad de la web actual. Una web corporativa de diez o veinte páginas puede estar migrada en pocas semanas. Un sitio con cientos de entradas de blog necesita más tiempo para trasladar y revisar el contenido. En la propuesta inicial te damos plazos concretos para tu caso, sin estimaciones genéricas.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Sale más caro migrar que seguir con WordPress?</dt>
+        <dd class="faq-item__answer">La inversión inicial es comparable a una web nueva. La diferencia real está en el coste acumulado posterior: sin licencias anuales de temas y plugins, con alojamiento prácticamente gratuito en CDN, y sin horas de mantenimiento técnico mensual. En uno o dos años la diferencia de coste total es muy significativa.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
+{# ── CTA ───────────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Siguiente paso</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md); max-width: 24ch">¿Tu WordPress lleva demasiado tiempo dando problemas?</h2>
+      <p class="about-editorial" style="max-width: 60ch; margin-bottom: var(--space-lg)">
+        Cuéntanos qué tienes y qué problemas te da. Auditamos la instalación actual y te decimos exactamente qué implicaría la migración — alcance, plazos y precio fijo. Sin rodeos.
+      </p>
+    </div>
+    <div class="svc-process" style="margin-bottom: var(--space-lg)" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Cuéntanos qué tienes</h3>
+        <p>Dinos qué versión de WordPress tienes, qué plugins y constructor usas y qué problemas te está dando. Sin tecnicismos.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Auditoría gratuita</h3>
+        <p>Analizamos tu instalación actual y te explicamos con detalle qué tiene, qué se puede migrar y qué implicaría el proceso.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Propuesta cerrada</h3>
+        <p>Alcance, plazos y precio fijo. Sin sorpresas, sin letra pequeña y sin costes que aparecen a mitad del proyecto.</p>
+      </div>
+    </div>
+
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>

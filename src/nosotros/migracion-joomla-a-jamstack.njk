@@ -1,0 +1,319 @@
+---
+layout: layouts/page.njk
+title: Migración de Joomla a Jamstack · Idenautas
+label: Migración desde Joomla
+subtitle: "Llevamos años trabajando con Joomla. Conocemos sus fortalezas y sus limitaciones. Si tu web lleva tiempo dando problemas, sabemos exactamente qué tiene y cómo sacarte de ahí sin perder lo que has construido."
+description: Migración de Joomla a Jamstack. Trasladamos tu web de Joomla a arquitectura estática moderna — más rápida, más segura y sin las ataduras de un CMS legado. Idenautas, especialistas con experiencia real en Joomla.
+permalink: /migracion-joomla-a-jamstack/
+heroImage: idenautas-web/joomla-jamstack_00.png
+breadcrumb:
+  - name: Nosotros
+    url: /nosotros/
+  - name: Migración desde Joomla
+    url: /migracion-joomla-a-jamstack/
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Se migra todo el contenido de artículos y categorías de Joomla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Artículos, categorías, páginas, imágenes y documentos se trasladan íntegramente. Conocemos la estructura de contenidos de Joomla en profundidad, lo que nos permite extraer y reorganizar el contenido de forma ordenada, sin pérdidas ni conversiones parciales."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa con las extensiones y componentes que uso en Joomla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Las funcionalidades que resuelven extensiones de Joomla (formularios, galerías, buscadores, mapas) se reimplementan en la nueva web con soluciones modernas, sin dependencia de extensiones de terceros. En algunos casos hay integraciones directas equivalentes; en otros, la funcionalidad se construye a medida. Lo valoramos caso por caso antes de hacer la propuesta."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿La migración afecta al posicionamiento en Google?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Si se hace bien, no solo no pierde posicionamiento: habitualmente mejora. Mantenemos todas las URLs existentes o configuramos redirecciones 301 correctas. La web resultante es más rápida, y Google premia la velocidad desde 2021. Lo hemos comprobado en cada migración que hemos realizado."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo seguir actualizando el contenido yo mismo después de la migración?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Dependiendo de tu forma de trabajar, configuramos un CMS headless con interfaz visual, o un sistema basado en archivos de texto que es sorprendentemente cómodo. No hace falta ningún conocimiento técnico para editar el contenido. Te formamos en el flujo que hayamos elegido."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Es necesario actualizar Joomla antes de migrar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Podemos migrar desde cualquier versión de Joomla, incluso desde instalaciones antiguas de Joomla 1.5 o 2.5. Accedemos directamente al contenido de la base de datos, con lo que la versión del CMS no es un impedimento. De hecho, muchos de nuestros clientes migran precisamente porque actualizar Joomla a una versión mayor supondría reconstruir la web igualmente."
+      }
+    }
+  ]
+}
+</script>
+
+{# ── Intro — conocemos Joomla desde dentro ─────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Experiencia real</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Conocemos Joomla desde dentro</h2>
+      <p class="about-editorial">
+        Durante muchos años, Joomla fue nuestro CMS de referencia. Lo usamos en decenas de proyectos, conocemos su arquitectura de extensiones, su modelo de permisos, cómo gestiona los artículos y las categorías, y cómo se comporta bajo carga. No somos una agencia que ha leído sobre Joomla — lo hemos trabajado.
+      </p>
+      <p class="about-editorial">
+        Eso nos pone en una posición diferente para hacer una migración. Sabemos qué tiene valor en tu instalación actual, qué funcionalidades valen la pena trasladar y cuáles son irrelevantes. Y sabemos qué puede salir mal en el proceso, porque lo hemos visto.
+      </p>
+      <p class="about-editorial">
+        Si tu web lleva años funcionando con Joomla y cada vez requiere más atención — actualizaciones de versión mayor que rompen extensiones, PHP que llega al final de su ciclo de vida, un panel de administración que se queda anticuado — este es el momento de dar el paso. Sin prisas, sin improvisación y sin perder lo que has construido. Y si encima no tienes acceso a la instalación porque quien te la hizo ya no está disponible, tenemos una guía específica para esa situación: <a href="/heredamos-tu-web/" style="color: var(--color-accent)">heredamos tu web</a>.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/joomla-jamstack_01.png", "Migración de Joomla a arquitectura Jamstack moderna", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── El problema con Joomla hoy ── bg-alt ─────────────────── #}
+<div class="about-idenauta-wrap">
+  <section class="about-idenauta">
+    <div class="about-idenauta__img" data-reveal="left">
+      {% img "idenautas-web/joomla-jamstack_02.png", "Problemas de mantenimiento de Joomla en versiones antiguas", "content" %}
+    </div>
+    <div class="about-idenauta__body">
+      <div class="about-idenauta__content" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">La realidad del ecosistema</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Por qué Joomla se ha vuelto difícil de mantener</h2>
+        <p class="about-editorial">
+          Joomla es un CMS sólido y bien diseñado. Pero su ecosistema ha encogido considerablemente en la última década. El número de extensiones activamente mantenidas es una fracción de lo que era, y encontrar un desarrollador que conozca bien Joomla es cada vez más difícil y más caro.
+        </p>
+        <p class="about-editorial">
+          El salto de versiones mayor — de Joomla 3 a Joomla 4, y de 4 a 5 — no es una actualización gradual. Es prácticamente una reescritura que puede dejar tus extensiones actuales sin soporte. Muchas instalaciones llevan años en Joomla 3.x, que ya está en fin de vida, porque actualizar implicaría reconstruir partes importantes de la web.
+        </p>
+        <p class="about-editorial">
+          A eso se suma la presión de las versiones de PHP: Joomla 3 requiere PHP 7, que lleva años sin soporte de seguridad. Tener esa combinación en producción es asumir un riesgo técnico real, aunque la web "funcione" sin problemas visibles. <a href="{% blogUrl "tu-web-tiene-fecha-de-caducidad" %}" style="color: var(--color-accent)">Las webs tienen fecha de caducidad</a>, y muchas instalaciones de Joomla la han superado con creces.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── Qué ganas al migrar ── cards ──────────────────────────── #}
+<section class="about-tech-section">
+  <div class="container">
+    <div class="about-tech__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">El resultado</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Lo que cambia cuando migras a Jamstack</h2>
+      <p class="about-tech__intro">
+        No es solo cambiar de tecnología. Es cambiar el modelo de relación con tu web: de algo que hay que gestionar y vigilar a algo que simplemente funciona.
+      </p>
+    </div>
+    <div class="about-tech__grid about-tech__grid--cols-3" data-stagger>
+
+      <div class="about-tech__card about-tech__card--wide" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">01</span>
+        <h3>Velocidad real, no optimizada</h3>
+        <p>Con Joomla, cada visita genera una petición a la base de datos, ejecuta PHP y ensambla el HTML en el momento. Con Jamstack, las páginas ya están generadas: el navegador recibe el archivo directamente desde una CDN. La diferencia de carga no es de milisegundos — es de un segundo entero o más. Eso se nota en el <a href="{% blogUrl "rendimiento-web-y-ventas" %}">rebote, en las conversiones y en el posicionamiento</a>.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">02</span>
+        <h3>Sin superficie de ataque</h3>
+        <p>Joomla tiene un panel de administración público, una base de datos accesible y un motor PHP que ejecuta código en cada petición. Cada uno de esos elementos es un vector de ataque potencial. Una web Jamstack no tiene nada de eso expuesto. No hay base de datos que comprometer, no hay credenciales que robar, no hay PHP que explotar.</p>
+        <p>La seguridad deja de ser algo que hay que gestionar y se convierte en una propiedad arquitectural del sistema.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">03</span>
+        <h3>Coste de infraestructura mínimo</h3>
+        <p>Joomla necesita un servidor con PHP y MySQL activos todo el tiempo. Una web Jamstack se sirve desde una CDN global — sin servidor de aplicaciones, sin base de datos, sin licencias. El coste de alojamiento pasa de decenas o cientos de euros al mes a prácticamente cero.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">04</span>
+        <h3>Posicionamiento que mejora</h3>
+        <p>Google mide la velocidad de carga como factor de ranking desde 2021. Una web Joomla lenta con PHP desactualizado parte con desventaja. Después de la migración, con Core Web Vitals en verde y tiempos de carga por debajo del segundo, los resultados de búsqueda mejoran de forma orgánica sin tocar nada más.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">05</span>
+        <h3>Sin dependencia de extensiones</h3>
+        <p>Cada extensión de Joomla es un punto de fallo potencial: puede quedarse sin mantenimiento, puede entrar en conflicto con una actualización del core o puede volverse de pago de un día para otro.</p>
+        <p>En la nueva web, las funcionalidades se construyen de forma nativa o con integraciones estables. Sin ecosistema de plugins que vigilar, sin extensiones que actualizar, sin licencias anuales que renovar.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">06</span>
+        <h3>Contenido en formatos abiertos</h3>
+        <p>Tu contenido pasa a estar en archivos de texto plano y formatos estándar, fuera de una base de datos propietaria. Eso significa que es portable, versionable con git y completamente tuyo — sin ningún CMS como intermediario obligatorio.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{# ── Proceso de migración ── timeline ──────────────────────── #}
+<section class="about-timeline-section svc-section--alt">
+  <div class="container">
+    <div class="about-history">
+      <div class="about-history__heading" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Cómo lo hacemos</p>
+        <h2 class="text-2xl">El proceso de migración, paso a paso</h2>
+      </div>
+      <div class="about-history__body">
+        <div class="svc-tl" data-stagger>
+          <div class="svc-tl__line" aria-hidden="true"></div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>Auditoría de la instalación actual</h3>
+              <p>Analizamos la versión de Joomla, las extensiones activas, la estructura de contenidos, las URLs actuales y el estado del posicionamiento. Identificamos qué funcionalidades tienen uso real, qué extensiones hay que sustituir y cuáles son directamente prescindibles. Con eso preparamos la propuesta con alcance y precio cerrado.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>Extracción y reorganización del contenido</h3>
+              <p>Exportamos artículos, categorías, páginas e imágenes directamente desde la base de datos de Joomla. Conocemos su estructura interna, lo que nos permite hacer la extracción de forma limpia, sin herramientas intermedias que introduzcan errores. El contenido queda en formatos abiertos, revisado y listo para la nueva arquitectura.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>Diseño y construcción de la nueva web</h3>
+              <p>Construimos la nueva web con Eleventy y arquitectura Jamstack. El diseño puede ser una evolución de la identidad actual o un rediseño completo — lo decidimos contigo en función del objetivo. Funcionalidades como formularios, galerías o buscadores se reimplementan con soluciones modernas sin dependencia de extensiones de terceros.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>SEO y redirecciones</h3>
+              <p>Mapeamos todas las URLs de la instalación actual y configuramos redirecciones 301 para que el posicionamiento acumulado no se pierda. Configuramos sitemap, metadatos y estructura de encabezados correctamente. El objetivo es que Google encuentre la nueva web al menos igual de bien que la anterior — y habitualmente mejor.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>Puesta en marcha y traspaso</h3>
+              <p>Desplegamos en el dominio definitivo con tiempo de inactividad cero. Verificamos que todo funciona correctamente antes de apagar la instalación de Joomla. Te formamos en el nuevo flujo de edición y dejamos documentado el sistema para que puedas trabajar de forma autónoma desde el primer día.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── Lo que nos preguntan ── FAQ ──────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan antes de migrar desde Joomla</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Se migra todo el contenido de artículos y categorías de Joomla?</dt>
+        <dd class="faq-item__answer">Sí. Artículos, categorías, páginas, imágenes y documentos se trasladan íntegramente. Conocemos la estructura de contenidos de Joomla en profundidad, lo que nos permite extraer y reorganizar el contenido de forma ordenada, sin pérdidas ni conversiones parciales.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué pasa con las extensiones y componentes que uso en Joomla?</dt>
+        <dd class="faq-item__answer">Las funcionalidades que resuelven extensiones de Joomla — formularios, galerías, buscadores, mapas — se reimplementan en la nueva web con soluciones modernas, sin dependencia de extensiones de terceros. En algunos casos hay integraciones directas equivalentes; en otros, la funcionalidad se construye a medida. Lo valoramos caso por caso antes de hacer la propuesta.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿La migración afecta al posicionamiento en Google?</dt>
+        <dd class="faq-item__answer">Si se hace bien, no solo no pierde posicionamiento: habitualmente mejora. Mantenemos todas las URLs existentes o configuramos redirecciones 301 correctas. La web resultante es más rápida, y Google premia la velocidad desde 2021. Lo hemos comprobado en cada migración que hemos realizado.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Puedo seguir actualizando el contenido yo mismo después de la migración?</dt>
+        <dd class="faq-item__answer">Sí. Dependiendo de tu forma de trabajar, configuramos un CMS headless con interfaz visual, o un sistema basado en archivos de texto que es sorprendentemente cómodo. No hace falta ningún conocimiento técnico para editar el contenido. Te formamos en el flujo que hayamos elegido para que puedas trabajar de forma autónoma desde el primer día.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Es necesario actualizar Joomla antes de migrar?</dt>
+        <dd class="faq-item__answer">No. Podemos migrar desde cualquier versión de Joomla, incluso desde instalaciones antiguas de Joomla 1.5 o 2.5. Accedemos directamente al contenido de la base de datos, con lo que la versión del CMS no es un impedimento. De hecho, muchos clientes migran precisamente porque actualizar Joomla a una versión mayor supondría reconstruir la web igualmente.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
+{# ── CTA ───────────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Siguiente paso</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md); max-width: 24ch">¿Tu web con Joomla lleva años dando la lata?</h2>
+      <p class="about-editorial" style="max-width: 60ch; margin-bottom: var(--space-lg)">
+        Cuéntanos qué tienes y qué problemas te da. Auditamos la instalación sin compromiso y te decimos exactamente qué tiene y cuánto costaría sacarte de ahí. Sin rodeos.
+      </p>
+    </div>
+    <div class="svc-process" style="margin-bottom: var(--space-lg)" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Cuéntanos qué tienes</h3>
+        <p>Dinos qué versión de Joomla tienes, qué extensiones usas y qué problemas te está dando la web. Sin tecnicismos.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Auditoría gratuita</h3>
+        <p>Analizamos tu instalación actual y te decimos con detalle qué tiene, qué se puede migrar y qué implicaría el proceso.</p>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Propuesta cerrada</h3>
+        <p>Alcance, plazos y precio fijo. Sin sorpresas, sin letra pequeña y sin costes que aparecen a mitad del proyecto.</p>
+      </div>
+    </div>
+
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>

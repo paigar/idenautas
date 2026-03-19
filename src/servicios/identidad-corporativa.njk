@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+order: 3
 title: Diseño gráfico e identidad corporativa
 label: Identidad corporativa
 subtitle: La imagen de tu marca es la primera conversación que tienes con tus clientes, antes incluso de que lean una sola palabra.
@@ -150,8 +151,91 @@ breadcrumb:
   </div>
 </section>
 
+{# ── FAQ + Schema ─────────────────────────────────────────── #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuántas propuestas de logotipo presentáis?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Presentamos entre dos y tres propuestas diferenciadas, cada una con su justificación estratégica. No trabajamos con decenas de variaciones genéricas: preferimos menos opciones pero más elaboradas y más ajustadas a lo que el proyecto necesita. A partir de la propuesta elegida, iteramos hasta llegar al resultado definitivo."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Qué formatos de archivo se entregan al finalizar el proyecto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Entregamos todos los formatos necesarios para el uso digital e impreso: SVG y PDF vectoriales para uso profesional e impresión a cualquier tamaño, PNG con fondo transparente para web y redes sociales, y los archivos de fuente del programa de diseño utilizado. El cliente queda con todos los recursos necesarios para usar la identidad de forma autónoma."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Necesito un manual de marca o basta con tener el logotipo?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Para un negocio pequeño, un logotipo sólido con su paleta de colores y sus tipografías documentadas suele ser suficiente para empezar. El manual de marca cobra más valor cuando hay varias personas o proveedores usando la identidad: garantiza coherencia y evita usos incorrectos que diluyen la imagen. Si no tienes equipo todavía, empieza con lo básico y amplía cuando lo necesites."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Podéis actualizar mi imagen actual en lugar de crear desde cero?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. A veces lo que hace falta no es un rediseño total sino una evolución: modernizar el logotipo manteniendo su esencia, ampliar la paleta de colores, definir un sistema tipográfico que faltaba o unificar criterios visuales dispersos. Analizamos lo que tienes y te decimos con honestidad si merece la pena conservarlo o si partir de cero es la opción más eficiente."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Los derechos del logotipo son míos una vez pagado el proyecto?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Una vez completado el proyecto y liquidado el pago, todos los derechos de uso y explotación de la identidad diseñada son del cliente. No hay licencias anuales, no hay restricciones de uso y no hay letra pequeña."
+        }
+      }
+    ]
+  }
+</script>
+
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan sobre identidad corporativa</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cuántas propuestas de logotipo presentáis?</dt>
+        <dd class="faq-item__answer">Presentamos entre dos y tres propuestas diferenciadas, cada una con su justificación estratégica. No trabajamos con decenas de variaciones genéricas: preferimos menos opciones pero más elaboradas y más ajustadas a lo que el proyecto necesita. A partir de la propuesta elegida, iteramos hasta llegar al resultado definitivo.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué formatos de archivo se entregan al finalizar el proyecto?</dt>
+        <dd class="faq-item__answer">Entregamos todos los formatos necesarios para el uso digital e impreso: SVG y PDF vectoriales para uso profesional e impresión a cualquier tamaño, PNG con fondo transparente para web y redes sociales, y los archivos de fuente del programa de diseño utilizado. El cliente queda con todos los recursos necesarios para usar la identidad de forma autónoma.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Necesito un manual de marca o basta con tener el logotipo?</dt>
+        <dd class="faq-item__answer">Para un negocio pequeño, un logotipo sólido con su paleta de colores y sus tipografías documentadas suele ser suficiente para empezar. El manual de marca cobra más valor cuando hay varias personas o proveedores usando la identidad: garantiza coherencia y evita usos incorrectos que diluyen la imagen. Si no tienes equipo todavía, empieza con lo básico y amplía cuando lo necesites.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Podéis actualizar mi imagen actual en lugar de crear desde cero?</dt>
+        <dd class="faq-item__answer">Sí. A veces lo que hace falta no es un rediseño total sino una evolución: modernizar el logotipo manteniendo su esencia, ampliar la paleta de colores, definir un sistema tipográfico que faltaba o unificar criterios visuales dispersos. Analizamos lo que tienes y te decimos con honestidad si merece la pena conservarlo o si partir de cero es la opción más eficiente.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Los derechos del logotipo son míos una vez pagado el proyecto?</dt>
+        <dd class="faq-item__answer">Sí. Una vez completado el proyecto y liquidado el pago, todos los derechos de uso y explotación de la identidad diseñada son del cliente. No hay licencias anuales, no hay restricciones de uso y no hay letra pequeña.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
 {# ── Otros servicios ──────────────────────────────────────── #}
-<section class="section">
+<section class="section svc-section--alt">
   <div class="container">
     <div class="home-services__header" style="margin-bottom: var(--space-lg)">
       <div data-reveal>

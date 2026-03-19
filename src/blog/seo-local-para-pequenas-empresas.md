@@ -51,7 +51,7 @@ Google Business Profile es fundamental, pero tu página web sigue siendo la base
 
 **Datos de contacto consistentes.** Tu nombre, dirección y teléfono deben ser exactamente iguales en tu web, en Google Business Profile, en tus redes sociales y en cualquier directorio donde aparezcas. Si en un sitio pones "C/ Gran Vía 15" y en otro "Gran Vía, 15, 1ºA", Google puede interpretar que son negocios diferentes.
 
-**Que cargue rápido y se vea bien en el móvil.** La mayoría de búsquedas locales se hacen desde un teléfono. Si tu web tarda en cargar o no se adapta a una pantalla pequeña, estás perdiendo visitas antes de que lleguen a leer nada.
+**Que cargue rápido y se vea bien en el móvil.** La mayoría de búsquedas locales se hacen desde un teléfono. Si tu web tarda en cargar o no se adapta a una pantalla pequeña, estás perdiendo visitas antes de que lleguen a leer nada. Las [Core Web Vitals]({% blogUrl "core-web-vitals-2026" %}) son exactamente las métricas que Google usa para evaluar ese rendimiento.
 
 ## Directorios locales: los que importan de verdad
 

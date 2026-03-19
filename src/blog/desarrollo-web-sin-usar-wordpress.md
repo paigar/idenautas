@@ -19,7 +19,7 @@ Pero debería resultar evidente que no es posible que Wordpress sea <b>siempre</
 
 ## Los problemas reales de Wordpress que nadie menciona en la venta
 
-La principal desventaja de Wordpress es también su mayor fortaleza: su popularidad. Esa popularidad extrema hace que millones de sitios se construyan con una misma herramienta y que terminen siendo vulnerables. Porque muchos de esos sitios no estarán actualizados. O no lo estarán sus plugins. O no lo estará el PHP del servidor en el que se instala. El hackeo de sitios web es una realidad cotidiana, y Wordpress es el objetivo más frecuente precisamente porque hay tantos.
+La principal desventaja de Wordpress es también su mayor fortaleza: su popularidad. Esa popularidad extrema hace que millones de sitios se construyan con una misma herramienta y que terminen siendo vulnerables. Porque muchos de esos sitios no estarán actualizados. O no lo estarán sus plugins. Y el [coste de esas dependencias]({% blogUrl "coste-oculto-plugins-scripts-terceros" %}) va mucho más allá de la seguridad: rendimiento, privacidad, mantenimiento. O no lo estará el PHP del servidor en el que se instala. El hackeo de sitios web es una realidad cotidiana, y Wordpress es el objetivo más frecuente precisamente porque hay tantos.
 
 Otro problema serio es la falta de optimización. En la mayoría de los casos se utilizan instalaciones genéricas con plantillas prediseñadas que tienen cientos de opciones para que el usuario elija la que más le gusta. Cientos de opciones cuyo código subyace en la página aunque no se usen para nada. El resultado es que una página con algo de texto y unas imágenes carga detrás cientos de líneas de HTML innecesario y propiedades CSS que no sirven para nada en el resultado final.
 
@@ -35,4 +35,4 @@ Y repito: <b>Wordpress no es malo</b>. Y no todos los sitios construidos en Word
 
 ---
 
-Solo ten en cuenta que Wordpress no es, y no debe ser, la única alternativa que valores o que te ofrezcan para construir tu página web. Hay muchas otras plataformas disponibles que pueden ofrecer una combinación única de características, rendimiento y flexibilidad que mejor se adapten a las necesidades específicas de tu proyecto. Mereces escuchar todas las opciones antes de decidir.
+Solo ten en cuenta que Wordpress no es, y no debe ser, la única alternativa que valores o que te ofrezcan para construir tu página web. Hay muchas otras plataformas disponibles que pueden ofrecer una combinación única de características, rendimiento y flexibilidad que mejor se adapten a las necesidades específicas de tu proyecto. Mereces escuchar todas las opciones antes de decidir. Una de esas alternativas es la [arquitectura Jamstack](/servicios/desarrollo-web-jamstack/), que resuelve directamente los problemas de seguridad, rendimiento y mantenimiento que arrastra WordPress por diseño.

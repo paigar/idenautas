@@ -60,11 +60,11 @@ No hace falta rehacer tu web desde cero para reducir su impacto. Hay mejoras que
 
 **Simplifica el diseño.** Cada animación, cada efecto, cada elemento decorativo consume recursos. No se trata de hacer webs aburridas, sino de preguntarse si cada elemento visual aporta algo al mensaje o a la experiencia. Si la respuesta es no, quítalo. Tu web será más limpia en todos los sentidos.
 
-**Reduce los trackers.** ¿Realmente necesitas tres herramientas de analítica, dos píxeles de redes sociales y un chat en vivo que nadie usa? Cada servicio externo es una petición adicional a un servidor ajeno. Quédate con lo que de verdad consultas y elimina el resto.
+**Reduce los trackers.** ¿Realmente necesitas tres herramientas de analítica, dos píxeles de redes sociales y un chat en vivo que nadie usa? Cada servicio externo es una petición adicional a un servidor ajeno. Quédate con lo que de verdad consultas y elimina el resto. Más detalle sobre [el coste real de los scripts de terceros]({% blogUrl "coste-oculto-plugins-scripts-terceros" %}) en rendimiento, privacidad y seguridad.
 
 ## Los sitios estáticos como opción sostenible
 
-Una web estática —generada una sola vez y servida como archivos HTML— es inherentemente más eficiente que una web dinámica que necesita un servidor procesando cada visita. No hay base de datos que consultar, no hay código que ejecutar en el servidor, no hay CMS que mantener.
+Una [web con arquitectura Jamstack](/servicios/desarrollo-web-jamstack/) —generada una sola vez y servida como archivos HTML desde una CDN— es inherentemente más eficiente que una web dinámica que necesita un servidor procesando cada visita. No hay base de datos que consultar, no hay código que ejecutar en el servidor, no hay CMS que mantener.
 
 El resultado es una web que consume una fracción de los recursos. Servida desde un CDN, cada visita implica simplemente entregar un archivo que ya existe. Sin procesamiento, sin cómputo, sin gasto energético innecesario.
 

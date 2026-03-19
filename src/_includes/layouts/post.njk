@@ -1,6 +1,21 @@
 ---
 layout: layouts/page.njk
 ---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title | escape }}",
+  "description": "{{ description | escape }}",
+  {% if heroImage %}"image": "{{ site.cdn }}{{ heroImage }}?width=1200&quality=75",{% endif %}
+  "datePublished": "{{ date | htmlDateString }}",
+  "dateModified": "{{ date | htmlDateString }}",
+  "author": { "@type": "Organization", "name": "{{ site.name }}", "url": "{{ site.url }}" },
+  "publisher": { "@type": "Organization", "name": "{{ site.name }}", "url": "{{ site.url }}" },
+  "url": "{{ site.url }}{{ page.url }}"
+}
+</script>
+
 <article class="section container prose">
   {{ content | safe }}
 

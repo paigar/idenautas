@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+order: 4
 title: Mantenimiento web profesional
 label: Mantenimiento web
 subtitle: Publicar una web es el primer paso. Mantenerla segura, actualizada y funcionando correctamente es el compromiso que empieza justo después.
@@ -23,7 +24,7 @@ breadcrumb:
         Un sitio web que no se mantiene empieza a degradarse de forma silenciosa. Primero aparecen pequeñas incompatibilidades. Después, vulnerabilidades de seguridad. Finalmente, el sitio deja de funcionar correctamente o es comprometido por actores maliciosos.
       </p>
       <p class="about-editorial">
-        En idenautas gestionamos el mantenimiento de los proyectos web que desarrollamos — y también de sitios creados por terceros — con un enfoque preventivo: mejor detectar y corregir los problemas antes de que afecten al funcionamiento del sitio.
+        En idenautas gestionamos el mantenimiento de los proyectos web que desarrollamos — y también de sitios creados por terceros — con un enfoque preventivo: mejor detectar y corregir los problemas antes de que afecten al funcionamiento del sitio. Como explicamos en <a href="{% blogUrl "tu-web-tiene-fecha-de-caducidad" %}">por qué las webs tienen fecha de caducidad</a>, el mantenimiento continuo es siempre más sostenible que el rediseño de emergencia.
       </p>
     </div>
     <div class="about-intro__img" data-reveal="right">
@@ -160,8 +161,91 @@ breadcrumb:
   </div>
 </section>
 
+{# ── FAQ + Schema ─────────────────────────────────────────── #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Qué ocurre si dejo de mantener mi web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Una web sin mantenimiento empieza a degradarse silenciosamente. Las actualizaciones pendientes acumulan vulnerabilidades de seguridad. Los plugins o el núcleo del CMS quedan obsoletos y empiezan a generar incompatibilidades. Con el tiempo, el sitio puede ser comprometido, perder posicionamiento o dejar de funcionar correctamente. El coste de recuperar una web atacada o rota suele ser muy superior al de haberla mantenido."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Podéis mantener una web que no hayáis desarrollado vosotros?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Antes de asumir el mantenimiento hacemos una auditoría del estado actual del sitio para entender su tecnología, sus dependencias y los puntos de riesgo. A partir de ahí, definimos el plan de mantenimiento más adecuado. Si hay problemas previos, los identificamos y resolvemos antes de empezar."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Con qué frecuencia se aplican las actualizaciones?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Las actualizaciones de seguridad críticas se aplican en cuanto están disponibles. Las actualizaciones menores se consolidan y aplican periódicamente, siempre con verificación previa en entorno de pruebas cuando el proyecto lo permite. Nunca aplicamos actualizaciones automáticamente sin supervisión."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿El plan de mantenimiento incluye cambios de contenido?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "El mantenimiento técnico y la gestión de contenidos son servicios distintos. El plan de mantenimiento cubre actualizaciones, seguridad, rendimiento, backups y monitorización. Los cambios de contenido —textos, imágenes, nuevas secciones— se pueden contratar como servicio adicional o realizarse de forma puntual según necesidad."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cómo me avisáis si hay un problema con mi web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tenemos sistemas de monitorización activa que detectan caídas, errores o comportamientos anómalos. Cuando se detecta un incidente, recibimos una alerta y actuamos con la mayor rapidez posible. El cliente es informado del incidente y de las acciones tomadas para resolverlo."
+        }
+      }
+    ]
+  }
+</script>
+
+<section class="faq-section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan sobre mantenimiento web</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué ocurre si dejo de mantener mi web?</dt>
+        <dd class="faq-item__answer">Una web sin mantenimiento empieza a degradarse silenciosamente. Las actualizaciones pendientes acumulan vulnerabilidades de seguridad. Los plugins o el núcleo del CMS quedan obsoletos y empiezan a generar incompatibilidades. Con el tiempo, el sitio puede ser comprometido, perder posicionamiento o dejar de funcionar correctamente. El coste de recuperar una web atacada o rota suele ser muy superior al de haberla mantenido.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Podéis mantener una web que no hayáis desarrollado vosotros?</dt>
+        <dd class="faq-item__answer">Sí. Antes de asumir el mantenimiento hacemos una auditoría del estado actual del sitio para entender su tecnología, sus dependencias y los puntos de riesgo. A partir de ahí, definimos el plan de mantenimiento más adecuado. Si hay problemas previos, los identificamos y resolvemos antes de empezar.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Con qué frecuencia se aplican las actualizaciones?</dt>
+        <dd class="faq-item__answer">Las actualizaciones de seguridad críticas se aplican en cuanto están disponibles. Las actualizaciones menores se consolidan y aplican periódicamente, siempre con verificación previa en entorno de pruebas cuando el proyecto lo permite. Nunca aplicamos actualizaciones automáticamente sin supervisión.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿El plan de mantenimiento incluye cambios de contenido?</dt>
+        <dd class="faq-item__answer">El mantenimiento técnico y la gestión de contenidos son servicios distintos. El plan de mantenimiento cubre actualizaciones, seguridad, rendimiento, backups y monitorización. Los cambios de contenido —textos, imágenes, nuevas secciones— se pueden contratar como servicio adicional o realizarse de forma puntual según necesidad.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cómo me avisáis si hay un problema con mi web?</dt>
+        <dd class="faq-item__answer">Tenemos sistemas de monitorización activa que detectan caídas, errores o comportamientos anómalos. Cuando se detecta un incidente, recibimos una alerta y actuamos con la mayor rapidez posible. El cliente es informado del incidente y de las acciones tomadas para resolverlo.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
 {# ── Otros servicios ──────────────────────────────────────── #}
-<section class="section">
+<section class="section svc-section--alt">
   <div class="container">
     <div class="home-services__header" style="margin-bottom: var(--space-lg)">
       <div data-reveal>

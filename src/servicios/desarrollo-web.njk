@@ -1,5 +1,6 @@
 ---
 layout: layouts/page.njk
+order: 1
 title: Desarrollo web a medida
 label: Desarrollo web
 subtitle: "Creamos sitios web y aplicaciones que funcionan de verdad: rápidos, accesibles, fáciles de gestionar y construidos específicamente para cada proyecto."
@@ -73,7 +74,7 @@ breadcrumb:
         </div>
         <span class="about-tech__index" aria-hidden="true">01</span>
         <h3>Jamstack y sitios estáticos</h3>
-        <p>Nuestra apuesta principal. Sitios ultrarrápidos, con puntuaciones sobresalientes en Core Web Vitals, sin bases de datos expuestas ni dependencias complejas. Rendimiento máximo, seguridad por diseño y despliegues instantáneos. Esta misma web está construida con Jamstack.</p>
+        <p>Nuestra apuesta principal. Sitios ultrarrápidos, con puntuaciones sobresalientes en Core Web Vitals, sin bases de datos expuestas ni dependencias complejas. Rendimiento máximo, seguridad por diseño y despliegues instantáneos. Esta misma web está construida con Jamstack. <a href="{% blogUrl "jamstack-explicado-sin-tecnicismos" %}">Qué es y por qué lo elegimos</a>.</p>
       </div>
       <div class="about-tech__card" data-stagger-child>
         <div class="about-tech__icon" aria-hidden="true">
@@ -143,7 +144,7 @@ breadcrumb:
             </span>
             <div class="svc-tl__content">
               <h3>Rendimiento y velocidad</h3>
-              <p>Optimizamos código, imágenes y configuración del servidor para conseguir tiempos de carga mínimos y buenas puntuaciones en métricas de rendimiento.</p>
+              <p>Optimizamos código, imágenes y configuración del servidor para conseguir tiempos de carga mínimos y buenas puntuaciones en métricas de rendimiento. <a href="{% blogUrl "rendimiento-web-y-ventas" %}">La velocidad tiene impacto directo en las conversiones</a> — no solo en el SEO.</p>
             </div>
           </div>
 
@@ -211,8 +212,91 @@ breadcrumb:
   </div>
 </section>
 
+{# ── FAQ + Schema ─────────────────────────────────────────── #}
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "¿Cuánto cuesta hacer una página web a medida?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende del alcance del proyecto: tecnología elegida, número de páginas, integraciones necesarias y nivel de personalización del diseño. No trabajamos con tarifas fijas porque cada proyecto es distinto. Lo que sí podemos decirte es que preparamos presupuestos detallados y sin sorpresas una vez que entendemos bien lo que necesitas."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Cuánto tiempo tarda el desarrollo de un proyecto web?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Un proyecto web estándar —entre 5 y 15 páginas, con diseño a medida— suele tardar entre 4 y 8 semanas desde el inicio hasta la publicación. Los proyectos más complejos, con funcionalidades a medida o integraciones con sistemas externos, pueden extenderse más. Los plazos los definimos en el presupuesto y los cumplimos."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Puedo gestionar el contenido yo mismo después de la entrega?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. En los proyectos que lo requieren configuramos un panel de gestión de contenidos adaptado al perfil del cliente. Puede ser un CMS headless para proyectos Jamstack, o la interfaz de administración de Joomla o WordPress para proyectos sobre esas plataformas. Siempre incluimos formación para que puedas trabajar de forma autónoma."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿En qué se diferencia una web a medida de una con plantilla?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Una plantilla es una estructura genérica diseñada para funcionar en miles de proyectos distintos. El resultado es código sobredimensionado, diseños que se parecen a los de muchos otros, y funcionalidades que no se usan pero siguen cargando. Una web a medida se construye específicamente para lo que el proyecto necesita: ni más ni menos. El resultado es más ligero, más rápido y más coherente con la identidad de la marca."
+        }
+      }, {
+        "@type": "Question",
+        "name": "¿Trabajáis también con WordPress?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sí. Aunque nuestra apuesta principal son los sitios Jamstack con Eleventy, trabajamos con WordPress y Joomla cuando el proyecto lo justifica: cuando el cliente necesita gestionar contenido de forma frecuente y autónoma, o cuando hay integraciones específicas que encajan mejor en esas plataformas. No tenemos dogmas tecnológicos; elegimos la herramienta adecuada para cada caso."
+        }
+      }
+    ]
+  }
+</script>
+
+<section class="faq-section section svc-section--alt">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan sobre desarrollo web</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cuánto cuesta hacer una página web a medida?</dt>
+        <dd class="faq-item__answer">Depende del alcance del proyecto: tecnología elegida, número de páginas, integraciones necesarias y nivel de personalización del diseño. No trabajamos con tarifas fijas porque cada proyecto es distinto. Lo que sí podemos decirte es que preparamos presupuestos detallados y sin sorpresas una vez que entendemos bien lo que necesitas.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Cuánto tiempo tarda el desarrollo de un proyecto web?</dt>
+        <dd class="faq-item__answer">Un proyecto web estándar —entre 5 y 15 páginas, con diseño a medida— suele tardar entre 4 y 8 semanas desde el inicio hasta la publicación. Los proyectos más complejos, con funcionalidades a medida o integraciones con sistemas externos, pueden extenderse más. Los plazos los definimos en el presupuesto y los cumplimos.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Puedo gestionar el contenido yo mismo después de la entrega?</dt>
+        <dd class="faq-item__answer">Sí. En los proyectos que lo requieren configuramos un panel de gestión de contenidos adaptado al perfil del cliente. Puede ser un CMS headless para proyectos Jamstack, o la interfaz de administración de Joomla o WordPress para proyectos sobre esas plataformas. Siempre incluimos formación para que puedas trabajar de forma autónoma.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿En qué se diferencia una web a medida de una con plantilla?</dt>
+        <dd class="faq-item__answer">Una plantilla es una estructura genérica diseñada para funcionar en miles de proyectos distintos. El resultado es código sobredimensionado, diseños que se parecen a los de muchos otros, y funcionalidades que no se usan pero siguen cargando. Una web a medida se construye específicamente para lo que el proyecto necesita: ni más ni menos. El resultado es más ligero, más rápido y más coherente con la identidad de la marca.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Trabajáis también con WordPress?</dt>
+        <dd class="faq-item__answer">Sí. Aunque nuestra apuesta principal son los sitios Jamstack con Eleventy, trabajamos con WordPress y Joomla cuando el proyecto lo justifica: cuando el cliente necesita gestionar contenido de forma frecuente y autónoma, o cuando hay integraciones específicas que encajan mejor en esas plataformas. No tenemos dogmas tecnológicos; elegimos la herramienta adecuada para cada caso.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
 {# ── Otros servicios ──────────────────────────────────────── #}
-<section class="section svc-section--alt">
+<section class="section">
   <div class="container">
     <div class="home-services__header" style="margin-bottom: var(--space-lg)">
       <div data-reveal>

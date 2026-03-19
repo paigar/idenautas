@@ -31,7 +31,7 @@ Lo más interesante de Astro es su arquitectura de islas. Por defecto, también 
 
 Esto lo convierte en una opción muy atractiva para proyectos que mezclan páginas de contenido estático con zonas interactivas: un e-commerce con filtros dinámicos, una web de producto con demos en vivo, un portal con componentes que consumen APIs. En esos casos, Astro ofrece una solución más elegante que añadir JavaScript a mano encima de un generador estático.
 
-Además, Astro tiene un ecosistema de integraciones bien construido. Conectar Tailwind, un sistema de CMS headless, un componente de React o una librería de UI es más directo que en Eleventy, que requiere configuración manual para muchas de esas cosas.
+Además, Astro tiene un ecosistema de integraciones bien construido. Conectar Tailwind, un [sistema de CMS headless]({% blogUrl "que-es-un-cms-headless" %}), un componente de React o una librería de UI es más directo que en Eleventy, que requiere configuración manual para muchas de esas cosas.
 
 ## Cuándo elegir uno u otro
 
@@ -45,4 +45,4 @@ Pero no descartamos Astro. Cuando un proyecto necesita interactividad real en el
 
 ---
 
-Al final, elegir entre Astro y Eleventy no es una decisión técnica en el sentido estricto. Es una decisión sobre qué tipo de sitio estás construyendo y qué modelo de trabajo encaja mejor con tu equipo. Los dos son buenos. Los dos producen sitios rápidos. La diferencia está en para qué proyecto es cada uno la herramienta más adecuada.
+Al final, elegir entre Astro y Eleventy no es una decisión técnica en el sentido estricto. Es una decisión sobre qué tipo de sitio estás construyendo y qué modelo de trabajo encaja mejor con tu equipo. Los dos son buenos. Los dos producen sitios rápidos. La diferencia está en para qué proyecto es cada uno la herramienta más adecuada. Una vez elegido el generador, la siguiente pieza es el [proceso de despliegue]({% blogUrl "despliegue-web-moderno" %}) — cómo pasar de un commit a producción de forma automática y reversible.
