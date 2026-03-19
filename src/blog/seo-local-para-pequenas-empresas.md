@@ -91,8 +91,6 @@ No necesitas herramientas complicadas para saber si tu SEO local está funcionan
 
 Si ves que las visualizaciones y las acciones crecen mes a mes, vas por buen camino. Si se estancan, revisa que tu perfil esté completo, sigue consiguiendo reseñas y asegúrate de que tu web está haciendo su trabajo.
 
-## No necesitas un presupuesto grande, necesitas constancia
+---
 
-El SEO local es probablemente la estrategia de marketing digital con mejor retorno para un negocio pequeño. No requiere inversión publicitaria. No necesita herramientas de pago. No depende de seguir tendencias ni de publicar contenido todos los días.
-
-Lo que necesita es que hagas bien lo básico y que lo mantengas actualizado. Un perfil completo, reseñas reales, una web clara y rápida, y datos consistentes en todas partes. Eso es suficiente para que tu negocio aparezca cuando alguien cercano te está buscando. Y esas son las visitas que más se convierten en clientes, porque ya saben lo que quieren y solo necesitan saber dónde encontrarlo.
+El SEO local es probablemente la estrategia de marketing digital con mejor retorno para un negocio pequeño. No requiere inversión publicitaria. No necesita herramientas de pago. No depende de seguir tendencias ni de publicar contenido todos los días. Lo que necesita es que hagas bien lo básico y que lo mantengas actualizado. Un perfil completo, reseñas reales, una web clara y rápida, y datos consistentes en todas partes. Esas son las visitas que más se convierten en clientes, porque ya saben lo que quieren y solo necesitan saber dónde encontrarlo.

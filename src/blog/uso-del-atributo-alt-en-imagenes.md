@@ -7,64 +7,42 @@ description: Aunque es importante saber que el atributo "alt" puede ser benefici
 tags: ["experiencia-de-usuario"]
 ---
 
-Hoy en día, todo el mundo en la industria del diseño web sabe lo importante que es la accesibilidad. Se habla de ello constantemente y se insta a los clientes a tomarlo en serio. Es indudable el impacto que tiene en la web y en aquellos que la utilizan.
+En el mundo del diseño web, todo el mundo sabe que hay que usar el atributo `alt` en las imágenes. El problema es que "usarlo" y "usarlo bien" son cosas bastante distintas, y la diferencia importa.
 
-Sin embargo, a veces se pierden los puntos más importantes. Por ejemplo, a menudo se escuchan consejos insistentes diciendo "¡Usa texto alternativo en tus imágenes!". **Es un buen consejo** y bien intencionado, pero también es un poco vago.
+El consejo de "pon texto alternativo en tus imágenes" es bienintencionado pero incompleto. Sin contexto sobre qué tipo de imagen es y cuál es su función, rellenar el `alt` a ciegas puede resultar en algo tan inútil como no ponerlo, o directamente en algo que empeora la experiencia para los usuarios que más necesitan ese atributo.
 
-Aunque es importante saber que el atributo "alt" puede ser beneficioso en términos de accesibilidad, lo que realmente necesitamos es contexto. **¿Cuál es la forma correcta de usarlo?** **¿Hay momentos en los que no debemos usarlo?**
+## Para quién existe el atributo alt
 
-En realidad estas preguntas no tienen una respuesta clara ni unánime entra las comunidades de desarrolladores web. Y soy muy consciente de que no soy el único que intenta construir sitios web que sean correctos para los usuarios, pero que en muchas ocasiones no lo consigo o me quedo a medio gas.
+El texto alternativo existe principalmente para las tecnologías de asistencia, en especial los lectores de pantalla que usan personas con discapacidad visual. Cuando un lector de pantalla encuentra una imagen con un `alt` bien escrito, puede comunicar al usuario qué hay en esa imagen y por qué está ahí. Sin `alt`, o con un `alt` inútil, el usuario pierde esa información.
 
-Hoy, vamos a intentar aclarar el uso adecuado de este atributo. ¡Empecemos!
+También tiene un papel secundario en SEO —los motores de búsqueda lo usan para entender las imágenes— y aparece como texto visible cuando la imagen no carga, lo que puede ser relevante en conexiones lentas.
 
-## El papel cambiante de las imágenes
+## El papel de la imagen determina el texto alternativo
 
-La forma en que los diseñadores web utilizan las imágenes ha cambiado bastante a lo largo de los años. En los primeros días de la web, se utilizaban las imágenes de maneras que probablemente no consideraríamos hacer ahora. Las utilizábamos como títulos de página, sistemas de navegación e incluso páginas enteras llenas de contenido.
+La forma en que los diseñadores web usan las imágenes ha cambiado mucho. Ya no se usan como sustituto del texto o como herramienta de maquetación. Pero incluso hoy, las imágenes que aparecen en una web tienen roles muy diferentes, y el `alt` correcto depende de cuál sea ese rol.
 
-Para los usuarios que dependen de lectores de pantalla u otras tecnologías de asistencia, esto podía hacer que una página fuera inutilizable. En los casos en que se mostraban grandes porciones de contenido como una imagen, incluso un simple atributo "alt" no iba a ser de mucha ayuda.
+**Imágenes informativas** transmiten información que no está expresada de otra forma en la página. Por ejemplo, una fotografía de un producto, un gráfico que muestra datos, o la foto del equipo en la página de empresa. Aquí el `alt` debe describir lo que la imagen muestra y, cuando sea relevante, por qué está ahí. No es necesario empezar con "imagen de..." porque el lector de pantalla ya anuncia que es una imagen.
 
-Afortunadamente, se han aprendido algunas lecciones importantes. La explosión de la tipografía web ha eliminado cualquier razón de diseño para mal utilizar imágenes como en el pasado.
+**Imágenes decorativas** no añaden información: están por razones estéticas. Un fondo, una textura, una ilustración genérica que simplemente hace la página más visual. En este caso, el `alt` correcto es... vacío. Literalmente: `alt=""`. Esto indica al lector de pantalla que ignore la imagen, evitando interrumpir el flujo de lectura con una descripción irrelevante.
 
-Y como la accesibilidad ha cobrado importancia, muchos ahora se dan cuenta de que las imágenes tienen roles específicos que desempeñar.
+**Imágenes funcionales** son las que actúan como botones o enlaces. Si un icono de lupa sirve para lanzar una búsqueda, su `alt` debería ser "Buscar", no una descripción visual del icono. El texto alternativo debe describir la función, no el aspecto.
 
-## La importancia del texto alternativo
+**Imágenes de texto** contienen palabras que forman parte del contenido, como una cita en formato imagen o un logotipo con eslogan. El `alt` debe reproducir exactamente el texto que aparece en la imagen.
 
-Es lógico que un uso más inteligente de las imágenes debería resultar en una mejor accesibilidad. Si bien eso es correcto hasta cierto punto, aún tenemos la capacidad de estropear las cosas. Aquí es donde el texto alternativo puede entrar y salvar el día, si se usa correctamente.
+**Imágenes complejas** como gráficos, diagramas o mapas necesitan una descripción más elaborada. A veces el `alt` no es suficiente y hay que añadir una descripción larga en el propio contenido de la página o mediante el atributo `longdesc`.
 
-Recordar usar el atributo "alt" por sí solo no necesariamente proporciona muchos beneficios a los usuarios. Por ejemplo, digamos que tenemos una etiqueta de encabezado que dice "Sobre nosotros". Debajo de eso hay una foto grupal de empleados de la empresa. Si simplemente establecemos el atributo "alt" en "Sobre nosotros", se vuelve redundante cuando lo leen las tecnologías de asistencia. Por lo tanto, realmente no les dice a los usuarios qué es la imagen ni lo que significa.
+## El problema con las herramientas automatizadas
 
-Entonces, ¿qué deberíamos usar en su lugar? Esto depende mucho del contenido de la página en sí y del papel de la imagen dentro de ella. Sin embargo, esto plantea otro punto de confusión potencial:
+Las herramientas de auditoría de accesibilidad como WAVE marcan automáticamente las imágenes sin `alt` como errores. Google Search Console puede alertar sobre imágenes que considera inaccesibles. Esto lleva a muchos desarrolladores a rellenar todos los `alt` para "pasar la prueba", a veces con descripciones genéricas o incluso con el nombre del archivo.
 
-**¿Que tipos de imágenes utilizamos en nuestros sitios web?** Podríamos desglosarlas en varias tipologías:
+El resultado puede ser peor que el problema original. Imagina una página con doce imágenes decorativas, todas con un `alt` descriptivo: el usuario que navega con lector de pantalla tiene que escuchar doce descripciones de imágenes que no añaden nada al contenido. Es lo equivalente a poner espacios en blanco de colores en un diseño visual para que parezca relleno.
 
-- **Informativas**: son aquellas que proveen información importante para el usuario. Por ejemplo, una imagen que muestre el mapa de un edificio o de un campus universitario.
+Un `alt` vacío en una imagen decorativa no es un error: es la opción correcta. Y explicar eso a un cliente que pregunta por qué "hay imágenes sin texto alternativo" es parte del trabajo.
 
-- **Decorativas**: son aquellas que no añaden información, sino que se utilizan con fines estéticos. Por ejemplo, una imagen que se use como fondo de pantalla en la página web.
+## La prueba que funciona
 
-- **Funcionales**: son aquellas que cumplen una función específica, como botones o iconos.
+Antes de escribir el texto alternativo de cualquier imagen, hacerse esta pregunta ayuda: si esta imagen no pudiera mostrarse y solo quedara su descripción, ¿cambiaría algo en la comprensión del contenido? Si la respuesta es sí, necesita un `alt` descriptivo. Si la respuesta es no, mejor dejarlo vacío.
 
-- **Imágenes de texto**: son aquellas que contienen texto que es parte integral del contenido. Por ejemplo, una imagen que contenga una cita o un fragmento de un libro.
+---
 
-- **Complejas**: son aquellas que contienen muchos elementos y pueden ser difíciles de describir con pocas palabras.
-
-- **Grupos de imágenes**: son aquellas que se agrupan juntas para formar una sola imagen. Por ejemplo, una imagen que muestre varias fotografías de un evento.
-
-- **Mapas de imágenes**: son aquellas que se utilizan como mapa interactivo de una página web. Por ejemplo, una imagen que muestre la distribución geográfica de una empresa.
-
-Creo que queda clara la dificultad que vamos a tener en muchos casos para encontrar un texto alternativo adecuado a esas imágenes.
-
-## ¿No siempre es necesario el atributo alt?
-
-Uno de los puntos más interesantes que debemos concluir es que **no todas las imágenes necesitan atributos alt**.
-
-Pero, espera un momento. ¿Qué pasa con todos esos consejos para usar alt cada vez que insertamos una imagen? ¿No estamos ignorando la accesibilidad?
-
-Resulta que, en el caso de las imágenes decorativas (que no añaden ninguna información a la página), el atributo alt se vuelve innecesario. En estas situaciones, proporcionar texto alternativo puede "añadir desorden audible a la salida del lector de pantalla". Por lo tanto, al igual que la falta de espacio en blanco puede llevar a un diseño visual desordenado de la página, este texto extra puede hacer lo mismo para aquellos que dependen de estas herramientas.
-
-Lo que hace que esto sea difícil para los diseñadores web es que las herramientas de accesibilidad automatizadas como WAVE identifican las imágenes sin texto alternativo mientras leen una página. Incluso Google puede enviar correos electrónicos molestos quejándose de que una imagen en particular no es accesible en su vista. Esto nos obliga a completar el atributo, **solo para pasar una prueba automatizada**. Por lo tanto, depende de nosotros tomar estos como meras recomendaciones y, cuando sea necesario, explicar la situación a los clientes: "_Resulta que un atributo alt vacío puede ser beneficioso en circunstancias específicas_".
-
-## El objetivo es ayudar a los usuarios
-
-Al profundizar sobre el uso del atributo alt, me he dado cuenta de que a menudo he tomado el enfoque equivocado. Sospecho que a muchos otros desarrolladores les ha pasado lo mismo. Hasta cierto punto, es comprensible. Este atributo, aunque ha existido durante mucho tiempo, no es exactamente divertido. Es utilitario y no siempre lo tenemos en cuenta.
-
-Sin embargo, para muchos usuarios, es **vitalmente** importante
+El atributo `alt` es pequeño y lleva décadas en la especificación HTML. Pero usarlo con criterio requiere pensar en los usuarios reales que dependen de él: personas con discapacidad visual que navegan la web todos los días y para quienes la diferencia entre un `alt` bien escrito y uno descuidado puede ser la diferencia entre una página útil y una ininteligible.

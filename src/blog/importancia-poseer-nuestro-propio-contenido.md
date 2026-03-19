@@ -7,40 +7,38 @@ description: La posesión de nuestro propio contenido en Internet nos permite el
 tags: ["negocio-y-estrategia"]
 ---
 
-La posesión de nuestro propio contenido en Internet nos permite el control total sobre la información y cómo se presenta al público. Si publicamos nuestro contenido en una plataforma externa, estamos sujetos a las políticas y restricciones de esa plataforma, y corremos el riesgo de que nuestro contenido sea eliminado sin previo aviso. Además, poseer nuestro propio contenido en Internet es una forma de asegurar su perpetuidad y accesibilidad en el futuro.
+Hay una trampa en la que caen muchos negocios y creadores cuando empiezan a construir presencia en internet: publicar todo en plataformas de terceros. Instagram para las fotos, LinkedIn para los artículos, Medium para el blog, TikTok para los videos. Es comprensible, porque esas plataformas ya tienen la audiencia y reducen la fricción técnica. El problema es que cuando publicas en plataformas que no controlas, no eres propietario de tu contenido. Eres inquilino.
 
-Otra razón importante es la creación de marca personal y profesional. Tener un sitio web propio y controlar la información que se comparte en línea permite una imagen más cohesiva y profesional de nuestra marca personal o de nuestra empresa. Además, al tener una presencia en línea propia, somos capaces de establecer una relación más directa con nuestros seguidores y clientes.
+Y los inquilinos saben bien que el propietario puede cambiar las reglas en cualquier momento.
 
-Además de esto, tener nuestro propio contenido en Internet permite la posibilidad de monetización. Si publicamos nuestro contenido en una plataforma externa, no podemos controlar cómo se monetiza y comparte, y no recibiremos los beneficios correspondientes. Al poseer nuestro propio contenido, podemos establecer las condiciones de monetización y recibir los ingresos correspondientes.
+## Lo que puede pasar cuando no eres dueño de tu contenido
 
-## El movimiento indie web
+No es una amenaza hipotética. Ha ocurrido muchas veces. Facebook cambió su algoritmo y dejó de mostrar las publicaciones orgánicas de marcas que habían invertido años en construir audiencia. Twitter (ahora X) cambió sus políticas y muchas cuentas perdieron alcance o fueron suspendidas sin previo aviso. MySpace dejó de existir y se llevó consigo años de presencia online de artistas y músicos. Vine desapareció de un día para otro.
 
-El movimiento Indie Web es una comunidad de desarrolladores y diseñadores de la web que buscan recuperar el control sobre su presencia en línea.
+Cada vez que publicas solo en una plataforma externa, estás asumiendo el riesgo de que esa plataforma cambie, decline o desaparezca. Y que cuando eso ocurra, también desaparezca el trabajo que habías acumulado.
 
-Se enfocan en la propiedad de los datos y en la independencia de las plataformas de terceros, al mismo tiempo que promueven una experiencia de usuario más personalizada y auténtica.
+Tener tu propio sitio web, tu propio blog, tu propia lista de correo es la única forma de garantizar que ese trabajo sobreviva a los cambios de las plataformas.
 
-Los miembros del movimiento Indie Web creen que cada individuo debería tener el control y la propiedad sobre su contenido en línea, y están trabajando juntos para desarrollar herramientas y tecnologías que permitan a las personas hacerlo de manera efectiva.
+## El movimiento IndieWeb: recuperar el control
 
-- **Propiedad de datos**: El movimiento Indie Web se esfuerza por permitir que los usuarios tengan el control total sobre sus datos y contenido en línea.
+Existe desde hace años una comunidad de desarrolladores, diseñadores y creadores que trabajan bajo el nombre de IndieWeb y que tienen un principio central: cada persona debería controlar su presencia en internet.
 
-- **Enfoque en la usabilidad**: El movimiento Indie Web busca hacer que sea fácil para los usuarios crear, publicar y compartir contenido en línea de una manera accesible y usable.
+La propuesta no es abandonar las redes sociales, sino usar el propio sitio web como hub central. Publicas en tu sitio primero, y desde allí distribuyes a las plataformas que quieras. Así, si una plataforma desaparece o cambia las reglas, tu contenido original sigue existiendo donde tú lo controlas.
 
-- **Estándares abiertos**: El movimiento Indie Web promueve el uso de estándares abiertos y tecnologías de código abierto para garantizar la libertad y la transparencia en la creación y gestión de contenido en línea.
+El movimiento promueve varios principios: propiedad de los datos propios, uso de estándares abiertos que no generen dependencia de ningún proveedor, e interoperabilidad entre plataformas para que el contenido pueda moverse libremente. No es una postura anti-tecnología ni anti-empresa; es simplemente una defensa del derecho a controlar lo que produces.
 
-- **Interoperabilidad**: El movimiento Indie Web se esfuerza por garantizar que los servicios y plataformas web sean compatibles entre sí y permitan la migración y la transferencia de datos sin problemas.
+## Cómo acercarse a esta filosofía sin ser desarrollador
 
-- **Comunidad en línea**: El movimiento Indie Web se basa en una comunidad en línea de desarrolladores, diseñadores y otros expertos que trabajan juntos para promover un internet más abierto y democrático.
+La barrera de entrada no tiene que ser técnica. Los pasos concretos son bastante accesibles:
 
-## Como acercarnos a la filosofía indie web
+Tener tu propio dominio y alojamiento web es el primero y más importante. No cuesta mucho, y es la base de todo lo demás. Ese es tu territorio, y nadie puede quitártelo mientras sigas pagando el dominio.
 
-Ya sabemos que la idea fundamental es que los usuarios debemos tener control sobre nuestra presencia en línea y ser dueños de nuestro contenido. Para formar parte de este movimiento, hay varios pasos que se podemos seguir:
+Publicar el contenido primero en tu web —artículos, proyectos, reflexiones— y después compartirlo en las redes sociales como referencia. El tráfico que generan las redes puede venir a tu sitio; las plataformas no se quedan con toda la relación.
 
-- **Alojar nuestro propio contenido en línea**: En lugar de utilizar plataformas externas como Facebook o Medium, es importante tener su propio sitio web y alojar su contenido allí.
+Construir y mantener una lista de correo. Puede sonar anticuado, pero el correo electrónico sigue siendo el canal de comunicación más directo que existe con tu audiencia, y es uno donde tú tienes el control. Nadie puede cambiar el algoritmo que decide si tus suscriptores reciben tus mensajes.
 
-- **Uso de herramientas abiertas y respetuosas con la privacidad**: El uso de software y herramientas de código abierto que respeten la privacidad de los usuarios es clave para el movimiento Indie Web.
+Elegir herramientas y plataformas que usen estándares abiertos y que permitan exportar tus datos. Si algún día quieres cambiar de proveedor, deberías poder hacerlo sin perder el trabajo acumulado.
 
-- **Participación en la comunidad**: Es importante participar en la comunidad de Indie Web y conocer las últimas tendencias y desarrollos en tecnología y privacidad en línea.
+---
 
-- **Conectarnos con otros usuarios**: El movimiento Indie Web se basa en la interacción y el intercambio de contenido entre los usuarios, por lo que es importante conectarse y colaborar con otros miembros de la comunidad.
-
-- **Crear contenido original**: Es importante crear y publicar contenido original y valioso en su sitio web, para contribuir a la creciente red de contenido en línea.
+En internet, la propiedad de tu contenido es la base de tu independencia. Las plataformas son amplificadores útiles, pero no deberían ser el lugar donde vive lo que has construido. Cuanto más dependes de ellas, más vulnerable eres a sus decisiones.

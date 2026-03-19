@@ -15,7 +15,7 @@ No tan pronunciados, pero caminos similares han ido siguiendo nuestros perfiles 
 
 ## La evolución de las redes sociales
 
-Para bien o para mal las redes sociales han dejado de ser un punto de conexión entre personas y empresas, donde se compartía información y se conocía el estado de los demás. La guerra por conseguir mayores tiempos de permanencia en las aplicaciones que atraiga a más anunciantes y con mayor poder inversor han convertido a esas redes y un lugar de desarrollo para expertos en generación de contenido.
+Para bien o para mal las redes sociales han dejado de ser un punto de conexión entre personas y empresas, donde se compartía información y se conocía el estado de los demás. La guerra por conseguir mayores tiempos de permanencia en las aplicaciones que atraiga a más anunciantes y con mayor poder inversor han convertido a esas redes en un lugar de desarrollo para expertos en generación de contenido.
 
 Ya no vale con compartir nuestro día a día en las redes sociales. Hay que generar contenido específico para ellas, contenido que tienda a la viralidad, a compartirse, a provocar que los usuarios gasten su tiempo en visualizar ese contenido. Y muy poca gente está dispuesta a gastar su tiempo en conocer las nuevas publicaciones de un pequeño negocio de barrio que pretende ser reconocido en su entorno.
 
@@ -23,11 +23,11 @@ Ya no vale con compartir nuestro día a día en las redes sociales. Hay que gene
 
 Las redes sociales pueden seguir siendo un buen vehículo para promocionar nuestro contenido. Pero ese contenido no debería vivir en Facebook o en Twitter. Las redes sociales deben apuntar a nuestro propio depósito de contenido.
 
-¿Y porqué? Por varios motivos. El primero es que no queremos que nuestros lectores pasen su tiempo en la red social que monetiza sus visualizaciones. Necesitamos atraerlos a nuestro terreno y que las posibles acciones de compra las realicen a través de nuestro canal.
+¿Y por qué? Por varios motivos. El primero es que no queremos que nuestros lectores pasen su tiempo en la red social que monetiza sus visualizaciones. Necesitamos atraerlos a nuestro terreno y que las posibles acciones de compra las realicen a través de nuestro canal.
 
-Y otro motivo, no menos importante, es que las redes sociales no son eternas. Puede parecer que Twitter o Facebook con bastiones inamovibles, pero también podía parecerlo en su día MySpace. O lo pudo parecer momentáneamente Google Plus. Y hemos visto caer a gigantes como Yahoo, o Terra en España. Tener nuestro contenido alojado en estas plataformas de terceros nos hace perder nuestro control sobre el material que creamos.
+Y otro motivo, no menos importante, es que las redes sociales no son eternas. Puede parecer que Twitter o Facebook son bastiones inamovibles, pero también podía parecerlo en su día MySpace. O lo pudo parecer momentáneamente Google Plus. Y hemos visto caer a gigantes como Yahoo, o Terra en España. Tener nuestro contenido alojado en estas plataformas de terceros nos hace perder nuestro control sobre el material que creamos.
 
-Personalmente llegó un día en el que me dí cuenta que tenia un perfil en Instagram con miles de seguidores y más de 3000 fotos publicadas a lo largo de 10 años. Y que no tenía control sobre ese album de recuerdos de mi vida, ni podía visualizarlo a mi antojo porque estaba supeditado al scroll y la velocidad de carga de la app de Instagram. Y mucho menos buscar una foto concreta.
+Personalmente llegó un día en el que me di cuenta de que tenía un perfil en Instagram con miles de seguidores y más de 3000 fotos publicadas a lo largo de 10 años. Y que no tenía control sobre ese álbum de recuerdos de mi vida, ni podía visualizarlo a mi antojo porque estaba supeditado al scroll y la velocidad de carga de la app de Instagram. Y mucho menos buscar una foto concreta.
 
 Por ello es importante que nuestro contenido sea nuestro. Para asegurarnos su supervivencia en el tiempo y además poder consumirlo o mostrarlo en la forma que a nosotros nos parezca más adecuada.
 

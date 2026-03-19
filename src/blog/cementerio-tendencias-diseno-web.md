@@ -7,52 +7,40 @@ description: Hay muchos elementos, imprescindibles en otras épocas, que hoy en 
 tags: ["diseno-web"]
 ---
 
-Para bien o para mal, todos aquellos que llevamos trabajando con páginas web más años de los que estamos dispuesto a reconocer, hemos ido viendo cómo las modas y tendencias en internet han cambiado y evolucionado a lo largo del tiempo.
+Quienes llevamos suficientes años trabajando con páginas web tenemos la ventaja —o la maldición— de recordar cómo eran las cosas. Hemos visto modas aparecer, convertirse en estándar, saturar el mercado y morir. Y en ese camino, algunas soluciones que en su momento parecían el colmo de la modernidad han acabado siendo ejemplos perfectos de lo que no hay que hacer.
 
-Hay muchos elementos, imprescindibles en otras épocas, que hoy en día se antojarían totalmente desfasados y obsoletos en un sitio web, tanto por su estética como por su usabilidad.
+Un paseo por ese cementerio es, además de entretenido, una forma bastante útil de recordar que las tendencias actuales también pasarán.
 
-## Animaciones Flash
+## Las animaciones Flash: velocidad, interactividad y un desastre de seguridad
 
-Las animaciones flash son un tipo de animación vectorial basada en el lenguaje de programación ActionScript, que permiten la creación de contenido multimedia interactivo en la web.
+En los años 2000, Flash era sinónimo de web avanzada. Introduciones animadas, menús con efectos visuales elaborados, juegos en el navegador, contenido multimedia interactivo... todo pasaba por Flash. Había webs enteras construidas en Flash, con sus propias animaciones de carga, sus propios menús desplegables con efectos de partículas y sus propias músicas de fondo que empezaban a reproducirse solas.
 
-Antes, eran muy populares para la creación de animaciones y juegos en línea, pero con el tiempo, la popularidad de Flash disminuyó debido a problemas de rendimiento y seguridad en dispositivos móviles, así como a la popularidad de nuevas tecnologías y formatos más modernos como HTML5, CSS y JavaScript.
+El problema era múltiple: consumía batería, era un vector constante de vulnerabilidades de seguridad, no funcionaba en dispositivos móviles, y los motores de búsqueda no podían indexar su contenido. Cuando Apple decidió no incluir Flash en el iPhone, la sentencia de muerte fue instantánea. HTML5, CSS y JavaScript tomaron el relevo con mucho más elegancia.
 
-## Diseño con marcos
+## Los marcos (frames): cuando la web se dividía en trozos independientes
 
-El diseño web con marcos es un enfoque de diseño web que utiliza marcos o "frames" para dividir una página web en secciones distintas. Cada marco puede tener su propio HTML y se carga de manera independiente, permitiendo que los contenidos y la navegación se mantengan en la misma posición mientras se navega por diferentes páginas.
+El diseño con frames dividía el navegador en secciones que cargaban HTML independiente. Era una forma ingeniosa de mantener el menú de navegación fijo mientras el contenido central cambiaba, en una época en que no existían otras opciones para eso.
 
-Este enfoque se popularizó en la década de 1990 y principios de la década de 2000, pero ha perdido popularidad en los últimos años debido a su falta de accesibilidad, compatibilidad con dispositivos móviles y su incapacidad de mejorar el SEO. En su lugar, se utiliza actualmente un enfoque de diseño basado en CSS y JavaScript para lograr la misma funcionalidad.
+El resultado era técnicamente funcional pero con consecuencias desastrosas: los buscadores no podían indexar las páginas correctamente, el historial del navegador se comportaba de forma errática, compartir una URL específica era casi imposible, y la accesibilidad era un desastre. CSS y JavaScript moderno resolvieron todos esos problemas sin ninguna de sus limitaciones.
 
-## Imágenes pesadas y sin comprimir
+## Las imágenes sin comprimir: el origen de muchos males de rendimiento
 
-Usar imágenes pesadas y sin comprimir en el diseño web puede tener graves consecuencias en la velocidad y rendimiento de una página web. Esto puede hacer que la página tenga un tiempo de carga lento y puede afectar negativamente la experiencia de usuario, lo que puede llevar a una disminución en la tasa de conversión y una pérdida de tráfico.
+Antes de que el rendimiento web fuera una prioridad y antes de que existieran herramientas de optimización accesibles, era habitual subir imágenes directamente de la cámara a la web. Fotos de 4 o 5 MB en una homepage que tardaba cuarenta segundos en cargar con una conexión ADSL.
 
-Además, la velocidad de carga de una página web también es un factor de ranking importante para los motores de búsqueda, por lo que el uso de imágenes pesadas y sin comprimir puede disminuir el SEO de un sitio.
+Hoy suena absurdo, pero el problema persiste en versiones más sutiles: imágenes que podrían estar en WebP pero siguen siendo JPG enorme, imágenes que se muestran en 300px pero pesan como si fueran de 2000px, imágenes sin lazy loading que bloquean la carga de todo lo demás. El cementerio de las imágenes sin optimizar sigue recibiendo visitantes.
 
-Por estas razones, es importante usar imágenes optimizadas y comprimidas en el diseño web. Esto significa reducir el tamaño de archivo de la imagen sin sacrificar la calidad visual, lo que ayuda a mantener la velocidad de carga rápida y a mejorar la experiencia de usuario.
+## Los menús desplegables de varios niveles
 
-## Menús desplegables complicados
+El menú desplegable con submenús dentro de submenús dentro de submenús fue durante años el símbolo de una web "completa y organizada". En la práctica, era una trampa de usabilidad: requería precisión quirúrgica con el ratón para navegar por los niveles sin que el menú se cerrara, era imposible de usar desde el móvil, y rara vez la estructura de esos menús tenía sentido para alguien que no fuera quien los diseñó.
 
-El uso de menús desplegables complicados en el diseño web se considera una práctica obsoleta debido a varias razones.
+La tendencia actual hacia arquitecturas de información más planas, búsqueda prominente y megamenús bien estructurados cuando hay mucho contenido es una evolución que prioriza al usuario sobre la exhibición de toda la estructura del sitio de golpe.
 
-En primer lugar, estos menús pueden ser confusos y difíciles de navegar para algunos usuarios. Además, los menús con varios niveles de profundidad o subsecciones pueden ser difíciles de ver en dispositivos móviles, lo que puede afectar negativamente la experiencia del usuario.
+## Los fondos con texturas y patrones repetidos
 
-Además, la búsqueda de contenido dentro de estos menús puede ser tediosa y requerir varios clics para encontrar lo que se está buscando. En lugar de utilizar menús desplegables complicados, se recomienda optar por una navegación clara y sencilla que permita a los usuarios encontrar rápidamente el contenido que buscan.
+El fondo de tela de saco. El fondo de cuadros de tela escocesa. El fondo de madera. El fondo de ladrillo. En una época donde el diseño gráfico web era aún deudor del diseño impreso, los fondos texturizados daban "profundidad" y "calidez". En muchos casos, hacían que el texto fuera prácticamente ilegible y que la página se viera diferente dependiendo del monitor.
 
-El uso de menús desplegables complicados en el diseño web puede disuadir a los usuarios, disminuir la eficiencia de la navegación y afectar negativamente la experiencia del usuario en línea. Por lo tanto, se recomienda evitar su uso y optar por soluciones más sencillas y accesibles.
+El minimalismo que llegó después —grandes espacios en blanco, fondos de color plano, tipografía como protagonista— no fue solo una moda estética. Fue una respuesta funcional a la saturación visual.
 
-## Diseños con patrones de fondo y texturas
+---
 
-Los patrones de fondo y textura repetitivos son una tendencia obsoleta y han sido reemplazados por imágenes y colores únicos y atractivos.
-
-Aunque es cierto que el uso de diseños con patrones de fondo y textura en web puede ser efectivo en ciertos casos para aportar un toque visual y estético a un sitio web, es importante tener en cuenta que un exceso de patrones y texturas puede resultar abrumador y distraer a los usuarios de su experiencia de navegación.
-
-Además, estos patrones y texturas pueden ser difíciles de leer en dispositivos móviles, lo que puede resultar en una mala experiencia de usuario. Por lo tanto, es importante utilizar estos patrones y texturas con moderación y asegurarse de que sean compatibles con diferentes dispositivos y resoluciones de pantalla.
-
-En general, es mejor optar por un diseño sencillo y claro que permita una navegación fácil y rápida, en lugar de abrumar a los usuarios con patrones y texturas complicadas.
-
-## Diseños con estructuras repetidas
-
-El diseño con estructuras repetidas se refiere al uso de esquemas repetitivos y elementos similares en la composición y presentación de una página web. Estas estructuras incluyen elementos como encabezados, pies de página, barras laterales y contenido central. El objetivo de las estructuras repetidas en el diseño web es proporcionar una distribución y un aspecto consistente a través de todo el sitio, lo que facilita la navegación y la experiencia del usuario.
-
-Sin embargo, el uso excesivo de estructuras repetidas puede resultar en un diseño monótono y no muy atractivo, y es importante que estas estructuras sean personalizadas y adaptadas a las necesidades específicas del sitio. Es recomendable equilibrar el uso de estructuras repetidas con elementos personalizados y creativos para lograr un diseño atractivo y efectivo.
+Mirar el pasado del diseño web con cierta distancia debería generar humildad sobre el presente. Algunas de las tendencias que hoy consideramos modernas y sofisticadas probablemente estarán en este mismo cementerio dentro de diez años. Lo que sí permanece, lo que no pasa de moda, es lo de siempre: claridad, velocidad, utilidad para el usuario.

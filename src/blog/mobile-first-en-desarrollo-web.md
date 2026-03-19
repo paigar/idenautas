@@ -7,50 +7,44 @@ description: Mobile First es una filosofía de diseño web que implica comenzar 
 tags: ["experiencia-de-usuario"]
 ---
 
-Mobile First es una filosofía de diseño web que implica comenzar el proceso de diseño desde la versión móvil de un sitio web o aplicación, antes de diseñar para dispositivos de escritorio o tabletas.
+Durante años, el proceso habitual de diseño web fue el contrario al que hoy tiene más sentido: primero se diseñaba para pantalla grande y luego se "adaptaba" para móvil. El resultado solía ser una experiencia móvil degradada, llena de elementos redimensionados, menús colapsados sin criterio y textos diminutos.
 
-Esta estrategia se basa en el hecho de que la mayoría de las personas acceden a Internet a través de dispositivos móviles, por lo que es importante que la experiencia de usuario móvil sea fluida y eficiente.
+La filosofía Mobile First invierte ese orden. No como ejercicio intelectual, sino como respuesta a una realidad: más de la mitad del tráfico web mundial viene de dispositivos móviles, y en algunos sectores ese porcentaje supera el 70%.
 
-En lugar de simplemente reducir la versión de escritorio de un sitio web para que se ajuste a una pantalla más pequeña, el diseño móvil primero implica construir el sitio web desde cero, centrándose en la simplicidad y la facilidad de uso. Esto significa que se prioriza la información y la funcionalidad más importantes para los usuarios móviles, con una interfaz de usuario limpia y clara.
+## Por qué diseñar primero para móvil tiene sentido
 
-Al diseñar para dispositivos móviles primero, se obliga a los diseñadores y desarrolladores a pensar en la jerarquía de la información y la funcionalidad de la página. Esto puede ayudar a eliminar elementos innecesarios y simplificar la navegación, lo que puede hacer que la experiencia del usuario sea más agradable.
+Cuando diseñas para una pantalla pequeña con recursos limitados, las restricciones te obligan a tomar decisiones que benefician a todos los usuarios. ¿Qué información es realmente imprescindible? ¿Qué acciones tiene que poder realizar el usuario en esta página? ¿Cómo se organiza el contenido cuando no cabe todo a la vez?
 
-Además, el diseño móvil primero es una estrategia útil para garantizar que un sitio web sea responsive, lo que significa que se adapta a diferentes tamaños de pantalla. Si un sitio web funciona bien en dispositivos móviles, entonces se puede estar seguro de que también funcionará bien en dispositivos más grandes, lo que ahorra tiempo y recursos en pruebas y correcciones.
+Esas preguntas llevan a diseños más claros, más enfocados y más fáciles de usar que los que empiezan con toda la superficie disponible de una pantalla de escritorio. Al escalar después a pantallas más grandes, se añaden elementos y se expande el diseño sobre una base ya sólida.
 
-## Ventajas de la filosofía Mobile First
+La lógica contraria —empezar grande y reducir— casi siempre sacrifica algo en el proceso. El resultado es una web que funciona bien en desktop y tolerable en móvil, cuando debería ser al revés dado dónde está la mayoría de las visitas.
 
-La filosofía Mobile First en el desarrollo web ofrece varias ventajas para los desarrolladores y usuarios por igual. Algunas de las principales ventajas incluyen:
+## Ventajas concretas de Mobile First
 
-- **Mejora la experiencia de usuario**: Al diseñar una página web pensando en dispositivos móviles, el enfoque se centra en la simplicidad, la usabilidad y la facilidad de navegación. Estas características son cruciales para mejorar la experiencia de usuario en todos los dispositivos, incluyendo escritorios y portátiles.
+**Rendimiento por defecto.** Los dispositivos móviles tienen menos potencia de procesamiento y suelen estar en conexiones más lentas o variables. Diseñar Mobile First obliga a no cargar lo que no se necesita, lo que resulta en páginas más ligeras y rápidas para todos los dispositivos.
 
-- **Mejora la velocidad de carga**: Los dispositivos móviles tienen menos recursos que los ordenadores de escritorio, lo que significa que una página web diseñada para móviles es más ligera y se carga más rápidamente en todos los dispositivos. La velocidad de carga es una métrica crítica en el posicionamiento web, por lo que una página web diseñada con la filosofía Mobile First tiene una ventaja competitiva sobre aquellas que no la utilizan.
+**Posicionamiento en Google.** Google utiliza la indexación mobile-first: evalúa y posiciona tu web principalmente en base a su versión móvil. Si esa versión es deficiente, el posicionamiento sufre independientemente de lo bien que esté el desktop.
 
-- **Ahorro de costos**: Al diseñar primero para dispositivos móviles se puede reducir el costo de desarrollo en comparación con el diseño primero para escritorio y luego adaptarlo a dispositivos móviles. Esto se debe a que el enfoque en dispositivos móviles impulsa a los desarrolladores a crear diseños más simples y eficientes que pueden funcionar en todas las plataformas.
+**Diseño adaptable por naturaleza.** Un sitio pensado desde el principio para funcionar en cualquier pantalla es genuinamente responsivo, no responsivo a medias. La diferencia se nota en la coherencia de la experiencia a través de dispositivos.
 
-- **Aumenta el tráfico de búsqueda**: El algoritmo de búsqueda de Google ahora prioriza la experiencia de usuario en dispositivos móviles, lo que significa que las páginas web que se han diseñado primero para móviles tendrán una ventaja en el posicionamiento en buscadores, lo que puede aumentar el tráfico de búsqueda.
+**Menor coste de desarrollo.** Adaptar un diseño desktop a móvil a posteriori suele implicar hacks, código adicional y trabajo extra. Construir bien desde el principio es más eficiente aunque en apariencia sea más lento al inicio.
 
-- **Permite el diseño adaptable**: La filosofía Mobile First es fundamental para la creación de diseños web adaptables. El diseño adaptable es importante porque garantiza que la página web se adapte a cualquier pantalla o dispositivo, lo que significa que no se necesitan diferentes versiones de la misma página para diferentes dispositivos.
+## Cómo aplicar Mobile First en la práctica
 
-## Aplicando la filosofía Mobile First a nuestro desarrollo
+El punto de partida es la priorización del contenido. En una pantalla de 375 píxeles de ancho, no cabe todo. Hay que decidir qué va primero, qué se puede ver haciendo scroll, qué puede incluso desaparecer en versión móvil sin afectar a la experiencia.
 
-Para aplicar la filosofía mobile first en el desarrollo web es importante tener en cuenta los siguientes aspectos:
+Las CSS se escriben primero para pantalla pequeña y se añaden reglas adicionales para pantallas más grandes usando media queries con `min-width`. Al revés del enfoque tradicional, que empezaba con estilos para pantallas grandes y añadía excepciones para móvil con `max-width`.
 
-- **Diseño centrado en el usuario**: Al diseñar para dispositivos móviles, es esencial tener en cuenta las necesidades y preferencias de los usuarios que acceden a la web desde estos dispositivos. Esto significa que se deben simplificar las interfaces y asegurarse de que el contenido esté organizado de manera clara y fácil de leer en pantallas pequeñas.
+Los elementos interactivos tienen que ser fáciles de pulsar con el dedo: los estándares de usabilidad recomiendan áreas de toque de al menos 44x44 píxeles. Los formularios deberían activar el teclado correcto según el tipo de campo (numérico, email, teléfono). La navegación tiene que funcionar bien con gestos, no solo con clicks.
 
-- **Diseño adaptable**: La filosofía mobile first se basa en el diseño adaptable, lo que significa que el contenido debe adaptarse automáticamente a cualquier tamaño de pantalla. Para lograr esto, se utilizan técnicas como el diseño fluido y las hojas de estilo en cascada (CSS) para adaptar el contenido al tamaño de la pantalla.
+Las imágenes y los recursos multimedia se cargan de forma progresiva: el contenido principal aparece primero, los elementos secundarios después. El atributo `lazy loading` nativo en HTML retrasa la carga de imágenes que no están en el viewport inicial, lo que mejora el tiempo de primera pintada sin sacrificar nada visible.
 
-- **Priorización del contenido**: Al diseñar para dispositivos móviles, es importante priorizar el contenido más importante y asegurarse de que se presente de manera clara y visible. Esto significa que se deben evitar elementos innecesarios o distracciones que puedan dificultar la experiencia de usuario.
+Las pruebas son imprescindibles en dispositivos reales, no solo en los emuladores del navegador. Los emuladores son útiles para iterar rápido, pero no replican con precisión el comportamiento táctil, el rendimiento real del hardware ni las variaciones de conectividad.
 
-- **Optimización de la velocidad**: Los dispositivos móviles a menudo tienen conexiones más lentas que las computadoras de escritorio, por lo que es importante optimizar el rendimiento del sitio web. Esto significa que se deben utilizar técnicas como la compresión de imágenes, el almacenamiento en caché y la optimización del código para mejorar la velocidad de carga del sitio.
+## El futuro de Mobile First
 
-- **Pruebas en múltiples dispositivos**: Para garantizar que el sitio web funcione correctamente en diferentes dispositivos móviles, es importante realizar pruebas en múltiples dispositivos y resoluciones de pantalla. Esto asegurará que el sitio se vea y funcione correctamente en todos los dispositivos y que los usuarios puedan acceder al contenido de manera efectiva.
+La tendencia no va a revertirse: la cuota de tráfico móvil sigue creciendo, las pantallas de los teléfonos son cada vez mejores y los usuarios esperan experiencias móviles de alta calidad, no compromisos. El Mobile First seguirá siendo el punto de partida correcto para cualquier proyecto web que quiera llegar bien a su audiencia.
 
-## El futuro de la filosofía Mobile First en el desarrollo web
+---
 
-La filosofía Mobile First sigue siendo una práctica cada vez más importante en la actualidad y se espera que continúe ganando importancia en el futuro. Con la creciente cantidad de usuarios que acceden a la web a través de dispositivos móviles, es cada vez más importante que los diseñadores y desarrolladores de sitios web adopten la filosofía Mobile First.
-
-A medida que avanza la tecnología, los dispositivos móviles seguirán siendo más potentes y tendrán una mayor capacidad de procesamiento, lo que significa que los diseñadores y desarrolladores tendrán aún más oportunidades para crear sitios web altamente optimizados y eficientes para dispositivos móviles.
-
-Además, la filosofía Mobile First también puede extenderse a otras áreas, como aplicaciones móviles, lo que significa que hay una gran cantidad de oportunidades para que los diseñadores y desarrolladores creen experiencias de usuario altamente eficientes y optimizadas para dispositivos móviles.
-
-En resumen, la filosofía Mobile First se mantendrá como una práctica importante en el futuro cercano, y es probable que los diseñadores y desarrolladores sigan adoptando esta filosofía a medida que los dispositivos móviles sigan evolucionando y los usuarios continúen accediendo a la web principalmente a través de dispositivos móviles.
+Diseñar Mobile First no es solo una buena práctica técnica: es tomar en serio a la mayoría de las personas que van a visitar tu web. Y eso, al final, es de lo que trata el buen diseño web.

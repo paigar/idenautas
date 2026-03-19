@@ -1,19 +1,20 @@
 {# ── Services Mosaic (partial) ────────────────────────────── #}
 {# En subpáginas de servicio, ocultamos la tarjeta del servicio actual.
-   Las 4 restantes ocupan siempre las posiciones 1–4 del grid (sin huecos).
-   La posición 5 y la imagen 3 solo se muestran cuando están las 5 tarjetas. #}
+   Las 5 restantes ocupan siempre las posiciones 1–5 del grid (sin huecos).
+   La imagen 3 solo se muestra cuando están las 6 tarjetas (página principal). #}
 
 {% set isSubpage = (
   page.url == "/servicios/desarrollo-web/" or
   page.url == "/servicios/identidad-corporativa/" or
   page.url == "/servicios/mantenimiento-web/" or
   page.url == "/servicios/gestion-contenidos/" or
-  page.url == "/servicios/alojamiento-web/"
+  page.url == "/servicios/alojamiento-web/" or
+  page.url == "/servicios/desarrollo-web-jamstack/"
 ) %}
 
 {% set pos = 1 %}
 
-<div class="services-mosaic">
+<div class="services-mosaic{% if not isSubpage %} services-mosaic--full{% endif %}">
 
   {# ── Card: Desarrollo web ─── #}
   {% if page.url != "/servicios/desarrollo-web/" %}
@@ -105,13 +106,29 @@
       <a href="/servicios/alojamiento-web/" class="svc-card-link" aria-label="Saber más sobre alojamiento web">Saber más <span aria-hidden="true">→</span></a>
     </div>
   </div>
+  {% set pos = pos + 1 %}
   {% endif %}
 
-  {# ── Image 3: solo cuando se muestran las 5 tarjetas ─── #}
-  {% if not isSubpage %}
+  {# ── Card: Desarrollo Jamstack ─── #}
+  {% if page.url != "/servicios/desarrollo-web-jamstack/" %}
+  <div class="service-card service-card--{{ pos }}" data-reveal data-reveal-delay="0.15">
+    <span class="service-card__number" aria-hidden="true">06</span>
+    <div class="service-card__content">
+      <h3 class="service-card__title">Desarrollo Jamstack</h3>
+      <p class="service-card__text">
+        Sitios web ultrarrápidos, seguros y de bajo mantenimiento construidos con arquitectura
+        Jamstack y Eleventy. Sin bases de datos expuestas, sin plugins que rompen, sin ciclos
+        interminables de actualizaciones. La mejor opción para webs corporativas, portfolios
+        y blogs que quieren rendir al máximo con el mínimo esfuerzo de mantenimiento.
+      </p>
+      <a href="/servicios/desarrollo-web-jamstack/" class="svc-card-link" aria-label="Saber más sobre desarrollo Jamstack">Saber más <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+  {% endif %}
+
+  {# ── Image 3 ─── #}
   <div class="service-img service-img--3" data-reveal data-reveal-delay="0.25">
     {% img "idenautas-web/nosotros_04.png", "Tecnología y desarrollo digital", "mosaic" %}
   </div>
-  {% endif %}
 
 </div>

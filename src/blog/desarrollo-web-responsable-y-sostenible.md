@@ -7,24 +7,30 @@ description: Debemos empezar a ser conscientes del consumo energético de nuestr
 tags: ["sostenibilidad-y-etica"]
 ---
 
-La aparición de diversas herramientas de desarrollo web ha facilitado la creación de sitios web a un público más amplio. Esto es en gran medida positivo, ya que cada vez más personas pueden tener un sitio en internet de manera sencilla y sin muchas complicaciones.
+Hace unos meses me llegó un proyecto de auditoría de una web corporativa. Cinco secciones, algo de texto, unas imágenes. Nada especial. Al revisar el servidor, el sitio ocupaba casi un gigabyte. Un gigabyte para una web que podría haberse resuelto en menos de un megabyte bien trabajado.
 
-Pero, esta democratización también ha generado un problema menos evidente: la sostenibilidad de los sitios web que estamos creando. Muchas veces he visto cómo se utiliza WordPress o herramientas similares para hacer algo tan simple como una landing page, y el resultado es que la página que debería ser pequeña y sencilla se convierte en un monstruo digital de varios cientos de megabytes con muchas funciones innecesarias y una estructura de base de datos y generación dinámica de contenido que no es necesaria.
+Eso no es solo un problema de rendimiento. Es basura digital. Es energía consumida innecesariamente en servidores que están funcionando las 24 horas del día para servir código que no hace nada útil.
 
-Es cierto, podemos pensar que en realidad no importa, que nuestro cliente pagará los gastos de alojamiento y mantenimiento sin problema porque quiere tener esa landing page, o incluso que estamos ahorrando tiempo al partir de una estructura ya montada.
+La democratización de las herramientas de creación web ha sido, en muchos sentidos, algo muy positivo. Más gente puede tener presencia online, más negocios pueden crecer sin depender de un desarrollador para cada pequeño cambio. Pero también ha generado una proliferación de webs sobredimensionadas: WordPress instalado para una simple landing page, plantillas con cientos de funciones sin usar, plugins que no se actualizan y bases de datos que crecen sin control.
 
-Pero, la realidad es que sí importa. Debemos empezar a ser conscientes del consumo energético de nuestros servidores y valorar un uso racional del espacio de almacenamiento digital. Vivimos en un mundo en el que cada vez se presta más atención a la gestión de los residuos físicos y al uso racional del suelo, y donde se optimiza el stock de material y se recicla, pero poco se hace en el mundo digital. Es hora de cambiar esto y empezar a ser más responsables en el mundo digital.
+## Por qué esto importa más de lo que parece
 
-El desarrollo web responsable se ha vuelto cada vez más relevante en el mundo digital. ¿Por qué? Porque ofrece múltiples ventajas en términos de sostenibilidad, accesibilidad y rendimiento. Aquí te explicamos algunas de ellas:
+Internet consume energía. Mucha. Los centros de datos que alojan todas las webs del mundo representan una porción significativa del consumo eléctrico global, y esa proporción no hace más que crecer. Cada petición que hace un navegador, cada archivo que se descarga, cada proceso que se ejecuta en un servidor tiene un coste energético real.
 
-- **Consumo energético reducido**: Al optimizar el código y los recursos utilizados en una página web, se logra un menor consumo de energía y un impacto ambiental más bajo.
+A nivel individual parece insignificante. Pero multiplicado por los millones de visitas que recibe internet cada hora, la diferencia entre una web ligera y una web inflada se vuelve medible y relevante.
 
-- **Uso eficiente del almacenamiento digital**: Al emplear herramientas y estrategias de optimización, es posible ahorrar espacio en los servidores y mejorar la experiencia del usuario.
+No pedimos que nadie sacrifique funcionalidad por principios ecológicos. Lo interesante es que en la mayoría de los casos la opción sostenible y la opción que ofrece mejor rendimiento son exactamente la misma: menos código innecesario, menos peso, páginas que cargan más rápido y consumen menos recursos.
 
-- **Mejora en la velocidad de carga**: Una web optimizada y responsable carga más rápido, lo que conduce a una mayor satisfacción de los usuarios y una reducción en la tasa de rebote.
+## Lo que podemos hacer como profesionales
 
-- **Accesibilidad para todos**: Al diseñar y desarrollar sitios web accesibles, se permite a un público más amplio acceder y navegar por ellos, lo que puede mejorar la experiencia de usuario y aumentar la conversión.
+Elegir la herramienta adecuada para cada proyecto. Si un negocio necesita una web de presentación con cinco páginas estáticas, un generador de contenido estático es infinitamente más adecuado que una instalación completa de WordPress con su base de datos y su servidor PHP. El resultado para el usuario es mejor, el mantenimiento es menor y el impacto ambiental es una fracción del alternativo.
 
-- **Imagen positiva**: Adoptar prácticas responsables en el desarrollo web puede mejorar la imagen y reputación de la empresa y diferenciarse positivamente de la competencia.
+Optimizar las imágenes. No es raro encontrar webs donde las imágenes de la portada pesan varios megabytes porque nadie se tomó el tiempo de redimensionarlas o convertirlas a un formato eficiente. El usuario descarga esos megabytes en cada visita. Los formatos modernos como WebP o AVIF ofrecen calidad visual comparable a JPEG con un peso significativamente menor.
 
-En definitiva, el desarrollo web responsable es una oportunidad para mejorar la experiencia de usuario, reducir el impacto ambiental y reforzar la imagen y reputación de la empresa. ¿Qué más se puede pedir?
+Hacer un código limpio. No generar cien líneas de CSS cuando valen veinte, no cargar librerías completas para usar una función. Esto no es solo buena práctica técnica: es reducir el trabajo que tiene que hacer el navegador del visitante y el procesamiento que necesita el servidor.
+
+Elegir alojamiento con criterio. Cada vez más proveedores de hosting operan con energías renovables o compensan sus emisiones. No es una diferencia visible para el usuario, pero es una decisión que sí tiene impacto real.
+
+---
+
+El desarrollo web responsable no es una moda ni una obligación externa. Es simplemente hacer bien el trabajo: código que hace lo que tiene que hacer sin desperdiciar recursos, webs que cargan rápido y que no generan infraestructura innecesaria. Que eso tenga también un impacto positivo en el medio ambiente es, en todo caso, una razón más para hacerlo bien.

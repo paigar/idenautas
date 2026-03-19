@@ -7,58 +7,48 @@ description: El rendimiento de un sitio web es un factor clave en la experiencia
 tags: ["experiencia-de-usuario"]
 ---
 
-El rendimiento de un sitio web es un factor clave en la experiencia del usuario, ya que un sitio lento y poco eficiente puede tener un impacto negativo en la forma en que los visitantes interactúan con el sitio y en su disposición para volver en el futuro.
+Hay un número que en Google lleva años usando internamente para justificar inversiones en rendimiento: un retraso de 100 milisegundos en el tiempo de carga reduce las conversiones en un 1%. Parece poco, pero a escala implica millones. Y aunque tu sitio no tenga el tráfico de Google, el principio se aplica igualmente: la velocidad afecta a cómo el usuario percibe el sitio, a cuánto tiempo se queda y a si acaba haciendo lo que querías que hiciera.
 
-El tiempo de carga de una página web es un factor crucial en la experiencia del usuario. Los estudios demuestran que un retraso de incluso unos pocos segundos en el tiempo de carga puede resultar en un mayor abandono del sitio web. Esto se debe a que los usuarios tienen una expectativa de respuesta inmediata al navegar por la web, y si un sitio tarda demasiado en cargar, los usuarios pueden perder interés y buscar una alternativa más rápida.
+La velocidad no es solo una métrica técnica. Es parte de la experiencia.
 
-El rendimiento de un sitio web también puede afectar la forma en que los usuarios interactúan con el contenido. Si un sitio es lento y no responde de manera fluida, puede resultar difícil para los usuarios navegar por las páginas o interactuar con elementos específicos del sitio. Por ejemplo, si un usuario intenta hacer clic en un enlace y el sitio tarda en responder, el usuario puede pensar que el enlace no funciona y abandonar el sitio.
+## Por qué los usuarios abandonan sitios lentos
 
-Otro factor a tener en cuenta es el impacto del rendimiento en los dispositivos móviles. Con cada vez más usuarios accediendo a Internet a través de dispositivos móviles, es esencial que los sitios web estén optimizados para estas plataformas. Los dispositivos móviles tienen menos capacidad de procesamiento que las computadoras de escritorio, por lo que un sitio web que no está optimizado para móviles puede ser lento y difícil de navegar.
+La tolerancia al tiempo de carga ha bajado consistentemente con los años, a medida que los dispositivos y las conexiones han mejorado. Hoy, más de tres segundos de espera antes de ver algo útil es suficiente para que una parte significativa de los usuarios abandone. No porque sean impacientes de forma irracional, sino porque tienen alternativas y el tiempo es escaso.
 
-Además de afectar la experiencia del usuario, el rendimiento del sitio web también puede afectar el posicionamiento en los motores de búsqueda. Los motores de búsqueda, como Google, tienen en cuenta el tiempo de carga del sitio web al determinar su posicionamiento en los resultados de búsqueda. Un sitio web que carga lentamente puede ser penalizado en los resultados de búsqueda, lo que puede afectar la cantidad de tráfico y el número de conversiones.
+En móvil la situación es más acusada. Los dispositivos móviles tienen menos potencia de procesamiento que un ordenador de escritorio y las conexiones móviles son más variables. Un sitio que carga bien en un ordenador conectado a fibra puede ser una experiencia frustrante en un smartphone con cobertura normal.
 
-## Cómo mejorar el rendimiento de un sitio web
+Google también tiene esto en cuenta. La velocidad de carga y las métricas de Core Web Vitals (LCP, CLS, FID) son factores de posicionamiento. Un sitio lento no solo pierde usuarios: también pierde visibilidad en los buscadores.
 
-Para mejorar el rendimiento del sitio web, es importante optimizar los elementos de la página, como las imágenes y los scripts, para reducir el tiempo de carga. También es esencial utilizar un servicio de alojamiento web confiable y asegurarse de que el sitio web esté diseñado de manera eficiente y optimizada para dispositivos móviles.
+## Qué hace que un sitio sea lento
 
-- **Optimizar las imágenes**: Las imágenes son uno de los principales elementos que ralentizan la carga de un sitio web. Es recomendable optimizar el tamaño y la calidad de las imágenes para reducir el tiempo de carga. Puedes utilizar herramientas como Photoshop o plugins de WordPress para reducir el tamaño de las imágenes sin perder calidad.
+Las imágenes sin optimizar son el culpable más frecuente. Una página con diez fotos que pesan 2 MB cada una tiene un problema estructural antes de que hayamos escrito una sola línea de CSS. Comprimir las imágenes, usar formatos modernos como WebP, y definir dimensiones explícitas para evitar reordenaciones del layout son los primeros pasos.
 
-- **Utilizar un hosting de calidad**: El hosting es uno de los factores más importantes en el rendimiento de un sitio web. Es recomendable utilizar un hosting de calidad que tenga una buena velocidad y un alto porcentaje de tiempo de actividad.
+Los scripts de terceros son el segundo gran factor. Cada plugin de analytics, widget de redes sociales, chat en vivo o herramienta de marketing que añades a un sitio trae su propio JavaScript que se carga en cada visita. Algunos pesan más que toda la lógica del sitio. Auditar regularmente qué se está cargando y si todos esos scripts siguen siendo necesarios puede liberar una cantidad de rendimiento sorprendente.
 
-- **Minimizar el código**: El código HTML, CSS y JavaScript puede ser muy pesado y ralentizar el sitio web. Es importante minimizar el código para reducir el tiempo de carga. Puedes utilizar herramientas como Gzip o minificadores de código para reducir el tamaño del código.
+El servidor y el hosting también importan. Un hosting compartido saturado puede hacer que un sitio perfectamente optimizado se sienta lento porque el servidor tarda en responder. La calidad del alojamiento tiene un límite inferior por debajo del cual ninguna optimización técnica puede compensar.
 
-- **Utilizar una red de distribución de contenidos (CDN)**: Una CDN es un sistema que almacena copias de los archivos de un sitio web en diferentes servidores de todo el mundo. Cuando un usuario accede al sitio, se cargan los archivos desde el servidor más cercano a su ubicación, lo que mejora el tiempo de carga.
+## Las herramientas que ayudan a diagnosticar
 
-- **Utilizar caché**: La caché permite que los elementos de un sitio web se almacenen en el navegador del usuario para que no tengan que descargarse cada vez que se accede al sitio web. Esto reduce el tiempo de carga y mejora la experiencia de usuario.
+Google PageSpeed Insights analiza cualquier URL y devuelve un informe detallado con métricas reales de Core Web Vitals y recomendaciones específicas. No es solo una puntuación: es una lista concreta de qué está penalizando el rendimiento y cuánto.
 
-- **Utilizar plugins de caché**: Los plugins de caché son herramientas que permiten mejorar el rendimiento de un sitio web al optimizar el almacenamiento en caché. Algunos de los plugins más populares son W3 Total Cache y WP Super Cache.
+GTmetrix hace algo similar con más detalle técnico. Lighthouse, integrado en Chrome DevTools, permite hacer el análisis directamente en el navegador con control total sobre las condiciones del test.
 
-- **Optimizar la base de datos**: Si utilizas un CMS como WordPress, es recomendable optimizar la base de datos para reducir el tiempo de carga. Puedes utilizar herramientas como WP-Optimize para limpiar y optimizar la base de datos.
+Estas herramientas no son para mirar la puntuación y olvidarse. Son para identificar los problemas con mayor impacto y abordarlos en orden de importancia.
 
-- **Utilizar una plantilla optimizada**: Si utilizas una plantilla de WordPress, es importante elegir una que esté optimizada para el rendimiento. Puedes utilizar herramientas como GTmetrix o Google PageSpeed Insights para evaluar la velocidad y rendimiento de una plantilla.
+## CMS, plugins y el coste oculto de la comodidad
 
-Mejorar el rendimiento de un sitio web es fundamental para mejorar la experiencia de usuario y el posicionamiento en motores de búsqueda. Utilizando las herramientas y técnicas adecuadas se puede reducir el tiempo de carga y mejorar la velocidad de un sitio web.
+WordPress y otros CMS facilitan enormemente la gestión de contenidos, pero tienen un coste en rendimiento que es fácil ignorar. Un WordPress con veinte plugins activos, una plantilla pesada y sin sistema de caché puede ser espectacularmente lento por defecto.
 
-## Cómo afecta la elección de un CMS al rendimiento de tu página web
+No todos los plugins tienen el mismo impacto, pero la acumulación de plugins con el tiempo —muchos añadidos para resolver un problema puntual y nunca eliminados— es uno de los problemas más comunes en sitios que "antes cargaban rápido".
 
-El uso de un CMS (Content Management System, o Sistema de Gestión de Contenidos) puede afectar significativamente al rendimiento de una página web, tanto de forma positiva como negativa, dependiendo de cómo se utilice.
+Un plugin de caché (W3 Total Cache, WP Super Cache, o las opciones más modernas como LiteSpeed Cache) puede marcar una diferencia enorme en un WordPress sin optimizar. Pero la solución de fondo es no añadir plugins que no sean estrictamente necesarios.
 
-Por un lado, los CMS modernos suelen tener herramientas y características integradas que pueden mejorar el rendimiento de un sitio web. Por ejemplo, muchos CMS utilizan caché para reducir el tiempo de carga de las páginas y optimizan automáticamente las imágenes y otros elementos multimedia para asegurarse de que se cargan rápidamente. Además, algunos CMS también incluyen herramientas para la compresión de archivos y para la eliminación de código innecesario, lo que puede reducir el tamaño de las páginas y acelerar su carga.
+## Jamstack como alternativa
 
-Sin embargo, también es cierto que el uso de un CMS puede tener un impacto negativo en el rendimiento de un sitio web si no se utiliza correctamente. Uno de los problemas más comunes es que los CMS pueden ralentizar la carga de una página si se utilizan demasiados plugins o si se añaden demasiadas funcionalidades. Cada plugin o función adicional puede añadir más código y scripts a una página, lo que puede aumentar significativamente su tiempo de carga.
+Para proyectos donde el rendimiento es crítico y el contenido no cambia en tiempo real, la arquitectura Jamstack merece una consideración seria. En lugar de generar páginas dinámicamente en cada petición, las páginas se precompilan y se sirven como archivos estáticos desde una CDN global. El resultado es un tiempo de respuesta del servidor casi instantáneo y costes de infraestructura más bajos.
 
-Otro problema común es que algunos CMS pueden generar código HTML innecesario o mal estructurado que puede ralentizar la carga de una página. Esto puede suceder cuando se utilizan plantillas preconstruidas o cuando se añaden plugins o extensiones que no están bien optimizados.
+No es la solución adecuada para todos los proyectos —un e-commerce con miles de productos dinámicos o un portal con contenido en tiempo real necesita algo diferente—, pero para blogs, webs corporativas y landing pages, es una opción que vale la pena explorar.
 
-Para evitar estos problemas y mejorar el rendimiento de un sitio web, es importante elegir un CMS que esté bien optimizado y que tenga herramientas integradas para mejorar el rendimiento. También es importante limitar el uso de plugins y extensiones a aquellos que sean realmente necesarios y evitar la adición de funcionalidades adicionales que puedan ralentizar la carga de una página. Por último, es recomendable utilizar herramientas de análisis de rendimiento para medir el tiempo de carga de las páginas y para identificar las áreas que necesitan ser optimizadas.
+---
 
-## Valora Jamstack como opción para mejorar el rendimiento de tu página web
-
-Jamstack es una opción interesante para mejorar el rendimiento de una página web. El concepto se basa en la idea de generar páginas estáticas a partir de componentes reutilizables, lo que significa que cada página se carga rápidamente, ya que no requiere solicitar información de una base de datos y procesarla en tiempo real. En lugar de eso, el contenido se genera previamente y se almacena en caché, lo que significa que el servidor web solo necesita enviar la página estática al navegador del usuario.
-
-Además, al utilizar una arquitectura sin servidor, se pueden reducir los costos y se mejora la escalabilidad, ya que los recursos solo se utilizan cuando son necesarios, en lugar de tener que mantener un servidor en funcionamiento en todo momento. Esto hace que el sitio sea más resistente a los picos de tráfico y más fácil de escalar.
-
-Por otro lado, Jamstack es especialmente adecuado para sitios web con contenido estático, como blogs, portafolios y tiendas en línea pequeñas. Si bien es posible construir sitios web más complejos con Jamstack, esto puede requerir más configuración y personalización.
-
-En resumen, si se busca mejorar el rendimiento de una página web y se tiene en cuenta el tipo de contenido que se va a publicar, Jamstack es una opción interesante que puede proporcionar beneficios significativos en términos de velocidad de carga, escalabilidad y costos.
-
-El rendimiento de un sitio web es esencial para proporcionar una experiencia de usuario positiva y mantener a los visitantes comprometidos. Un sitio web lento y poco eficiente puede tener un impacto negativo en la forma en que los usuarios interactúan con el sitio, así como en la posición del sitio en los resultados de búsqueda. Es importante optimizar los elementos de la página y utilizar un servicio de alojamiento web confiable para mejorar el rendimiento del sitio web y proporcionar una experiencia de usuario óptima.
+El rendimiento web no es un tema de desarrolladores avanzados ni una optimización para cuando todo lo demás ya está perfecto. Es una condición base para que una web funcione bien. Un sitio rápido retiene más usuarios, convierte mejor y posiciona más arriba. El trabajo de optimizarlo nunca está del todo terminado, pero los primeros pasos suelen tener el mayor impacto.

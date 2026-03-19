@@ -7,79 +7,47 @@ description: En el mundo del desarrollo web, hablamos de contenido semántico cu
 tags: ["desarrollo-tecnico"]
 ---
 
-El diseño web y la programación han evolucionado mucho a lo largo de los años, y con el avance de la tecnología, es cada vez más importante prestar atención a la estructura y la semántica de los documentos HTML. Si se planifica cuidadosamente la estructura de los documentos HTML, se puede ayudar a los robots a comprender mejor el significado del contenido.
+Hay algo que diferencia a un HTML bien escrito de uno que simplemente funciona: la semántica. Dos páginas pueden verse idénticas en el navegador y comportarse de forma completamente distinta para un motor de búsqueda, un lector de pantalla o un desarrollador que hereda el código meses después.
 
-La sintaxis correcta es importante, pero básicamente sólo proporciona a los programas de análisis, motores de búsqueda y tecnologías de asistencia una serie de datos sin sentido. Si se mejora el flujo de trabajo de la web con atención a la semántica, se puede crear un contenido de mayor calidad que atraiga a más visitantes.
+La semántica es el estudio del significado. En el contexto de HTML, un elemento semántico es aquel que describe claramente qué es, no solo cómo se ve. Esa distinción parece pequeña hasta que empiezas a trabajar con webs complejas o a preocuparte de verdad por la accesibilidad y el SEO.
 
-La semántica es el estudio del significado y, en un contexto más amplio, es una rama de la lógica y la lingüística. En el mundo del desarrollo web, hablamos de contenido semántico cuando los robots comprenden la estructura de un documento y los roles de los elementos dentro de él.
+## Etiquetas semánticas y el esquema del documento
 
-Si queremos crear una semántica adecuada, necesitamos comprender profundamente la estructura de nuestro contenido y las capacidades de las tecnologías de front-end. ¿Cuáles son los beneficios tangibles?
+El concepto no nació con HTML5. Tim Berners-Lee ya hablaba de la "web semántica" en 2001, refiriéndose a una web donde los datos fueran interpretables por máquinas. HTML siempre tuvo etiquetas con significado implícito: `form` contiene un formulario, `img` contiene una imagen. Nadie pondría un titular dentro de una etiqueta `img`. Eso es semántica, aunque no siempre se llamara así.
 
-La semántica adecuada significa un contenido más buscable que lleva a una mejor clasificación en los motores de búsqueda. También aumentamos la accesibilidad, ya que las tecnologías de asistencia como los lectores de pantalla pueden interpretar mejor el significado de nuestro contenido.
+El problema llegó con el diseño basado en tablas. Durante años, los desarrolladores usaron `table` para maquetar páginas enteras, convirtiendo una etiqueta con un significado claro en un contenedor genérico. La lógica estructural se sacrificó a cambio de control visual.
 
-Existen muchas técnicas de desarrollo de front-end que permiten a los desarrolladores lograr una estructura de página semántica. Este artículo proporcionará una breve introducción a las etiquetas HTML semánticas y al concepto del esquema de documento.
+### Los div y el problema de la "divitis"
 
-## Etiquetas HTML Semánticas y el Esquema de Documento
+Cuando el diseño basado en tablas cayó en desuso, llegaron los `div`. Y los `div` tienen un problema fundamental: no significan nada. Un `div` dentro de otro `div` no establece ninguna relación semántica entre ambos. Son contenedores vacíos de significado, útiles para aplicar estilos pero incapaces de decirle nada a un motor de búsqueda o a un lector de pantalla sobre qué contienen.
 
-El concepto de la semántica no es tan nuevo como parece, existía mucho antes de la era de HTML5. El término "web semántica" fue acuñado tan temprano como en 2001 por Sir Tim Berners-Lee. Bajo "web semántica", se refería a una web de datos que puede ser procesada por máquinas.
+Eso no significa que los `div` sean malos. Son necesarios cuando necesitas agrupar elementos con fines de estilo y no existe una etiqueta más específica. El problema es usarlos para todo, por defecto, sin preguntarse si hay algo más adecuado.
 
-Esto significa principalmente que los elementos HTML separados necesitan tener roles estructurales distinguibles.
+### Lo que trajo HTML5
 
-Según la definición de W3C, "un elemento semántico describe claramente su significado tanto para el navegador como para el desarrollador".
+HTML5 introdujo elementos de sección que permiten definir la estructura del documento de forma explícita:
 
-### Los elementos semánticos antes de HTML5
+- `section` para agrupar contenido alrededor de un tema concreto.
+- `article` para composiciones autocontenidas, como una entrada de blog o una noticia.
+- `nav` para bloques de navegación.
+- `aside` para contenido complementario, como una barra lateral o un bloque de información relacionada.
 
-Los elementos semánticos existían antes de HTML5 también, pero en la mayoría de los casos, los desarrolladores no eran conscientes de que algunas de las etiquetas que utilizaban eran en realidad semánticas.
+A estos se suman `header` y `footer`, que no crean nuevas secciones sino que dividen el contenido dentro de las existentes. Cada elemento de sección —`body`, `article`, `section`, `nav`, `aside`— puede tener su propio `header` y su propio `footer`.
 
-Piensa en las etiquetas "form" o "img". Sus roles son claros para nosotros y para el agente de usuario: "form" simplemente contiene un formulario, al igual que "img" contiene una imagen. Nadie colocará nunca una tabla o un titular dentro de una etiqueta "img" (o al menos espero que no lo hagan).
+También llegaron etiquetas de texto más específicas: `time` para fechas y horas legibles por máquinas, `mark` para texto destacado con significado contextual.
 
-El elemento "table" y sus etiquetas relacionadas, como las filas de tabla, las celdas de tabla, etc., son también etiquetas semánticas que existían antes de HTML5, sin embargo, debido al diseño basado en tablas que se utilizaba mucho durante muchos años, la mayoría de los desarrolladores no las utilizaron de manera semántica.
+## Cómo construir un documento bien estructurado
 
-**Durante muchos años las página web sacrificaron la lógica de la estructura a cambio de las opciones de disposición de elementos**.
+Hay algunas reglas que conviene tener claras cuando trabajas con HTML semántico:
 
-### Elementos no-semánticos
+El elemento más externo siempre es `body`. Dentro de él, las secciones pueden anidarse libremente. Cada sección tiene su propia jerarquía de encabezados, lo que significa que cada una puede tener su propio `h1` sin que eso rompa la lógica del documento.
 
-Los elementos no-semánticos no tienen ningún significado especial, las relaciones jerárquicas entre ellos son simplemente ilusorias. Los ejemplos más utilizados de etiquetas HTML no-semánticas son las etiquetas "div" y "span".
+Lo que sí rompe la lógica es saltar niveles de encabezado sin motivo. Si el primer encabezado de una sección es un `h3`, los siguientes encabezados dentro de esa sección deben ser `h4` o inferior, no volver a subir a `h2`.
 
-Los div no son necesariamente incorrectos, pero la "divitis" debe ser combatida si queremos escribir un código HTML mantenible, modular y significativo.
+Los elementos `nav` y `aside` son un caso especial: no pertenecen al esquema principal del documento y las tecnologías de asistencia suelen tratarlos de forma diferente. Un lector de pantalla puede anunciar que el usuario está entrando en una región de navegación, lo que le ayuda a orientarse sin tener que escuchar todo el menú.
 
-El verdadero problema del uso excesivo e irrazonable de la etiqueta "div" es que si incluimos un div dentro de otro div, parece que el div exterior sería el elemento padre del interior, cuando en realidad no es así. No hay relación entre los dos, al igual que en el caso de la etiqueta "span" que funciona de la misma manera, pero a nivel de línea.
+## Por qué importa más de lo que parece
 
-En cualquier caso, tanto div como span, todavía son la mejor opción para agrupar contenido únicamente con fines de estilo y en otros casos de último recurso.
+Una estructura HTML semántica tiene beneficios concretos. Google entiende mejor qué partes de tu página son el contenido principal y cuáles son navegación o contenido secundario. Los lectores de pantalla pueden ofrecer una experiencia de navegación coherente a personas con discapacidad visual. Y cualquier desarrollador que abra el código seis meses después sabrá qué está mirando sin tener que ejecutar la página.
 
-### La semántica en HTML5
-
-HTML5 introdujo muchos nuevos elementos semánticos que permiten una fácil organización del contenido. No solo ayudan a organizar el contenido a nivel de todo el documento (ver en detalle en la siguiente sección), sino también dentro de bloques de texto, como etiquetas en línea.
-
-Probablemente, las etiquetas semánticas de nivel de texto más populares son "strong" y "em", pero también existían antes de HTML5. Entre los nuevos elementos semánticos en línea podemos encontrar, por ejemplo, la etiqueta "time" para fechas y horas legibles para humanos y la etiqueta "mark" para destacar texto.
-
-### Esquema del Documento en HTML5
-
-El esquema de un documento en HTML5 se refiere a la estructura de dicho documento, es decir, a cómo están relacionados los diferentes elementos que lo componen. En versiones anteriores de HTML, como HTML4.01 y XHTML, la generación del esquema se basaba en la identificación de elementos como encabezados, títulos de tablas o de formularios.
-
-Con HTML5, el algoritmo de esquematización se ha mejorado gracias a la inclusión de nuevos elementos de sección, a saber:
-
-- "section" para secciones agrupadas alrededor de un tema específico.
-- "article" para composiciones completas o autocontenidas, como una publicación de blog o un widget.
-- "nav" para bloques de navegación.
-- "aside" para contenidos complementarios, como barras laterales.
-
-Existe un quinto elemento de sección en HTML5, que no es nuevo, se trata del elemento "body". Además, se han incluido nuevos elementos como "header" y "footer", aunque no generan nuevas secciones en el documento. En cambio, estos elementos dividen el contenido dentro de las secciones existentes. Esto significa que cada elemento de sección (body, article, section, nav y aside) puede tener su propio encabezado y pie de página.
-
-## Consejos para contenido estructurado semánticamente
-
-Si queremos crear un esquema de documento bien estructurado, debemos prestar atención a las siguientes reglas:
-
-- El elemento de seccionamiento más externo es siempre la etiqueta "body".
-
-- Las secciones en HTML5 pueden estar anidadas.
-
-- Cada sección tiene su propia jerarquía de encabezados. Cada una de ellas (incluso la sección anidada más interna) puede tener una etiqueta h1.
-
-- Mientras que el esquema del documento está definido principalmente por los 5 elementos de seccionamiento, también necesita encabezados adecuados para cada sección.
-
-- Siempre es el primer elemento de encabezado (ya sea h1 o una etiqueta de encabezado de rango inferior) que define el encabezado de la sección dada. Las etiquetas de encabezado siguientes dentro de la misma sección deben ser relativas a esto. (Si el primer encabezado es un h4 dentro de un elemento de seccionamiento, no ponga un h4 después de eso).
-
-- Las secciones definidas por las etiquetas "nav" y "aside" no pertenecen al esquema principal del documento HTML y generalmente no se representan inicialmente por tecnologías de asistencia.
-
-- Cada sección (body, section, article, aside, nav) puede tener sus propias etiquetas "header" y "footer", que definen el encabezado (como el logotipo, el nombre del autor, las fechas, la información de metadatos, etc.) y el pie de página (derechos de autor, notas, enlaces, etc.) de esa sección.
+El HTML bien escrito no es un lujo de proyectos con presupuesto. Es simplemente la forma correcta de hacerlo, y en la mayoría de casos no requiere más tiempo que la alternativa.

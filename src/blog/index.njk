@@ -11,16 +11,29 @@ eleventyExcludeFromCollections: true
 
 <section class="section svc-section--alt" style="padding-block: var(--space-sm);">
   <div class="container">
-    <div class="tag-filter">
-      <span class="tag-filter__label">Artículos etiquetados como</span>
-      <span class="tag-filter__wrap">
-        <select class="tag-filter__select" onchange="window.location.href=this.value" aria-label="Filtrar por etiqueta">
-          <option value="/blog/">Todos</option>
-          {%- for slug, data in etiquetas %}
-            <option value="/blog/{{ slug }}/">{{ data.nombre }}</option>
-          {%- endfor %}
-        </select>
-      </span>
+    <div class="blog-controls">
+      <div class="blog-search">
+        <label for="blog-search-input" class="sr-only">Buscar artículos</label>
+        <div class="blog-search__wrap">
+          <svg class="blog-search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="search" id="blog-search-input" class="blog-search__input" placeholder="Buscar artículos…" autocomplete="off" spellcheck="false">
+          <button type="button" class="blog-search__clear" aria-label="Limpiar búsqueda" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+        <p class="blog-search-count" aria-live="polite" hidden></p>
+      </div>
+      <div class="tag-filter">
+        <span class="tag-filter__label">Artículos etiquetados como</span>
+        <span class="tag-filter__wrap">
+          <select class="tag-filter__select" onchange="window.location.href=this.value" aria-label="Filtrar por etiqueta">
+            <option value="/blog/">Todos</option>
+            {%- for slug, data in etiquetas %}
+              <option value="/blog/{{ slug }}/">{{ data.nombre }}</option>
+            {%- endfor %}
+          </select>
+        </span>
+      </div>
     </div>
   </div>
 </section>
@@ -31,7 +44,7 @@ eleventyExcludeFromCollections: true
       {%- for post in collections.blog | reverse %}
         {%- set isFeatured = loop.first %}
         {%- set isWide = (not loop.first) and (loop.index0 % 9 == 0) %}
-        <article class="blog-card{% if isFeatured %} blog-card--featured{% elif isWide %} blog-card--wide{% endif %}" data-reveal>
+        <article class="blog-card{% if isFeatured %} blog-card--featured{% elif isWide %} blog-card--wide{% endif %}" data-reveal data-search="{{ post.data.title }} {{ post.data.description }} {{ post.data.tags | join(' ') | replace('-', ' ') }}">
           <a href="{{ post.url }}" class="blog-card__link">
             <div class="blog-card__img">
               {%- set cardImg = post.data.heroImage or 'idenautas-web/general.png' -%}

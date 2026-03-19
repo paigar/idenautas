@@ -7,100 +7,44 @@ description: Las ventas en línea se han disparado, lo que ha llevado a muchos a
 tags: ["negocio-y-estrategia", "creatividad-e-innovacion"]
 ---
 
-El comercio electrónico ha experimentado un crecimiento constante en los últimos años, y su importancia ha sido aún más relevante en el contexto de la pandemia de COVID-19. Las ventas en línea se han disparado, lo que ha llevado a muchos a preguntarse cuál será el futuro del ecommerce.
+El ecommerce lleva años creciendo, pero la pandemia de 2020 fue un acelerador brutal: negocios que dudaban en vender online no tuvieron más remedio, y consumidores que evitaban comprar por internet cambiaron sus hábitos de forma definitiva. Ahora la pregunta ya no es si el comercio electrónico seguirá creciendo, sino cómo va a evolucionar.
 
-En este artículo, exploraremos algunas de las tendencias que pueden definir la industria en los próximos años.
+## Personalización: el cliente quiere que le conozcan
 
-## Mayor personalización
+Las tiendas online que tratan a todos sus visitantes igual van perdiendo terreno. Los consumidores esperan cada vez más que la experiencia se adapte a ellos: recomendaciones basadas en lo que han visto o comprado antes, comunicaciones que hablan de lo que les interesa, promociones que tienen sentido para su perfil.
 
-El ecommerce ha evolucionado en los últimos años, y una de las tendencias más destacadas es la mayor personalización en la experiencia del usuario. Los consumidores esperan que las tiendas en línea se adapten a sus necesidades y preferencias individuales, lo que significa que los minoristas deben ser más receptivos a la información del cliente para ofrecer experiencias personalizadas y relevantes.
+Esto no es solo una cuestión de comodidad. Los datos muestran que la personalización mejora la conversión y la fidelización. El reto está en usarla con cabeza: hay una diferencia entre una recomendación útil y la sensación de estar siendo vigilado. Las tiendas que den con ese equilibrio —relevante sin ser invasivo— tienen mucho ganado.
 
-La personalización puede manifestarse de diferentes maneras, como la personalización del contenido, la personalización de la experiencia de compra y la personalización de la comunicación con el cliente. Por ejemplo, los sitios web de ecommerce pueden utilizar datos de navegación y comportamiento del cliente para ofrecer productos recomendados y promociones personalizadas, mientras que los correos electrónicos de marketing pueden ser personalizados para reflejar los intereses y preferencias del cliente.
+## Realidad aumentada: ver antes de comprar
 
-Esta mayor personalización no solo mejora la experiencia del usuario, sino que también puede impulsar las ventas y fomentar la lealtad del cliente. Al adaptar la experiencia del cliente a sus necesidades individuales, los minoristas pueden ofrecer una experiencia única y diferenciada que los diferencia de la competencia.
+Una de las fricciones clásicas del ecommerce es no poder tocar o probar el producto antes de comprarlo. La realidad aumentada lleva años intentando resolver ese problema, y los casos de uso más claros ya son una realidad: probarte unas gafas virtualmente, ver cómo quedaría un sofá en tu salón antes de comprarlo, colocar una lámpara en tu habitación con la cámara del móvil.
 
-Sin embargo, es importante tener en cuenta que la personalización también debe equilibrarse con la privacidad y la seguridad del cliente. Los minoristas deben ser transparentes sobre cómo se utilizan los datos del cliente y garantizar que se tomen medidas adecuadas para proteger la información personal del cliente.
+No es ciencia ficción. IKEA, Warby Parker y varias marcas de moda llevan tiempo usando estas tecnologías con resultados concretos en reducción de devoluciones. A medida que la tecnología se abarate y el hardware mejore, esto dejará de ser diferencial y se convertirá en estándar.
 
-En el futuro, es probable que la personalización en el ecommerce se vuelva aún más sofisticada, gracias a la creciente disponibilidad de datos y herramientas de análisis. Las empresas que logren utilizar estos datos de manera efectiva para ofrecer experiencias altamente personalizadas serán las que tengan éxito en el mercado del comercio electrónico.
+## El móvil como canal principal de compra
 
-## Realidad virtual y aumentada
+El pago con el móvil ha dejado de ser una rareza. Apple Pay, Google Pay, Bizum y soluciones similares han hecho que el proceso de compra en el teléfono sea rápido y seguro, y eso tiene un impacto directo en la conversión. Los formularios de pago largos y complicados en pantallas pequeñas son uno de los mayores asesinos de ventas en ecommerce; las billeteras digitales los eliminan.
 
-La realidad virtual (VR) y aumentada (AR) son tecnologías que han venido tomando mayor importancia en el mundo del ecommerce en los últimos años, y se espera que sigan en aumento en el futuro.
+En mercados emergentes, el móvil ya es el único dispositivo con el que mucha gente accede a internet. Para cualquier negocio que quiera crecer, ignorar la experiencia de pago móvil no es una opción.
 
-La realidad virtual permite a los usuarios experimentar una sensación de inmersión en un entorno virtual, mientras que la realidad aumentada permite superponer elementos digitales en el mundo real. Estas tecnologías pueden ser utilizadas en el ecommerce de varias maneras, por ejemplo, para permitir a los clientes ver y experimentar los productos de manera más detallada y realista antes de hacer una compra.
+## Entrega rápida: la logística como ventaja competitiva
 
-En el caso de la realidad virtual, los clientes pueden tener una experiencia virtual en la que puedan interactuar con los productos de manera más realista y personalizada, lo que puede ayudar a mejorar la toma de decisiones de compra. Por ejemplo, los clientes pueden ver cómo les quedaría un artículo de ropa o cómo se vería un mueble en su sala de estar antes de comprarlo.
+Amazon educó al consumidor a esperar entregas al día siguiente. Ahora ese es el listón. Las empresas que no pueden garantizar plazos razonables pierden ventas frente a las que sí pueden.
 
-Por otro lado, la realidad aumentada puede ser utilizada para superponer información sobre un producto en el mundo real, permitiendo a los clientes tener una experiencia de compra más interactiva y enriquecedora. Por ejemplo, un cliente puede escanear el código de un producto con su teléfono móvil y recibir información detallada sobre el producto, como su origen, características y beneficios.
+La respuesta de la industria pasa por centros de distribución más cercanos a los clientes, integración con servicios de mensajería locales, y en algunos mercados ya se experimenta con drones y robots para el último kilómetro. La inteligencia artificial juega también aquí: optimizar rutas de entrega, predecir la demanda y gestionar el stock son áreas donde el aprendizaje automático ya está dando resultados concretos.
 
-## Pagos móviles
+## El comercio social ya no es el futuro, es el presente
 
-El mundo del ecommerce ha evolucionado constantemente en los últimos años, y una de las tendencias más importantes que se han visto es la adopción de pagos móviles. Con el crecimiento de los smartphones, cada vez es más común que los usuarios realicen compras en línea a través de sus dispositivos móviles.
+Instagram, TikTok y Pinterest han integrado funcionalidades de compra directa. Los usuarios pueden descubrir un producto en su feed y comprarlo sin salir de la aplicación. Para muchas marcas, especialmente en sectores como moda, belleza o decoración, las redes sociales se han convertido en el canal de descubrimiento más potente que existe.
 
-La tecnología de pagos móviles ha avanzado mucho en los últimos años, y cada vez es más fácil y seguro realizar transacciones a través de una aplicación móvil. Los usuarios pueden almacenar su información de pago en la aplicación y realizar compras con un solo clic.
+Esto cambia también cómo hay que pensar el ecommerce: ya no solo como una tienda a la que la gente va a buscar algo, sino como una presencia distribuida que puede convertir en venta en múltiples puntos del recorrido del cliente.
 
-Además, muchas aplicaciones de pagos móviles ahora ofrecen opciones de pago sin contacto, lo que significa que los usuarios pueden realizar transacciones simplemente acercando su teléfono a un lector de tarjetas o dispositivo de pago.
+## Qué plataforma elegir
 
-Los pagos móviles ofrecen una experiencia de compra más rápida y conveniente para los usuarios, lo que puede aumentar la tasa de conversión y mejorar la satisfacción del cliente. También pueden ayudar a reducir los costos de procesamiento de pagos para los minoristas, ya que las transacciones a través de aplicaciones de pago móvil pueden tener tarifas más bajas que las transacciones con tarjeta de crédito tradicionales.
+Shopify y WooCommerce concentran la mayor parte del mercado de ecommerce a nivel global, y por razones sólidas: la primera es muy fácil de usar y tiene un ecosistema enorme de apps y temas; la segunda ofrece flexibilidad total al construirse sobre WordPress. Magento sigue siendo una opción seria para negocios con catálogos grandes y necesidades complejas, aunque exige más inversión técnica.
 
-En el futuro, es probable que veamos una mayor adopción de pagos móviles en todo el mundo, especialmente en países en desarrollo donde los smartphones son cada vez más comunes pero el acceso a servicios bancarios y financieros tradicionales sigue siendo limitado.
+La elección depende de factores concretos: el tamaño del catálogo, el volumen de ventas, el presupuesto, la necesidad de integraciones específicas y si hay equipo técnico interno para gestionar la plataforma. No existe la plataforma perfecta para todos, pero casi siempre hay una que encaja mejor para cada proyecto concreto.
 
-## Entrega más rápida y eficiente
+---
 
-Con el auge del ecommerce, la entrega de productos se ha vuelto un factor clave en la satisfacción del cliente. Por lo tanto, una de las tendencias que se espera ver en el futuro del ecommerce es la entrega más rápida y eficiente.
-
-Para lograr esto, las empresas de ecommerce están trabajando en diferentes soluciones, como la implementación de centros de distribución cercanos a los clientes, la utilización de drones para la entrega de productos, el uso de robots para la recolección y preparación de pedidos, y la integración con servicios de mensajería y transporte.
-
-Además, también se espera que el uso de inteligencia artificial y aprendizaje automático se incremente en la logística de los ecommerce. Estas tecnologías pueden ayudar a optimizar la ruta de entrega, reducir los tiempos de espera y predecir los tiempos de entrega con mayor precisión.
-
-## Comercio social
-
-El comercio social es una tendencia creciente en la industria del ecommerce. Se trata de la integración de las redes sociales en la experiencia de compra, lo que permite a los usuarios comprar directamente desde las plataformas sociales en las que pasan gran parte de su tiempo en línea.
-
-Las plataformas sociales están empezando a ofrecer nuevas funciones de compra, como los botones de compra integrados y los catálogos de productos, lo que facilita a los usuarios el descubrimiento y la compra de productos sin tener que salir de la plataforma. Además, las marcas pueden utilizar las redes sociales para interactuar directamente con sus clientes, lo que les permite responder a preguntas, proporcionar información adicional y mejorar la experiencia de compra.
-
-La integración de las redes sociales en el proceso de compra no solo es conveniente para los usuarios, sino que también ofrece oportunidades significativas para las marcas. Las redes sociales permiten a las marcas llegar a un público más amplio y aumentar la visibilidad de sus productos. Además, al interactuar directamente con los clientes a través de las redes sociales, las marcas pueden mejorar la lealtad y la satisfacción del cliente.
-
-## Principales plataformas de comercio electrónico para desarrollo web
-
-Existen varias plataformas de comercio electrónico en el mercado, cada una con sus propias características y cuotas de mercado. A continuación, se describen algunas de las principales plataformas de comercio electrónico y sus cuotas de mercado:
-
-- **Shopify**: Es una plataforma de comercio electrónico basada en la nube que permite a los usuarios crear y administrar una tienda en línea sin necesidad de conocimientos técnicos. Shopify es la plataforma de comercio electrónico más popular con una cuota de mercado del 19%.
-
-- **WooCommerce**: Es una plataforma de comercio electrónico basada en WordPress que permite a los usuarios agregar funcionalidades de comercio electrónico a su sitio web existente. WooCommerce es la segunda plataforma de comercio electrónico más popular con una cuota de mercado del 18%.
-
-- **Magento**: Es una plataforma de comercio electrónico de código abierto que ofrece una amplia gama de funciones y personalizaciones. Magento es la tercera plataforma de comercio electrónico más popular con una cuota de mercado del 7%.
-
-- **BigCommerce**: Es una plataforma de comercio electrónico basada en la nube que ofrece una amplia gama de funciones y herramientas de marketing. BigCommerce tiene una cuota de mercado del 3%.
-
-- **PrestaShop**: Es una plataforma de comercio electrónico de código abierto que ofrece una amplia gama de características y funcionalidades para crear y gestionar una tienda en línea. PrestaShop tiene una cuota de mercado del 2%.
-
-Es importante destacar que existen muchas otras plataformas de comercio electrónico en el mercado con diferentes características y cuotas de mercado. La elección de una plataforma de comercio electrónico dependerá de las necesidades y objetivos del negocio.
-
-## Plataformas de comercio electrónico con más futuro
-
-Es difícil predecir con certeza cuál es la plataforma de comercio electrónico con más futuro, ya que esto dependerá de diversos factores, como el mercado, la tecnología, la competencia y las tendencias del consumidor. Sin embargo, algunas plataformas que se han destacado por su innovación y adaptabilidad al cambio son:
-
-- **Shopify**: Es una de las plataformas más populares y utilizadas por las empresas de comercio electrónico en todo el mundo. Ofrece una amplia gama de herramientas y recursos para crear una tienda en línea, gestionar pedidos, pagos y envíos, y personalizar la experiencia de compra del cliente.
-
-- **WooCommerce**: Es una plataforma de comercio electrónico de código abierto que se integra con WordPress. Es una opción popular para las pequeñas y medianas empresas que buscan una solución económica y flexible.
-
-- **Magento**: Es una plataforma de comercio electrónico de código abierto que ofrece una amplia gama de funciones y herramientas para tiendas en línea de todos los tamaños. Es una buena opción para empresas con necesidades complejas de comercio electrónico y un alto volumen de ventas.
-
-## Como elegir la mejor plataforma de comercio electrónico para un proyecto web
-
-Elegir la mejor plataforma de comercio electrónico para un proyecto puede ser una tarea abrumadora. Hay muchas opciones en el mercado, cada una con diferentes características, precios y beneficios. Aquí hay algunos factores importantes que debes considerar al elegir la plataforma adecuada:
-
-- **Tipo de negocio**: La elección de una plataforma de comercio electrónico debe depender en gran medida del tipo de negocio que tengas. ¿Estás vendiendo productos físicos o digitales? ¿Es una pequeña empresa o una empresa grande? ¿Necesitas una plataforma que tenga una integración fácil con tu sistema de gestión de inventario? Tener en cuenta estas preguntas te ayudará a determinar qué plataforma es la mejor opción para tu negocio.
-
-- **Funcionalidades**: Cada plataforma de comercio electrónico tiene diferentes funcionalidades. Por lo tanto, es importante que hagas una lista de las funcionalidades que necesitas y que compares las diferentes opciones. Algunas funcionalidades comunes incluyen integración con pasarelas de pago, gestión de inventario, integración con redes sociales y herramientas de marketing.
-
-- **Costos**: Las plataformas de comercio electrónico tienen diferentes planes de precios, desde planes básicos hasta planes empresariales más caros. Es importante evaluar los costos de la plataforma y asegurarse de que estén dentro del presupuesto de tu empresa. Además, debes considerar los costos adicionales, como el alojamiento web y las tarifas de transacción.
-
-- **Facilidad de uso**: La plataforma de comercio electrónico debe ser fácil de usar para ti y tus clientes. Asegúrate de que la plataforma tenga una interfaz de usuario intuitiva y fácil de navegar. Además, deberías considerar si la plataforma tiene herramientas integradas de soporte y capacitación para ayudarte a aprender a utilizarla correctamente.
-
-- **Integraciones**: Las integraciones con otras herramientas y plataformas son importantes para cualquier negocio en línea. Asegúrate de que la plataforma que elijas tenga integraciones con las herramientas que necesitas, como programas de contabilidad, servicios de envío y redes sociales.
-
-- **Soporte técnico**: Por último, asegúrate de que la plataforma que elijas tenga un buen soporte técnico en caso de que necesites ayuda o asistencia técnica. Revisa los comentarios de otros usuarios y las políticas de soporte técnico de la plataforma para asegurarte de que estén a la altura de tus expectativas.
-
-En resumen, elegir la mejor plataforma de comercio electrónico para tu negocio requiere investigación y comparación. Debes considerar las funcionalidades, costos, facilidad de uso, integraciones y soporte técnico para encontrar la mejor opción para tu negocio.
+El ecommerce que viene no es radicalmente distinto al de hoy: es el de hoy pero más fluido, más personalizado y con menos fricciones en cada paso del proceso de compra. Los negocios que entiendan eso y trabajen en reducir los obstáculos que frenan a sus clientes tienen muchas papeletas para seguir creciendo.

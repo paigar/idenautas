@@ -7,126 +7,37 @@ description: Cuando un usuario hace scroll en una página web, ciertos elementos
 tags: ["creatividad-e-innovacion", "experiencia-de-usuario"]
 ---
 
-Las animaciones al hacer scroll se han convertido en una tendencia popular en el diseño web. Cuando un usuario hace scroll en una página web, ciertos elementos en la página pueden animarse para agregar interactividad y atractivo visual.
+Las animaciones al hacer scroll se han convertido en uno de esos recursos que, bien usados, añaden vida a un diseño; mal usados, lo convierten en un espectáculo de circo. La diferencia entre uno y otro caso no está en la técnica sino en el criterio.
 
-Vamos a explorar los conceptos básicos de las animaciones al hacer scroll y cómo se pueden utilizar de manera efectiva en el diseño web.
+La idea de base es sencilla: conforme el usuario se desplaza por la página, ciertos elementos se activan, aparecen, se mueven o cambian. Eso puede ser un texto que aparece suavemente al entrar en el viewport, una imagen que hace parallax mientras te desplazas, o un gráfico que se construye conforme lees. Cuando está bien ejecutado, la animación refuerza el contenido y guía la atención. Cuando no lo está, distrae y molesta.
 
-## ¿Qué son las animaciones al hacer scroll?
+## Beneficios reales e inconvenientes concretos
 
-Las animaciones al hacer scroll son animaciones que se activan cuando un usuario hace scroll en una página web. Estas animaciones pueden incluir desplazamientos de texto, efectos de desvanecimiento, animaciones de elementos y más.
+El principal argumento a favor de estas animaciones es que hacen la navegación más dinámica e interesante. Rompen la monotonía de una página plana, ayudan a marcar el ritmo de la lectura y pueden destacar elementos que de otra forma pasarían desapercibidos.
 
-El objetivo de estas animaciones es mejorar la experiencia del usuario en el sitio web y hacer que la navegación sea más atractiva y dinámica.
+Pero hay riesgos que conviene tener en cuenta antes de animar todo lo que se mueve. El primero y más obvio es el rendimiento: las animaciones mal optimizadas ralentizan la página, especialmente en dispositivos móviles o con conexiones lentas. Una página que tarda en cargar o que va a trompicones pierde todo el efecto visual que intentabas conseguir.
 
-### Beneficios de las animaciones al hacer scroll
+El segundo riesgo es la accesibilidad. Algunos usuarios tienen configurada en su sistema operativo la preferencia de reducir el movimiento, precisamente porque las animaciones intensas les generan molestias o mareos. Respetar esa preferencia mediante la media query `prefers-reduced-motion` no es un detalle opcional; es parte de hacer las cosas bien.
 
-Las animaciones al hacer scroll pueden tener varios beneficios para la experiencia del usuario en el sitio web. Algunos de estos beneficios incluyen:
+El tercero es simplemente el exceso. Un elemento que entra con animación tiene impacto. Veinte elementos que entran con animación crean caos. La sutileza casi siempre funciona mejor que la espectacularidad.
 
-- **Atraer la atención del usuario**: Las animaciones pueden ayudar a atraer la atención del usuario a los elementos importantes de la página.
+## Animaciones sincronizadas con el scroll
 
-- **Agregar interactividad**: Las animaciones pueden agregar interactividad y hacer que la navegación por el sitio web sea más atractiva.
+Una variante más sofisticada es la que vincula el progreso de la animación directamente a la posición del scroll: el elemento no se activa cuando entra en el viewport, sino que su estado depende de cuánto has bajado en la página. El efecto parallax es el ejemplo más conocido, pero puede aplicarse a cualquier propiedad CSS: opacidad, escala, posición, rotación.
 
-- **Mejorar la navegación**: Las animaciones pueden ayudar a guiar al usuario por el sitio web y hacer que la navegación sea más intuitiva.
+Este tipo de animaciones tienen un gran potencial narrativo. Permiten construir experiencias donde la historia se va revelando conforme el usuario avanza, algo muy útil en páginas de producto o de presentación de marca. El coste está en la implementación: requieren más cuidado técnico para que no afecten al rendimiento.
 
-- **Añadir una dimensión visual**: Las animaciones pueden agregar una dimensión visual a la página y hacer que el diseño sea más dinámico.
+## Las librerías que más se usan
 
-### Inconvenientes de las animaciones al hacer scroll
+Para no reinventar la rueda, hay varias librerías de JavaScript bien establecidas que facilitan enormemente el trabajo:
 
-Aunque las animaciones al hacer scroll pueden tener muchos beneficios en el diseño web, también hay algunas contraindicaciones que se deben tener en cuenta al utilizar esta técnica. En este artículo, exploraremos algunas de las contraindicaciones de las animaciones al hacer scroll en el diseño web.
+- **AOS (Animate On Scroll)**: probablemente la más popular para empezar. Fácil de implementar, muy personalizable mediante atributos en el HTML, y con un resultado limpio y profesional. Ideal para animaciones de entrada al viewport.
+- **ScrollReveal**: similar a AOS en concepto, con una API algo más flexible. Buen equilibrio entre sencillez y opciones de configuración.
+- **GSAP con ScrollTrigger**: para proyectos que requieren animaciones complejas y sincronización precisa con el scroll, GSAP es la referencia. Más curva de aprendizaje, pero resultados muy superiores cuando se domina.
+- **ScrollMagic**: una opción potente para efectos avanzados, aunque en los últimos años ha perdido algo de tracción frente a GSAP.
 
-- **Ralentización de la página**: Una de las principales contraindicaciones de las animaciones al hacer scroll es que pueden ralentizar la página y afectar negativamente la experiencia del usuario. Si las animaciones no están optimizadas correctamente, pueden aumentar el tiempo de carga de la página y disminuir la velocidad de navegación. Esto puede ser especialmente problemático para los usuarios con conexiones lentas a Internet o dispositivos más antiguos.
+La elección depende del proyecto. Para la mayoría de webs corporativas o de servicios, AOS o ScrollReveal son más que suficientes. Para una landing page o una web de producto donde el diseño es protagonista, GSAP da muchas más posibilidades.
 
-- **Distracciones visuales**: Otra contraindicación de las animaciones al hacer scroll es que pueden distraer al usuario de la información importante en la página. Si las animaciones son demasiado intensas o se utilizan en exceso, pueden ser más distractorias que útiles para el usuario. Es importante encontrar un equilibrio entre las animaciones y la información en la página para evitar que el usuario se sienta abrumado o confundido.
+---
 
-- **Problemas de accesibilidad**: Las animaciones al hacer scroll pueden presentar problemas de accesibilidad para algunos usuarios. Por ejemplo, las personas con discapacidades visuales pueden tener dificultades para ver las animaciones, mientras que las personas con discapacidades cognitivas pueden tener dificultades para procesar la información en la página si se presenta de manera demasiado compleja o interactiva. Es importante tener en cuenta las necesidades de todos los usuarios al utilizar animaciones al hacer scroll en el diseño web.
-
-- **Incompatibilidad con dispositivos móviles**: Otra contraindicación de las animaciones al hacer scroll es que pueden ser incompatibles con algunos dispositivos móviles. Si las animaciones no están optimizadas para dispositivos móviles, pueden no funcionar correctamente o incluso impedir la navegación en el sitio web. Es importante asegurarse de que las animaciones sean compatibles con todos los dispositivos y plataformas antes de implementarlas en el diseño web.
-
-## Cómo utilizar las animaciones al hacer scroll de manera efectiva
-
-Para utilizar las animaciones al hacer scroll de manera efectiva en el diseño web, es importante tener en cuenta los siguientes consejos:
-
-- **Utilizar animaciones sutiles**: Las animaciones no deben ser demasiado intensas o distractoras. Las animaciones sutiles pueden ser más efectivas y mejorar la experiencia del usuario.
-
-- **Ser relevante**: Las animaciones deben ser relevantes para el contenido de la página y ayudar a mejorar la experiencia del usuario.
-
-- **No ralentizar la página**: Las animaciones deben ser optimizadas para no ralentizar la página y afectar negativamente la experiencia del usuario.
-
-- **Proporcionar opciones de desactivación**: Los usuarios deben tener la opción de desactivar las animaciones si lo desean.
-
-### Ejemplos de animaciones al hacer scroll
-
-Algunos ejemplos de animaciones al hacer scroll incluyen:
-
-- **Desvanecimiento de elementos**: Los elementos de la página pueden desvanecerse a medida que el usuario hace scroll.
-
-- **Animación de texto**: El texto puede desplazarse o moverse a medida que el usuario hace scroll.
-
-- **Efectos parallax**: Los elementos de la página se mueven a diferentes velocidades para crear una sensación de profundidad.
-
-- **Animación de elementos**: Los elementos de la página pueden moverse o animarse a medida que el usuario hace scroll.
-
-Al utilizar animaciones sutiles y relevantes, no ralentizar la página, proporcionar opciones de desactivación y realizar pruebas con usuarios, podemos crear sitios web atractivos y dinámicos que mejoren la experiencia del usuario.
-
-## Las animaciones sincronizadas con el scroll
-
-Las animaciones sincronizadas con el scroll son una técnica en el diseño web que involucra la animación de elementos en una página web en función del movimiento de desplazamiento vertical del usuario.
-
-A medida que el usuario se desplaza hacia abajo en la página, los elementos en la página web se mueven y cambian de forma, tamaño, opacidad o color para crear un efecto visual atractivo y dinámico. En este artículo, exploraremos cómo funcionan las animaciones sincronizadas con el scroll y cómo se pueden utilizar de manera efectiva en el diseño web.
-
-### ¿Cómo funcionan las animaciones sincronizadas con el scroll?
-
-Las animaciones sincronizadas con el scroll funcionan utilizando la posición del usuario en la página web. A medida que el usuario se desplaza hacia abajo en la página, se desencadena una animación que se sincroniza con la posición del usuario en la página.
-
-Por ejemplo, si un usuario se desplaza hacia abajo en una página y llega a una sección en la que hay una imagen, la imagen puede desvanecerse gradualmente a medida que el usuario continúa desplazándose hacia abajo en la página.
-
-Las animaciones pueden ser aplicadas a una amplia variedad de elementos en la página web, incluyendo imágenes, textos, gráficos, videos y más. Además, las animaciones pueden ser personalizadas para cada elemento en la página, lo que significa que la velocidad, la dirección y el tipo de animación pueden variar para crear efectos visuales únicos.
-
-### Beneficios de las animaciones sincronizadas con el scroll
-
-Las animaciones sincronizadas con el scroll pueden tener varios beneficios en el diseño web. Algunos de estos beneficios incluyen:
-
-- **Mejorar la experiencia del usuario**: Las animaciones sincronizadas con el scroll pueden mejorar la experiencia del usuario en el sitio web y hacer que la navegación por el sitio sea más atractiva y dinámica.
-
-- **Agregar interactividad**: Las animaciones pueden agregar interactividad y hacer que la navegación por el sitio web sea más atractiva y divertida.
-
-- **Destacar elementos importantes**: Las animaciones pueden ayudar a resaltar los elementos importantes de la página y guiar al usuario a través del sitio web.
-
-- **Añadir una dimensión visual**: Las animaciones pueden agregar una dimensión visual a la página y hacer que el diseño sea más dinámico.
-
-### Problemas de rendimiento de las animaciones sincronizadas con el scroll
-
-Aunque las animaciones sincronizadas con el scroll pueden mejorar la experiencia del usuario en el diseño web, también pueden presentar problemas de rendimiento si no se utilizan correctamente. En este artículo, exploraremos algunos de los problemas de rendimiento asociados con las animaciones sincronizadas con el scroll y cómo se pueden mitigar.
-
-#### Ralentización de la página
-
-Una de las principales preocupaciones en cuanto al rendimiento de las animaciones sincronizadas con el scroll es que pueden ralentizar la página. Si las animaciones no están optimizadas correctamente, pueden aumentar el tiempo de carga de la página y disminuir la velocidad de navegación. Esto puede ser especialmente problemático para los usuarios con conexiones lentas a Internet o dispositivos más antiguos.
-
-Para evitar la ralentización de la página, es importante optimizar las animaciones para un rendimiento máximo. Algunas de las técnicas de optimización pueden incluir reducir el número de animaciones en la página, utilizar animaciones simples en lugar de complejas, utilizar imágenes y archivos de tamaño adecuado, utilizar técnicas de carga anticipada y cargar las animaciones solo cuando el usuario se acerca a la sección específica de la página.
-
-#### Incompatibilidad con dispositivos móviles
-
-Otro problema de rendimiento que puede surgir con las animaciones sincronizadas con el scroll es la incompatibilidad con dispositivos móviles.
-
-Si las animaciones no están optimizadas para dispositivos móviles, pueden no funcionar correctamente o incluso impedir la navegación en el sitio web. Es importante asegurarse de que las animaciones sean compatibles con todos los dispositivos y plataformas antes de implementarlas en el diseño web.
-
-#### Consumo excesivo de recursos de la CPU
-
-Otro problema de rendimiento asociado con las animaciones sincronizadas con el scroll es el consumo excesivo de recursos de la CPU. Si las animaciones son demasiado complejas o intensas, pueden consumir una gran cantidad de recursos de la CPU, lo que puede afectar negativamente el rendimiento del sitio web. Para evitar esto, es importante utilizar animaciones ligeras y optimizadas que no requieran demasiados recursos de la CPU.
-
-## Librerías más populares para realizar animaciones al hacer scroll
-
-Existen varias librerías de JavaScript que pueden ayudar a implementar animaciones sincronizadas con el scroll en el diseño web.
-
-A continuación, se presentan algunas de las librerías más populares para realizar animaciones sincronizadas con el scroll:
-
-- **ScrollMagic**: ScrollMagic es una librería de JavaScript que permite crear animaciones sincronizadas con el scroll en el diseño web. Con esta librería, se pueden crear animaciones avanzadas y efectos visuales en la página web en función del desplazamiento del usuario. ScrollMagic es altamente personalizable y permite crear animaciones que se sincronizan con eventos de desplazamiento específicos.
-
-- **AOS (Animate On Scroll)**: AOS es otra librería de JavaScript que permite crear animaciones sincronizadas con el scroll en el diseño web. AOS es fácil de usar y no requiere mucho código para empezar. Con AOS, se pueden crear animaciones suaves y personalizadas en función del desplazamiento del usuario. AOS también incluye varias opciones de configuración, como la duración y el retraso de la animación.
-
-- **Skrollr**: Skrollr es una librería de JavaScript que permite crear animaciones sincronizadas con el scroll en el diseño web. Con Skrollr, se pueden crear animaciones complejas y altamente personalizadas en función del desplazamiento del usuario. Skrollr es altamente compatible con todos los navegadores y dispositivos, y es muy fácil de usar para desarrolladores web.
-
-- **WOW.js**: WOW.js es otra librería de JavaScript que permite crear animaciones sincronizadas con el scroll en el diseño web. Con WOW.js, se pueden crear animaciones personalizadas en función del desplazamiento del usuario. WOW.js es fácil de usar y no requiere mucho código para empezar. Además, WOW.js incluye varias opciones de personalización, como la velocidad y la duración de la animación.
-
-- **ScrollReveal**: ScrollReveal es una librería de JavaScript que permite crear animaciones sincronizadas con el scroll en el diseño web. Con ScrollReveal, se pueden crear animaciones suaves y personalizadas en función del desplazamiento del usuario. ScrollReveal es fácil de usar y ofrece muchas opciones de personalización para ajustar la animación a las necesidades específicas del diseño web.
-
-En resumen, existen muchas librerías de JavaScript que permiten crear animaciones sincronizadas con el scroll en el diseño web. Cada librería tiene sus propias ventajas y desventajas, y es importante elegir la que mejor se adapte a las necesidades específicas del proyecto. Con estas librerías, se pueden crear animaciones personalizadas y efectos visuales que ayuden a mejorar la experiencia del usuario en el diseño web.
+Las animaciones al hacer scroll son una herramienta, no un objetivo. La pregunta que conviene hacerse antes de implementar cualquiera de ellas es siempre la misma: ¿esto le ayuda al usuario a entender o disfrutar mejor el contenido, o solo me parece chulo a mí? Si la respuesta honesta es la segunda, mejor dejarlo.

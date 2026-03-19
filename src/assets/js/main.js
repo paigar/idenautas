@@ -319,6 +319,43 @@
     el.textContent = msg;
   }
 
+  // ── Blog Search ─────────────────────────────────────────────
+  const blogSearchInput = document.querySelector('#blog-search-input');
+  if (blogSearchInput) {
+    const cards = document.querySelectorAll('[data-search]');
+    const clearBtn = document.querySelector('.blog-search__clear');
+    const searchCount = document.querySelector('.blog-search-count');
+
+    function normalize(str) {
+      return str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    }
+
+    function filterBlog() {
+      const query = normalize(blogSearchInput.value.trim());
+      let visible = 0;
+      cards.forEach(card => {
+        const matches = !query || normalize(card.dataset.search).includes(query);
+        card.hidden = !matches;
+        if (matches) visible++;
+      });
+      if (clearBtn) clearBtn.hidden = !blogSearchInput.value;
+      if (searchCount) {
+        searchCount.hidden = !query;
+        if (query) searchCount.textContent = visible === 0 ? 'Sin resultados' : visible === 1 ? '1 artículo encontrado' : `${visible} artículos encontrados`;
+      }
+    }
+
+    blogSearchInput.addEventListener('input', filterBlog);
+
+    if (clearBtn) {
+      clearBtn.addEventListener('click', () => {
+        blogSearchInput.value = '';
+        filterBlog();
+        blogSearchInput.focus();
+      });
+    }
+  }
+
   // ── External Links ──────────────────────────────────────────
   document.querySelectorAll('a[href^="http"]').forEach(a => {
     if (a.hostname !== location.hostname) {

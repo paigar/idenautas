@@ -7,66 +7,40 @@ description: Los desarrolladores web somos profesionales altamente especializado
 tags: ["vida-profesional"]
 ---
 
-Los desarrolladores web somos profesionales altamente especializados que trabajamos en un campo en constante evolución. Debido a esto, a menudo se crean mitos en torno a nuestro trabajo y habilidades. A continuación vamos a explorar algunos de los mitos más comunes sobre los desarrolladores web y la verdad detrás de ellos.
+Hay una imagen del desarrollador web que aparece en películas, en conversaciones de oficina y en la mente de algunos clientes: la del genio solitario que entiende de todo lo relacionado con ordenadores, que habla en código y que vive pegado a la pantalla. Es una imagen inexacta en casi todos sus aspectos, y tiene consecuencias reales en cómo se gestiona el trabajo y en las expectativas que se crean.
 
-## Mito 1: Los desarrolladores web solo necesitan saber programación
+Vamos a desmontar algunos de los mitos más habituales.
 
-Uno de los mitos más comunes sobre los desarrolladores web es que solo necesitamos saber programación. A menudo se asume que nuestro trabajo se limita a escribir código y que no necesitamos habilidades en otras áreas, como diseño, experiencia de usuario o estrategia de contenido. Sin embargo, esto no podría estar más lejos de la verdad.
+## "Los desarrolladores web solo necesitan saber programar"
 
-Para ser un desarrollador web efectivo, es importante tener habilidades en una variedad de áreas. Por ejemplo, un desarrollador web debe tener un conocimiento profundo de lenguajes de programación como HTML, CSS y JavaScript. Estos lenguajes son fundamentales para la construcción de sitios web y aplicaciones web.
+Este es quizás el más extendido. La realidad es que el desarrollo web moderno toca muchas más disciplinas que escribir código. Un desarrollador web eficaz necesita tener criterio sobre diseño para saber si lo que está construyendo va a funcionar visualmente y ser usable. Necesita entender de experiencia de usuario para anticipar cómo va a navegar alguien por lo que construye. Necesita comprender suficiente de SEO para no crear estructuras técnicas que penalicen al sitio en buscadores. Y necesita tener habilidades de comunicación para entender qué pide el cliente y explicar las implicaciones técnicas de cada decisión.
 
-Sin embargo, el conocimiento de programación solo no es suficiente para ser un buen desarrollador web. También es importante tener habilidades en diseño, ya que el diseño de un sitio web es esencial para la experiencia del usuario. Los desarrolladores web debemos ser capaces de crear diseños atractivos y funcionales que sean fáciles de navegar y utilizar.
+Nadie es experto en todo esto simultáneamente, claro. Por eso los equipos tienen diferentes perfiles. Pero la idea de que un desarrollador web solo "toca código" y que el resto no es su problema lleva a proyectos con problemas de usabilidad, de SEO o de comunicación que podrían haberse evitado.
 
-Además, los desarrolladores web también debemos tener habilidades en experiencia de usuario. La experiencia de usuario se refiere a cómo los usuarios interactúan con un sitio web o aplicación web. Un desarrollador web debe ser capaz de crear una experiencia de usuario intuitiva y atractiva que sea fácil de navegar y que proporcione información relevante y útil.
+## "Un desarrollador web puede resolver cualquier problema de tecnología"
 
-Finalmente, los desarrolladores web también debemos tener habilidades en estrategia de contenido. La estrategia de contenido se refiere a la planificación y creación de contenido para un sitio web o aplicación web. Los desarrolladores web debemos ser capaces de crear contenido relevante y útil que atraiga a los usuarios y los mantenga comprometidos.
+Si un ordenador tiene un problema de hardware, si la red corporativa falla, si el software de gestión no arranca, la persona que hace webs no es necesariamente la persona indicada para resolverlo. El desarrollo web es una especialidad concreta dentro de un campo enorme.
 
-En conclusión, el mito de que los desarrolladores web solo necesitan saber programación es falso. Los desarrolladores web debemos tener habilidades en una variedad de áreas, incluyendo diseño, experiencia de usuario y estrategia de contenido, para ser efectivos en nuestro trabajo. Al entender la complejidad del trabajo de los desarrolladores web, se puede apreciar mejor nuestro valor y las habilidades que aportamos a un proyecto de desarrollo web.
+Dentro del propio desarrollo web hay diferencias importantes: alguien especializado en frontend trabaja con HTML, CSS y JavaScript para construir lo que el usuario ve. Alguien especializado en backend trabaja con servidores, bases de datos y APIs. Un DevOps se ocupa de la infraestructura y los despliegues. No es lo mismo, y confundir estos perfiles genera frustraciones en todos los sentidos.
 
-## Mito 2: Los desarrolladores web podemos resolver cualquier problema de tecnología
+## "Los desarrolladores web solo trabajan en proyectos nuevos"
 
-Otro mito común sobre los desarrolladores web es que podemos resolver cualquier problema de tecnología. A menudo se cree que los desarrolladores web tenemos un conocimiento profundo de todas las tecnologías y podemos solucionar cualquier problema relacionado con la tecnología. Sin embargo, esto no es cierto.
+Una parte significativa del trabajo de desarrollo web —probablemente la mayoría— consiste en mantener, actualizar y mejorar webs que ya existen. Eso implica trabajar con código que escribió otra persona, en un contexto que puede ser difícil de entender, con tecnologías que en algunos casos ya son antiguas.
 
-Si bien los desarrolladores web somos expertos en nuestro campo, no somos expertos en todas las tecnologías. A menudo tenemos habilidades especializadas en áreas específicas, como desarrollo de front-end o back-end, y podemos tener experiencia limitada en otras áreas de la tecnología.
+A veces añadir una funcionalidad nueva a un sistema existente es técnicamente más complejo que construirla desde cero, porque hay que entender el contexto, no romper lo que funciona y lidiar con decisiones de arquitectura tomadas años atrás. Esto no es trabajo de segunda categoría; es una habilidad en sí misma.
 
-Además, los problemas de tecnología pueden ser complejos y variados, y a menudo requieren la colaboración de varios expertos en tecnología para encontrar soluciones efectivas. Los desarrolladores web podemos trabajar en equipo con otros expertos en tecnología, como ingenieros de sistemas o administradores de bases de datos, para resolver problemas específicos.
+## "Los desarrolladores web son introvertidos y van solos"
 
-También es importante tener en cuenta que los desarrolladores web no podemos predecir el futuro de la tecnología y podemos tener dificultades para mantenernos al día con los avances tecnológicos más recientes. Por lo tanto, es importante que los desarrolladores web sigamos aprendiendo y actualizando nuestras habilidades para mantenernos al día con los cambios en la tecnología.
+Hay desarrolladores introvertidos, como los hay en cualquier profesión. Pero la idea de que el desarrollo web es un trabajo solitario no se corresponde con la realidad de cómo se construyen las webs hoy.
 
-En resumen, el mito de que los desarrolladores web podemos resolver cualquier problema de tecnología es falso. Aunque tenemos habilidades especializadas en nuestro campo, no somos expertos en todas las tecnologías y a menudo trabajamos en equipo con otros expertos en tecnología para resolver problemas específicos. Los desarrolladores web también debemos mantenernos al día con los cambios en la tecnología para mantener nuestras habilidades actualizadas y relevantes.
+Los proyectos web requieren colaboración constante: entre desarrolladores, con diseñadores, con los responsables de contenido, con quien gestiona el SEO, con el cliente que tiene que validar cada fase. Las habilidades de comunicación —explicar un problema técnico de forma que alguien no técnico lo entienda, gestionar las expectativas de un cliente, dar y recibir feedback de diseño— son tan importantes para el éxito de un proyecto como las habilidades técnicas.
 
-## Mito 3: Los desarrolladores web solo trabajan en código nuevo
+## "Los desarrolladores web solo trabajan con el ordenador"
 
-Otro mito común sobre los desarrolladores web es que solo trabajamos en código nuevo. Muchas personas creen que los desarrolladores web solo nos centramos en crear nuevos sitios web y aplicaciones web desde cero. Sin embargo, esto no es cierto.
+Esta es más un cliché que un mito activo, pero vale la pena señalarlo: el trabajo de un desarrollador web incluye muchas cosas que no son escribir código. Reuniones de planificación. Revisiones de código con el equipo. Conversaciones con clientes para entender qué necesitan. Documentación. Pruebas en dispositivos físicos para verificar que una web funciona bien en móviles reales. Análisis de datos de uso para entender qué está fallando.
 
-En muchos casos, los desarrolladores web también trabajamos en proyectos de actualización y mantenimiento. Esto implica actualizar y mantener el código existente en los sitios web y aplicaciones web existentes. La actualización del código existente puede ser un desafío, ya que a menudo implica trabajar con tecnologías obsoletas y solucionar problemas difíciles.
+El buen desarrollo web es un trabajo intelectual y social, no solo técnico. Y eso lo hace más interesante y más complejo que el estereotipo que suele circular.
 
-Además, el trabajo de un desarrollador web a menudo incluye la solución de problemas y la resolución de errores. Esto implica trabajar con el código existente y encontrar formas de solucionar problemas técnicos. En algunos casos, puede ser más difícil solucionar problemas en el código existente que crear un nuevo código desde cero.
+---
 
-Otra tarea común de los desarrolladores web es la integración de nuevas tecnologías y funciones en los sitios web y aplicaciones web existentes. Esto puede implicar la adición de nuevas funciones o características a un sitio web existente, lo que requiere que los desarrolladores web trabajemos en el código antiguo para integrar las nuevas tecnologías.
-
-En conclusión, el mito de que los desarrolladores web solo trabajamos en código nuevo es falso. Los desarrolladores web a menudo trabajamos en proyectos de actualización y mantenimiento, que implican trabajar con el código existente y solucionar problemas técnicos. Además, los desarrolladores web también integramos nuevas tecnologías y funciones en los sitios web y aplicaciones web existentes, lo que requiere trabajar en el código previo para integrar las nuevas tecnologías.
-
-## Mito 4: Los desarrolladores web son introvertidos y solitarios
-
-Otro mito común sobre los desarrolladores web es que somos introvertidos y solitarios. A menudo se cree que los desarrolladores web trabajamos solos en la programación de código y que no tenemos mucho contacto con otras personas. Sin embargo, esto no es cierto.
-
-Los desarrolladores web a menudo trabajamos en equipo y colaboramos estrechamente con otros profesionales en nuestro entorno. La comunicación efectiva y la capacidad de trabajar en equipo son habilidades esenciales para los desarrolladores web. En muchos casos, los desarrolladores web trabajamos en proyectos de equipo y debemos colaborar estrechamente con diseñadores, especialistas en marketing, expertos en SEO y otros profesionales para lograr los objetivos del proyecto.
-
-Además, los desarrolladores web a menudo interactuamos con clientes y usuarios finales. Es importante que los desarrolladores web comprendamos las necesidades y expectativas de los usuarios finales para crear sitios web y aplicaciones web que sean útiles y atractivos.
-
-Aunque algunos desarrolladores web podemos ser más introvertidos que otros, la mayoría de nosotros no somos solitarios. La colaboración y la comunicación somos esenciales para el éxito de cualquier proyecto de desarrollo web, y los desarrolladores web debemos ser capaces de trabajar eficazmente en equipo para lograr los objetivos del proyecto.
-
-En conclusión, el mito de que los desarrolladores web somos introvertidos y solitarios es falso. Los desarrolladores web trabajamos en equipo y colaboran estrechamente con otros profesionales en nuestro entorno para lograr los objetivos del proyecto. Además, los desarrolladores web a menudo interactuamos con clientes y usuarios finales y debemos comprender las necesidades y expectativas de los usuarios finales para crear sitios web y aplicaciones web útiles y atractivos. La capacidad de comunicarnos eficazmente y trabajar en equipo son habilidades esenciales para los desarrolladores web.
-
-## Mito 5: Los desarrolladores web solo trabajan en ordenadores
-
-Otro mito común sobre los desarrolladores web es que solo trabajamos en ordenadores. A menudo se cree que los desarrolladores web pasamos todo nuestro tiempo escribiendo código en un ordenador y que no necesitamos habilidades prácticas. Sin embargo, esto no es cierto.
-
-Los desarrolladores web a menudo necesitamos habilidades prácticas, como la capacidad de diseñar y construir prototipos, trabajar con herramientas de diseño y manipular hardware de computadora. Además, los desarrolladores web también debemos ser capaces de solucionar problemas técnicos y trabajar con dispositivos móviles y otros dispositivos conectados.
-
-Además, los desarrolladores web también necesitamos habilidades de comunicación y habilidades empresariales. Los desarrolladores web a menudo interactuamos con clientes, gerentes de proyecto y otros profesionales, y debemos ser capaces de explicar los problemas técnicos de manera clara y concisa. También debemos ser capaces de entender las necesidades y expectativas del cliente y trabajar con ellos para desarrollar soluciones efectivas.
-
-En conclusión, el mito de que los desarrolladores web solo trabajamos en ordenadores es falso. Los desarrolladores web necesitamos habilidades prácticas, habilidades de comunicación y habilidades empresariales para ser efectivos en nuestro trabajo. Además de escribir código, los desarrolladores web podemos trabajar en prototipos, herramientas de diseño y manipulación de hardware de computadora, y también debemos ser capaces de solucionar problemas técnicos y trabajar con dispositivos móviles y otros dispositivos conectados. El trabajo de los desarrolladores web es complejo y requiere habilidades en una variedad de áreas para ser efectivos.
-
-En resumen, los mitos sobre los desarrolladores web pueden ser perjudiciales para nuestra imagen y habilidades. Al comprender la verdad detrás de estos mitos, se puede apreciar mejor el trabajo y habilidades de los desarrolladores web. Aunque debemos tener habilidades en programación, también necesitamos habilidades en diseño, experiencia de usuario, comunicación y trabajo en equipo para ser efectivos en nuestro trabajo. Además, no podemos resolver todos los problemas de tecnología y a menudo trabajamos en equipo con otros expertos en tecnología.
+Entender con más precisión en qué consiste el trabajo de un desarrollador web ayuda a construir equipos más eficaces y a gestionar proyectos con expectativas más realistas. Los mejores proyectos web que hemos visto son aquellos en los que cliente y equipo técnico trabajaron como colaboradores, no como partes separadas con roles estancos.

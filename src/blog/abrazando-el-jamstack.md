@@ -3,42 +3,24 @@ title: Abrazando el Jamstack en Idenautas
 heroImage: idenautas-web/blog/006.png
 alt: Imagen de un desarrollador trabajando en su ordenador y escribiendo código
 date: 2023-01-25
-description: Jamstack permite crear sitios web rápidos, escalables y seguros, que pueden ser cargados y actualizados de forma rápida y eficiente
+description: Por qué adoptamos Jamstack y Eleventy en Idenautas para construir webs más rápidas, seguras y sostenibles, y qué ventajas tiene frente a los CMS tradicionales.
 tags: ["desarrollo-tecnico"]
 ---
 
-El Jamstack es una nueva forma de desarrollar y construir sitios web que combina las mejores características de las tecnologías modernas y el enfoque en el rendimiento. Con el auge de la nube y las tecnologías de micro-servicios, ha llegado el momento de dejar atrás los sistemas de desarrollo tradicionales que utilizan aplicaciones monolíticas y servidores en tiempo real para construir sitios web.
+Durante años, la forma dominante de construir webs fue la misma: un servidor recibía cada petición, consultaba una base de datos, generaba el HTML al vuelo y lo enviaba al navegador. Funcionaba, pero arrastraba problemas de rendimiento, seguridad y escalabilidad que cada vez costaba más ignorar.
 
-El Jamstack es un acrónimo que significa JavaScript, APIs y Markup, y se refiere a una arquitectura basada en tres pilares:
+El Jamstack nació como respuesta a eso. El nombre es un acrónimo: **J**avaScript, **A**PIs y **M**arkup. La idea central es sencilla: separar la capa de presentación (el HTML estático que ve el usuario) de la lógica del negocio y los datos (que se gestionan a través de APIs externas). El resultado son sitios que se sirven directamente desde una CDN, sin servidores que procesar nada en tiempo real.
 
-- **JavaScript**: el lenguaje de programación en el navegador que permite crear funcionalidades y animaciones avanzadas en tiempo real.
+Esto tiene consecuencias prácticas muy visibles. Un sitio estático carga más rápido porque no hay tiempo de espera para generar la página: ya está generada. Es más seguro porque no hay base de datos ni servidor de aplicaciones expuesto a internet. Y escala sin esfuerzo, porque una CDN aguanta picos de tráfico que hundirían cualquier servidor convencional.
 
-- **APIs**: servicios externos que permiten integrar datos y funcionalidades en el sitio web sin tener que ejecutarlos en el servidor.
+Hay un beneficio menos obvio pero igualmente importante: la sostenibilidad. Al procesar menos en el servidor y servir contenido pre-generado, el consumo energético se reduce. No es el argumento principal para adoptar Jamstack, pero en un sector donde la huella de carbono empieza a importar, no es un detalle menor.
 
-- **Markup**: el lenguaje HTML que se utiliza para estructurar el contenido y los elementos de la página web.
+## Por qué elegimos Eleventy para este sitio
 
-La combinación de estos tres pilares permite crear sitios web rápidos, escalables y seguros, que pueden ser cargados y actualizados de forma rápida y eficiente.
+Para construir idenautas.com elegimos [Eleventy](https://www.11ty.dev/), un generador de sitios estáticos open-source que encajaba bien con lo que necesitábamos: un proyecto con requisitos definidos, sin necesidad de un framework JavaScript pesado y con un resultado final ligero y rápido.
 
-Este enfoque tiene muchas ventajas sobre los enfoques tradicionales. Por un lado, el contenido estático es mucho más rápido y seguro, ya que no requiere una conexión a un servidor para ser generado. Además, el contenido estático es más escalable, lo que significa que se puede manejar una gran cantidad de tráfico sin problemas de rendimiento.
+Eleventy tiene algunas características que lo hacen especialmente cómodo. Acepta múltiples lenguajes de plantillas —Markdown, Nunjucks, HTML puro— lo que da mucha libertad para estructurar el contenido sin atarse a convenciones rígidas. No impone ningún framework de JavaScript en el cliente, así que el output es HTML limpio por defecto. Y su curva de aprendizaje es razonable: no exige conocer un ecosistema complejo para empezar a ser productivo.
 
-Además, el Jamstack permite a los desarrolladores centrarse en la experiencia del usuario y la usabilidad, en lugar de preocuparse por la configuración y la gestión de servidores. Con herramientas como Git, Github y Netlify, los desarrolladores pueden crear y entregar aplicaciones y sitios web de manera rápida y eficiente.
+También ayuda mucho que tenga buena documentación y una comunidad activa. Cuando surge un problema concreto, casi siempre hay alguien que ya lo ha resuelto y lo ha documentado.
 
-Otro aspecto a destacar es la escalabilidad. Con el Jamstack, el contenido y los datos se almacenan en servidores externos y se integran en el sitio web mediante APIs, lo que significa que el sitio web puede manejar una gran cantidad de tráfico sin tener que hacer cambios en el servidor.
-
-En cuanto a la seguridad, el Jamstack ofrece una mayor seguridad en comparación con los sistemas de desarrollo tradicionales, ya que el contenido estático no puede ser fácilmente hackeado y los datos sensibles se almacenan en servidores externos.
-
-Y también es muy importante tener en cuenta que además de mejorar la velocidad y la escalabilidad, el JAMstack también puede tener un impacto positivo en la sostenibilidad del desarrollo web. Al utilizar menos recursos y procesamiento en el lado del servidor, el JAMstack puede ayudar a reducir el consumo de energía y disminuir la huella de carbono de un sitio web o aplicación.
-
-Para el desarrollo de este sitio web de <b>idenautas</b> hemos elegido Eleventy, que nos permite un desarrollo rápido y ajuntado a las necesidades reales del proyecto. Eleventy es un generador de sitios estáticos open-source que se ha vuelto popular en el desarrollo web debido a sus siguientes ventajas:
-
-- **Flexibilidad**: Eleventy es altamente configurable y permite trabajar con una variedad de lenguajes de marcado, como HTML, Markdown, Nunjucks, Handlebars, entre otros.
-
-- **Rapidez**: Eleventy es un generador de sitios estáticos, lo que significa que los sitios web creados con él se cargan rápidamente y son fáciles de escalar.
-
-- **Accesibilidad**: Eleventy es accesible para desarrolladores con diferentes niveles de experiencia y habilidades, ya que no requiere un conocimiento profundo de JavaScript o de un framework específico.
-
-- **Integración con otras herramientas**: Eleventy se integra fácilmente con otras herramientas y servicios modernos, como CMS, API y herramientas de automatización.
-
-- **Seguimiento de cambios**: Eleventy tiene una funcionalidad de seguimiento de cambios que permite detectar automáticamente los cambios en el contenido y volver a generar el sitio web.
-
-- **Documentación y comunidad**: Eleventy tiene una excelente documentación y una gran comunidad de desarrolladores que comparten sus experiencias y soluciones a problemas comunes.
+El resultado es este sitio: rápido, fácil de mantener y construido sin más complejidad de la necesaria. Que es, al final, la mejor razón para elegir cualquier herramienta.

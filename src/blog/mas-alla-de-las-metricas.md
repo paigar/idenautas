@@ -9,68 +9,40 @@ tags: ["vida-profesional"]
 
 Como desarrolladores, a menudo nos enfocamos en **métricas cuantitativas** para evaluar nuestro desempeño y productividad. Líneas de código escritas, número de commits, velocidad en completar tareas... Pero ¿realmente capturan estas cifras el **valor real** que aportamos?
 
-Hoy quiero explorar formas alternativas de medir el impacto de nuestro trabajo, que vayan más allá de los números y reflejen cómo contribuimos a objetivos más amplios. Porque al final, lo que importa no es cuánto código generamos, sino **cuánto valor creamos para usuarios y empresas**.
+Lo que importa no es cuánto código generamos, sino **cuánto valor creamos para usuarios y empresas**. Y eso es mucho más difícil de medir, pero también mucho más honesto.
 
 ## Los límites de las métricas tradicionales
 
-Métricas como líneas de código o velocidad de desarrollo tienen su lugar. Nos dan una idea general de la productividad y pueden ayudar a estimar plazos. Pero también tienen limitaciones importantes:
+Métricas como líneas de código o velocidad de desarrollo tienen su lugar. Nos dan una idea general de la productividad y pueden ayudar a estimar plazos. Pero también tienen limitaciones importantes: no reflejan la calidad del código, pueden incentivar atajos que generan deuda técnica, e ignoran completamente el contexto y el valor real de negocio. Completar muchas tareas no significa necesariamente que estemos aportando valor.
 
-- **No reflejan la calidad del código.** Escribir más líneas no es mejor si el código es complejo, poco mantenible o tiene errores.
-- **Incentivan comportamientos contraproducentes.** Enfocarse solo en la velocidad puede llevar a tomar atajos y acumular deuda técnica.
-- **Ignoran el contexto y valor de negocio.** Completar muchas tareas no significa necesariamente que estemos aportando valor real.
-
-Como individuos y como industria, necesitamos una visión más holística de lo que significa ser un buen desarrollador. Una que ponga el foco en los resultados, no solo en los outputs.
+Como industria, necesitamos una visión más holística de lo que significa ser un buen desarrollador. Una que ponga el foco en los resultados, no solo en los outputs.
 
 ## Midiendo el impacto en usuarios y negocio
 
-Entonces, ¿cómo podemos medir nuestro impacto real? Aquí hay algunas ideas:
+¿Cómo se mide entonces el impacto real? No con una sola métrica, sino triangulando señales de distintas fuentes.
 
-- **Satisfacción y retención de usuarios.** ¿Las funcionalidades que creamos son adoptadas y valoradas por los usuarios? Métricas como NPS, tasas de uso y retención nos dan una idea.
+La **satisfacción y retención de usuarios** dice mucho más que el número de funcionalidades entregadas. ¿Las cosas que construimos son adoptadas y valoradas? El NPS, las tasas de uso activo y la retención de usuarios ofrecen una imagen que los tickets cerrados no pueden dar.
 
-- **Impacto en métricas de negocio.** Nuestro trabajo debería moverse la aguja en indicadores clave del negocio, ya sea ingresos, eficiencia, ahorro de costes, etc. Vale la pena entender y hacer seguimiento de estos KPIs.
+El **impacto en métricas de negocio** es otra dimensión que los desarrolladores a menudo ignoramos porque sentimos que "no es nuestro territorio". Pero nuestro trabajo mueve la aguja en indicadores clave: ingresos, eficiencia operativa, ahorro de costes. Entender y hacer seguimiento de esos KPIs convierte las conversaciones de rendimiento en algo mucho más sustancial que contar commits.
 
-- **Feedback cualitativo.** ¿Qué dicen stakeholders, colegas y clientes sobre trabajar con nosotros? Busca formas de obtener feedback directo sobre cómo percibiron tu contribución.
+El **feedback cualitativo** de compañeros, stakeholders y clientes también cuenta, y más de lo que solemos admitir. Cómo perciben los demás tu contribución, si trabajar contigo hace más fácil o más difícil el trabajo del equipo, si tus estimaciones son fiables... todo eso forma parte de tu valor como desarrollador aunque no aparezca en ningún dashboard.
 
-- **Contribución a objetivos del equipo.** Entiende las metas de tu equipo y cómo tu trabajo las hace avanzar. Esto te ayuda a priorizar y a demostrar tu aporte.
+## La experiencia del desarrollador también importa
 
-Más que una métrica única, se trata de triangular señales de distintas fuentes para pintar una imagen completa de tu impacto.
+Cada vez más organizaciones entienden que para maximizar el impacto hay que cuidar también la **experiencia de los propios desarrolladores**. Herramientas e infraestructura que no friccionan. Procesos de desarrollo que permiten fluir. Claridad sobre objetivos y requisitos. Autonomía real para aportar ideas. Soporte y reconocimiento del resto de la organización.
 
-## Potenciando la experiencia del desarrollador
+Cuando los desarrolladores trabajan en un entorno que facilita el trabajo en lugar de obstaculizarlo, la motivación y la productividad mejoran de forma natural. Y eso se traduce en mayor valor e innovación para el negocio, no en cifras abstractas de velocidad.
 
-Pero medir el resultado final es solo una parte de la ecuación. Cada vez más organizaciones entienden que para maximizar el impacto, también hay que enfocarse en mejorar la **experiencia de los propios desarrolladores (DevEx)**.
+## Hacer visible lo que creas
 
-Esto implica entender y optimizar factores como:
+De poco sirve crear impacto si no somos capaces de comunicarlo. Esto no es sobre venderse; es sobre hacer que el trabajo sea comprensible para personas que no están en el código todos los días.
 
-- Herramientas e infraestructura
-- Procesos de desarrollo y colaboración
-- Claridad de objetivos y requisitos
-- Autonomía y posibilidad de aportar ideas
-- Soporte y reconocimiento del resto de la organización
+La diferencia entre hablar de outputs y hablar de outcomes es enorme. "Entregué tres funcionalidades esta semana" no dice nada sobre si valió la pena hacerlas. "Implementamos la búsqueda avanzada que redujo el tiempo de gestión del equipo de soporte un 40%" sí lo dice.
 
-Cuando los desarrolladores pueden trabajar en un entorno ágil, con propósito claro y sintiéndose valorados, su motivación y productividad se disparan. Y eso se traduce en mayor valor e innovación para el negocio.
+Combina datos con narrativa. Los números son importantes, pero las historias son lo que conecta con las personas. Un developer que puede explicar con claridad qué problema resolvió, para quién y con qué resultado tiene una ventaja enorme en cualquier conversación de rendimiento, sea en una revisión anual o en una reunión de equipo.
 
-## Comunicar y demostrar tu valor
+Y pide feedback regularmente. Aprovecha las conversaciones individuales con tu manager o las retrospectivas del equipo para preguntar directamente cómo perciben tu aportación. Es incómodo al principio, pero es la forma más directa de calibrar si tu percepción de tu impacto coincide con la de los demás.
 
-Por último, de poco sirve crear impacto si no somos capaces de hacerlo visible y comunicarlo efectivamente. Algunas ideas:
+---
 
-- **Enfócate en outcomes, no outputs.** En reuniones de avance o evaluaciones, habla del valor creado, no solo de las tareas completadas.
-
-- **Comparte métricas de impacto.** Recopila datos sobre adopción, satisfacción de usuarios, mejoras en procesos o ingresos generados gracias a tu trabajo.
-
-- **Cuenta historias con datos.** Los números son importantes, pero las historias son lo que realmente conecta con las personas. Combina ambas al comunicar tu impacto.
-
-- **Pide feedback regularmente.** Aprovecha 1:1s y retrospectivas para pedir input sobre cómo perciben tu aporte de valor colegas y jefes.
-
-Armado con esta mentalidad y herramientas, podrás no solo aportar más valor real, sino también demostrar tu valía más allá de las métricas tradicionales.
-
-## Evolucionando nuestra forma de medir el éxito
-
-En un mundo cada vez más impulsado por software, el trabajo de los desarrolladores es clave. Pero para aprovechar al máximo nuestro potencial, tenemos que repensar cómo medimos y comunicamos nuestro impacto.
-
-Más que un engranaje que produce código, somos solucionadores de problemas y creadores de valor. Colaboradores estratégicos para lograr objetivos de negocio y marca. Agentes de innovación y transformación.
-
-Métricas tradicionales como líneas de código y velocidad solo cuentan una pequeña parte de esa historia. Para capturar nuestro impacto real, necesitamos una visión más amplia que abarque resultados de negocio, satisfacción de usuarios, experiencia del desarrollador y valor percibido por stakeholders.
-
-Puede parecer un cambio intimidante, especialmente en organizaciones acostumbradas a métricas puramente cuantitativas. Pero en mi experiencia, vale la pena el esfuerzo. Nos permite trabajar de forma más estratégica, enfocar mejor nuestros esfuerzos y obtener el reconocimiento que merecemos.
-
-Como desarrolladores, ya dominamos el arte de resolver problemas complejos. Aplicar esa misma mentalidad a medir y comunicar nuestro valor es el siguiente paso para crecer en nuestra profesión y aportar aún más al mundo.
+Somos solucionadores de problemas y creadores de valor, no productores de código. Métricas tradicionales como líneas de código o velocidad solo cuentan una parte pequeña de esa historia. Aprender a medir y comunicar el impacto real no es solo útil para tu carrera: es lo que te permite enfocar mejor tu trabajo y contribuir de verdad a los objetivos que importan.

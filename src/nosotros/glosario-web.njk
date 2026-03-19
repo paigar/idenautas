@@ -25,7 +25,23 @@ breadcrumb:
       </div>
       <div class="faq-item" data-stagger-child>
         <dt class="faq-item__question">Jamstack</dt>
-        <dd class="faq-item__answer">Una arquitectura web moderna en la que las páginas se generan de antemano y se sirven como archivos estáticos. No hay base de datos en cada visita, lo que se traduce en webs más rápidas, más seguras y más baratas de mantener. Es nuestra apuesta principal y la tecnología con la que está construida esta misma web. Lo explicamos en detalle en <a href="/nuestra-filosofia-web/">nuestra filosofía web</a>.</dd>
+        <dd class="faq-item__answer">Una arquitectura web en la que las páginas se construyen de antemano — durante el despliegue, no en cada visita — y se sirven como archivos estáticos desde una CDN. El resultado: sin servidor de aplicaciones expuesto, sin base de datos que atacar, sin esperas mientras se genera la página. Es más rápido, más seguro y más barato de mantener que una web dinámica tradicional. Es la arquitectura con la que construimos la mayoría de nuestros proyectos y la que usa esta misma web. Más contexto en <a href="/blog/jamstack-explicado-sin-tecnicismos/">Jamstack explicado sin tecnicismos</a> y en nuestra <a href="/servicios/desarrollo-web-jamstack/">página de desarrollo Jamstack</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">SSG (Generador de sitios estáticos)</dt>
+        <dd class="faq-item__answer">Una herramienta que toma el contenido — normalmente archivos de texto en Markdown — y lo combina con plantillas para generar todas las páginas HTML de una web de una sola vez, antes de publicarla. A partir de ahí, esos archivos se sirven directamente sin ningún procesamiento. Es el motor detrás de la arquitectura Jamstack. Los generadores más conocidos son Eleventy, Astro, Hugo y Jekyll. Nosotros trabajamos principalmente con Eleventy. Más en <a href="/blog/que-es-eleventy/">qué es Eleventy y por qué lo usamos</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">CMS headless</dt>
+        <dd class="faq-item__answer">Un sistema de gestión de contenidos en el que el panel de edición está desacoplado del frontend. El editor escribe y guarda desde una interfaz cómoda, y ese contenido llega al sitio web a través de una API durante el proceso de construcción — no en tiempo real. La ventaja: puedes tener una web estática ultrarrápida y que el cliente edite contenido sin tocar código. Las opciones van desde soluciones en la nube como Sanity o Contentful hasta sistemas propios construidos a medida. Para algunos proyectos hemos desarrollado un backend en PHP que almacena los datos en archivos JSON: el editor acumula todos los cambios que quiere y solicita una única publicación al final, en lugar de lanzar un proceso de construcción por cada modificación. Más en <a href="/blog/que-es-un-cms-headless/">qué es un CMS headless</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Eleventy (11ty)</dt>
+        <dd class="faq-item__answer">El generador de sitios estáticos con el que construimos la mayoría de nuestros proyectos. No impone ningún framework JavaScript: el HTML que genera es HTML limpio, sin librerías que el visitante no pidió. Permite usar distintos lenguajes de plantillas (Nunjucks, Liquid, Markdown) y mezclarlos en el mismo proyecto. Es extremadamente ligero, flexible y pensado para proyectos donde el rendimiento y la longevidad importan. Esta web está construida con Eleventy. Más en <a href="/blog/que-es-eleventy/">qué es Eleventy y por qué lo usamos</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Edge functions</dt>
+        <dd class="faq-item__answer">Pequeñas funciones de servidor que se ejecutan no en un servidor central sino en los nodos de la CDN más cercanos al usuario. Eso significa que una lógica que antes requería un servidor propio — autenticación, redirecciones condicionadas, personalización por país o idioma — ahora se puede resolver en décimas de segundo sin salir de la red de distribución. Es una de las piezas que permite añadir comportamiento dinámico a sitios Jamstack sin sacrificar velocidad ni seguridad.</dd>
       </div>
       <div class="faq-item" data-stagger-child>
         <dt class="faq-item__question">Frontend y backend</dt>
@@ -65,7 +81,7 @@ breadcrumb:
       </div>
       <div class="faq-item" data-stagger-child>
         <dt class="faq-item__question">CDN (Content Delivery Network)</dt>
-        <dd class="faq-item__answer">Una red de servidores distribuidos por todo el mundo que sirve los archivos de tu web desde la ubicación más cercana al visitante. El resultado: tiempos de carga más cortos, especialmente para usuarios que están lejos del servidor principal. Nuestros proyectos Jamstack se despliegan sobre CDN por defecto.</dd>
+        <dd class="faq-item__answer">Una red de servidores distribuidos por todo el mundo que sirve los archivos de tu web desde el nodo más cercano al visitante. Si alguien en Tokio visita tu web y el servidor principal está en Madrid, sin CDN tiene que esperar a que los datos crucen medio planeta. Con CDN, recibe los archivos desde un nodo en Asia en milisegundos. En webs Jamstack, la CDN no es un complemento — es la infraestructura principal. No hay servidor de origen al que llamar: todo ya está distribuido. Providers como Netlify, Cloudflare Pages o Bunny.net construyen su servicio sobre este modelo.</dd>
       </div>
       <div class="faq-item" data-stagger-child>
         <dt class="faq-item__question">Caché</dt>
@@ -166,6 +182,14 @@ breadcrumb:
       <div class="faq-item" data-stagger-child>
         <dt class="faq-item__question">Hosting o alojamiento web</dt>
         <dd class="faq-item__answer">El servicio que almacena los archivos de tu web y los sirve a los visitantes. La calidad del hosting influye directamente en la velocidad, la disponibilidad y la seguridad del sitio. No todos los alojamientos son iguales: un hosting barato puede salir caro en rendimiento y soporte. Lo explicamos en <a href="/blog/no-todos-los-alojamientos-web-son-iguales/">no todos los alojamientos son iguales</a>. Nosotros ofrecemos un <a href="/servicios/alojamiento-web/">servicio de alojamiento</a> adaptado a cada tipo de proyecto.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Netlify</dt>
+        <dd class="faq-item__answer">Una plataforma de despliegue pensada para sitios estáticos y Jamstack. El flujo es simple: conectas tu repositorio Git, y cada vez que haces un commit, Netlify construye el sitio automáticamente y lo despliega sobre su CDN global en cuestión de segundos. Incluye previews automáticas de cada rama — puedes enviar al cliente una URL de previsualización antes de publicar —, rollback instantáneo a cualquier versión anterior y HTTPS automático. Tiene un plan gratuito generoso que cubre la mayoría de proyectos pequeños. Más sobre cómo funciona en <a href="/blog/despliegue-web-moderno/">cómo funciona un despliegue web moderno</a>.</dd>
+      </div>
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Vercel</dt>
+        <dd class="faq-item__answer">Una plataforma de despliegue similar a Netlify, creada por el equipo detrás de Next.js. Está muy orientada al ecosistema React y a proyectos con componentes JavaScript complejos, aunque funciona perfectamente con cualquier generador de sitios estáticos. Ofrece las mismas ventajas del modelo moderno — despliegue automático desde Git, CDN global, previews por rama, HTTPS automático — con un rendimiento destacado para aplicaciones con mucho JavaScript. Para proyectos más sencillos o con requisitos de privacidad europeos, Netlify o alternativas como Bunny.net pueden ser más adecuados.</dd>
       </div>
       <div class="faq-item" data-stagger-child>
         <dt class="faq-item__question">Migración web</dt>

@@ -7,114 +7,46 @@ description: Tailwind CSS es un framework de diseño web de código abierto que 
 tags: ["desarrollo-tecnico"]
 ---
 
-Tailwind CSS es un framework de diseño web de código abierto que proporciona un conjunto completo de clases CSS predefinidas que se pueden utilizar para construir interfaces de usuario personalizadas. El enfoque de Tailwind es proporcionar una base sólida para diseñadores y desarrolladores que desean construir interfaces de usuario personalizadas de manera rápida y eficiente.
+Tailwind CSS lleva unos años siendo el tema recurrente en las conversaciones de desarrolladores front-end. Hay quien lo ama sin reservas y quien lo encuentra absolutamente intolerable. Pocas herramientas generan opiniones tan contrapuestas. Y eso, en general, suele indicar que merece la pena entenderla bien.
 
-Una de las principales ventajas de Tailwind es su gran cantidad de clases predefinidas. En lugar de escribir CSS personalizado para cada elemento de la interfaz de usuario, los desarrolladores pueden utilizar clases predefinidas para aplicar rápidamente estilos a los elementos.
+La idea central de Tailwind es diferente a la de frameworks como Bootstrap o Foundation. En lugar de darte componentes predefinidos —un botón con su estilo, un modal con su comportamiento—, te da utilidades atómicas: clases que aplican una sola propiedad CSS. `text-center`, `mt-4`, `bg-blue-500`, `rounded-lg`. Construyes el diseño componiendo esas clases directamente en el HTML.
 
-Esto significa que se pueden crear diseños de manera más rápida y eficiente, sin tener que preocuparse tanto por el CSS personalizado.
+## Cómo surgió y por qué importa
 
-Tailwind también proporciona un enfoque sistemático para nombrar las clases, lo que significa que los desarrolladores pueden crear diseños personalizados más fácilmente. Cada clase está diseñada para describir una propiedad de estilo específica, lo que hace que sea más fácil recordar y aplicar las clases en diferentes elementos de la interfaz de usuario.
+Adam Wathan, su creador principal, venía trabajando con CSS de forma bastante ortodoxa cuando empezó a sentir que el modelo clásico —un archivo CSS separado con nombres de clases semánticos— no escalaba bien en proyectos grandes. La tentación de reutilizar nombres de clases para estilos ligeramente diferentes, la dificultad de mantener la especificidad bajo control, la acumulación de CSS muerto... problemas conocidos por cualquiera que haya trabajado en proyectos reales.
 
-Además de sus clases predefinidas, Tailwind también ofrece herramientas como utilidades de espaciado, diseño de cuadrícula, utilidades de color y tipografía, y mucho más. Todas estas herramientas están diseñadas para ser altamente personalizables y se pueden utilizar para crear diseños de interfaz de usuario altamente personalizados.
+Tailwind propone lo contrario: que los estilos vivan en el HTML, cerca del marcado que modifican, y que cada clase haga exactamente una cosa. El resultado es un CSS de salida muy pequeño en producción —solo se generan las clases que realmente usas— y un HTML que, una vez que conoces las convenciones, cuenta su propio estilo de forma bastante explícita.
 
-## Origen de Tailwind CSS
+## Las ventajas reales en el día a día
 
-Tailwind CSS fue creado por Adam Wathan, Steve Schoger, Jonathan Reinink y David Hemphill. Adam Wathan, un desarrollador web y autor de libros de programación, originalmente creó el concepto de Tailwind CSS para ayudar a resolver algunos de los desafíos comunes que enfrentan los desarrolladores al crear diseños de interfaz de usuario personalizados.
+La velocidad de prototipado es probablemente la ventaja más apreciada. No tienes que saltar entre el HTML y un archivo CSS, inventar nombres de clases ni preocuparte de si el estilo que necesitas ya existe o tienes que crearlo. Aplicar márgenes, colores y tipografía es inmediato.
 
-El objetivo original de Tailwind CSS era proporcionar un conjunto completo de clases predefinidas para ayudar a los desarrolladores a construir diseños de interfaz de usuario personalizados de manera más rápida y eficiente.
+La consistencia es otro punto fuerte. Tailwind usa por defecto una escala de espaciado y colores bien pensada que hace difícil acabar con valores arbitrarios (`margin: 13px`) diseminados por todo el proyecto. Si el sistema de diseño sigue la escala de Tailwind, la coherencia visual se mantiene casi sola.
 
-Con el tiempo, el proyecto creció en popularidad y se convirtió en una herramienta de diseño web muy popular en la comunidad de desarrollo web.
+La personalización es más potente de lo que parece desde fuera. El archivo `tailwind.config.js` permite redefinir colores, tipografías, breakpoints y prácticamente cualquier aspecto del sistema. Y las utilidades personalizadas que no existían en la librería se pueden añadir fácilmente.
 
-Hoy en día, Tailwind CSS es una biblioteca de diseño web de código abierto que se utiliza ampliamente en proyectos de desarrollo web en todo el mundo. Ofrece una gran cantidad de características y herramientas para ayudar a los desarrolladores a crear diseños de interfaz de usuario altamente personalizados de manera rápida y eficiente.
+## Los inconvenientes que nadie debería ignorar
 
-## Ventajas e inconvenientes en el uso de Tailwind CSS
+El HTML con Tailwind puede volverse ruidoso. Un botón con varios estados hover, focus y responsive puede acumular quince o veinte clases en un solo elemento. Hay quien lo acepta como el coste del modelo y hay quien lo encuentra inaceptable. No es una cuestión de gusto: es una pregunta legítima sobre mantenibilidad.
 
-A continuación, se presentan algunas ventajas e inconvenientes del uso de Tailwind CSS:
+La curva de aprendizaje existe aunque se subestime. Saber qué clase corresponde a qué propiedad CSS lleva tiempo. Las primeras semanas con Tailwind implican mucho ir y venir a la documentación. Pasado ese umbral, la velocidad aumenta considerablemente, pero hay que invertir ese tiempo.
 
-### Ventajas:
+La dependencia del HTML también es un punto de debate. Los puristas del CSS separado del marcado verán en Tailwind una regresión a los tiempos de los `style` inline. La respuesta habitual —que con componentes reutilizables el problema se mitiga— es razonable pero no elimina la objeción por completo.
 
-- **Eficiencia**: Una de las mayores ventajas de Tailwind es su eficiencia en el desarrollo de interfaces de usuario. Con su conjunto completo de clases predefinidas, los desarrolladores pueden construir diseños personalizados de manera más rápida y eficiente que utilizando CSS personalizado.
+## Tailwind frente a Bootstrap
 
-- **Personalización**: A pesar de sus clases predefinidas, Tailwind es altamente personalizable. Los desarrolladores pueden crear fácilmente sus propias clases personalizadas para adaptarse a sus necesidades específicas.
+La comparación más frecuente es con Bootstrap, y es justa. Son herramientas con filosofías distintas. Bootstrap te da componentes listos para usar: navbar, cards, modales, carruseles. Puedes montar una interfaz funcional en muy poco tiempo sin casi tocar CSS. El precio es que todos los proyectos con Bootstrap tienden a parecerse si no se personaliza a fondo.
 
-- **Escalabilidad**: Tailwind es altamente escalable, lo que significa que puede utilizarse en proyectos pequeños y grandes sin problemas. Es fácil de aprender y utilizar, lo que lo hace ideal para proyectos con equipos de desarrollo grandes y pequeños.
+Tailwind no tiene componentes de serie. Tienes que construirlos tú, pero con total libertad sobre el resultado. La interfaz final puede ser completamente única. El precio es que necesitas saber más de diseño y CSS para aprovechar bien la herramienta.
 
-- **Consistencia**: Debido a su enfoque sistemático para nombrar las clases, Tailwind fomenta la coherencia en el diseño de la interfaz de usuario. Los desarrolladores pueden crear diseños consistentes en todo el sitio web o aplicación, lo que puede mejorar la experiencia del usuario.
+¿Cuál elegir? Depende del proyecto. Bootstrap tiene sentido cuando la velocidad es prioritaria y la originalidad visual es secundaria. Tailwind tiene sentido cuando el diseño es parte del producto y quieres control total sobre él.
 
-### Inconvenientes:
+## El estado actual y hacia dónde va
 
-- **Curva de aprendizaje**: Aunque Tailwind es fácil de utilizar, tiene una curva de aprendizaje. Los desarrolladores deben aprender el conjunto completo de clases y herramientas antes de poder utilizarlo de manera efectiva.
+Tailwind es hoy uno de los frameworks CSS más usados en proyectos nuevos, especialmente en combinación con React, Vue o Astro. Su ecosistema ha crecido: Tailwind UI ofrece componentes de pago de alta calidad, y la integración con las herramientas de build modernas es prácticamente transparente.
 
-- **Necesidad de ajustes personalizados**: Tailwind está diseñado para ser altamente personalizable, lo que significa que los desarrolladores pueden necesitar ajustar y crear sus propias clases personalizadas para adaptarse a sus necesidades específicas.
+La versión 4, que llegó a finales de 2024, apostó fuertemente por las variables CSS nativas y simplificó la configuración. Es una señal de que el proyecto sigue evolucionando hacia mayor integración con los estándares del navegador, no en dirección contraria.
 
-- **Dependencia de HTML**: Tailwind requiere la adición de clases específicas en el HTML para aplicar los estilos. Algunos desarrolladores pueden preferir tener todo el estilo en un archivo CSS separado.
+---
 
-- **Menos flexibilidad en el diseño**: Algunos desarrolladores pueden encontrar que Tailwind limita su capacidad para crear diseños altamente personalizados y creativos, ya que se basa en un conjunto predefinido de clases y herramientas.
-
-## Opciones de personalización de Tailwind CSS
-
-Tailwind CSS ofrece una gran cantidad de opciones de personalización que permiten a los desarrolladores crear diseños de interfaz de usuario altamente personalizados. Aquí hay algunas opciones de personalización que se pueden utilizar con Tailwind CSS:
-
-### Configuración personalizada
-
-Tailwind permite a los desarrolladores configurar varios aspectos de la biblioteca, como el tamaño del espacio de espacio en blanco, los colores, las fuentes y las clases que se generan.
-
-Esto significa que los desarrolladores pueden personalizar la biblioteca para que se adapte a sus necesidades específicas.
-
-## Clases personalizadas
-
-Además de las clases predefinidas, los desarrolladores también pueden crear sus propias clases personalizadas utilizando el sistema de nomenclatura de clases de Tailwind. Esto permite una mayor personalización y la capacidad de crear diseños altamente personalizados y únicos.
-
-### Temas
-
-Tailwind también ofrece soporte para temas, lo que significa que los desarrolladores pueden crear temas de diseño personalizados y aplicarlos a su sitio web o aplicación.
-
-Los temas de diseño pueden incluir cambios en los colores, fuentes, tamaños y otros aspectos del diseño de la interfaz de usuario.
-
-### Complementos
-
-Tailwind también permite a los desarrolladores crear complementos para personalizar aún más la biblioteca. Los complementos pueden agregar nuevas clases y características a la biblioteca, lo que permite a los desarrolladores crear diseños altamente personalizados y específicos.
-
-### Variables CSS
-
-Tailwind también permite a los desarrolladores definir sus propias variables CSS personalizadas y utilizarlas en su diseño de interfaz de usuario. Esto permite una mayor personalización y la capacidad de utilizar variables personalizadas en todo el sitio web o aplicación.
-
-### Que nos aporta Tailwind CSS comparado con otros frameworks de CSS
-
-Comparar Tailwind CSS con otros frameworks de CSS puede ser un poco subjetivo, ya que cada framework tiene sus propias fortalezas y debilidades. Sin embargo, aquí hay algunas comparaciones entre Tailwind CSS y otros frameworks de CSS populares:
-
-### Bootstrap vs Tailwind CSS
-
-Bootstrap es un framework de CSS muy popular que proporciona un conjunto completo de componentes predefinidos y una cuadrícula flexible para construir interfaces de usuario.
-
-En comparación con Tailwind CSS, Bootstrap ofrece una experiencia de desarrollo más simplificada y menos personalización, ya que los desarrolladores utilizan componentes predefinidos para construir interfaces de usuario en lugar de crear clases personalizadas.
-
-Por otro lado, Tailwind CSS es altamente personalizable y permite a los desarrolladores crear diseños de interfaz de usuario altamente personalizados utilizando un conjunto completo de clases predefinidas y herramientas personalizables.
-
-### Foundation vs Tailwind CSS
-
-Foundation es otro framework de CSS popular que ofrece un conjunto completo de componentes predefinidos y herramientas personalizables para construir interfaces de usuario.
-
-En comparación con Tailwind CSS, Foundation es un poco más complejo y puede requerir más tiempo para aprender.
-
-Por otro lado, Tailwind CSS es un framework de CSS más sencillo y fácil de aprender, pero ofrece menos componentes predefinidos y una personalización más extensa.
-
-### Bulma vs Tailwind CSS
-
-Bulma es un framework de CSS que ofrece un diseño moderno y limpio con una gran cantidad de componentes predefinidos para construir interfaces de usuario. En comparación con Tailwind CSS, Bulma ofrece una experiencia de desarrollo más simplificada y menos personalización.
-
-Por otro lado, Tailwind CSS es altamente personalizable y ofrece una mayor flexibilidad en la creación de diseños de interfaz de usuario personalizados utilizando un conjunto completo de clases predefinidas y herramientas personalizables.
-
-En general, cada framework de CSS tiene sus propias fortalezas y debilidades, y es importante elegir el que mejor se adapte a tus necesidades de desarrollo y diseño.
-
-Tailwind CSS es un framework de CSS altamente personalizable que ofrece una gran cantidad de opciones de personalización y una experiencia de desarrollo sencilla y fácil de aprender.
-
-## Futuro de Tailwind CSS
-
-El futuro de Tailwind CSS parece muy prometedor, ya que se ha convertido en un framework de CSS muy popular en los últimos años y ha ganado una gran cantidad de seguidores en la comunidad de desarrollo web. Tailwind CSS sigue siendo una herramienta de diseño web muy relevante y útil, y continúa evolucionando y mejorando a medida que pasa el tiempo.
-
-A medida que la tecnología de diseño web sigue avanzando, se espera que Tailwind CSS siga evolucionando y mejorando para mantenerse al día con las tendencias y necesidades de diseño web.
-
-En particular, se espera que Tailwind CSS siga expandiendo su conjunto de características y herramientas, como la adición de nuevas clases personalizadas, utilidades de diseño y complementos para personalizar aún más la biblioteca.
-
-Además, se espera que Tailwind CSS siga mejorando su documentación y herramientas de aprendizaje para facilitar aún más su uso para los desarrolladores web. A medida que más desarrolladores adopten y contribuyan a la biblioteca, también es probable que se produzca un mayor desarrollo y avance en la comunidad de Tailwind CSS.
+Tailwind no es la respuesta correcta para todos los proyectos. Pero entender por qué ha tenido tanto éxito —y qué problemas resuelve de forma diferente— es útil independientemente de si acabas usándolo. A veces la herramienta que más polariza es la que más obliga a pensar en cómo y por qué hacemos las cosas.

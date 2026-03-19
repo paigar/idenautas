@@ -7,34 +7,34 @@ description: Una página de scroll infinito es un tipo de diseño de página web
 tags: ["experiencia-de-usuario"]
 ---
 
-Si has echado un vistazo a este blog ya podrás imaginar mi respuesta a la hora de elegir una página de scroll infinito o separar un índice largo (como el de este blog) en varias páginas diferenciadas. Pero vamos a analizar con un poco de detalle los motivos para tomar una decisión.
+Si has echado un vistazo a este blog ya puedes imaginar mi posición en este debate. Pero vamos a explicar por qué.
 
 ## Qué es el scroll infinito
 
-Una página de scroll infinito es un tipo de diseño de página web en el que el contenido se carga y se muestra automáticamente a medida que el usuario desplaza hacia abajo en la página. En lugar de tener una barra de desplazamiento o un botón de "cargar más" tradicional, la página continúa cargando nuevos contenidos a medida que el usuario desplaza hacia abajo en la página. Este tipo de diseño se utiliza a menudo en aplicaciones móviles y sitios web sociales para mejorar la experiencia de usuario y hacer que la exploración del contenido sea más fluida y sin interrupciones.
+El scroll infinito es el mecanismo por el que una página carga nuevo contenido automáticamente a medida que el usuario baja. Sin botones de "cargar más", sin páginas separadas. El muro de Facebook es el ejemplo que todos conocen.
 
-Es decir, el muro de Facebook puede ser el caso más conocido de página de scroll infinito.
+A primera vista parece la solución ideal: navegación fluida, menos clics, experiencia ininterrumpida. Y para algunos casos de uso concretos —redes sociales donde el objetivo es consumir contenido de forma continua y sin destino definido— funciona razonablemente bien.
 
-A priori podemos considerar que el scroll infinito es el camino a seguir: presenta una forma más natural de navegar por el contenido, minimiza las interacciones del usuario con el sitio, los tiempos de carga suelen ser rápidos, podemos tener más contenido a la vista...
+El problema es que muchos sitios lo adoptan porque parece más moderno, sin preguntarse si es lo más adecuado para lo que necesita su usuario.
 
-Pero la realidad es que (a no ser que estén muy bien construidos) los sitios de scroll infinito suelen terminar resultando lentos y consumiendo enormes cantidades de memoria de nuestros dispositivos. El motivo es fácil de entender: a medida que vamos añadiendo elementos al DOM (a las propia página web al hacer scroll) el tamaño del sitio va haciéndose cada vez más grande. Y toda esa información se almacena en la memoria para recuperarla cuando cambiemos la dirección del scroll.
+## Por qué el scroll infinito suele crear más problemas de los que resuelve
 
-Además, hay algunos problemas claros de usabilidad que aparecen con este tipo de sitios:
+El primer problema es técnico. A medida que el usuario hace scroll, los elementos se añaden al DOM de la página. Esa información permanece en memoria. Después de varios minutos de scroll, la página puede haberse convertido en algo enormemente pesado que el navegador empieza a gestionar con dificultad. Dispositivos menos potentes acusan esto especialmente: lo que empezó siendo una experiencia fluida se vuelve lenta y entrecortada.
 
-- **Resulta difícil llegar al pie de página**. Puede parece baladí, pero en muchas ocasiones nos interesa llegar al pie del sitio para acceder a los avisos legales, información de contacto, un menú secundario de navegación... Y si cada vez que hacemos scroll se ba añadiendo nuevo contenido al sitio, el pié de la página resulta inaccesible.
+El segundo problema es de usabilidad. ¿Cómo llega alguien al pie de página en un sitio con scroll infinito? Cada vez que intentas llegar al fondo, aparece nuevo contenido. El footer —donde suele estar la información de contacto, el aviso legal, el mapa del sitio— se convierte en prácticamente inaccesible.
 
-- **Es complicado localizar un contenido específico**: Como los contenidos se van añadiendo de forma dinámica, no podemos hacer uno de una búsqueda en la página hasta que no hayamos cargado el contenido que nos interesa, porque de otra forma no aparecerá (aún no existe). Y tampoco podremos tener un enlace directo a un contenido intermedio del sitio.
+El tercer problema afecta tanto a usuarios como a SEO: la imposibilidad de enlazar a un punto específico dentro del contenido. Si alguien quiere compartir "el quinto artículo del listado", no puede. El contenido cargado dinámicamente no tiene URLs propias hasta que alguien llega hasta él, lo que también dificulta que los buscadores lo indexen de forma consistente.
 
-## Ventajas de la paginación tradicional
+## Las ventajas reales de la paginación
 
-A pesar de poder parece una forma menos intuitiva de presentar la información, separar los contenidos de una determinada sección de nuestro sitio en diferentes páginas individuales nos proporciona una serie de ventajas que no debemos despreciar:
+La paginación parece anticuada comparada con el scroll infinito, pero ofrece algo que este no puede: control.
 
-- **Control**: La paginación ofrece un mayor control sobre la experiencia de navegación, ya que los usuarios pueden ver claramente cuántas páginas hay y cuál es la página actual.
+El usuario puede ver cuántas páginas hay, saber en qué punto está, volver a una página anterior sin perder su posición, o ir directamente a la página 5 de los resultados. Esa orientación espacial es más útil de lo que parece cuando el contenido es denso o cuando el usuario busca algo concreto.
 
-- **Navegación**: La paginación permite una navegación más clara y precisa, ya que los usuarios pueden ir directamente a la página que desean sin tener que desplazarse por una cantidad interminable de contenido.
+Cada página paginada tiene su propia URL, lo que facilita los enlaces, las redes sociales y la indexación por buscadores. El contenido existe de forma permanente y accesible.
 
-- **Carga de la página**: La paginación puede mejorar la velocidad de carga de la página, ya que solo se carga una pequeña cantidad de contenido a la vez.
+Y desde el punto de vista técnico, solo se carga el contenido de una página concreta. Sin acumulación de elementos en memoria, sin degradación del rendimiento a medida que se navega.
 
-- **Optimización para motores de búsqueda**: La paginación puede ser más fácilmente indexada y optimizada por los motores de búsqueda, ya que cada página tiene una URL única.
+---
 
-Por lo tanto, aunque es menos "efectista" yo soy me considero un firme defensor de la paginación tradicional y de mostrar la información repartida en páginas sucesivas. Este blog es una muestra de ello.
+Para un blog, un catálogo de productos, resultados de búsqueda o cualquier índice de contenidos donde el usuario tiene un objetivo concreto, la paginación tradicional es casi siempre la mejor opción. El scroll infinito puede tener sentido en contextos donde el objetivo es precisamente la exploración sin destino: feeds de noticias, redes sociales, galerías de inspiración. Para el resto, es una solución a la búsqueda de un problema.

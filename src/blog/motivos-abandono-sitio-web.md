@@ -7,26 +7,52 @@ description: El abandono de un sitio web puede ser un problema crítico para cua
 tags: ["experiencia-de-usuario"]
 ---
 
-El abandono de un sitio web puede ser un problema crítico para cualquier negocio o marca que dependa de internet para su presencia y crecimiento. Aunque hay muchas razones por las que los usuarios pueden abandonar un sitio web, hay algunas tendencias y problemas comunes que se deben tener en cuenta para mejorar la experiencia del usuario y retener a los visitantes.
+Cuando alguien llega a tu web y se va sin haber hecho nada, Google lo llama rebote. Tú lo puedes llamar oportunidad perdida. En cualquier caso, tiene un coste real: visitas que no se convierten en clientes, en lectores, en contactos. Y lo más frustrante es que muchas veces el motivo del abandono es algo perfectamente solucionable.
 
-La lentitud y la falta de optimización para dispositivos móviles son dos de los problemas más comunes que llevan a los usuarios a abandonar un sitio web. En un mundo cada vez más rápido y móvil, es esencial que un sitio web cargue rápidamente y se vea bien en cualquier dispositivo. Si un sitio web es lento o no está optimizado para dispositivos móviles, los usuarios probablemente se aburrirán y abandonarán el sitio en busca de una experiencia más fluida.
+Estos son los factores que más consistentemente hacen que los usuarios se vayan antes de tiempo.
 
-Además, la falta de claridad y la navegación confusa también pueden llevar a los usuarios a abandonar un sitio web. Es importante que un sitio web sea claro y fácil de navegar, con botones y enlaces claramente visibles y una estructura de menús intuitiva. Si los usuarios no pueden encontrar lo que buscan o tienen dificultades para navegar por un sitio web, es probable que abandonen el sitio y busquen una experiencia más satisfactoria.
+## La página tarda demasiado en cargar
 
-La falta de contenido de calidad también es un problema común que lleva a los usuarios a abandonar un sitio web. Un sitio web debe ofrecer contenido valioso, interesante y actualizado con regularidad para atraer y retener a los visitantes. Si un sitio web no ofrece contenido relevante o está desactualizado, es probable que los usuarios abandonen el sitio en busca de contenido más atractivo.
+Es el primer filtro. Los usuarios esperan que una página cargue en menos de tres segundos; después de ese punto, cada segundo adicional multiplica la tasa de abandono. En móvil, la tolerancia es todavía menor.
 
-Por último, la privacidad y la seguridad son preocupaciones críticas para los usuarios en línea, y la falta de consideración por estos temas puede llevar a los usuarios a abandonar un sitio web. Es importante garantizar que los datos de los usuarios estén seguros y protegidos, y que se respete la privacidad de los visitantes. Si un sitio web no toma en serio la privacidad y la seguridad de los usuarios, es probable que los usuarios abandonen el sitio en busca de una experiencia más segura.
+Las causas más frecuentes son imágenes sin comprimir, código JavaScript que bloquea el renderizado de la página, un hosting lento o sobredimensionado para las visitas que recibe, y demasiados plugins o scripts de terceros cargando al mismo tiempo. Google PageSpeed Insights analiza tu URL de forma gratuita y da recomendaciones concretas ordenadas por impacto.
 
-En resumen, mantener a los usuarios en un sitio web es crucial para el éxito de cualquier presencia en línea. Es importante tener en cuenta estos motivos comunes de abandono de sitios web para mejorar la experiencia de los usuarios y aumentar el engagement y la lealtad.
+## No funciona bien en el móvil
 
-## La importancia del tiempo de permanencia en la página
+Más de la mitad del tráfico web viene de dispositivos móviles, y en muchos sectores ese porcentaje es mayor. Un sitio que en móvil tiene textos diminutos, botones imposibles de pulsar, imágenes que se salen del viewport o menús que no funcionan con el dedo está perdiendo a más de la mitad de sus visitas desde el principio.
 
-De la misma forma, el tiempo de permanencia en una página web es un factor importante a considerar en la optimización de un sitio. Este indicador mide cuánto tiempo los usuarios pasan en una página antes de abandonarla o navegar a otras partes del sitio.
+El diseño responsive no es opcional. Y responsive no significa "que quepa": significa que la experiencia sea buena en cualquier dispositivo, con contenido priorizado correctamente y elementos interactivos accesibles con el tacto.
 
-Una mayor permanencia en una página puede ser un indicativo de que el contenido es interesante y relevante para los usuarios. Además, también puede mejorar la experiencia de usuario y aumentar la probabilidad de que los visitantes interactúen con la página, ya sea a través de comentarios, compartir en redes sociales o realizar una compra.
+## No encuentra lo que busca
 
-Por otro lado, una baja permanencia en una página puede ser un indicativo de que los usuarios no están encontrando lo que buscan o que el contenido es de baja calidad. Esto puede llevar a una disminución en el tráfico del sitio y a una pérdida de oportunidades de conversión.
+La navegación confusa es silenciosa pero letal. El usuario llega con una intención clara y si no puede orientarse rápidamente, se va. Menús con etiquetas genéricas que no describen bien lo que hay detrás, demasiados niveles de profundidad, ausencia de buscador en sitios con mucho contenido, llamadas a la acción poco visibles o mal situadas.
 
-Es por eso que es importante medir y analizar el tiempo de permanencia en una página web, para identificar posibles problemas y mejorar la experiencia de usuario. Algunos de los factores que pueden influir en la permanencia en una página incluyen la calidad del contenido, la usabilidad de la página, la velocidad de carga y la optimización de la navegación.
+La prueba más sencilla: pide a alguien que no conozca tu web que complete una tarea concreta en ella mientras la observas. Los momentos de duda, los clics equivocados y los callejones sin salida te dirán más que cualquier dato analítico.
 
-En resumen, el tiempo de permanencia en una página web es un indicador importante de la satisfacción de los usuarios y la calidad de un sitio. Al mejorar la permanencia en una página, se pueden mejorar la experiencia de usuario y aumentar la probabilidad de conversión.
+## El contenido no cumple lo que prometía
+
+Alguien llega a tu web desde un resultado de Google con una expectativa concreta. Si la página no responde a esa expectativa —porque el título prometía una cosa y el contenido da otra, o porque la información está tan enterrada que no se encuentra— el usuario se va y vuelve a los resultados de búsqueda. Google interpreta eso como una señal de que tu página no era relevante para esa búsqueda.
+
+El contenido tiene que ser honesto en lo que promete y tiene que cumplirlo con rapidez. Los usuarios no leen páginas web linealmente: escanean en busca del punto que les interesa. Estructura clara, párrafos cortos, encabezados descriptivos.
+
+## La web parece abandonada
+
+Una web con un blog cuya última entrada es de 2021, con noticias de eventos que ya pasaron o con una sección de equipo que incluye personas que ya no trabajan en la empresa... transmite descuido. No inspira confianza, especialmente cuando alguien está considerando contratar un servicio o hacer una compra.
+
+No hace falta publicar constantemente. Pero sí hay que revisar periódicamente que la información esté actualizada, que los enlaces funcionen, que los precios y servicios que aparecen sean los actuales. Dos horas al trimestre pueden hacer una diferencia grande en la percepción que genera el sitio.
+
+## No transmite confianza
+
+En negocios donde se piden datos personales o hay transacciones económicas, la percepción de seguridad es crítica. Un certificado SSL activo (el candado en la barra de dirección), política de privacidad visible, información clara sobre la empresa —quiénes sois, dónde estáis, cómo contactaros—, reseñas o testimonios verificables...
+
+Un diseño descuidado también afecta a la confianza percibida aunque no haya nada técnicamente inseguro. La primera impresión visual de una web influye en si el usuario la percibe como profesional o no, y esa percepción se forma en segundos.
+
+## El tiempo en página como termómetro
+
+El tiempo que los usuarios pasan en cada página es una señal directa de si el contenido les resulta interesante y relevante. Una página de producto con un tiempo medio de quince segundos y una tasa de rebote alta dice claramente que algo no cuadra: o el contenido no responde a lo que la gente esperaba encontrar, o es tan difícil de leer que nadie llega al final.
+
+Google Analytics muestra estos datos por página. Combinados con la tasa de rebote, el origen del tráfico y las búsquedas que llevan a cada página, dan un mapa bastante claro de dónde están los problemas de retención.
+
+---
+
+La buena noticia es que la mayoría de estos problemas son corregibles con tiempo y criterio, sin necesidad de rediseñar la web desde cero. Identificar el motivo principal de abandono en tu caso concreto es el primer paso, y para eso los datos de analítica son el punto de partida.

@@ -7,88 +7,42 @@ description: El primer paso para comprender la influencia del desarrollo web en 
 tags: ["sostenibilidad-y-etica"]
 ---
 
-El impacto ambiental es un tema cada vez más importante en todo el mundo y el sector tecnológico no es una excepción. A medida que la tecnología sigue avanzando, es importante considerar cómo el desarrollo web puede influir en el medio ambiente. Desde la energía utilizada para alimentar los servidores web hasta la producción de dispositivos para acceder a la web, el desarrollo web tiene un impacto significativo en nuestro planeta.
+Cuando pensamos en el impacto ambiental de la tecnología, solemos imaginar fábricas de chips o baterías de litio. Menos visible pero igual de real es el impacto de los servicios que usamos cada día en internet: los servidores que alojan cada web, cada video, cada archivo en la nube consumen energía de forma continua, las veinticuatro horas del día, los trescientos sesenta y cinco días del año.
 
-En este artículo, exploraremos la influencia del desarrollo web en el medio ambiente y cómo podemos trabajar juntos para reducir su impacto.
+El sector de las tecnologías de la información y la comunicación consume actualmente alrededor del 10% de la electricidad mundial, y las proyecciones apuntan a que ese porcentaje podría superar el 20% en la próxima década.
 
-## Introducción
+## El consumo energético de los servidores web
 
-El primer paso para comprender la influencia del desarrollo web en el medio ambiente es entender la cantidad de energía que se utiliza para alimentar los servidores web, ya que tiene un impacto significativo en el medio ambiente.
+Mantener un sitio web en línea requiere que un servidor esté funcionando constantemente. Multiplicado por los millones de sitios activos en internet, el consumo es enorme. La mayor parte de esa energía sigue proviniendo de combustibles fósiles, aunque la tendencia está cambiando: muchos grandes proveedores de hosting han hecho compromisos de energía renovable, y algunos ya operan con carbon neutrality.
 
-Además de la energía utilizada para alimentar los servidores web, también hay que considerar la producción de los dispositivos utilizados para acceder a la web. Desde la extracción de materiales hasta la producción y el transporte, la producción de dispositivos electrónicos tiene un gran impacto en el medio ambiente.
+Elegir un proveedor de hosting que funcione con energías renovables es probablemente la decisión más impactante que puede tomar un desarrollador o una empresa en términos de huella de carbono digital. Existen certificaciones y herramientas como la base de datos del Green Web Foundation para verificar qué proveedores cumplen criterios de sostenibilidad.
 
-Afortunadamente, hay formas de reducir el impacto del desarrollo web en el medio ambiente. Una de las formas más efectivas es a través de la optimización del rendimiento de los sitios web.
+Las CDN (redes de distribución de contenido) también tienen aquí un papel: además de mejorar la velocidad, distribuyen la carga entre servidores geográficamente cercanos al usuario, lo que puede ser más eficiente que servir todo desde un único servidor centralizado. Elegir CDN con prácticas sostenibles es otra forma de reducir el impacto.
 
-Otra forma de reducir el impacto del desarrollo web en el medio ambiente es a través de la producción de dispositivos electrónicos más sostenibles y la reducción de la cantidad de desechos electrónicos que terminan en vertederos.
+## La optimización del rendimiento como práctica sostenible
 
-## La energía que se utiliza para alimentar los servidores web
+Un sitio web que carga rápido no es solo mejor para el usuario: es más eficiente energéticamente. Cada byte que no se transfiere es energía que no se consume en el servidor, en la red y en el dispositivo del usuario.
 
-La cantidad de energía que se utiliza para alimentar los servidores web es uno de los principales impactos ambientales del desarrollo web. Los servidores web consumen grandes cantidades de energía para mantener los sitios web en línea las 24 horas del día, los 7 días de la semana. Según un informe del Centro de Energía y Clima de Suecia, la industria de las tecnologías de la información y la comunicación (TIC) consume actualmente el 10% de la electricidad mundial y se espera que aumente al 21% para 2030.
+Las imágenes son la mayor fuente de peso innecesario en la mayoría de los sitios. Comprimirlas adecuadamente, usar formatos modernos como WebP o AVIF y cargarlas de forma diferida (lazy loading) puede reducir el peso de una página de forma significativa sin que el usuario note diferencia en la calidad visual.
 
-La mayoría de los servidores web utilizan energía eléctrica generada a partir de combustibles fósiles, lo que significa que emiten grandes cantidades de gases de efecto invernadero y contribuyen al cambio climático. Además, la energía utilizada por los servidores web también produce otros impactos ambientales, como la contaminación del aire y del agua y la producción de residuos.
+El código JavaScript innecesario es otro problema habitual. Frameworks y librerías que se cargan completos cuando se usa solo el 10% de sus funciones, scripts de terceros que añaden peso sin aportar valor real, animaciones que requieren mucho procesamiento: todo eso tiene un coste que va más allá de la velocidad de carga.
 
-Sin embargo, hay esfuerzos en la industria para reducir la huella ambiental de los servidores web. Una opción es utilizar energías renovables, como la energía solar, eólica o hidroeléctrica, para alimentar los servidores. Muchas empresas de hosting web ya ofrecen opciones de energía renovable para sus clientes.
+Un sitio más rápido también reduce el tiempo que el usuario pasa con el dispositivo encendido y el monitor activo para completar su tarea. El impacto es pequeño a nivel individual, pero multiplicado por millones de visitas se convierte en algo concreto.
 
-Otra opción es utilizar servidores más eficientes energéticamente y técnicas de gestión de energía para reducir el consumo de energía. Esto puede incluir la virtualización de servidores, la consolidación de servidores y la implementación de técnicas de enfriamiento más eficientes, como el enfriamiento por aire libre.
+## El ciclo de vida de los dispositivos
 
-Es importante que los desarrolladores web sean conscientes de la huella ambiental del desarrollo web y trabajen para reducir su impacto. Esto puede incluir la elección de proveedores de hosting web que utilicen energía renovable, la implementación de técnicas de gestión de energía y la optimización del código del sitio web para mejorar la eficiencia energética.
+El impacto ambiental del desarrollo web no se limita a los servidores. Los dispositivos que usamos para acceder a internet —teléfonos, tablets, ordenadores— tienen una huella de producción considerable: extracción de materiales, fabricación, transporte, gestión al final de su vida útil.
 
-## Optimización del rendimiento de los sitios web
+Aquí el desarrollo web tiene un papel indirecto pero real. Los sitios web que requieren dispositivos potentes para funcionar correctamente contribuyen a la obsolescencia acelerada: si tu web no funciona bien en un teléfono de tres años, estás empujando indirectamente a que la gente cambie de dispositivo antes de lo necesario.
 
-La optimización del rendimiento de los sitios web no solo es importante para mejorar la experiencia del usuario y aumentar la conversión, sino que también puede tener un impacto positivo en el medio ambiente. A continuación, se explorarán las formas en que la optimización del rendimiento de los sitios web puede ayudar a reducir el impacto ambiental.
+Diseñar webs que funcionen bien en hardware modesto, que no exijan procesadores potentes para renderizar animaciones complejas y que tengan requisitos técnicos razonables es una forma de contribuir a alargar la vida útil de los dispositivos.
 
-En primer lugar, la optimización del rendimiento de los sitios web puede reducir el consumo de energía de los servidores. Cuando un sitio web está optimizado, se carga más rápidamente y requiere menos recursos del servidor para funcionar. Esto significa que los servidores pueden procesar más solicitudes con menos energía, lo que reduce su huella de carbono.
+## La obsolescencia programada y qué podemos hacer
 
-Además, la optimización del rendimiento de los sitios web puede reducir la cantidad de datos que se transfieren entre el servidor y el usuario. Esto se puede lograr mediante la compresión de archivos y la reducción del tamaño de las imágenes. Cuando se transfieren menos datos, se reduce el consumo de ancho de banda y se ahorra energía en el proceso.
+La obsolescencia programada —diseñar productos para que dejen de funcionar bien después de cierto tiempo— es un problema de industria que va mucho más allá del desarrollo web. Pero los usuarios tienen más poder del que creen para combatirla: comprar con criterio, elegir productos reparables, apostar por segunda mano cuando es viable, actualizar software antes de cambiar hardware.
 
-Otra forma en que la optimización del rendimiento de los sitios web puede ayudar al medio ambiente es mediante la reducción del tiempo que los usuarios pasan en línea. Cuando los sitios web se cargan más rápidamente, los usuarios pueden realizar sus tareas en línea en menos tiempo y apagar sus dispositivos más rápidamente, lo que a su vez reduce su consumo de energía.
+En el contexto web, los desarrolladores pueden tomar decisiones que van en la dirección contraria: mantener compatibilidad con navegadores y dispositivos más antiguos cuando sea razonable, evitar dependencias de hardware que no sean necesarias, optimizar para que el rendimiento sea bueno en dispositivos de gama media.
 
-Además, la optimización del rendimiento de los sitios web puede ayudar a reducir la producción de dispositivos electrónicos. Cuando los usuarios pueden acceder a los sitios web de manera más eficiente, es menos probable que necesiten actualizar sus dispositivos con tanta frecuencia para obtener un mejor rendimiento. Esto significa que se reducirá la producción de dispositivos electrónicos, lo que a su vez reducirá el impacto ambiental asociado con su producción.
+---
 
-En resumen, la optimización del rendimiento de los sitios web puede tener un impacto positivo en el medio ambiente al reducir el consumo de energía de los servidores, reducir la cantidad de datos transferidos, reducir el tiempo que los usuarios pasan en línea y reducir la producción de dispositivos electrónicos. Al tener en cuenta estos factores al desarrollar y mantener un sitio web, se puede contribuir a la sostenibilidad y protección del medio ambiente.
-
-## Mejores tecnologías para desarrollar sitos web medioambientalmente responsables
-
-Desarrollar sitios web medioambientalmente responsables implica considerar no solo el contenido del sitio, sino también el impacto que su desarrollo y funcionamiento tendrán en el medio ambiente. Aquí hay algunas tecnologías que pueden ayudar a reducir el impacto ambiental de los sitios web:
-
-- **Servidores y alojamiento verde**: Las empresas de alojamiento web y los centros de datos están trabajando cada vez más para reducir su huella de carbono y ofrecer opciones de alojamiento más ecológicas. Al elegir un proveedor de alojamiento que utiliza fuentes de energía renovable y tiene prácticas sostenibles, se puede reducir el impacto ambiental del sitio web.
-
-- **CDN sostenibles**: Las redes de entrega de contenido (CDN) se utilizan para mejorar la velocidad de carga del sitio web. Al elegir una CDN que utiliza servidores de baja emisión de carbono o fuentes de energía renovable, se puede reducir la huella de carbono del sitio web.
-
-- **Tecnologías de desarrollo web eficientes**: Las tecnologías de desarrollo web, como los lenguajes de programación y los marcos de trabajo, pueden afectar el rendimiento y la eficiencia de un sitio web. Al elegir tecnologías más eficientes y sostenibles, se puede reducir el consumo de energía y, por lo tanto, el impacto ambiental del sitio web.
-
-- **Imágenes y videos optimizados**: Las imágenes y videos de alta calidad pueden ralentizar el rendimiento del sitio web y aumentar su consumo de energía. Al optimizar las imágenes y videos para que sean más pequeños y eficientes, se puede reducir el impacto ambiental del sitio web sin sacrificar la calidad visual.
-
-- **Diseño web sostenible**: Al diseñar el sitio web, se deben considerar factores como la eficiencia energética, la accesibilidad y la usabilidad. Al crear un diseño web sostenible que reduzca el consumo de energía y fomente la accesibilidad, se puede minimizar el impacto ambiental del sitio web.
-
-Al utilizar estas tecnologías y prácticas en el desarrollo de sitios web, se puede reducir significativamente el impacto ambiental de la tecnología de la información y comunicación, y contribuir a la construcción de un mundo más sostenible.
-
-## Racionalización de la producción de los dispositivos utilizados para acceder a la web
-
-La producción de los dispositivos utilizados para acceder a la web también tiene un impacto significativo en el medio ambiente. La mayoría de los dispositivos electrónicos, como computadoras, tabletas y teléfonos inteligentes, están hechos de materiales que son perjudiciales para el medio ambiente, como metales pesados y plásticos.
-
-La extracción y procesamiento de estos materiales requiere grandes cantidades de energía y puede causar contaminación del agua y del aire. Además, la producción de dispositivos electrónicos consume una gran cantidad de agua, ya que se utiliza para enfriar los equipos durante la fabricación.
-
-Además, los dispositivos electrónicos tienen una vida útil relativamente corta, lo que significa que se reemplazan con frecuencia. La eliminación de estos dispositivos puede ser perjudicial para el medio ambiente, ya que a menudo se desechan en vertederos y pueden liberar sustancias tóxicas en el suelo y el agua.
-
-Sin embargo, los fabricantes pueden tomar medidas para reducir el impacto ambiental de la producción de dispositivos. Una forma es utilizar materiales más sostenibles en la fabricación de los dispositivos. Otra forma es promover la reutilización y el reciclaje de los dispositivos electrónicos para reducir la cantidad de desechos que terminan en los vertederos.
-
-Además, los desarrolladores web pueden contribuir a la sostenibilidad al crear sitios web que sean compatibles con una amplia gama de dispositivos y sistemas operativos. Esto puede reducir la necesidad de los usuarios de actualizar o cambiar constantemente sus dispositivos para acceder a la web.
-
-## Cómo luchar contra la obsolescencia programada
-
-La obsolescencia programada se refiere a la práctica de diseñar productos con una vida útil limitada, con el fin de obligar al consumidor a comprar nuevos productos con mayor frecuencia. Esta práctica no solo tiene un impacto negativo en los consumidores, sino también en el medio ambiente. A medida que los productos electrónicos se vuelven más desechables, se produce una cantidad cada vez mayor de residuos electrónicos, lo que contribuye a la contaminación y la degradación del medio ambiente.
-
-Para luchar contra la obsolescencia programada, los consumidores pueden tomar medidas para prolongar la vida útil de sus dispositivos electrónicos. Aquí hay algunas formas de hacerlo:
-
-- **Comprar productos de calidad**: Es importante elegir productos de alta calidad que estén diseñados para durar. Al comprar productos más duraderos, se reduce la necesidad de reemplazarlos con tanta frecuencia.
-
-- **Elegir productos reparables**: Al comprar productos que sean fácilmente reparables, se puede prolongar su vida útil. Es importante elegir productos que estén diseñados para ser reparados y que tengan piezas de repuesto disponibles.
-
-- **Actualizar y mantener los productos existentes**: Muchos productos electrónicos pueden ser actualizados con nuevas piezas y software para mejorar su rendimiento y prolongar su vida útil. Es importante realizar un mantenimiento regular en los productos existentes para mantenerlos funcionando de manera óptima.
-
-- **Evitar comprar productos de moda**: Los productos de moda son aquellos que se ven atractivos en el momento, pero que pronto quedan obsoletos. Es importante elegir productos que sean funcionales y que puedan ser utilizados durante un largo período de tiempo.
-
-- **Comprar productos de segunda mano**: La compra de productos de segunda mano es una buena forma de reducir la cantidad de residuos electrónicos que se producen. Al comprar productos de segunda mano, se prolonga su vida útil y se reduce la necesidad de producir nuevos productos.
-
-En resumen, la obsolescencia programada es una práctica dañina para el medio ambiente y para los consumidores. Al tomar medidas para prolongar la vida útil de los productos electrónicos, se puede reducir la cantidad de residuos electrónicos que se producen y se puede contribuir a la conservación del medio ambiente.
+El desarrollo web sostenible no requiere sacrificar calidad ni rendimiento. En muchos casos, las prácticas más sostenibles —código limpio, imágenes optimizadas, hosting eficiente— también producen mejores experiencias de usuario y mejores resultados en SEO. La sostenibilidad y el buen desarrollo web apuntan en la misma dirección con más frecuencia de lo que parece.

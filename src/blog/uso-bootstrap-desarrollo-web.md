@@ -7,62 +7,42 @@ description: Aunque Bootstrap tiene muchas ventajas, también tiene algunas desv
 tags: ["desarrollo-tecnico"]
 ---
 
-Bootstrap es un framework o conjunto de herramientas de diseño web, que permite crear sitios web y aplicaciones de forma rápida y sencilla.
+Bootstrap tiene la particularidad de ser a la vez la herramienta que más ha democratizado el diseño web responsivo y la más criticada por hacer que todos los sitios se parezcan. Ambas cosas son ciertas, y entender cuándo usarlo —y cuándo no— es más útil que tomar partido.
 
-Bootstrap está basado en HTML, CSS y JavaScript, y proporciona una amplia variedad de componentes y funcionalidades predefinidas, como botones, formularios, tablas, alertas, carruseles, menús de navegación, iconos, entre otros.
+## Qué es y de dónde viene
 
-Además de facilitar la creación de sitios web, Bootstrap también ayuda a mantener la consistencia visual y la usabilidad entre las páginas y aplicaciones creadas. Bootstrap utiliza un sistema de rejilla o grid que permite la creación de diseños flexibles y adaptables a distintos tamaños de pantalla y dispositivos, lo que es esencial para la creación de sitios web responsivos.
+Bootstrap nació en 2010 como proyecto interno de Twitter para mantener coherencia visual entre sus herramientas internas. Se publicó como open source en 2011 y en pocos años se convirtió en el framework CSS más descargado del mundo. No fue casualidad: llegó en el momento exacto en que el diseño responsive se volvía imprescindible y muy pocos desarrolladores sabían cómo hacerlo bien.
 
-Bootstrap es uno de los frameworks más populares en la actualidad, utilizado por desarrolladores web de todo el mundo.
+Su propuesta es sencilla: un conjunto de componentes predefinidos —grid, botones, formularios, modales, navbars, alertas— que funcionan de forma responsiva desde el primer momento. El desarrollador los usa tal cual o los personaliza. El resultado es una web funcional y coherente sin tener que resolver desde cero los problemas comunes de layout y componentes.
 
-Su popularidad se debe en gran parte a su facilidad de uso y a la gran cantidad de recursos y documentación disponibles en línea. Bootstrap también se actualiza con regularidad para mejorar su funcionalidad y adaptarse a las tendencias y necesidades del diseño web moderno.
+## Las ventajas que explican su popularidad
 
-## Principales características de Bootstrap
+La velocidad de desarrollo es la ventaja más citada, y con razón. Con Bootstrap se puede montar un prototipo funcional en horas en lugar de días. Los componentes están documentados, probados en múltiples navegadores y funcionan bien. Para equipos pequeños o proyectos con plazos ajustados, eso tiene un valor real.
 
-Algunas de las principales características de Bootstrap son:
+El sistema de grid de Bootstrap —basado en 12 columnas, con Flexbox desde la versión 4— sigue siendo una de las implementaciones más claras y bien documentadas para construir layouts responsivos. Aprender a usarlo es relativamente intuitivo y hay infinidad de ejemplos disponibles.
 
-- **Diseño responsivo**: Bootstrap está diseñado para ser responsivo, lo que significa que los sitios web creados con Bootstrap se adaptan automáticamente a diferentes tamaños de pantalla y dispositivos, como teléfonos móviles, tabletas y computadoras de escritorio.
+La comunidad también importa. Bootstrap tiene documentación extensa, tutoriales para todos los niveles, plantillas, temas y componentes de terceros. Cuando algo no funciona como esperabas, alguien ya ha tenido ese problema y ha publicado la solución.
 
-- **Grid system**: Bootstrap utiliza un sistema de rejilla flexible que permite a los desarrolladores crear diseños complejos y personalizados sin tener que escribir mucho CSS.
+## Los inconvenientes que conviene conocer
 
-- **Componentes predefinidos**: Bootstrap viene con una amplia gama de componentes predefinidos, como menús de navegación, botones, formularios y modales. Esto ahorra tiempo y esfuerzo al desarrollador al no tener que crear estos componentes desde cero.
+El problema más conocido de Bootstrap es también su fortaleza: es tan popular que sus componentes son reconocibles a primera vista. Un navbar de Bootstrap, una card de Bootstrap, un botón de Bootstrap... tienen una estética inconfundible. Si no se personaliza en profundidad, el resultado se parece a miles de otros sitios. Para un proyecto donde la identidad visual importa, eso es un problema real.
 
-- **Facilidad de personalización**: Bootstrap se puede personalizar fácilmente para adaptarse a las necesidades del sitio web o de la aplicación. El desarrollador puede cambiar fácilmente la tipografía, los colores y otros aspectos del diseño.
+El peso es otro factor. Bootstrap incluye mucho CSS y JavaScript que probablemente no vayas a usar en la mayoría de proyectos. Desde la versión 5 es posible importar solo los módulos que necesitas, lo que mitiga el problema, pero requiere una configuración que no todo el mundo hace.
 
-- **Documentación y soporte**: Bootstrap tiene una extensa documentación en línea, que incluye ejemplos, guías y plantillas. También cuenta con una comunidad activa de desarrolladores que pueden proporcionar soporte y responder preguntas.
+La dependencia también puede ser una trampa a largo plazo. Un proyecto construido sobre Bootstrap queda vinculado a sus convenciones de clases y su estructura de componentes. Cuando Bootstrap lanza una versión mayor con cambios importantes —como el salto de Bootstrap 3 a 4, que eliminó Glyphicons y cambió la sintaxis del grid—, migrar puede ser costoso.
 
-## Ventajas del uso de Bootstrap en desarrollo web
+## Bootstrap 5: el estado actual
 
-En primer lugar, Bootstrap es fácil de usar. El framework proporciona un conjunto de herramientas y componentes preconstruidos que los diseñadores y desarrolladores pueden usar para crear sitios web. Estos componentes incluyen botones, formularios, alertas, carruseles, iconos y mucho más. Al usar Bootstrap, los diseñadores y desarrolladores no tienen que crear todo desde cero, lo que ahorra mucho tiempo y esfuerzo.
+Bootstrap 5, lanzado en 2021, eliminó la dependencia de jQuery —un cambio que se esperaba desde hace años— y reforzó el soporte para CSS personalizado. El sistema de grid mejoró, se añadieron nuevas utilidades y los componentes se simplificaron. Es probablemente la versión más limpia y moderna del framework hasta ahora.
 
-En segundo lugar, Bootstrap es altamente personalizable. Los diseñadores y desarrolladores pueden personalizar fácilmente la apariencia y el comportamiento de los componentes de Bootstrap para adaptarse a sus necesidades específicas. Bootstrap utiliza clases de CSS y JavaScript para aplicar estilos y comportamientos específicos, lo que facilita la personalización.
+La comparación más frecuente hoy en día es con Tailwind CSS, que propone una filosofía completamente diferente: en lugar de componentes predefinidos, clases utilitarias atómicas que construyes tú. No son competidores directos sino enfoques distintos al mismo problema. Bootstrap te da piezas montadas; Tailwind te da las piezas por separado.
 
-En tercer lugar, Bootstrap es compatible con dispositivos móviles. Bootstrap utiliza un diseño de cuadrícula sensible que permite que los sitios web se adapten automáticamente a diferentes tamaños de pantalla.
+## Cuándo tiene sentido usarlo
 
-Esto significa que los sitios web creados con Bootstrap se verán bien y funcionarán bien en una amplia gama de dispositivos móviles.
+Bootstrap sigue siendo una elección sólida para proyectos donde la velocidad importa más que la originalidad visual, para equipos mixtos con diferentes niveles de experiencia en CSS, o para herramientas internas donde el diseño es funcional por encima de todo.
 
-## Inconvenientes del uso de Bootstrap en desarrollo web
+Para proyectos donde la identidad visual es parte del producto, donde el rendimiento es crítico o donde el diseño necesita ser genuinamente único, quizás valga la pena explorar otras opciones —o construir con CSS nativo y herramientas más ligeras.
 
-En primer lugar, Bootstrap puede hacer que los sitios web parezcan demasiado similares entre sí. Debido a que Bootstrap se ha vuelto tan popular, muchos sitios web creados con Bootstrap tienen un aspecto y una sensación similares. Esto puede hacer que sea difícil para los diseñadores crear diseños únicos y originales.
+---
 
-En segundo lugar, Bootstrap puede hacer que los sitios web sean más lentos de cargar. Debido a que Bootstrap incluye muchos archivos CSS y JavaScript, los sitios web que utilizan el framework pueden ser más lentos de cargar que los sitios web que no lo utilizan.
-
-Sin embargo, esto se puede solucionar utilizando herramientas de optimización de rendimiento para reducir el tamaño de los archivos CSS y JavaScript.
-
-En resumen, Bootstrap es una herramienta valiosa para diseñadores y desarrolladores web. Proporciona un conjunto de herramientas y componentes preconstruidos que ahorran tiempo y esfuerzo, es altamente personalizable y es compatible con dispositivos móviles. Sin embargo, también puede hacer que los sitios web parezcan demasiado similares entre sí y puede hacer que los sitios web sean más lentos de cargar.
-
-Como con cualquier herramienta, es importante evaluar cuidadosamente los pros y los contras antes de decidir si usar Bootstrap es la opción adecuada para su proyecto web específico.
-
-## Evolución de Bootstrap a lo largo del tiempo
-
-Bootstrap comenzó como un proyecto interno de Twitter en 2010 y se lanzó al público en 2011. Desde entonces, ha pasado por varias versiones, cada una con nuevas características y mejoras.
-
-Bootstrap 2, lanzado en 2012, introdujo la capacidad de crear diseños adaptables, lo que significa que los diseños pueden adaptarse a diferentes tamaños de pantalla. Esta característica fue un gran avance en la época, ya que los sitios web aún no se estaban diseñando para dispositivos móviles.
-
-Bootstrap 3, lanzado en 2013, agregó soporte para navegadores más antiguos y mejoró la capacidad de personalización. También se incluyó una herramienta de personalización en línea que permitió a los desarrolladores crear su propia versión personalizada de Bootstrap.
-
-Bootstrap 4, lanzado en 2018, fue una actualización importante con un nuevo sistema de cuadrícula basado en Flexbox. Esto mejoró significativamente la capacidad de crear diseños complejos y personalizados. También se incluyeron mejoras en el soporte para dispositivos móviles y la accesibilidad.
-
-Bootstrap 5, lanzado en 2021, se centró en la reducción del tamaño de los archivos y la simplificación del código, lo que lo hace más fácil de usar y personalizar. También se eliminaron las dependencias jQuery y se agregaron nuevas características como soporte para CSS personalizado y modales sin JavaScript.
-
-En resumen, Bootstrap ha evolucionado para adaptarse a las cambiantes necesidades de los desarrolladores web y ha mejorado significativamente su capacidad de personalización y accesibilidad. Con cada nueva versión, Bootstrap se ha vuelto más fácil de usar y más potente, lo que lo convierte en una herramienta de diseño y desarrollo web cada vez más valiosa.
+Bootstrap no ha muerto, a pesar de los obituarios que aparecen periódicamente. Sigue siendo la herramienta correcta para muchos proyectos. Lo importante es saber cuáles.

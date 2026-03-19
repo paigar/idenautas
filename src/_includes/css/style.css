@@ -943,6 +943,13 @@ h4 {
 	gap: var(--space-sm);
 }
 
+/* ── Mobile: ocultar imágenes decorativas, mostrar solo cards ── */
+@media (max-width: 767px) {
+	.service-img--3 {
+		display: none;
+	}
+}
+
 /* ── Tablet: 2-col ── */
 @media (min-width: 768px) and (max-width: 1023px) {
 	.services-mosaic {
@@ -973,23 +980,25 @@ h4 {
 		order: 7;
 	}
 	.service-img--3 {
-		grid-column: span 2;
 		order: 8;
+	}
+	.service-card--6 {
+		order: 9;
 	}
 }
 
-/* ── Desktop: 6-col × 11-row asymmetric collage ──
+/* ── Desktop: 6-col asymmetric collage ──
    R1:   [ Card1 ———————————— ][   gap    ]
    R2:   [ Card1               ][ Img1     ]
    R3:   [ Card1               ][ Img1     ]
-   R4:   [ Img2  ][ Card3      ][ Img1     ]
-   R5:   [ Img2  ][ Card3      ][ Img1     ]
-   R6:   [ Img2  ][ Card3      ][ Card2    ]
-   R7:   [ Card5 ————————————— ][ Card2    ]
-   R8:   [ Card5               ][ Card2    ]
-   R9:   [ Img3  ][ Card4 ————————————————]
-   R10:  [ Img3  ][ Card4                  ]
-   R11:  [  gap  ][ Card4                  ]
+   R4:   [ Img2  ][ Card2      ][ Img1     ]
+   R5:   [ Img2  ][ Card2      ][ Img1     ]
+   R6:   [ Img2  ][ Card2      ][ Card3    ]
+   R7:   [ Card4 ————————————— ][ Card3    ]
+   R8:   [ Card4               ][ Card3    ]
+   R9:   [ Img3  ——————][ Card5 ——————————]  ← subpage (5 cards, img-3 mitad)
+   R9:   [ Card5 ][ Img3  ][ Card6 ]         ← full page (6 cards)
+   R10:  [  gap  ][ Img3  ][ Card6 ]
    ─────────────────────────────────────── */
 @media (min-width: 1024px) {
 	.services-mosaic {
@@ -1022,6 +1031,7 @@ h4 {
 		grid-column: 1 / 5;
 		grid-row: 7 / 9;
 	}
+	/* Default: subpage with 5 cards — img-3 and card-5 split last row in half */
 	.service-img--3 {
 		grid-column: 1 / 4;
 		grid-row: 9 / 10;
@@ -1029,6 +1039,20 @@ h4 {
 	.service-card--5 {
 		grid-column: 4 / 7;
 		grid-row: 9 / 10;
+	}
+	/* Full: main page with 6 cards
+	   R9:  [ Card5 ][ Img3  ][ Card6 ]
+	   R10: [  gap  ][ Img3  ][ Card6 ] */
+	.services-mosaic--full .service-card--5 {
+		grid-column: 1 / 3;
+	}
+	.services-mosaic--full .service-img--3 {
+		grid-column: 3 / 5;
+		grid-row: 9 / 12;
+	}
+	.service-card--6 {
+		grid-column: 5 / 7;
+		grid-row: 9 / 12;
 	}
 }
 
@@ -3261,6 +3285,15 @@ body::after {
 	font-weight: 600;
 }
 
+.prose hr {
+	border: none;
+	height: 1px;
+	background: linear-gradient(to right, transparent, var(--color-accent), transparent);
+	opacity: 0.4;
+	margin: 3rem auto;
+	width: 60%;
+}
+
 /* ── Blog Grid ───────────────────────────────────────────── */
 .blog-grid {
 	display: grid;
@@ -3507,6 +3540,105 @@ body::after {
 }
 
 /* ── Tag Filter ─────────────────────────────────────────── */
+
+.blog-controls {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: var(--space-sm);
+	flex-wrap: wrap;
+}
+
+.blog-search {
+	flex: 1;
+	max-width: 320px;
+}
+
+.blog-search__wrap {
+	position: relative;
+}
+
+.blog-search__icon {
+	position: absolute;
+	left: 0.75em;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 1em;
+	height: 1em;
+	color: var(--color-text-muted);
+	pointer-events: none;
+}
+
+.blog-search__input {
+	font-family: var(--font-display);
+	font-size: var(--text-base);
+	font-weight: 600;
+	color: var(--color-text);
+	background: var(--color-bg);
+	border: 1px solid var(--color-border);
+	border-radius: 0.25em;
+	padding: 0.5em 0.85em 0.5em 2.25em;
+	width: 100%;
+}
+
+.blog-search__input::placeholder {
+	color: var(--color-text-muted);
+	font-weight: 400;
+}
+
+.blog-search__input:hover,
+.blog-search__input:focus {
+	border-color: var(--color-accent);
+	outline: none;
+}
+
+.blog-search__input::-webkit-search-cancel-button {
+	display: none;
+}
+
+.blog-search__clear[hidden] {
+	display: none;
+}
+
+.blog-search__clear {
+	position: absolute;
+	right: 0.5em;
+	top: 50%;
+	transform: translateY(-50%);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 1.5em;
+	height: 1.5em;
+	padding: 0;
+	background: none;
+	border: none;
+	color: var(--color-text-muted);
+	cursor: pointer;
+	border-radius: 50%;
+	transition: color 0.2s, background 0.2s;
+}
+
+.blog-search__clear svg {
+	width: 0.85em;
+	height: 0.85em;
+}
+
+.blog-search__clear:hover {
+	color: var(--color-text);
+	background: var(--color-accent-soft);
+}
+
+.blog-search-count[hidden] {
+	display: none;
+}
+
+.blog-search-count {
+	font-size: var(--text-sm);
+	color: var(--color-text-muted);
+	margin-top: 0.35em;
+	padding-left: 0.25em;
+}
 
 .tag-filter {
 	display: flex;

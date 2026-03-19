@@ -1,0 +1,437 @@
+---
+layout: layouts/page.njk
+title: Recursos Jamstack en español
+label: Recursos Jamstack
+subtitle: "Herramientas, documentación, referencias y lecturas curadas para desarrollar con arquitectura Jamstack. Todo lo que usamos y recomendamos, en un solo sitio."
+description: Recursos Jamstack en español — generadores de sitios estáticos, plataformas de despliegue, CMS headless, artículos técnicos y referencias curadas para desarrolladores y agencias.
+permalink: /nosotros/recursos-jamstack/
+heroImage: idenautas-web/nosotros_15.png
+breadcrumb:
+  - name: Nosotros
+    url: /nosotros/
+  - name: Recursos Jamstack
+    url: /nosotros/recursos-jamstack/
+---
+
+{# ── Intro ────────────────────────────────────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal style="padding-block: var(--space-md)">
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Para desarrolladores y clientes</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Todo el ecosistema Jamstack, curado y en contexto</h2>
+      <p class="about-editorial">
+        La arquitectura Jamstack tiene un ecosistema amplio y en constante evolución. Hay muchas herramientas, muchos proveedores y mucha documentación dispersa. Esta página recoge lo que realmente usamos, lo que recomendamos según el tipo de proyecto y los recursos que más nos han aportado.
+      </p>
+      <p class="about-editorial">
+        No es un listado exhaustivo de todo lo que existe. Es una selección honesta con contexto real sobre cuándo tiene sentido cada opción.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/nosotros_16.png", "Desarrollo web con arquitectura Jamstack", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── Generadores de sitios estáticos ──────────────────────── #}
+<div class="about-idenauta-wrap">
+  <section class="faq-section svc-section--alt">
+    <div class="container">
+      <div class="faq-section__header" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">01 — Generadores de sitios estáticos</p>
+        <h2 class="text-2xl">El motor detrás de la web</h2>
+        <p class="about-tech__intro" style="margin-top: var(--space-sm)">Un SSG toma el contenido en archivos de texto y genera todo el HTML antes de publicar. Sin procesamiento en cada visita.</p>
+      </div>
+      <div class="about-tech__grid about-tech__grid--cols-3" data-stagger style="margin-top: var(--space-lg)">
+
+        <div class="about-tech__card about-tech__card--wide" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">★</span>
+          <h3>Eleventy <span style="font-weight:400; opacity:0.6">(11ty)</span></h3>
+          <p>Nuestra apuesta principal. No impone ningún framework JavaScript: el HTML que genera es HTML limpio. Soporta múltiples lenguajes de plantillas (Nunjucks, Liquid, Markdown) y permite estructurar cada proyecto como tiene sentido, no como el framework impone. Ideal para webs corporativas, blogs y portfolios donde el rendimiento y la longevidad importan.</p>
+          <a href="https://www.11ty.dev" target="_blank" rel="noopener noreferrer" class="svc-card-link">Documentación oficial <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8l4 4-4 4"/><path d="M8 12h8"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">02</span>
+          <h3>Astro</h3>
+          <p>Generador basado en componentes con arquitectura de islas: solo hidrata el JavaScript que necesita interacción, el resto es HTML puro. Muy adecuado para proyectos que mezclan contenido estático con componentes interactivos, o para equipos con experiencia en React o Vue.</p>
+          <a href="https://astro.build" target="_blank" rel="noopener noreferrer" class="svc-card-link">Documentación oficial <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">03</span>
+          <h3>Hugo</h3>
+          <p>El generador más rápido en tiempo de construcción. Escrito en Go, puede compilar miles de páginas en segundos. Es una opción sólida para proyectos con grandes volúmenes de contenido o cuando los tiempos de build son críticos. La curva de aprendizaje es algo más pronunciada que Eleventy.</p>
+          <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer" class="svc-card-link">Documentación oficial <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">04</span>
+          <h3>Jekyll</h3>
+          <p>El generador más veterano y el que popularizó el modelo. Escrito en Ruby, tiene un ecosistema maduro y es el que usa GitHub Pages de forma nativa. Sigue siendo una opción viable para proyectos de documentación o blogs técnicos, aunque para proyectos nuevos Eleventy o Astro suelen ser mejores opciones.</p>
+          <a href="https://jekyllrb.com" target="_blank" rel="noopener noreferrer" class="svc-card-link">Documentación oficial <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8"/><path d="M12 17v4"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">05</span>
+          <h3>Next.js <span style="font-weight:400; opacity:0.6">(static export)</span></h3>
+          <p>Principalmente un framework full-stack para React, pero con un modo de exportación estática que genera HTML puro sin servidor. Encaja cuando el equipo ya trabaja en el ecosistema React y el proyecto necesita mezclar páginas estáticas con rutas dinámicas. Más complejo de lo necesario para webs puramente de contenido.</p>
+          <a href="https://nextjs.org/docs/app/building-your-application/deploying/static-exports" target="_blank" rel="noopener noreferrer" class="svc-card-link">Documentación oficial <span aria-hidden="true">→</span></a>
+        </div>
+
+      </div>
+      <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Comparativa detallada en nuestro artículo <a href="/blog/astro-vs-eleventy/">Astro vs Eleventy: dos generadores, dos filosofías</a>.</p>
+    </div>
+  </section>
+</div>
+
+{# ── Despliegue y CDN ─────────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">02 — Despliegue y CDN</p>
+      <h2 class="text-2xl">Dónde vive y cómo se publica la web</h2>
+      <p class="about-tech__intro" style="margin-top: var(--space-sm)">En el modelo Jamstack, el despliegue es automático desde Git y la web vive en una CDN global. Estas son las plataformas más relevantes.</p>
+    </div>
+    <dl class="faq-list" data-stagger style="margin-top: var(--space-lg)">
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Netlify <span style="font-weight:400; opacity:0.6; font-size:0.85em">— netlify.com</span></dt>
+        <dd class="faq-item__answer">La plataforma que popularizó el modelo de despliegue moderno. Conectas tu repositorio Git y cada push construye y despliega el sitio automáticamente. Incluye previews por rama, rollback instantáneo, formularios sin servidor y edge functions. Plan gratuito generoso. Sede en San Francisco. <a href="https://www.netlify.com" target="_blank" rel="noopener noreferrer">netlify.com</a>
+        </dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Vercel <span style="font-weight:400; opacity:0.6; font-size:0.85em">— vercel.com</span></dt>
+        <dd class="faq-item__answer">Creada por el equipo de Next.js, es especialmente fuerte en proyectos con mucho JavaScript y componentes React. El modelo de despliegue es idéntico al de Netlify. Para proyectos puramente estáticos o con requisitos de soberanía de datos europea, hay opciones más adecuadas. <a href="https://vercel.com" target="_blank" rel="noopener noreferrer">vercel.com</a>
+        </dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Cloudflare Pages <span style="font-weight:400; opacity:0.6; font-size:0.85em">— pages.cloudflare.com</span></dt>
+        <dd class="faq-item__answer">La opción de Cloudflare para despliegue de sitios estáticos. Se integra con su red CDN, que es una de las más grandes y rápidas del mundo. Buena opción cuando ya se usa Cloudflare para DNS o protección, y cuando la latencia global es crítica. <a href="https://pages.cloudflare.com" target="_blank" rel="noopener noreferrer">pages.cloudflare.com</a>
+        </dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Bunny.net <span style="font-weight:400; opacity:0.6; font-size:0.85em">— bunny.net — CDN europeo</span></dt>
+        <dd class="faq-item__answer">CDN europeo con sede en Eslovenia, especialmente competitivo en precio y muy sólido en rendimiento. Además de CDN, ofrece almacenamiento y capacidad de servir sitios estáticos. Para proyectos donde la privacidad y la soberanía de datos europeos son importantes, es una alternativa excelente a las opciones americanas. <a href="https://bunny.net" target="_blank" rel="noopener noreferrer">bunny.net</a>
+        </dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">Statihost.eu <span style="font-weight:400; opacity:0.6; font-size:0.85em">— statihost.eu — alojamiento europeo</span></dt>
+        <dd class="faq-item__answer">Alojamiento estático europeo diseñado con GDPR como requisito desde el principio, no como añadido. Servidores en Europa, orientado a empresas y proyectos que necesitan garantías de privacidad de datos o que trabajan para el sector público o servicios regulados. <a href="https://statihost.eu" target="_blank" rel="noopener noreferrer">statihost.eu</a>
+        </dd>
+      </div>
+
+    </dl>
+    <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Más sobre el proceso de despliegue en <a href="/blog/despliegue-web-moderno/">cómo funciona un despliegue web moderno</a>.</p>
+  </div>
+</section>
+
+{# ── CMS headless ─────────────────────────────────────────── #}
+<div class="about-idenauta-wrap">
+  <section class="faq-section svc-section--alt">
+    <div class="container">
+      <div class="faq-section__header" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">03 — Gestión de contenidos</p>
+        <h2 class="text-2xl">Editar sin tocar código</h2>
+        <p class="about-tech__intro" style="margin-top: var(--space-sm)">Un CMS headless separa la interfaz de edición del frontend. El editor trabaja desde un panel cómodo; el contenido llega al sitio en el proceso de construcción.</p>
+      </div>
+      <dl class="faq-list" data-stagger style="margin-top: var(--space-lg)">
+
+        <div class="faq-item" data-stagger-child>
+          <dt class="faq-item__question">Decap CMS <span style="font-weight:400; opacity:0.6; font-size:0.85em">(antes Netlify CMS) — open source, Git-based</span></dt>
+          <dd class="faq-item__answer">Panel de edición que guarda el contenido directamente en el repositorio Git como archivos Markdown. Sin base de datos, sin coste de SaaS. La autenticación funciona a través de GitHub, GitLab o Bitbucket. Ideal cuando se quiere dar autonomía editorial al cliente sin añadir infraestructura ni coste mensual. Funciona con cualquier SSG. <a href="https://decapcms.org" target="_blank" rel="noopener noreferrer">decapcms.org</a>
+          </dd>
+        </div>
+
+        <div class="faq-item" data-stagger-child>
+          <dt class="faq-item__question">Sanity <span style="font-weight:400; opacity:0.6; font-size:0.85em">— sanity.io — SaaS con plan gratuito</span></dt>
+          <dd class="faq-item__answer">CMS headless basado en la nube con un panel de edición muy bien diseñado y una API flexible. Destaca por su modelo de contenido estructurado y por la posibilidad de personalizar completamente la interfaz editorial. El plan gratuito es generoso para proyectos pequeños. Buena opción cuando el cliente necesita una experiencia de edición más elaborada. <a href="https://www.sanity.io" target="_blank" rel="noopener noreferrer">sanity.io</a>
+          </dd>
+        </div>
+
+        <div class="faq-item" data-stagger-child>
+          <dt class="faq-item__question">Contentful <span style="font-weight:400; opacity:0.6; font-size:0.85em">— contentful.com — SaaS enterprise</span></dt>
+          <dd class="faq-item__answer">Uno de los CMS headless más establecidos en el mercado enterprise. Potente y con un ecosistema amplio de integraciones, pero con un modelo de precios que crece rápido fuera del plan gratuito. Encaja en proyectos grandes con equipos de contenido amplios y flujos de trabajo editoriales complejos. <a href="https://www.contentful.com" target="_blank" rel="noopener noreferrer">contentful.com</a>
+          </dd>
+        </div>
+
+        <div class="faq-item" data-stagger-child>
+          <dt class="faq-item__question">TinaCMS <span style="font-weight:400; opacity:0.6; font-size:0.85em">— tina.io — edición visual en contexto</span></dt>
+          <dd class="faq-item__answer">CMS headless con una característica diferencial: permite editar el contenido directamente sobre la página, viendo el resultado en tiempo real. El contenido se guarda en Git igual que Decap, pero la experiencia de edición es más visual. Buena opción para clientes que quieren ver exactamente cómo queda antes de publicar. <a href="https://tina.io" target="_blank" rel="noopener noreferrer">tina.io</a>
+          </dd>
+        </div>
+
+        <div class="faq-item" data-stagger-child>
+          <dt class="faq-item__question">Backend a medida (PHP + JSON)</dt>
+          <dd class="faq-item__answer">Para algunos proyectos hemos desarrollado backends propios: un panel en PHP donde el cliente gestiona el contenido, que se guarda en archivos JSON. Cuando está listo, solicita una publicación única — no un build por cada cambio. Ventaja: el cliente acumula todas las modificaciones y publica cuando quiere, sin depender de servicios externos ni pagar suscripciones mensuales. Una opción muy eficiente para webs con actualizaciones periódicas pero no frecuentes.</dd>
+        </div>
+
+      </dl>
+      <p style="margin-top: var(--space-md); opacity: 0.7; font-size: 0.9em;">Más sobre cómo elegir en <a href="/blog/que-es-un-cms-headless/">qué es un CMS headless y por qué cambia las reglas del juego</a>.</p>
+    </div>
+  </section>
+</div>
+
+{# ── Artículos propios ────────────────────────────────────── #}
+<section class="about-timeline-section section">
+  <div class="container">
+    <div class="about-history">
+      <div class="about-history__heading" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">04 — Serie Jamstack en el blog</p>
+        <h2 class="text-2xl">Lo que hemos escrito sobre esto</h2>
+        <p style="margin-top: var(--space-md); opacity: 0.7;">Artículos técnicos y de contexto escritos desde la práctica, no desde el manual.</p>
+      </div>
+      <div class="about-history__body">
+        <div class="svc-tl" data-stagger>
+          <div class="svc-tl__line" aria-hidden="true"></div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/jamstack-explicado-sin-tecnicismos/">Jamstack explicado sin tecnicismos</a>
+              </h3>
+              <p>Qué es la arquitectura Jamstack, por qué existe y qué consecuencias tiene en velocidad, seguridad y coste. El punto de entrada a la serie.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/que-es-eleventy/">Qué es Eleventy y por qué lo usamos en Idenautas</a>
+              </h3>
+              <p>El generador de sitios estáticos con el que construimos nuestros proyectos: qué es, cómo funciona y qué lo diferencia de otras opciones.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 20 22 16 18 12"/><line x1="2" y1="16" x2="22" y2="16"/><polyline points="6 4 2 8 6 12"/><line x1="22" y1="8" x2="2" y2="8"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/eleventy-vs-wordpress/">Eleventy vs WordPress: cuándo elegir cada uno</a>
+              </h3>
+              <p>Una comparativa honesta. No son competidores directos: resuelven problemas distintos. Entender cuándo usar cada uno puede ahorrarte mucho tiempo y dinero.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/migracion-wordpress-a-eleventy/">De WordPress a Eleventy: cómo es el proceso de migración</a>
+              </h3>
+              <p>Qué se migra, qué se reconstruye y qué hay que planificar. Una guía práctica del proceso completo.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/tu-web-no-necesita-base-de-datos/">Por qué tu web probablemente no necesita base de datos</a>
+              </h3>
+              <p>La base de datos se convirtió en el componente por defecto. Para la mayoría de proyectos, es una capa de complejidad que no aporta nada.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/core-web-vitals-explicados/">Core Web Vitals explicados sin tecnicismos</a>
+              </h3>
+              <p>LCP, CLS, INP: las métricas que Google usa como factor de posicionamiento y lo que significan en la práctica.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/rendimiento-web-y-ventas/">Una web lenta pierde clientes: los datos que convencen</a>
+              </h3>
+              <p>No es intuición. Hay datos concretos sobre la relación entre velocidad de carga, conversiones y posicionamiento.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/que-es-un-cms-headless/">Qué es un CMS headless y por qué cambia las reglas del juego</a>
+              </h3>
+              <p>Cómo funciona la edición de contenido en un sitio Jamstack, qué opciones existen y cuándo tiene sentido cada una.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--right" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8l4 4-4 4"/><path d="M8 12h8"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/astro-vs-eleventy/">Astro vs Eleventy: dos generadores estáticos, dos filosofías</a>
+              </h3>
+              <p>En qué se parecen, en qué se diferencian y qué tipo de proyecto encaja mejor con cada uno.</p>
+            </div>
+          </div>
+
+          <div class="svc-tl__item svc-tl__item--left" data-stagger-child>
+            <span class="svc-tl__dot">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 16 12 12 8 16"/><line x1="12" y1="12" x2="12" y2="21"/><path d="M20.39 18.39A5 5 0 0 0 18 9h-1.26A8 8 0 1 0 3 16.3"/></svg>
+            </span>
+            <div class="svc-tl__content">
+              <h3>
+                <a href="/blog/despliegue-web-moderno/">Cómo funciona un despliegue web moderno: de Git a producción en segundos</a>
+              </h3>
+              <p>Del modelo FTP al pipeline automatizado: Netlify, alternativas europeas y por qué este modelo es más fiable y reversible.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{# ── Recursos externos ────────────────────────────────────── #}
+<div class="about-idenauta-wrap">
+  <section class="about-tech-section svc-section--alt">
+    <div class="container">
+      <div class="about-tech__header" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">05 — Recursos externos curados</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Lo que realmente merece la pena leer</h2>
+        <p class="about-tech__intro">Sin spam, sin listas de 200 herramientas. Solo lo que usamos o consultamos.</p>
+      </div>
+      <div class="about-tech__grid about-tech__grid--cols-3" data-stagger>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">01</span>
+          <h3>Jamstack.org</h3>
+          <p>El sitio de referencia del ecosistema. Documentación sobre la arquitectura, lista de SSGs y plataformas de despliegue, y recursos de la comunidad. Buen punto de partida.</p>
+          <a href="https://jamstack.org" target="_blank" rel="noopener noreferrer" class="svc-card-link">jamstack.org <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">02</span>
+          <h3>11ty.dev</h3>
+          <p>La documentación oficial de Eleventy: clara, con ejemplos prácticos y bien organizada. Si trabajas con Eleventy es la referencia principal. El blog del proyecto también publica artículos técnicos sólidos.</p>
+          <a href="https://www.11ty.dev/docs/" target="_blank" rel="noopener noreferrer" class="svc-card-link">11ty.dev/docs <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">03</span>
+          <h3>web.dev — Google</h3>
+          <p>La guía técnica de Google sobre rendimiento web, accesibilidad y buenas prácticas. Imprescindible para entender Core Web Vitals con ejemplos reales. No es específico de Jamstack pero es referencia obligada.</p>
+          <a href="https://web.dev" target="_blank" rel="noopener noreferrer" class="svc-card-link">web.dev <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">04</span>
+          <h3>The New Dynamic</h3>
+          <p>Una de las comunidades más activas alrededor de Jamstack. Newsletter, foro y recursos curados por personas que llevan años en esto. Menos ruido que otras fuentes generalistas.</p>
+          <a href="https://www.tnd.dev" target="_blank" rel="noopener noreferrer" class="svc-card-link">tnd.dev <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">05</span>
+          <h3>Netlify Blog</h3>
+          <p>Más allá de los tutoriales de su propio producto, publica artículos técnicos sobre despliegue, edge computing y arquitectura web moderna. Una fuente fiable para estar al día del ecosistema.</p>
+          <a href="https://www.netlify.com/blog/" target="_blank" rel="noopener noreferrer" class="svc-card-link">netlify.com/blog <span aria-hidden="true">→</span></a>
+        </div>
+
+        <div class="about-tech__card" data-stagger-child>
+          <div class="about-tech__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+          <span class="about-tech__index" aria-hidden="true">06</span>
+          <h3>PageSpeed Insights</h3>
+          <p>La herramienta de referencia para medir Core Web Vitals y rendimiento real. Gratuita, sin registro, con datos de usuarios reales cuando hay suficiente tráfico. Imprescindible para cualquier auditoría.</p>
+          <a href="https://pagespeed.web.dev" target="_blank" rel="noopener noreferrer" class="svc-card-link">pagespeed.web.dev <span aria-hidden="true">→</span></a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── CTA ──────────────────────────────────────────────────── #}
+<section class="svc-section section">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">¿Quieres aplicar todo esto?</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md); max-width: 24ch">Construimos con Jamstack. Cuéntanos tu proyecto.</h2>
+      <p class="about-editorial" style="max-width: 60ch; margin-bottom: var(--space-lg)">Si después de leer esto tienes claro que quieres una web rápida, segura y de bajo mantenimiento, hablamos. Si aún tienes dudas sobre si Jamstack encaja con tu proyecto, también — esa conversación es gratuita y sin compromiso.</p>
+    </div>
+    <div class="svc-process" data-stagger>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">01</span>
+        <h3>Servicio de desarrollo Jamstack</h3>
+        <p>Nuestra oferta de desarrollo web con arquitectura Jamstack y Eleventy, con detalle de casos de uso, proceso y lo que incluye cada proyecto.</p>
+        <a href="/servicios/desarrollo-web-jamstack/" class="svc-card-link" style="display:inline-flex; margin-top: var(--space-sm)">Ver servicio <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">02</span>
+        <h3>Glosario web</h3>
+        <p>Si algún término de esta página no te ha quedado del todo claro, en el glosario encontrarás las definiciones con contexto real.</p>
+        <a href="/glosario-web/" class="svc-card-link" style="display:inline-flex; margin-top: var(--space-sm)">Ir al glosario <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="svc-step" data-stagger-child>
+        <span class="svc-step__number" aria-hidden="true">03</span>
+        <h3>Hablamos sin compromiso</h3>
+        <p>Cuéntanos tu proyecto. Si Jamstack tiene sentido para tu caso, te lo explicamos. Si no lo tiene, también.</p>
+        <a href="/contacto/" class="svc-card-link" style="display:inline-flex; margin-top: var(--space-sm)">Contactar <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+  </div>
+</section>

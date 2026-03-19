@@ -3,7 +3,7 @@ title: "Sitios web estáticos en 2026: por qué las webs más rápidas no necesi
 alt: Un servidor apagado junto a una web que carga a toda velocidad
 date: 2026-02-18
 heroImage: idenautas-web/blog/126.png
-description: Los sitios web estáticos han vuelto con fuerza. Descubre por qué las webs más rápidas, seguras y económicas de 2026 no necesitan un servidor tradicional ni una base de datos.
+description: "Los sitios web estáticos y el Jamstack han vuelto con fuerza. Eleventy, Astro, Hugo: por qué las webs más rápidas, seguras y económicas de 2026 no necesitan servidor."
 tags: ["desarrollo-tecnico"]
 ---
 

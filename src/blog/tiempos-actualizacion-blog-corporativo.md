@@ -7,104 +7,50 @@ description: La frecuencia con la que se debe actualizar un blog corporativo dep
 tags: ["contenido-y-marketing"]
 ---
 
-La frecuencia con la que se debe actualizar un blog corporativo depende de varios factores, como el tipo de negocio, el público objetivo y los objetivos de marketing. En general, **se recomienda publicar al menos una vez a la semana** para mantener a los lectores comprometidos y atraer nuevos visitantes al sitio web.
+La pregunta sobre con qué frecuencia publicar en un blog corporativo tiene una respuesta honesta: depende, y cualquiera que te dé un número sin conocer tu negocio te está vendiendo una regla que no existe.
 
-Sin embargo, esto puede variar según el tipo de contenido que se esté publicando. Si el contenido es de alta calidad, informativo y útil para el público objetivo, los lectores pueden esperar una publicación cada dos semanas o incluso una vez al mes. Por otro lado, si el contenido es más noticioso y de actualidad, puede ser necesario publicar con más frecuencia para mantener a los lectores actualizados sobre los eventos y las tendencias actuales.
+Lo que sí existe son algunos principios que ayudan a tomar esa decisión con criterio.
 
-Es importante tener en cuenta que la calidad del contenido es más importante que la cantidad. Publicar con demasiada frecuencia puede resultar en contenido de menor calidad y posiblemente alienar a los lectores. Por lo tanto, es importante encontrar un equilibrio entre la frecuencia de las publicaciones y la calidad del contenido.
+## La frecuencia importa menos que la consistencia
 
-En resumen, se recomienda publicar al menos una vez a la semana en un blog corporativo, pero la frecuencia de las publicaciones puede variar según el tipo de contenido y los objetivos de marketing.
+Un blog que publica un artículo semanal durante seis meses y luego desaparece durante un año no tiene un problema de frecuencia: tiene un problema de sostenibilidad. Comprometerse con un ritmo que no se puede mantener es peor que empezar con un ritmo más modesto desde el principio.
 
-Es importante mantener un equilibrio entre la frecuencia de las publicaciones y la calidad del contenido para atraer y mantener a los lectores comprometidos.
+La recomendación de "al menos una vez a la semana" que circula por muchas guías de marketing tiene su lógica —más publicaciones dan más oportunidades de posicionamiento— pero ignora el coste real de producir contenido de calidad. Si publicar semanalmente implica sacar artículos mediocres por cumplir, mejor publicar cada dos semanas con algo que valga la pena leer.
 
-## Como encontrar temas para un blog corporativo
+Google no premia la frecuencia por sí misma. Premia el contenido que responde bien a las búsquedas de los usuarios. Un artículo bien escrito y bien estructurado que aparece en los primeros resultados durante tres años aporta más que doce artículos mediocres publicados en un mes.
 
-Encontrar temas para un blog corporativo puede ser un desafío, pero hay varias formas de hacerlo:
+## Cómo encontrar temas que merezcan la pena
 
-- **Encuesta a tus lectores o clientes**: Pregunta a tus lectores o clientes qué temas les gustaría ver en el blog corporativo. Esto puede ser útil para comprender las necesidades e intereses de tu público objetivo.
+El mayor obstáculo para mantener un blog activo no es la falta de tiempo para escribir: es la falta de temas sobre los que escribir. Y eso tiene solución.
 
-- **Analiza las palabras clave relevantes**: Utiliza herramientas de investigación de palabras clave para identificar los temas relevantes y populares en tu industria. Esto puede ayudarte a generar ideas para contenido en tu blog corporativo que aborden las necesidades e intereses de tu público objetivo.
+Las preguntas que te hacen tus clientes habitualmente son un filón. Si en tu negocio recibes las mismas dudas una y otra vez —sobre precios, sobre procesos, sobre cómo elegir entre opciones—, esas son exactamente las búsquedas que hace tu público objetivo en Google. Responderlas bien en el blog resuelve dos problemas a la vez: posicionamiento y atención al cliente.
 
-- **Examina a la competencia**: Analiza lo que están haciendo tus competidores y cómo se están enfocando en su contenido. Esto puede ayudarte a identificar los temas populares en tu industria y te dará una idea de cómo abordarlos de manera diferente o mejor.
+Las herramientas de palabras clave como Google Search Console o el propio autocompletado de Google te muestran qué preguntas reales hace la gente relacionadas con tu sector. Eso no significa escribir para robots: significa escribir sobre lo que tu audiencia ya está buscando, con la profundidad y el punto de vista que solo tú puedes aportar.
 
-- **Explora las redes sociales**: Explora las redes sociales para ver lo que están hablando tus seguidores y clientes en tu industria. Esto puede ayudarte a encontrar temas relevantes y actuales que atraigan a tu público objetivo.
+Analizar a la competencia también es útil, no para copiar sino para identificar huecos: temas que nadie está cubriendo bien, o que se pueden cubrir desde un ángulo diferente y más útil.
 
-- **Busca en línea**: Realiza búsquedas en línea para encontrar temas relevantes en tu industria. Busca en blogs de la industria, publicaciones en línea y noticias para encontrar temas interesantes que puedas cubrir en tu propio blog corporativo.
+## La longitud que tiene sentido
 
-Como podemos ver, hay varias formas de encontrar temas para un blog corporativo, incluyendo encuestas a lectores y clientes, análisis de palabras clave, examen de la competencia, exploración de las redes sociales y búsquedas en línea. Al utilizar estas estrategias, podrás generar ideas para contenido de calidad que atraiga y retenga a tu público objetivo.
+Un artículo corto bien escrito es mejor que uno largo que rellena. La pregunta correcta no es "¿cuántas palabras tiene este artículo?" sino "¿responde completamente a lo que alguien buscaría con este tema?". Hay temas que se explican bien en 400 palabras. Hay temas que necesitan 1.500 para hacerse justicia.
 
-## Buenas prácticas para la generación de contenido de un blog corporativo
+Lo que sí es cierto es que artículos demasiado cortos suelen indicar que no se ha profundizado lo suficiente en el tema, y eso se nota tanto en la experiencia del lector como en el posicionamiento. La guía habitual de mínimo 600-800 palabras para artículos informativos tiene sentido como punto de partida, no como objetivo en sí mismo.
 
-Generar contenido de calidad para un blog corporativo es esencial para atraer y retener a los lectores y clientes. Aquí hay algunas buenas prácticas para la generación de contenido de un blog corporativo:
+## Los artículos relacionados y la retención
 
-- **Define tu audiencia**: Es importante definir tu audiencia y comprender sus necesidades e intereses. Esto te ayudará a crear contenido relevante y útil para tu público objetivo.
+Un buen blog corporativo no es una colección de artículos independientes: es una red de contenido interconectado. Cuando alguien termina de leer sobre un tema, el siguiente paso lógico debería estar a un clic de distancia. Eso reduce la tasa de rebote, aumenta el tiempo de permanencia y refuerza la relevancia temática ante los buscadores.
 
-- **Crea contenido de alta calidad**: Crea contenido que sea interesante, informativo y útil para tu audiencia. Asegúrate de que el contenido esté bien escrito, sea fácil de leer y esté bien estructurado.
+Esto implica planificar el contenido con cierta estrategia, no publicar artículos sin pensar en cómo encajan con el resto. Un clúster de artículos relacionados sobre un mismo tema —uno principal y varios que profundizan en aspectos concretos— suele funcionar mejor que artículos sueltos sobre temas dispersos.
 
-- **Añade valor**: Asegúrate de que el contenido que creas añada valor a la vida de tus lectores y clientes. Puede ser educativo, entretenido o inspirador, pero siempre debe tener un propósito y un valor claro.
+## Lo que pasa si dejas el blog abandonado
 
-- **Mantén el enfoque en la marca**: Asegúrate de que el contenido esté alineado con la marca y los valores de la empresa. Esto ayudará a crear una imagen positiva de la empresa y a mejorar su reputación.
+La respuesta corta es: nada bueno. Un blog con la última publicación de hace dos años transmite abandono, y el abandono no genera confianza. Además, el contenido envejece: las tendencias cambian, los precios se actualizan, las recomendaciones que eran válidas en 2022 pueden ser incorrectas hoy.
 
-- **Utiliza un enfoque estratégico**: Crea un plan editorial para el blog y mantén un enfoque estratégico en el contenido que publicas. Esto puede ayudarte a mantener el contenido enfocado y alineado con los objetivos de la empresa.
+Si no puedes mantener un ritmo regular, mejor tener un blog pequeño pero actualizado que uno con mucho historial que ya no se toca. Y si en algún momento necesitas parar, al menos revisa periódicamente que el contenido existente sigue siendo preciso.
 
-- **Promociona el contenido**: Promociona el contenido en las redes sociales y otros canales de marketing para asegurarte de que llegue a tu audiencia. También puedes considerar la optimización de motores de búsqueda (SEO) para mejorar la visibilidad del contenido en línea.
+## Los colaboradores externos como válvula de escape
 
-- **Haz seguimiento y evalúa el rendimiento**: Haz seguimiento y evalúa el rendimiento del contenido que publicas. Analiza las estadísticas del blog para ver qué contenido es más popular y cómo puedes mejorar en el futuro.
+Permitir que expertos o clientes escriban artículos invitados en el blog tiene varias ventajas: aporta perspectivas distintas, puede atraer a su propia audiencia y reduce la carga de producción interna. El riesgo es que la calidad y el tono varíen demasiado, lo que hace necesario definir unas pautas claras y revisar el contenido antes de publicarlo.
 
-En resumen, generar contenido de calidad para un blog corporativo es esencial para atraer y retener a los lectores y clientes. Al definir tu audiencia, crear contenido de alta calidad, añadir valor, mantener el enfoque en la marca, utilizar un enfoque estratégico, promocionar el contenido y hacer seguimiento y evaluar el rendimiento, puedes crear un blog corporativo exitoso que aumente la visibilidad y la reputación de tu empresa.
+---
 
-## La importancia de recomendar contenido relacionado
-
-Recomendar contenido relacionado es una práctica importante para cualquier sitio web que desee mantener a sus visitantes comprometidos y aumentar el tiempo que pasan en el sitio. Esto es especialmente importante para los sitios web de contenido, como los blogs y los medios de comunicación, donde los visitantes pueden estar interesados en leer más sobre un tema en particular.
-
-Hay varias razones por las que recomendar contenido relacionado es importante:
-
-- **Ayuda a mantener a los visitantes comprometidos**: Cuando los visitantes terminan de leer un artículo, pueden estar interesados en leer más sobre el mismo tema o tema relacionado. Recomendar contenido relacionado puede ayudar a mantenerlos en el sitio web y aumentar el tiempo que pasan allí.
-
-- **Mejora la experiencia del usuario**: Recomendar contenido relacionado puede mejorar la experiencia del usuario al proporcionar información adicional sobre un tema en particular. Esto puede hacer que los visitantes se sientan más satisfechos con la experiencia de su sitio web y aumentar la posibilidad de que regresen en el futuro.
-
-- **Aumenta la retención de visitantes**: Al recomendar contenido relacionado, puede aumentar la retención de visitantes al proporcionarles contenido adicional que es relevante para sus intereses. Esto puede ayudar a asegurar que los visitantes regresen al sitio web en el futuro.
-
-- **Mejora el SEO**: Al recomendar contenido relacionado, puede mejorar el SEO del sitio web al proporcionar enlaces internos a otras páginas relevantes en el sitio. Esto puede aumentar la visibilidad del sitio web en los motores de búsqueda y mejorar su posicionamiento en los resultados de búsqueda.
-
-En general, recomendar contenido relacionado es una práctica importante para cualquier sitio web que desee mantener a sus visitantes comprometidos y mejorar la experiencia del usuario. Al proporcionar contenido adicional relevante, puede aumentar la retención de visitantes y mejorar el SEO del sitio web.
-
-## ¿Qué longitud debe tener un artículo de un blog corporativo?
-
-La longitud ideal de un artículo de un blog corporativo puede ser un tema importante a considerar al crear contenido para la empresa. Aunque la longitud ideal puede variar según el tipo de contenido, el público objetivo y el objetivo del artículo, **se recomienda que los artículos tengan al menos 300 palabras** para ser informativos y relevantes para el lector.
-
-Sin embargo, la longitud ideal puede depender de varios factores adicionales, como la plataforma en la que se publica el contenido y el comportamiento de lectura del público objetivo. Si el artículo se publica en una plataforma de redes sociales, es posible que se deba optar por un enfoque más corto y conciso en lugar de un artículo largo y detallado. Si el público objetivo prefiere contenido breve y fácil de leer, es posible que se deba optar por un enfoque más corto y conciso.
-
-También es importante tener en cuenta que la calidad del contenido es más importante que la longitud del artículo. Un artículo bien escrito, informativo y relevante será más efectivo que uno que sea largo pero aburrido o poco útil para el lector.
-
-Además, la estructura y la organización del contenido pueden afectar la longitud del artículo. Si el contenido está bien organizado y estructurado, puede ser más fácil de leer y retener, lo que puede permitir que los artículos sean un poco más largos sin abrumar al lector.
-
-En general, la longitud ideal de un artículo de un blog corporativo puede depender de varios factores, incluyendo el tipo de contenido, la plataforma en la que se publica y el comportamiento de lectura del público objetivo.
-
-Es importante enfocarse en la calidad del contenido y en proporcionar información útil y relevante para el público objetivo, y organizar el contenido de manera efectiva para mejorar la retención y la comprensión del lector.
-
-## ¿Es contraproducente dejar un blog abandonado durante meses?
-
-Sí, dejar un blog abandonado durante meses puede ser contraproducente. Un blog corporativo inactivo puede enviar un mensaje negativo a los lectores y clientes, dando la impresión de que la empresa no está interesada en la comunicación con su público objetivo.
-
-Además, un blog abandonado puede afectar negativamente la reputación de la empresa en línea y afectar su posicionamiento en los motores de búsqueda. Los motores de búsqueda como Google prefieren el contenido fresco y relevante, y un blog inactivo puede ser penalizado en los rankings de búsqueda.
-
-También es importante tener en cuenta que el blog corporativo es una herramienta de marketing y comunicación importante para la empresa. El contenido del blog puede ayudar a mejorar la imagen de la marca, aumentar la visibilidad en línea y atraer nuevos clientes.
-
-Por lo tanto, es importante mantener el blog corporativo actualizado y activo. Publicar con regularidad puede ayudar a mantener a los lectores y clientes comprometidos y a atraer nuevos visitantes al sitio web. Si no es posible publicar con regularidad, es recomendable establecer una frecuencia de publicación realista y adherirse a ella para mantener la consistencia y el compromiso.
-
-## Uso de escritores invitados en un blog corporativo
-
-El uso de escritores invitados en un blog corporativo puede ser beneficioso para la empresa en varios aspectos. Al permitir que otros autores escriban contenido para el blog, la empresa puede aumentar la variedad de temas cubiertos y atraer a nuevos lectores. Aquí hay algunas razones por las que podría ser una buena idea utilizar escritores invitados en un blog corporativo:
-
-- **Aumento de la variedad de temas**: Los escritores invitados pueden ofrecer nuevas perspectivas y experiencia en temas específicos que tal vez la empresa no tenga. Esto puede ayudar a diversificar el contenido y atraer a un público más amplio.
-
-- **Atraer a nuevos lectores**: Al utilizar escritores invitados, la empresa puede llegar a nuevos públicos y atraer a nuevos lectores que puedan estar interesados en los temas cubiertos por los escritores invitados.
-
-- **Ahorro de tiempo y recursos**: Permitir que los escritores invitados creen contenido para el blog puede ahorrar tiempo y recursos internos de la empresa. Esto puede ser especialmente útil si los empleados internos de la empresa no tienen el tiempo o la experiencia necesaria para crear contenido en ciertos temas.
-
-- **Establecimiento de relaciones**: El uso de escritores invitados puede ayudar a establecer relaciones con otros líderes de la industria o expertos en un campo específico. Esto puede ayudar a la empresa a crear conexiones y establecer una presencia en el campo.
-
-Sin embargo, también es importante tener en cuenta que el uso de escritores invitados puede tener algunos desafíos. Es importante asegurarse de que los escritores invitados sean confiables y ofrezcan contenido de alta calidad que se alinee con la marca y los objetivos de la empresa.
-
-Además, es importante establecer pautas claras para los escritores invitados y asegurarse de que cumplan con los requisitos de publicación y las políticas de la empresa.
+Al final, la mejor frecuencia de publicación es la que puedes mantener sin sacrificar la calidad. Empieza por lo que es sostenible, mide qué funciona, y ajusta desde ahí. Un blog que lleva años publicando de forma consistente tiene un valor acumulado que ningún sprint de publicación intensiva puede replicar.

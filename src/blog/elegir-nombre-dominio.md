@@ -7,110 +7,48 @@ description: El dominio de tu sitio web es la dirección única que se utilizar�
 tags: ["contenido-y-marketing"]
 ---
 
-Cuando se trata de elegir el dominio de tu página web, hay varios factores a considerar para asegurarte de elegir el adecuado. El dominio de tu sitio web es la dirección única que se utilizará para acceder a tu sitio, por lo que es importante que sea fácil de recordar, identificar y promover.
+El nombre de dominio es la primera parte de tu identidad digital. Es lo que la gente escribe cuando te busca directamente, lo que aparece en tus tarjetas de visita, en tu firma de correo, en los presupuestos que envías. Y a diferencia del diseño de la web, que puedes cambiar con relativa facilidad, el dominio es algo que conviene acertar desde el principio, porque cambiarlo después tiene costes reales.
 
-Aquí te presentamos algunos consejos para elegir el dominio de tu página web:
+## Qué hace que un dominio sea bueno
 
-- **Hazlo fácil de recordar**: Elige un dominio que sea fácil de recordar para tus visitantes. Evita dominios demasiado largos, difíciles de deletrear o con palabras difíciles de pronunciar. Un dominio fácil de recordar puede ser fundamental para que los visitantes puedan encontrar y recordar tu sitio web.
+La fórmula es sencilla aunque no siempre fácil de aplicar: que sea fácil de recordar, fácil de escribir y que diga algo sobre quién eres o qué haces.
 
-- **Hazlo relevante**: Elige un dominio que sea relevante para tu negocio o marca. Asegúrate de que sea fácilmente identificable y que describa lo que tu sitio web ofrece. Esto puede ayudar a los visitantes a encontrar tu sitio web y comprender mejor qué tipo de contenido pueden esperar encontrar.
+Los dominios largos se confunden, se escriben mal y cuestan más de transmitir verbalmente. Si tienes que deletrearlo cada vez que lo dices en voz alta, considera si hay una versión más corta. Los guiones y números son especialmente problemáticos: obligan a aclarar "guión bajo no, guión medio" o "el número tres, no la palabra" cada vez que los mencionas. Si puedes evitarlos, mejor.
 
-- **Evita el uso de números y guiones**: Evita el uso de números y guiones en tu dominio. Estos pueden ser difíciles de recordar y confundir a los visitantes. Además, los motores de búsqueda pueden considerar que los dominios con números y guiones son menos confiables o menos relevantes.
+La relevancia también importa. Un dominio que recuerde a tu negocio o marca facilita que la gente te encuentre y te recuerde. Y aunque las palabras clave en el dominio ya no tienen el peso que tenían hace una década en SEO, un dominio descriptivo sigue ayudando a que los usuarios entiendan a qué se dedica la empresa antes de entrar.
 
-- **Verifica la disponibilidad**: Antes de decidirte por un dominio, asegúrate de que esté disponible. Verifica que el dominio no esté registrado por otra empresa o persona. También puedes verificar la disponibilidad de nombres de dominio similares para asegurarte de que tu sitio web sea fácil de encontrar.
+## ¿Tiene que coincidir con el nombre de la empresa?
 
-- **Considera la extensión del dominio**: La extensión del dominio, también conocida como TLD (Top Level Domain), es la parte final del dominio (.com, .org, .net, etc.). Asegúrate de elegir la extensión de dominio que mejor se adapte a tu negocio o marca.
+En la mayoría de los casos, sí. Un dominio que coincide con tu nombre comercial refuerza la identidad de marca, hace más fácil que los clientes te encuentren cuando buscan directamente por tu nombre y reduce la confusión. Cuando alguien oye tu nombre en una conversación y luego busca en Google, que el dominio coincida es la diferencia entre que llegue a tu web o a la de otro.
 
-## ¿Debe coincidir el nombre de dominio de un sitio web con la marca?
+El problema es que los dominios buenos están cada vez más ocupados. Si tu primera opción no está disponible, hay alternativas razonables: añadir el país o la ciudad ("negociomadrid.es"), el sector ("clinicadentalnombre.com") o una variante corta del nombre que sea fácil de recordar.
 
-En general, es recomendable que el nombre de dominio de un sitio web coincida con la marca o el nombre comercial de la empresa. Si es posible, el nombre de dominio debe ser fácilmente reconocible y memorable para los clientes y usuarios potenciales.
+Lo que no recomendamos es registrar un dominio completamente diferente al nombre de tu empresa porque "el tuyo estaba ocupado". Eso genera desconexión entre marca y presencia online que cuesta más de lo que parece.
 
-Hay varias razones por las que es importante que el nombre de dominio coincida con la marca:
+## Las extensiones: .com, .es y las nuevas opciones
 
-- **Identidad de la marca**: El nombre de dominio es una parte importante de la identidad de la marca. Al tener un nombre de dominio que coincide con la marca, se puede reforzar la imagen de la marca y ayudar a los clientes a identificarla y recordarla fácilmente.
+El .com sigue siendo el rey. Cuando alguien no recuerda bien el dominio, tiende a probar con .com por defecto. Para un negocio con vocación internacional o simplemente para tener la credibilidad que da la extensión más reconocida del mundo, .com es la primera opción.
 
-- **Posicionamiento en motores de búsqueda**: Los motores de búsqueda tienden a dar prioridad a los sitios web que tienen un nombre de dominio que coincide con su contenido o tema. Si el nombre de dominio coincide con la marca, puede ayudar a mejorar el posicionamiento en los resultados de búsqueda.
+Para negocios con audiencia exclusivamente española, el .es tiene mucho sentido. Google lo considera una señal de relevancia local, lo que puede beneficiar el posicionamiento en búsquedas desde España.
 
-- **Fácil de recordar**: Si el nombre de dominio coincide con la marca, es más fácil de recordar para los clientes y usuarios potenciales. Esto puede ayudar a aumentar la fidelidad de los clientes y mejorar el tráfico del sitio web.
+Las extensiones nuevas como .shop, .tech, .studio o .blog ofrecen disponibilidad cuando las opciones clásicas están ocupadas y pueden ser útiles para reforzar el sector de actividad. Su desventaja principal es que son menos reconocidas y algunos usuarios todavía las perciben como menos fiables que las tradicionales. Funcionan bien si el resto del dominio es claro y memorable; si además es largo y confuso, el problema se multiplica.
 
-Sin embargo, en algunos casos puede ser difícil o imposible conseguir un nombre de dominio que coincida exactamente con la marca. En estos casos, es importante elegir un nombre de dominio que sea lo más cercano posible a la marca y que sea fácilmente reconocible y memorable.
+## Los dominios territoriales y el SEO local
 
-## ¿Qué son las nuevas extensiones de dominios? ¿Es recomendable su uso?
+Si tu negocio tiene presencia local — una tienda, un restaurante, un despacho — un dominio con ccTLD (código de país, como .es, .mx o .ar) le dice a Google que eres relevante para búsquedas en esa región. No es magia, pero es una señal que suma al posicionamiento local cuando se combina con otras buenas prácticas.
 
-Las nuevas extensiones de dominio son un conjunto de extensiones de dominio más recientes que se han agregado al sistema de nombres de dominio (DNS). Estas extensiones de dominio son diferentes de las extensiones de dominio tradicionales, como .com, .org y .net, y se utilizan para describir diferentes categorías de sitios web o industrias.
+## Cuando el dominio que quieres ya está registrado
 
-Algunos ejemplos de nuevas extensiones de dominio son .shop, .club, .tech, .travel, .blog, entre otras.
+Hay tres caminos. El más directo es contactar al propietario actual y hacer una oferta de compra. No hay ningún impedimento legal para ello, aunque el precio puede ser elevado si el dominio es valioso o si el propietario es especulador de dominios.
 
-El objetivo de las nuevas extensiones de dominio es permitir que los propietarios de sitios web elijan extensiones de dominio más específicas y relevantes para su sitio web. Esto puede ayudar a aumentar la visibilidad y la credibilidad de un sitio web al indicar a los usuarios potenciales el tipo de contenido que pueden esperar encontrar en ese sitio web.
+Si no hay respuesta o el precio es prohibitivo, los servicios de intermediación como Sedo o Afternic pueden facilitar la negociación. También existen subastas de dominios donde aparecen nombres que han caducado o que se ponen en venta de forma explícita.
 
-En cuanto a si es recomendable utilizar las nuevas extensiones de dominio, la respuesta depende de varios factores. En general, es importante elegir un nombre de dominio que sea **fácil de recordar, identificar y promover**, independientemente de la extensión de dominio que se utilice.
+Antes de comprar un dominio de segunda mano, vale la pena revisar su historial. Un dominio que anteriormente fue usado para spam o contenido de baja calidad puede arrastrar penalizaciones en los buscadores que cuesten meses limpiar.
 
-### Ventajas de las nuevas extensiones de dominio sobre las tradicionales
+## Por qué algunos dominios están restringidos
 
-Las nuevas extensiones de dominio presentan varias ventajas en comparación con las extensiones de dominio tradicionales, como .com, .org, y .net. Estas son algunas de las principales ventajas de las nuevas extensiones de dominio:
+Hay categorías de dominios que los registradores no pueden vender libremente: nombres que infringen marcas registradas, términos reservados por organismos gubernamentales, y nombres con contenidos ilegales. Si intentas registrar algo que incluye el nombre de una marca conocida sin autorización, el proceso de disputas de la ICANN puede obligarte a cederlo sin compensación. No merece la pena el riesgo.
 
-- **Mayor disponibilidad**: Con el aumento de la cantidad de extensiones de dominio, se ha creado una mayor disponibilidad de nombres de dominio que antes eran difíciles de encontrar. Las nuevas extensiones de dominio ofrecen más opciones para elegir el nombre de dominio perfecto para tu sitio web.
+---
 
-- **Mayor relevancia para ciertos tipos de sitios web o industrias**: Las nuevas extensiones de dominio son específicas para ciertas industrias o tipos de sitios web. Esto permite a los propietarios de sitios web elegir una extensión de dominio que sea más relevante para su sitio web. Por ejemplo, una empresa de tecnología podría utilizar la extensión de dominio .tech para indicar que su sitio web es relevante para esa industria.
-
-- **Oportunidades de branding**: Las nuevas extensiones de dominio ofrecen nuevas oportunidades de branding, lo que permite a los propietarios de sitios web establecer una identidad de marca más fuerte. Una extensión de dominio específica puede ayudar a que un sitio web se destaque en la mente de los usuarios y diferenciarse de la competencia.
-
-- **Diferentes opciones de precios**: Las nuevas extensiones de dominio pueden ofrecer diferentes opciones de precios que las extensiones de dominio tradicionales. Algunas extensiones de dominio pueden ser más baratas que las tradicionales, lo que puede ser una ventaja para aquellos con un presupuesto más limitado.
-
-Es decir, las nuevas extensiones de dominio ofrecen más opciones para elegir el nombre de dominio perfecto, mayor relevancia para ciertas industrias o tipos de sitios web, oportunidades de branding y diferentes opciones de precios.
-
-Estas ventajas pueden ser importantes para los propietarios de sitios web que buscan establecer una identidad de marca más fuerte, mejorar la visibilidad en línea y diferenciarse de la competencia.
-
-### Desventajas de las nuevas extensiones de dominio sobre las tradicionales
-
-A pesar de las ventajas que presentan las nuevas extensiones de dominio, también hay algunas desventajas que debes tener en cuenta al elegir una extensión de dominio. Algunas de las desventajas más comunes de las nuevas extensiones de dominio son las siguientes:
-
-- **Menos conocidas**: Las nuevas extensiones de dominio son menos conocidas que las extensiones de dominio tradicionales, como .com, .org y .net. Esto significa que es posible que algunos usuarios no estén familiarizados con estas nuevas extensiones, lo que podría disminuir la confianza en un sitio web.
-
-- **Menos aceptadas por los motores de búsqueda**: Algunos motores de búsqueda pueden no considerar las nuevas extensiones de dominio como altamente relevantes o confiables. Esto podría afectar el posicionamiento en los resultados de búsqueda y, por lo tanto, la visibilidad del sitio web.
-
-- **Menos flexibilidad**: Algunas nuevas extensiones de dominio pueden ser menos flexibles que las extensiones de dominio tradicionales. Por ejemplo, algunas nuevas extensiones de dominio solo están disponibles para ciertos tipos de sitios web o industrias, lo que puede limitar las opciones de nombres de dominio.
-
-- **Menos prestigiosas**: Las extensiones de dominio tradicionales, como .com, .org y .net, han sido utilizadas durante décadas y son vistas como más prestigiosas que las nuevas extensiones de dominio. Esto podría afectar la imagen de la marca y la credibilidad de un sitio web.
-
-Queda claro que a pesar de las ventajas de las nuevas extensiones de dominio, también hay algunas desventajas que debes tener en cuenta. Si bien las nuevas extensiones de dominio pueden ofrecer más opciones de nombres de dominio y mayor relevancia para ciertas industrias, también pueden ser menos conocidas, menos aceptadas por los motores de búsqueda, menos flexibles y menos prestigiosas que las extensiones de dominio tradicionales.
-
-Antes de elegir una extensión de dominio, es importante evaluar cuidadosamente las ventajas y desventajas de cada opción y elegir la que mejor se adapte a las necesidades de tu sitio web y de tu marca.
-
-## ¿Influyen los dominios territoriales en el SEO?
-
-Sí, los dominios territoriales, también conocidos como dominios de nivel superior geográfico (ccTLD), pueden influir en el SEO (optimización de motores de búsqueda).
-
-Los ccTLD son dominios que se utilizan para identificar un país o región específica en los resultados de búsqueda. Algunos ejemplos de ccTLD son .es para España, .mx para México o .ar para Argentina.
-
-Los ccTLD pueden tener un impacto positivo en el SEO de un sitio web porque indican a los motores de búsqueda que el sitio web está dirigido a una audiencia específica en una ubicación geográfica determinada. Esto puede ayudar a mejorar el posicionamiento en los resultados de búsqueda para búsquedas realizadas en esa ubicación.
-
-Además, los ccTLD también pueden ser útiles para las empresas que tienen una presencia local o regional y desean mejorar su visibilidad en los resultados de búsqueda para búsquedas relacionadas con esa región o país. Utilizar un ccTLD puede indicar a los motores de búsqueda que el sitio web está dirigido a una audiencia local y, por lo tanto, mejorar el posicionamiento en los resultados de búsqueda relevantes para esa audiencia.
-
-Sin embargo, es importante tener en cuenta que el uso de un ccTLD no es una garantía de que el sitio web se clasificará automáticamente en los primeros lugares de los resultados de búsqueda en esa ubicación geográfica. El SEO es un proceso complejo que implica muchos factores, incluidos la calidad del contenido, la optimización técnica del sitio web y la calidad de los enlaces entrantes.
-
-## ¿Por qué algunos nombres de dominio están restringidos?
-
-Algunos nombres de dominio están restringidos debido a diversas razones, como:
-
-- **Seguridad**: Algunos nombres de dominio están restringidos por motivos de seguridad, ya que se consideran sensibles o pueden utilizarse para fines malintencionados. Por ejemplo, los nombres de dominio que incluyen palabras relacionadas con el terrorismo, la pornografía infantil, la discriminación racial o la violencia pueden estar restringidos.
-
-- **Propiedad intelectual**: Los nombres de dominio que infringen los derechos de propiedad intelectual pueden estar restringidos. Por ejemplo, los nombres de dominio que utilizan marcas registradas sin autorización pueden estar restringidos.
-
-- **Regulaciones gubernamentales**: Algunos nombres de dominio están restringidos por regulaciones gubernamentales o leyes locales. Por ejemplo, algunos países pueden restringir los nombres de dominio que incluyen términos relacionados con la política o la religión.
-
-- **Términos genéricos**: Algunos nombres de dominio que contienen términos genéricos pueden estar restringidos debido a la posibilidad de conflicto con otros propietarios de dominios que utilizan los mismos términos. Por ejemplo, los nombres de dominio que contienen palabras como "comercio" o "banco" pueden estar restringidos.
-
-Es importante tener en cuenta que las restricciones en los nombres de dominio pueden variar según la extensión de dominio y la entidad que administra el registro del dominio. Por lo tanto, es importante investigar las restricciones antes de registrar un nombre de dominio. En general, se recomienda utilizar nombres de dominio que sean claros, fáciles de recordar y que estén relacionados con el contenido del sitio web.
-
-## ¿Puedo comprar un nombre de dominio que ya esté registrado?
-
-Sí, es posible comprar un nombre de dominio que ya esté registrado, pero es un proceso que puede ser complejo y costoso. A continuación, se presentan algunas opciones para adquirir un nombre de dominio registrado:
-
-- **Contactar al propietario actual**: La primera opción es contactar al propietario actual del nombre de dominio y hacer una oferta de compra. El propietario actual puede estar dispuesto a vender el nombre de dominio si recibe una oferta atractiva. Es importante tener en cuenta que algunos propietarios pueden pedir una suma de dinero muy elevada, especialmente si el nombre de dominio es muy popular o valioso.
-
-- **Utilizar un servicio de intermediación**: Otra opción es utilizar un servicio de intermediación de nombres de dominio. Estos servicios pueden ayudar a contactar al propietario actual y negociar un precio de compra justo. Sin embargo, es importante tener en cuenta que estos servicios pueden cobrar una tarifa considerable por sus servicios.
-
-- **Participar en subastas de nombres de dominio**: Algunos nombres de dominio pueden estar disponibles en subastas de nombres de dominio. En estas subastas, los compradores pueden ofertar por el nombre de dominio que deseen adquirir. Es importante tener en cuenta que las subastas pueden ser muy competitivas y el precio final puede ser elevado.
-
-Es importante tener en cuenta que, al comprar un nombre de dominio registrado, es posible que se deba realizar una transferencia de propiedad del dominio y que el proceso puede llevar tiempo y ser costoso. Además, es importante investigar si existen marcas registradas o derechos de propiedad intelectual asociados al nombre de dominio antes de comprarlo, ya que puede haber restricciones legales sobre su uso.
+El dominio ideal es corto, fácil de pronunciar y de escribir, relacionado con tu marca y disponible en la extensión que más te conviene. Si encuentras algo que cumple cuatro de esos cinco criterios, probablemente estés ante una buena opción.
