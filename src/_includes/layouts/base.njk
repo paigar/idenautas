@@ -44,57 +44,58 @@
     <meta name="twitter:image:alt" content="{{ title or site.name }} — {{ site.description }}">
 
     {% if heroImage %}
-    <link rel="preload" as="image" href="{{ site.cdn }}{{ heroImage }}?width=1920&quality=75" imagesrcset="{{ site.cdn }}{{ heroImage }}?width=480&quality=75 480w, {{ site.cdn }}{{ heroImage }}?width=960&quality=75 960w, {{ site.cdn }}{{ heroImage }}?width=1920&quality=75 1920w" imagesizes="100vw" fetchpriority="high">
+      <link rel="preload" as="image" href="{{ site.cdn }}{{ heroImage }}?width=1920&quality=75" imagesrcset="{{ site.cdn }}{{ heroImage }}?width=480&quality=75 480w, {{ site.cdn }}{{ heroImage }}?width=960&quality=75 960w, {{ site.cdn }}{{ heroImage }}?width=1920&quality=75 1920w" imagesizes="100vw" fetchpriority="high">
     {% endif %}
-    <style>{{ inlineCSS | safe }}</style>
+    <style>
+      {{inlineCSS | safe}}
+    </style>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} — Blog" href="/feed.xml">
 
     {# ── Structured Data (JSON-LD) ───────────────────────────── #}
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "LocalBusiness",
-      "name": "{{ site.name }}",
-      "description": "{{ site.description }}",
-      "url": "{{ site.url }}",
-      "telephone": "{{ site.phone }}",
-      "email": "{{ site.email }}",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "{{ site.address.street }}",
-        "addressLocality": "{{ site.address.city }}",
-        "postalCode": "{{ site.address.zip }}",
-        "addressCountry": "ES"
-      },
-      "foundingDate": "2005",
-      "areaServed": {
-        "@type": "Country",
-        "name": "Spain"
-      },
-      "knowsLanguage": ["es", "eu", "en"]
-    }
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "{{ site.name }}",
+        "description": "{{ site.description }}",
+        "url": "{{ site.url }}",
+        "telephone": "{{ site.phone }}",
+        "email": "{{ site.email }}",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "{{ site.address.street }}",
+          "addressLocality": "{{ site.address.city }}",
+          "postalCode": "{{ site.address.zip }}",
+          "addressCountry": "ES"
+        },
+        "foundingDate": "2005",
+        "areaServed": {
+          "@type": "Country",
+          "name": "Spain"
+        },
+        "knowsLanguage": ["es", "eu", "en"]
+      }
     </script>
     {% if breadcrumb %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
+      <script type="application/ld+json">
         {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Inicio",
-          "item": "{{ site.url }}/"
-        }{% for crumb in breadcrumb %},
-        {
-          "@type": "ListItem",
-          "position": {{ loop.index + 1 }},
-          "name": "{{ crumb.name }}",
-          "item": "{{ site.url }}{{ crumb.url }}"
-        }{% endfor %}
-      ]
-    }
-    </script>
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "{{ site.url }}/"
+            }{% for crumb in breadcrumb %}, {
+                "@type": "ListItem",
+                "position": {{ loop.index + 1 }},
+                "name": "{{ crumb.name }}",
+                "item": "{{ site.url }}{{ crumb.url }}"
+              }{% endfor %}
+          ]
+        }
+      </script>
     {% endif %}
   </head>
   <body>
@@ -226,7 +227,7 @@
           <div class="footer-col footer-col--legal">
             <a href="/servicios/desarrollo-web-jamstack/">Desarrollo web Jamstack</a>
             <a href="/jamstack-vs-wordpress/">Jamstack vs WordPress</a>
-            <a href="/alternativas-a-wordpress/">Alternativas a WordPress</a>
+            <a href="/jamstack-vs-joomla/">Jamstack vs Joomla</a>
             <a href="/migracion-wordpress-a-jamstack/">Migración desde WordPress</a>
             <a href="/migracion-joomla-a-jamstack/">Migración desde Joomla</a>
             <a href="/heredamos-tu-web/">Heredamos tu web</a>
@@ -236,7 +237,8 @@
             <a href="/politica-de-privacidad/">Política de privacidad</a>
             <a href="/uso-de-cookies/">Política de cookies</a>
             <a href="/mapa-del-sitio/">Mapa del sitio</a>
-            <a href="/feed.xml" target="_blank" rel="noopener noreferrer"><svg class="footer-rss-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56z"/><path d="M4 10.1v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg> Suscripción RSS</a>
+            <a href="/feed.xml" target="_blank" rel="noopener noreferrer">
+              <svg class="footer-rss-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><circle cx="6.18" cy="17.82" r="2.18"/><path d="M4 4.44v2.83c7.03 0 12.73 5.7 12.73 12.73h2.83c0-8.59-6.97-15.56-15.56-15.56z"/><path d="M4 10.1v2.83c3.9 0 7.07 3.17 7.07 7.07h2.83c0-5.47-4.43-9.9-9.9-9.9z"/></svg> Suscripción RSS</a>
           </div>
         </div>
       </div>

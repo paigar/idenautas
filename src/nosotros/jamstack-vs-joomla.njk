@@ -1,0 +1,296 @@
+---
+layout: layouts/page.njk
+title: Jamstack vs Joomla · Comparativa honesta
+label: Jamstack vs Joomla
+subtitle: "Conocemos Joomla desde dentro. Durante años fue nuestro CMS de referencia. Por eso esta comparativa no está escrita desde la teoría sino desde la experiencia real con ambas tecnologías."
+description: Comparativa honesta entre Jamstack y Joomla. Velocidad, seguridad, mantenimiento, extensiones y para quién tiene sentido cada uno. Escrita por una agencia que ha trabajado con los dos durante años.
+permalink: /jamstack-vs-joomla/
+heroImage: idenautas-web/jamstack-vs-joomla_00.png
+breadcrumb:
+  - name: Nosotros
+    url: /nosotros/
+  - name: Jamstack vs Joomla
+    url: /jamstack-vs-joomla/
+---
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "¿Es Jamstack mejor que Joomla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Para la mayoría de webs corporativas, de servicios y blogs, sí. Jamstack es objetivamente superior en velocidad, coste de mantenimiento y durabilidad a largo plazo. Joomla puede seguir siendo una opción válida si tienes una instalación estable con extensiones específicas que funcionan bien y un equipo que conoce la plataforma. Pero en proyectos nuevos o migraciones, Jamstack gana en casi todos los criterios relevantes para una pyme."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué ventaja tiene Joomla sobre Jamstack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Joomla tiene un panel de administración integrado con gestión de usuarios y permisos muy granular, soporte multiidioma nativo sin plugins adicionales y un sistema de categorías y artículos maduro. Para proyectos con estructuras editoriales complejas o requisitos de permisos muy específicos, estas características pueden ser difíciles de replicar en Jamstack sin trabajo adicional."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Puedo seguir editando el contenido yo mismo si migro de Joomla a Jamstack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Sí. Configuramos un sistema de edición adaptado a tu flujo de trabajo actual. Para equipos acostumbrados al panel de Joomla, hay CMS headless con interfaces similares que permiten gestionar contenido sin tocar código. La curva de adaptación es corta y el resultado final es más ágil que el panel de Joomla."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Qué pasa con el soporte multiidioma que tengo en Joomla?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "El multiidioma es uno de los puntos fuertes de Joomla y lo gestionamos desde el diseño de la arquitectura Jamstack. No es un añadido posterior — se planifica desde el principio con URLs separadas por idioma y configuración correcta para que Google indexe bien cada versión. El resultado es igual de sólido que en Joomla, con menos complejidad de mantenimiento."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "¿Merece la pena actualizar de Joomla 3 a Joomla 4 o 5, o es mejor migrar a Jamstack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Actualizar de Joomla 3 a Joomla 4 o 5 es prácticamente una reconstrucción: las extensiones que usas probablemente no son compatibles y el proceso es complejo. Si de todas formas hay que reconstruir partes importantes de la web, tiene más sentido aprovechar ese trabajo para migrar a una arquitectura moderna que no tenga este problema de nuevo en dos o tres años."
+      }
+    }
+  ]
+}
+</script>
+
+{# ── Intro ─────────────────────────────────────────────────── #}
+<section class="section about-intro">
+  <div class="about-intro__inner">
+    <div class="about-intro__text" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Desde la experiencia</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">Una comparativa escrita por alguien que ha usado los dos</h2>
+      <p class="about-editorial">
+        Joomla fue durante muchos años nuestro CMS de referencia. Lo usamos en decenas de proyectos, conocemos su arquitectura de extensiones, su sistema de permisos, cómo gestiona el contenido multiidioma y cómo se comporta cuando escala. No estamos comparando desde la teoría.
+      </p>
+      <p class="about-editorial">
+        Con el tiempo fuimos adoptando Jamstack para proyectos nuevos, y la diferencia en mantenimiento, rendimiento y durabilidad fue tan clara que pasó a ser nuestra arquitectura de referencia. No porque Joomla sea malo — sino porque para la mayoría de proyectos que hacemos, Jamstack resuelve los mismos problemas con menos fricción a largo plazo.
+      </p>
+      <p class="about-editorial">
+        Esta comparativa es lo que le explicaríamos a un cliente que viene de Joomla y quiere entender qué gana y qué pierde si da el paso. Sin marketing, con ejemplos reales.
+      </p>
+    </div>
+    <div class="about-intro__img" data-reveal="right">
+      {% img "idenautas-web/jamstack-vs-joomla_01.png", "Comparativa técnica entre Jamstack y Joomla", "content" %}
+    </div>
+  </div>
+</section>
+
+{# ── Tabla comparativa ── bg-alt ───────────────────────────── #}
+<div class="about-idenauta-wrap svc-section--alt">
+  <section class="section container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Resumen</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md)">De un vistazo</h2>
+    </div>
+    <div class="page-content" style="padding: 0; overflow-x: auto" data-reveal>
+      <table style="background-color: var(--color-bg)">
+        <thead>
+          <tr>
+            <th style="background-color: var(--color-text); color: var(--color-bg)">Aspecto</th>
+            <th style="background-color: var(--color-text); color: var(--color-bg)">Joomla</th>
+            <th style="background-color: var(--color-text); color: var(--color-bg)">Jamstack</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Velocidad de carga</strong></td>
+            <td>Moderada. Mejor caché por defecto que WordPress, pero sigue generando páginas en el servidor con PHP y base de datos en cada visita.</td>
+            <td>Muy alta. Archivos estáticos servidos desde CDN. Tiempos habituales de 200-400 ms sin optimización adicional.</td>
+          </tr>
+          <tr>
+            <td><strong>Seguridad</strong></td>
+            <td>Mejor que WordPress por ser menos atacado, pero la arquitectura sigue exponiendo base de datos y panel de administración. Las extensiones son vectores de riesgo.</td>
+            <td>Sin base de datos ni panel de administración expuestos. La superficie de ataque es estructuralmente mínima.</td>
+          </tr>
+          <tr>
+            <td><strong>Actualizaciones de versión</strong></td>
+            <td>Problemáticas. El salto de Joomla 3 a 4, o de 4 a 5, es prácticamente una reconstrucción. Muchas extensiones no son compatibles entre versiones mayores.</td>
+            <td>No existe el concepto de "versión mayor que rompe todo". Las actualizaciones del generador de sitios son graduales y raramente afectan al contenido.</td>
+          </tr>
+          <tr>
+            <td><strong>Ecosistema de extensiones</strong></td>
+            <td>Ha encogido significativamente en la última década. Muchas extensiones clave tienen mantenimiento irregular o están abandonadas.</td>
+            <td>Sin dependencia de extensiones de terceros para funciones básicas. Las integraciones se hacen con APIs estándar y servicios modernos.</td>
+          </tr>
+          <tr>
+            <td><strong>Coste de mantenimiento</strong></td>
+            <td>Alto. Hosting con PHP y MySQL, extensiones que requieren atención periódica, actualizaciones que pueden romper cosas.</td>
+            <td>Muy bajo. Alojamiento en CDN casi gratuito, sin extensiones que mantener ni actualizaciones de seguridad urgentes.</td>
+          </tr>
+          <tr>
+            <td><strong>Multiidioma</strong></td>
+            <td>Nativo y maduro. Uno de los puntos fuertes históricos de Joomla.</td>
+            <td>Totalmente viable, pero requiere diseñarlo desde la arquitectura. Sin plugins adicionales ni complejidad extra una vez configurado.</td>
+          </tr>
+          <tr>
+            <td><strong>Edición de contenido</strong></td>
+            <td>Panel de administración integrado, complejo pero potente. Curva de aprendizaje más pronunciada que WordPress.</td>
+            <td>Requiere un CMS headless para edición visual. Curva de adaptación inicial, luego más ágil que Joomla para la mayoría de perfiles.</td>
+          </tr>
+          <tr>
+            <td><strong>Disponibilidad de desarrolladores</strong></td>
+            <td>Escasa y cara. El pool de desarrolladores con conocimiento profundo de Joomla es pequeño y sigue reduciéndose.</td>
+            <td>Creciente. Jamstack usa tecnologías web estándar (HTML, CSS, JS) — cualquier desarrollador web puede entender y mantener el código.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+</div>
+
+{# ── Desglose por dimensión ── cards ───────────────────────── #}
+<section class="about-tech-section">
+  <div class="container">
+    <div class="about-tech__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Análisis detallado</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-sm)">Dimensión a dimensión</h2>
+      <p class="about-tech__intro">
+        Joomla tiene características que merece la pena reconocer. Y tiene problemas estructurales que no tienen solución fácil. Aquí explicamos los dos lados.
+      </p>
+    </div>
+    <div class="about-tech__grid about-tech__grid--cols-3" data-stagger>
+
+      <div class="about-tech__card about-tech__card--wide" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">01</span>
+        <h3>Velocidad — Joomla cachea bien, pero no es suficiente</h3>
+        <p>Joomla tiene un sistema de caché integrado que WordPress no tiene por defecto. Eso le da una ventaja inicial. Pero la caché es un parche sobre un problema arquitectural: el servidor sigue necesitando PHP y una base de datos activos en todo momento. Con Jamstack, las páginas ya están generadas antes de que alguien las visite — no hay nada que cachear porque no hay nada que procesar. La diferencia de velocidad <a href="{% blogUrl "rendimiento-web-y-ventas" %}">tiene impacto directo en conversiones y posicionamiento</a>.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">02</span>
+        <h3>El problema de las versiones mayores</h3>
+        <p>Este es el punto que más diferencia a Joomla de WordPress. Las actualizaciones de versión mayor de Joomla son cambios de arquitectura que pueden dejar inutilizables las extensiones que usas. La migración de Joomla 3 a Joomla 4 no es una actualización — es prácticamente reconstruir la web.</p>
+        <p>Hemos gestionado este proceso en proyectos de clientes y sabemos lo que cuesta. Si de todas formas hay que reconstruir, tiene más sentido hacerlo sobre una arquitectura que no tenga este problema de nuevo en tres años.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">03</span>
+        <h3>El ecosistema de extensiones se ha reducido</h3>
+        <p>En su momento, el directorio de extensiones de Joomla era un punto fuerte. Hoy muchas de esas extensiones llevan años sin actualizarse, no son compatibles con versiones recientes de Joomla o han pasado a ser de pago con soporte irregular. Depender de ellas es un riesgo real de mantenimiento.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">04</span>
+        <h3>Multiidioma — la ventaja real de Joomla</h3>
+        <p>El soporte multiidioma nativo de Joomla es uno de sus puntos más fuertes y hay que reconocerlo. En WordPress requiere plugins; en Joomla está integrado desde el core. En Jamstack se diseña desde la arquitectura inicial — no es nativo, pero tampoco es un añadido. El resultado es igual de sólido, con la ventaja de que no depende de ningún componente externo.</p>
+      </div>
+
+      <div class="about-tech__card about-tech__card--tall" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">05</span>
+        <h3>Cada vez menos desarrolladores conocen Joomla</h3>
+        <p>El pool de desarrolladores con conocimiento profundo de Joomla es pequeño y se reduce cada año. Eso tiene consecuencias prácticas: si necesitas un cambio en tu web, hay menos opciones donde acudir, los precios son más altos y la probabilidad de encontrar a alguien que conozca tu versión concreta y tus extensiones específicas es baja.</p>
+        <p>Las webs Jamstack usan tecnologías web estándar. Cualquier desarrollador web moderno puede entender, mantener o ampliar el código sin formación específica en ninguna plataforma propietaria.</p>
+      </div>
+
+      <div class="about-tech__card" data-stagger-child>
+        <div class="about-tech__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <span class="about-tech__index" aria-hidden="true">06</span>
+        <h3>SEO — la velocidad marca la diferencia</h3>
+        <p>Joomla tiene buenas herramientas de SEO on-page. El problema es la velocidad estructural: con PHP y base de datos en cada petición, superar los Core Web Vitals requiere trabajo de optimización constante. En Jamstack, los <a href="{% blogUrl "core-web-vitals-explicados" %}">Core Web Vitals</a> pasan en verde de forma estructural, lo que da una ventaja de posicionamiento sostenida sin esfuerzo adicional.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+{# ── Para quién es cada uno ── bg-alt ──────────────────────── #}
+<div class="about-idenauta-wrap">
+  <section class="about-idenauta">
+    <div class="about-idenauta__img" data-reveal="left">
+      {% img "idenautas-web/jamstack-vs-joomla_02.png", "Elegir entre Jamstack y Joomla según el tipo de proyecto", "content" %}
+    </div>
+    <div class="about-idenauta__body">
+      <div class="about-idenauta__content" data-reveal>
+        <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">La pregunta correcta</p>
+        <h2 class="text-2xl" style="margin-bottom: var(--space-md)">¿Para qué proyecto tiene sentido cada uno?</h2>
+        <p class="about-editorial">
+          <strong>Jamstack encaja bien</strong> si tienes una web corporativa, un sitio de servicios, un blog o una landing page. Si valoras la velocidad, la seguridad y un coste de mantenimiento bajo a largo plazo. Si no quieres depender de que haya alguien disponible que conozca Joomla cuando necesites un cambio.
+        </p>
+        <p class="about-editorial">
+          <strong>Joomla puede seguir siendo válido</strong> si tienes una instalación estable en Joomla 4 o 5, con extensiones que funcionan bien y un equipo que conoce la plataforma. Si los requisitos de permisos y roles de usuario son muy específicos y complejos. Si el coste de migrar supera el valor que aportaría el cambio en tu caso concreto.
+        </p>
+        <p class="about-editorial">
+          <strong>Si estás en Joomla 3.x</strong>, la decisión ya está tomada en la práctica: esa versión está en fin de vida, con PHP desactualizado y sin soporte de seguridad. Actualizar a Joomla 4 o 5 implica reconstruir partes importantes de la web. Ese trabajo es prácticamente el mismo que migrar a Jamstack — con la diferencia de que Jamstack no te pondrá en esta situación de nuevo. Tienes más detalle en nuestra guía de <a href="/migracion-joomla-a-jamstack/" style="color: var(--color-accent)">migración de Joomla a Jamstack</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+</div>
+
+{# ── FAQ ───────────────────────────────────────────────────── #}
+<section class="faq-section section">
+  <div class="container">
+    <div class="faq-section__header" data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">Preguntas frecuentes</p>
+      <h2 class="text-2xl">Lo que nos preguntan sobre la comparativa</h2>
+    </div>
+    <dl class="faq-list" data-stagger>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Es Jamstack mejor que Joomla?</dt>
+        <dd class="faq-item__answer">Para la mayoría de webs corporativas, de servicios y blogs, sí. Jamstack es objetivamente superior en velocidad, coste de mantenimiento y durabilidad a largo plazo. Joomla puede seguir siendo una opción válida si tienes una instalación estable con extensiones específicas que funcionan bien y un equipo que conoce la plataforma. Pero en proyectos nuevos o migraciones, Jamstack gana en casi todos los criterios relevantes para una pyme.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué ventaja tiene Joomla sobre Jamstack?</dt>
+        <dd class="faq-item__answer">Joomla tiene un panel de administración integrado con gestión de usuarios y permisos muy granular, soporte multiidioma nativo sin extensiones adicionales y un sistema de categorías y artículos maduro. Para proyectos con estructuras editoriales complejas o requisitos de permisos muy específicos, estas características pueden ser difíciles de replicar en Jamstack sin trabajo adicional.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Puedo seguir editando el contenido yo mismo si migro de Joomla a Jamstack?</dt>
+        <dd class="faq-item__answer">Sí. Configuramos un sistema de edición adaptado a tu flujo de trabajo actual. Para equipos acostumbrados al panel de Joomla, hay CMS headless con interfaces similares que permiten gestionar contenido sin tocar código. La curva de adaptación es corta y el resultado final es más ágil que el panel de Joomla para la mayoría de tareas cotidianas.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Qué pasa con el soporte multiidioma que tengo en Joomla?</dt>
+        <dd class="faq-item__answer">Lo gestionamos desde el diseño de la arquitectura. No es un añadido posterior — se planifica desde el principio con URLs separadas por idioma y configuración correcta para que Google indexe bien cada versión. El resultado es igual de sólido que en Joomla, con menos complejidad de mantenimiento.</dd>
+      </div>
+
+      <div class="faq-item" data-stagger-child>
+        <dt class="faq-item__question">¿Merece la pena actualizar de Joomla 3 a Joomla 4 o 5, o es mejor migrar a Jamstack?</dt>
+        <dd class="faq-item__answer">Actualizar de Joomla 3 a Joomla 4 o 5 es prácticamente una reconstrucción: las extensiones que usas probablemente no son compatibles y el proceso es complejo. Si de todas formas hay que reconstruir partes importantes de la web, tiene más sentido aprovechar ese trabajo para migrar a una arquitectura moderna que no tenga este problema de nuevo en dos o tres años.</dd>
+      </div>
+
+    </dl>
+  </div>
+</section>
+
+{# ── CTA ───────────────────────────────────────────────────── #}
+<section class="svc-section svc-section--alt">
+  <div class="container">
+    <div data-reveal>
+      <p class="text-xs uppercase text-accent font-display" style="margin-bottom: var(--space-sm)">¿Tienes dudas sobre tu caso?</p>
+      <h2 class="text-2xl" style="margin-bottom: var(--space-md); max-width: 26ch">Conocemos Joomla. Cuéntanos qué tienes y te decimos qué tiene sentido.</h2>
+      <p class="about-editorial" style="max-width: 60ch; margin-bottom: var(--space-lg)">
+        No hay una respuesta genérica. Hay una respuesta para tu proyecto concreto. Si vienes de Joomla y quieres una valoración honesta de qué opciones tienes, cuéntanoslo.
+      </p>
+    </div>
+    {% include "partials/contacto.njk" %}
+  </div>
+</section>
