@@ -119,6 +119,12 @@ module.exports = function (eleventyConfig) {
 		return d.toISOString().split("T")[0];
 	});
 
+	eleventyConfig.addFilter("isoDateString", (dateObj) => {
+		if (!dateObj) return "";
+		const d = new Date(dateObj);
+		return d.toISOString().split("T")[0] + "T00:00:00+01:00";
+	});
+
 	eleventyConfig.addFilter("readableDate", (dateObj) => {
 		if (!dateObj) return "";
 		const d = new Date(dateObj);
