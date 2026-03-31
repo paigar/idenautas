@@ -13,7 +13,7 @@
     <link rel="author" href="/humans.txt">
     <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-    <link rel="preconnect" href="https://images.paigar.es" crossorigin>
+    <link rel="preconnect" href="https://imagenes.paigar.es" crossorigin>
     <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
 
@@ -27,7 +27,7 @@
     {% if ogImage %}
       {% set ogImg = ogImage %}
     {% elif heroImage %}
-      {% set ogImg = site.cdn + heroImage + '?width=1200&quality=75' %}
+      {% set ogImg = heroImage | imgUrl(1200, "jpg") %}
     {% else %}
       {% set ogImg = site.url + '/assets/img/og-default.png' %}
     {% endif %}
@@ -44,11 +44,17 @@
     <meta name="twitter:image:alt" content="{{ title or site.name }} — {{ site.description }}">
 
     {% if heroImage %}
-      <link rel="preload" as="image" href="{{ site.cdn }}{{ heroImage }}?width=1920&quality=75" imagesrcset="{{ site.cdn }}{{ heroImage }}?width=480&quality=75 480w, {{ site.cdn }}{{ heroImage }}?width=960&quality=75 960w, {{ site.cdn }}{{ heroImage }}?width=1920&quality=75 1920w" imagesizes="100vw" fetchpriority="high">
+      <link rel="preload" as="image" imagesrcset="{{ heroImage | imgUrl(480, 'avif') }} 480w, {{ heroImage | imgUrl(1200, 'avif') }} 1200w, {{ heroImage | imgUrl(1920, 'avif') }} 1920w" imagesizes="100vw" type="image/avif" fetchpriority="high">
+      <link rel="preload" as="image" imagesrcset="{{ heroImage | imgUrl(480, 'jpg') }} 480w, {{ heroImage | imgUrl(1200, 'jpg') }} 1200w, {{ heroImage | imgUrl(1920, 'jpg') }} 1920w" imagesizes="100vw" type="image/jpeg" fetchpriority="high">
     {% endif %}
     <style>
       {{inlineCSS | safe}}
     </style>
+    {% if hasCode %}
+    <style>
+      {{ syntaxCSS | safe }}
+    </style>
+    {% endif %}
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} — Blog" href="/feed.xml">
 
     {# ── Structured Data (JSON-LD) ───────────────────────────── #}
@@ -68,7 +74,7 @@
           "postalCode": "{{ site.address.zip }}",
           "addressCountry": "ES"
         },
-        "image": "{{ site.cdn }}idenautas-web/idenautas-og.png",
+        "image": "{{ 'idenautas-web/idenautas-og.png' | imgUrl(1200, 'jpg') }}",
         "priceRange": "$$",
         "foundingDate": "2005",
         "areaServed": {

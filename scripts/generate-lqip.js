@@ -1,7 +1,7 @@
 /**
  * Generates LQIP (Low Quality Image Placeholder) base64 data URIs.
  * Scans all templates for {% img %} shortcode calls, downloads tiny
- * 20px versions from the CDN, and saves them as a JSON map.
+ * 16px jpg versions from the CDN, and saves them as a JSON map.
  *
  * Usage: node scripts/generate-lqip.js
  */
@@ -14,8 +14,11 @@ const site = require("../src/_data/site.json");
 const SRC_DIR = path.join(__dirname, "..", "src");
 const OUTPUT = path.join(SRC_DIR, "_data", "lqip.json");
 const CDN = site.cdn;
-const LQIP_WIDTH = 20;
-const LQIP_QUALITY = 30;
+/** Strip file extension: "blog/120.png" → "blog/120" */
+function imgBase(imgPath) {
+  const ext = path.extname(imgPath);
+  return ext ? imgPath.slice(0, -ext.length) : imgPath;
+}
 
 function findImagePaths() {
   const paths = new Set();
@@ -83,7 +86,7 @@ async function main() {
     if (lqip[imgPath]) {
       continue; // Already have this one
     }
-    const url = `${CDN}${imgPath}?width=${LQIP_WIDTH}&quality=${LQIP_QUALITY}`;
+    const url = `${CDN}${imgBase(imgPath)}-16.jpg`;
     try {
       lqip[imgPath] = await fetchAsBase64(url);
       downloaded++;

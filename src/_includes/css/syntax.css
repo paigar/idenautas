@@ -1,0 +1,154 @@
+/* ── Syntax Highlighting (Prism.js — build-time) ─────────── */
+
+/* Block code */
+.prose pre[class*="language-"] {
+	background: var(--color-bg-alt);
+	border: 1px solid var(--color-border);
+	border-radius: var(--radius);
+	padding: 1.25em 1.5em;
+	margin-block: var(--space-md);
+	overflow-x: auto;
+	font-size: 0.88em;
+	line-height: 1.65;
+	tab-size: 2;
+	-webkit-overflow-scrolling: touch;
+}
+
+.prose pre[class*="language-"] code {
+	background: none;
+	padding: 0;
+	border: none;
+	font-size: inherit;
+	color: inherit;
+}
+
+/* Inline code */
+.prose code {
+	background: var(--color-accent-soft);
+	color: var(--color-text);
+	padding: 0.15em 0.4em;
+	border-radius: 0.25em;
+	font-size: 0.88em;
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+	word-break: break-word;
+}
+
+/* ── Tokens — Dark (default) ─────────────────────────────── */
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #6b6382;
+	font-style: italic;
+}
+
+.token.punctuation {
+	color: #9a93a8;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #e8553d;
+}
+
+.token.boolean,
+.token.number {
+	color: #e8a045;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #8cc07c;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+	color: #d4c4a8;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+	color: #7eb8da;
+}
+
+.token.function,
+.token.class-name {
+	color: #dbc08a;
+}
+
+.token.regex,
+.token.important,
+.token.variable {
+	color: #e8a045;
+}
+
+/* ── Tokens — Light theme ────────────────────────────────── */
+[data-theme="light"] .token.comment,
+[data-theme="light"] .token.prolog,
+[data-theme="light"] .token.doctype,
+[data-theme="light"] .token.cdata {
+	color: #8a8494;
+	font-style: italic;
+}
+
+[data-theme="light"] .token.punctuation {
+	color: #5a5662;
+}
+
+[data-theme="light"] .token.property,
+[data-theme="light"] .token.tag,
+[data-theme="light"] .token.constant,
+[data-theme="light"] .token.symbol,
+[data-theme="light"] .token.deleted {
+	color: #c43d28;
+}
+
+[data-theme="light"] .token.boolean,
+[data-theme="light"] .token.number {
+	color: #a06e18;
+}
+
+[data-theme="light"] .token.selector,
+[data-theme="light"] .token.attr-name,
+[data-theme="light"] .token.string,
+[data-theme="light"] .token.char,
+[data-theme="light"] .token.builtin,
+[data-theme="light"] .token.inserted {
+	color: #3a7a2a;
+}
+
+[data-theme="light"] .token.operator,
+[data-theme="light"] .token.entity,
+[data-theme="light"] .token.url,
+[data-theme="light"] .language-css .token.string,
+[data-theme="light"] .style .token.string {
+	color: #6b5e3e;
+}
+
+[data-theme="light"] .token.atrule,
+[data-theme="light"] .token.attr-value,
+[data-theme="light"] .token.keyword {
+	color: #2a6f9a;
+}
+
+[data-theme="light"] .token.function,
+[data-theme="light"] .token.class-name {
+	color: #8a6d1a;
+}
+
+[data-theme="light"] .token.regex,
+[data-theme="light"] .token.important,
+[data-theme="light"] .token.variable {
+	color: #a06e18;
+}

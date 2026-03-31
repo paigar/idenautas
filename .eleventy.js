@@ -1,11 +1,23 @@
 const site = require("./src/_data/site.json");
 const CleanCSS = require("clean-css");
 const { minify } = require("terser");
+const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const fs = require("fs");
 const path = require("path");
 const https = require("https");
 const CDN = site.cdn;
-const QUALITY = 75;
+const FORMATS = ["avif", "webp", "jpg"];
+
+/** Strip extension from image path: "blog/120.png" → "blog/120" */
+function imgBase(imgPath) {
+	const ext = path.extname(imgPath);
+	return ext ? imgPath.slice(0, -ext.length) : imgPath;
+}
+
+/** Build CDN URL for a given path, size and format */
+function imgUrl(imgPath, size, fmt) {
+	return `${CDN}${imgBase(imgPath)}-${size}.${fmt}`;
+}
 const SRC_DIR = path.join(__dirname, "src");
 const LQIP_PATH = path.join(SRC_DIR, "_data", "lqip.json");
 let lqipData = fs.existsSync(LQIP_PATH)
@@ -70,7 +82,7 @@ async function generateLQIP() {
 			lqip[img] = existing[img];
 		} else {
 			try {
-				lqip[img] = await fetchBase64(`${CDN}${img}?width=20&quality=30`);
+				lqip[img] = await fetchBase64(imgUrl(img, 16, "jpg"));
 				downloaded++;
 				console.log(`  [lqip] ✓ ${img}`);
 			} catch (err) {
@@ -86,30 +98,31 @@ async function generateLQIP() {
 }
 
 const IMG_PRESETS = {
-	hero: { widths: [480, 960, 1920], sizes: "100vw", aspect: "16/9" },
+	hero: { widths: [480, 1200, 1920], sizes: "100vw", aspect: "16/9" },
 	content: {
-		widths: [400, 800, 1200],
+		widths: [480, 800, 1200],
 		sizes: "(max-width: 768px) 100vw, 50vw",
 		aspect: "3/2",
 	},
 	mosaic: {
-		widths: [400, 800],
+		widths: [480, 800],
 		sizes: "(max-width: 768px) 100vw, 33vw",
 		aspect: "3/2",
 	},
 	visual: {
-		widths: [480, 960],
+		widths: [480, 800],
 		sizes: "(max-width: 768px) 100vw, 80vw",
 		aspect: "3/2",
 	},
 	thumb: {
-		widths: [400, 800],
+		widths: [480, 800],
 		sizes: "(max-width: 768px) 100vw, 40vw",
 		aspect: "16/9",
 	},
 };
 
 module.exports = function (eleventyConfig) {
+	eleventyConfig.addPlugin(syntaxHighlight);
 	eleventyConfig.addPassthroughCopy("src/assets");
 	eleventyConfig.addWatchTarget("src/assets/");
 
@@ -144,8 +157,20 @@ module.exports = function (eleventyConfig) {
 		return new CleanCSS({ level: 2 }).minify(style + cookie).styles;
 	});
 
+	eleventyConfig.addGlobalData("syntaxCSS", () => {
+		const raw = fs.readFileSync(
+			path.join(SRC_DIR, "_includes", "css", "syntax.css"),
+			"utf8",
+		);
+		return new CleanCSS({ level: 2 }).minify(raw).styles;
+	});
+
 	eleventyConfig.addFilter("lqip", (imgPath) => {
 		return lqipData[imgPath] || "";
+	});
+
+	eleventyConfig.addFilter("imgUrl", (imgPath, size, fmt) => {
+		return imgUrl(imgPath, size, fmt || "jpg");
 	});
 
 	eleventyConfig.addFilter("randomSlice", (arr, exclude, count, poolSize) => {
@@ -166,27 +191,42 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addShortcode(
 		"img",
 		function (
-			path,
+			imgPath,
 			alt = "",
 			preset = "content",
 			loading = "lazy",
-			quality = QUALITY,
 		) {
 			const safeAlt = alt.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 			const cfg = IMG_PRESETS[preset] || IMG_PRESETS.content;
-			const base = CDN + path;
 			const largest = cfg.widths[cfg.widths.length - 1];
-			const src = `${base}?width=${largest}&quality=${quality}`;
-			const srcset = cfg.widths
-				.map((w) => `${base}?width=${w}&quality=${quality} ${w}w`)
-				.join(", ");
+			const srcsetFor = (fmt) =>
+				cfg.widths.map((w) => `${imgUrl(imgPath, w, fmt)} ${w}w`).join(", ");
 			const priority = loading === "eager" ? ' fetchpriority="high"' : "";
 			const aspect = cfg.aspect || "3/2";
 			const [aw, ah] = aspect.split("/").map(Number);
 			const width = largest;
 			const height = Math.round((largest * ah) / aw);
-			const lqip = lqipData[path] || `${base}?width=20&quality=30`;
-			return `<div class="lqip-wrap" style="background-image:url('${lqip}')"><img src="${src}" srcset="${srcset}" sizes="${cfg.sizes}" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}"${priority} onload="this.parentNode.classList.add('loaded')"></div>`;
+			const lqip = lqipData[imgPath] || imgUrl(imgPath, 16, "jpg");
+			return `<div class="lqip-wrap" style="background-image:url('${lqip}')"><picture><source type="image/avif" srcset="${srcsetFor("avif")}" sizes="${cfg.sizes}"><source type="image/webp" srcset="${srcsetFor("webp")}" sizes="${cfg.sizes}"><img src="${imgUrl(imgPath, largest, "jpg")}" srcset="${srcsetFor("jpg")}" sizes="${cfg.sizes}" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}"${priority} onload="this.parentNode.classList.add('loaded')"></picture></div>`;
+		},
+	);
+
+	eleventyConfig.addShortcode(
+		"cardPicture",
+		function (imgPath, alt = "", wide = false, eager = false) {
+			const safeAlt = alt.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+			const widths = wide ? [480, 800] : [480];
+			const largest = widths[widths.length - 1];
+			const width = largest;
+			const height = Math.round(largest * 9 / 16);
+			const loading = eager ? "eager" : "lazy";
+			const srcsetFor = (fmt) =>
+				widths.map((w) => `${imgUrl(imgPath, w, fmt)} ${w}w`).join(", ");
+			const lqip = lqipData[imgPath] || imgUrl(imgPath, 16, "jpg");
+			if (widths.length === 1) {
+				return `<div class="lqip-wrap" style="background-image:url('${lqip}')"><picture><source type="image/avif" srcset="${imgUrl(imgPath, largest, "avif")}"><source type="image/webp" srcset="${imgUrl(imgPath, largest, "webp")}"><img src="${imgUrl(imgPath, largest, "jpg")}" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}" onload="this.parentNode.classList.add('loaded')"></picture></div>`;
+			}
+			return `<div class="lqip-wrap" style="background-image:url('${lqip}')"><picture><source type="image/avif" srcset="${srcsetFor("avif")}" sizes="(max-width: 768px) 100vw, 50vw"><source type="image/webp" srcset="${srcsetFor("webp")}" sizes="(max-width: 768px) 100vw, 50vw"><img src="${imgUrl(imgPath, largest, "jpg")}" srcset="${srcsetFor("jpg")}" sizes="(max-width: 768px) 100vw, 50vw" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}" onload="this.parentNode.classList.add('loaded')"></picture></div>`;
 		},
 	);
 
