@@ -1,0 +1,45 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# Idenautas
+
+> Estudio independiente de desarrollo web con base en Bilbao, especializado en arquitectura Jamstack con Eleventy. Creamos sitios ultrarrápidos, seguros, sostenibles y de bajo mantenimiento para empresas, profesionales y agencias que buscan una alternativa real a WordPress y a los CMS tradicionales.
+
+Llevamos trabajando en desarrollo web desde 2007. Nuestra filosofía se basa en la sobriedad editorial, el rendimiento real, la sostenibilidad digital y la durabilidad del código. Trabajamos con generadores estáticos, despliegue en CDN y una metodología artesanal orientada a resultados medibles. Publicamos habitualmente en nuestro blog sobre desarrollo web, Jamstack, SEO, sostenibilidad, diseño y oficio.
+
+## Servicios
+{% for post in collections.servicios | sortByOrder -%}
+{% if post.fileSlug != "index" %}
+- [{{ post.data.title }}](https://www.idenautas.com{{ post.url }}): {{ post.data.description }}
+{%- endif -%}
+{%- endfor %}
+
+## Páginas especializadas
+{% for post in collections.all -%}
+{% if "/nosotros/" in post.inputPath and "nosotros/index" not in post.inputPath %}
+- [{{ post.data.title }}](https://www.idenautas.com{{ post.url }}): {{ post.data.description }}
+{%- endif -%}
+{%- endfor %}
+
+## Sobre Idenautas
+
+- [Inicio](https://www.idenautas.com/): página principal del estudio con presentación general, servicios destacados y últimas publicaciones del blog.
+- [Servicios](https://www.idenautas.com/servicios/): listado completo de los servicios de desarrollo, diseño, alojamiento y mantenimiento web que ofrecemos.
+- [Nosotros](https://www.idenautas.com/nosotros/): quiénes somos, cómo trabajamos, nuestra filosofía editorial y nuestra zona de trabajo.
+- [Contacto](https://www.idenautas.com/contacto/): formulario y vías directas para contactar con el estudio y comenzar un proyecto.
+
+## Últimos artículos del blog
+{% set recent = collections.blog | reverse -%}
+{% for post in recent -%}
+{% if loop.index0 < 20 %}
+- [{{ post.data.title }}](https://www.idenautas.com{{ post.url }}): {{ post.data.description }}
+{%- endif -%}
+{%- endfor %}
+
+## Opcional
+
+- [Aviso legal](https://www.idenautas.com/aviso-legal/): información legal, titularidad del sitio y condiciones de uso.
+- [Política de privacidad](https://www.idenautas.com/politica-de-privacidad/): cómo tratamos los datos personales recogidos a través del sitio.
+- [Uso de cookies](https://www.idenautas.com/uso-de-cookies/): política de cookies del sitio web.
+- [Contenido extendido (llms-full.txt)](https://www.idenautas.com/llms-full.txt): versión con el texto completo de los últimos artículos del blog en Markdown.

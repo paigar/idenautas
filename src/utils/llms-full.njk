@@ -1,0 +1,25 @@
+---
+permalink: /llms-full.txt
+eleventyExcludeFromCollections: true
+---
+# Idenautas — Contenido extendido
+
+> Versión extendida de llms.txt con el texto completo en Markdown de los últimos artículos del blog de Idenautas. Complementa el índice general publicado en https://www.idenautas.com/llms.txt.
+
+Este documento contiene el texto íntegro de los artículos más recientes del blog de Idenautas, pensado para que un modelo de lenguaje pueda ingerir de una sola vez todo el material editorial reciente sin necesidad de visitar cada URL por separado. Para el índice general del sitio, los servicios y las páginas especializadas, consulta https://www.idenautas.com/llms.txt.
+
+{% set recent = collections.blog | reverse -%}
+{% for post in recent -%}
+{% if loop.index0 < 15 %}
+---
+
+# {{ post.data.title }}
+
+> {{ post.data.description }}
+
+- URL: https://www.idenautas.com{{ post.url }}
+- Fecha: {{ post.date | htmlDateString }}
+
+{{ post.inputPath | rawBody | safe }}
+{% endif -%}
+{%- endfor %}

@@ -173,6 +173,25 @@ module.exports = function (eleventyConfig) {
 		return imgUrl(imgPath, size, fmt || "jpg");
 	});
 
+	eleventyConfig.addFilter("rawBody", (inputPath) => {
+		if (!inputPath) return "";
+		try {
+			const abs = path.isAbsolute(inputPath)
+				? inputPath
+				: path.join(__dirname, inputPath);
+			const content = fs.readFileSync(abs, "utf8");
+			return content.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n?/, "").trim();
+		} catch (e) {
+			return "";
+		}
+	});
+
+	eleventyConfig.addFilter("sortByOrder", (arr) => {
+		return [...arr].sort(
+			(a, b) => (a.data.order || 99) - (b.data.order || 99),
+		);
+	});
+
 	eleventyConfig.addFilter("randomSlice", (arr, exclude, count, poolSize) => {
 		const filtered = arr.filter((item) => item.url !== exclude);
 		const pool = poolSize ? filtered.slice(-poolSize) : filtered;
