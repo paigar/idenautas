@@ -2,9 +2,38 @@ import "dotenv/config";
 import { execSync } from "child_process";
 import { createInterface } from "readline";
 import { readFileSync, readdirSync, statSync, rmSync } from "fs";
-import { join, posix } from "path";
+import { extname, join, posix } from "path";
 
 const SITE_DIR = "_site";
+
+const MIME_TYPES = {
+  ".html": "text/html; charset=utf-8",
+  ".htm": "text/html; charset=utf-8",
+  ".txt": "text/plain; charset=utf-8",
+  ".css": "text/css; charset=utf-8",
+  ".js": "application/javascript; charset=utf-8",
+  ".mjs": "application/javascript; charset=utf-8",
+  ".json": "application/json; charset=utf-8",
+  ".xml": "application/xml; charset=utf-8",
+  ".webmanifest": "application/manifest+json; charset=utf-8",
+  ".svg": "image/svg+xml; charset=utf-8",
+  ".png": "image/png",
+  ".jpg": "image/jpeg",
+  ".jpeg": "image/jpeg",
+  ".webp": "image/webp",
+  ".avif": "image/avif",
+  ".gif": "image/gif",
+  ".ico": "image/x-icon",
+  ".woff": "font/woff",
+  ".woff2": "font/woff2",
+  ".ttf": "font/ttf",
+  ".otf": "font/otf",
+  ".pdf": "application/pdf",
+};
+
+function contentTypeFor(filePath) {
+  return MIME_TYPES[extname(filePath).toLowerCase()] || "application/octet-stream";
+}
 
 // --- 1. Commit y push a GitHub ---
 function preguntar(texto) {
@@ -77,7 +106,7 @@ async function subirAPI() {
       method: "PUT",
       headers: {
         AccessKey: BUNNY_STORAGE_PASSWORD,
-        "Content-Type": "application/octet-stream",
+        "Content-Type": contentTypeFor(localPath),
       },
       body,
     });
