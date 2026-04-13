@@ -173,6 +173,15 @@ module.exports = function (eleventyConfig) {
 		return imgUrl(imgPath, size, fmt || "jpg");
 	});
 
+	eleventyConfig.addTransform("utf8bom", function (content) {
+		const out = this.page && this.page.outputPath;
+		if (!out) return content;
+		if (out.endsWith("llms.txt") || out.endsWith("llms-full.txt")) {
+			return "\uFEFF" + content;
+		}
+		return content;
+	});
+
 	eleventyConfig.addFilter("rawBody", (inputPath) => {
 		if (!inputPath) return "";
 		try {
