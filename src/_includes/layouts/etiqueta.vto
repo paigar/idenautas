@@ -1,0 +1,45 @@
+---
+layout: layouts/page.vto
+---
+<section class="section svc-section--alt" style="padding-block: var(--space-sm);">
+  <div class="container">
+    <div class="tag-filter">
+      <span class="tag-filter__label">Artículos etiquetados como</span>
+      <span class="tag-filter__wrap">
+        <select class="tag-filter__select" onchange="window.location.href=this.value" aria-label="Filtrar por etiqueta">
+          <option value="/blog/">Todos</option>
+          {{ for slug of Object.keys(etiquetas) }}
+            <option value="/blog/{{ slug }}/"{{ slug === tagSlug ? " selected" : "" }}>{{ etiquetas[slug].nombre }}</option>
+          {{ /for }}
+        </select>
+      </span>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top: var(--space-lg);">
+  <div class="container">
+    <div class="blog-grid">
+      {{ set tagPosts = search.pages(tagSlug, "date=desc") }}
+      {{ for [i, post] of tagPosts.entries() }}
+        {{ set isFeatured = i === 0 }}
+        {{ set isWide = i !== 0 && i % 9 === 0 }}
+        <article class="blog-card{{ isFeatured ? ' blog-card--featured' : (isWide ? ' blog-card--wide' : '') }}" data-reveal>
+          <a href="{{ post.url }}" class="blog-card__link">
+            <div class="blog-card__img">
+              {{ set cardImg = post.heroImage || "idenautas-web/general.png" }}
+              {{ cardPicture(cardImg, post.alt || "", isFeatured || isWide, isFeatured) }}
+            </div>
+            <div class="blog-card__content">
+              <h2 class="blog-card__title">{{ post.title }}</h2>
+              {{ if post.description }}
+                <p class="blog-card__excerpt">{{ post.description }}</p>
+              {{ /if }}
+              <span class="blog-card__read">Leer artículo <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+        </article>
+      {{ /for }}
+    </div>
+  </div>
+</section>

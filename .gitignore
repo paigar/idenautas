@@ -3,6 +3,8 @@ node_modules/
 
 # Build output
 _site/
+_lume_site/
+_cache/
 
 # Images (served from CDN)
 _images/

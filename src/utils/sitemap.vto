@@ -1,0 +1,27 @@
+---
+url: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {{ for item of search.pages() }}
+  {{ if !item.url?.includes("/feed/") }}
+  <url>
+    <loc>{{ site.url }}{{ item.url }}</loc>
+    {{ if item.date }}
+    <lastmod>{{ item.date |> htmlDateString }}</lastmod>
+    {{ /if }}
+  </url>
+  {{ /if }}
+  {{ /for }}
+  {{ set excluded = ["/servicios/", "/blog/", "/mapa-del-sitio/", "/aviso-legal/", "/politica-de-privacidad/", "/uso-de-cookies/"] }}
+  {{ for path of excluded }}
+  <url>
+    <loc>{{ site.url }}{{ path }}</loc>
+  </url>
+  {{ /for }}
+  {{ for slug of Object.keys(etiquetas) }}
+  <url>
+    <loc>{{ site.url }}/blog/{{ slug }}/</loc>
+  </url>
+  {{ /for }}
+</urlset>

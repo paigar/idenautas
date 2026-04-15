@@ -1,0 +1,64 @@
+---
+layout: layouts/page.vto
+title: Blog
+label: Artículos
+subtitle: Reflexiones, consejos y novedades sobre desarrollo web, diseño y tecnología digital.
+description: Blog de Idenautas. Artículos sobre desarrollo web, diseño, tecnología y estrategia digital.
+heroImage: idenautas-web/blog.png
+url: /blog/
+---
+
+<section class="section svc-section--alt" style="padding-block: var(--space-sm);">
+  <div class="container">
+    <div class="blog-controls">
+      <div class="blog-search">
+        <label for="blog-search-input" class="sr-only">Buscar artículos</label>
+        <div class="blog-search__wrap">
+          <svg class="blog-search__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="search" id="blog-search-input" class="blog-search__input" placeholder="Buscar artículos…" autocomplete="off" spellcheck="false">
+          <button type="button" class="blog-search__clear" aria-label="Limpiar búsqueda" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
+        </div>
+        <p class="blog-search-count" aria-live="polite" hidden></p>
+      </div>
+      <div class="tag-filter">
+        <span class="tag-filter__label">Artículos etiquetados como</span>
+        <span class="tag-filter__wrap">
+          <select class="tag-filter__select" onchange="window.location.href=this.value" aria-label="Filtrar por etiqueta">
+            <option value="/blog/">Todos</option>
+            {{ for slug of Object.keys(etiquetas) }}
+              <option value="/blog/{{ slug }}/">{{ etiquetas[slug].nombre }}</option>
+            {{ /for }}
+          </select>
+        </span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top: var(--space-lg);">
+  <div class="container">
+    <div class="blog-grid">
+      {{ for [i, post] of search.pages("blog", "date=desc").entries() }}
+        {{ set isFeatured = i === 0 }}
+        {{ set isWide = i !== 0 && i % 9 === 0 }}
+        <article class="blog-card{{ isFeatured ? ' blog-card--featured' : (isWide ? ' blog-card--wide' : '') }}" data-reveal data-search="{{ post.title }} {{ post.description }} {{ (post.tags || []).join(' ').replaceAll('-', ' ') }}">
+          <a href="{{ post.url }}" class="blog-card__link">
+            <div class="blog-card__img">
+              {{ set cardImg = post.heroImage || "idenautas-web/general.png" }}
+              {{ cardPicture(cardImg, post.alt || "", isFeatured || isWide, isFeatured) }}
+            </div>
+            <div class="blog-card__content">
+              <h2 class="blog-card__title">{{ post.title }}</h2>
+              {{ if post.description }}
+                <p class="blog-card__excerpt">{{ post.description }}</p>
+              {{ /if }}
+              <span class="blog-card__read">Leer artículo <span aria-hidden="true">→</span></span>
+            </div>
+          </a>
+        </article>
+      {{ /for }}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,4 @@
+layout: layouts/post.vto
+type: post
+# The "blog" tag is attached by the preprocessor in _config.ts so that it
+# only lands on actual blog posts (.md files) and not on listing/tag pages.

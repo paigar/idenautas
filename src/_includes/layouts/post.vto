@@ -1,0 +1,123 @@
+---
+layout: layouts/page.vto
+---
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ title |> escape }}",
+  "description": "{{ description |> escape }}",
+  {{ if heroImage }}"image": "{{ imgUrl(heroImage, 1200, "jpg") }}",{{ /if }}
+  "datePublished": "{{ date |> isoDateString }}",
+  "dateModified": "{{ date |> isoDateString }}",
+  "author": { "@type": "Organization", "name": "{{ site.name }}", "url": "{{ site.url }}" },
+  "publisher": { "@type": "Organization", "name": "{{ site.name }}", "url": "{{ site.url }}" },
+  "url": "{{ site.url }}{{ url }}"
+}
+</script>
+
+<article class="section container prose">
+  {{ content }}
+
+  {{ if tags?.includes("blog") }}
+    {{ set mainTag = tags.find(t => t !== "blog" && etiquetas[t]) || "" }}
+
+    <div class="post-tags">
+      <span class="post-tags__label">Etiquetado como:</span>
+      {{ for tag of tags }}
+        {{ if tag !== "blog" && etiquetas[tag] }}
+          <a href="/blog/{{ tag }}/" class="post-tag">{{ etiquetas[tag].nombre }}</a>
+        {{ /if }}
+      {{ /for }}
+      <a href="/blog/" class="post-tags__back">Volver al blog <span aria-hidden="true">→</span></a>
+    </div>
+  {{ /if }}
+</article>
+
+{{ if tags?.includes("blog") }}
+  {{ set blogPosts = search.pages("blog", "date=desc") }}
+  {{ set currentIndex = blogPosts.findIndex(p => p.url === url) }}
+  {{ set prevPost = currentIndex > 0 ? blogPosts[currentIndex - 1] : null }}
+  {{ set nextPost = (currentIndex >= 0 && currentIndex < blogPosts.length - 1) ? blogPosts[currentIndex + 1] : null }}
+
+  {{ if prevPost || nextPost }}
+    <nav class="post-nav section" aria-label="Navegación entre artículos">
+      <div class="container post-nav__grid">
+        {{ if prevPost }}
+          <a href="{{ prevPost.url }}" class="post-nav__link post-nav__link--prev">
+            <span class="post-nav__label">← Anterior</span>
+            <span class="post-nav__title">{{ prevPost.title }}</span>
+          </a>
+        {{ else }}
+          <span></span>
+        {{ /if }}
+        {{ if nextPost }}
+          <a href="{{ nextPost.url }}" class="post-nav__link post-nav__link--next">
+            <span class="post-nav__label">Siguiente →</span>
+            <span class="post-nav__title">{{ nextPost.title }}</span>
+          </a>
+        {{ else }}
+          <span></span>
+        {{ /if }}
+      </div>
+    </nav>
+  {{ /if }}
+
+  {{ set mainTag = tags.find(t => t !== "blog" && etiquetas[t]) || "" }}
+  {{ set relatedPool = mainTag ? search.pages(mainTag, "date=desc") : blogPosts }}
+  {{ set related = randomSlice(relatedPool, url, 6, 50) }}
+
+  {{ if related.length > 0 }}
+    <section class="section post-related">
+      <div class="container">
+        <h2 class="post-related__heading">{{ mainTag && etiquetas[mainTag] ? ("Otros artículos sobre " + etiquetas[mainTag].nombre.toLowerCase()) : "También te puede interesar" }}</h2>
+        <p class="post-related__intro">{{ mainTag && etiquetas[mainTag] ? etiquetas[mainTag].descripcion : "Reflexiones, consejos y novedades sobre desarrollo web, diseño y tecnología digital." }}</p>
+        <div class="blog-grid">
+          {{ for post of related }}
+            <article class="blog-card" data-reveal>
+              <a href="{{ post.url }}" class="blog-card__link">
+                <div class="blog-card__img">
+                  {{ set cardImg = post.heroImage || "idenautas-web/general.png" }}
+                  {{ cardPicture(cardImg, post.alt || "", false, false) }}
+                </div>
+                <div class="blog-card__content">
+                  <h3 class="blog-card__title">{{ post.title }}</h3>
+                  {{ if post.description }}
+                    <p class="blog-card__excerpt">{{ post.description }}</p>
+                  {{ /if }}
+                  <span class="blog-card__read">Leer artículo <span aria-hidden="true">→</span></span>
+                </div>
+              </a>
+            </article>
+          {{ /for }}
+        </div>
+      </div>
+    </section>
+  {{ /if }}
+
+  <script>
+    (function () {
+      const header = document.querySelector('.site-header');
+      if (!header)
+        return;
+      const progress = document.createElement('div');
+      progress.className = 'reading-progress';
+      progress.setAttribute('aria-hidden', 'true');
+      progress.innerHTML = '<div class="reading-progress__bar"></div>';
+      header.appendChild(progress);
+      const bar = progress.querySelector('.reading-progress__bar');
+      const article = document.querySelector('.prose');
+      if (!article)
+        return;
+      function update() {
+        const rect = article.getBoundingClientRect();
+        const total = article.scrollHeight - window.innerHeight;
+        const scrolled = -rect.top;
+        const pct = Math.min(Math.max(scrolled / total, 0), 1) * 100;
+        bar.style.width = pct + '%';
+      }
+      window.addEventListener('scroll', update, {passive: true});
+      update();
+    })();
+  </script>
+{{ /if }}

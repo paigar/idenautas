@@ -6,10 +6,9 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-      {% if title %}{{ title }} — {% endif %}{{ site.name }} · Web Factory</title>
-    <meta name="description" content="{{ description or site.description }}">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+    <title>{{ if title }}{{ title }} — {{ /if }}{{ site.name }} · Web Factory</title>
+    <meta name="description" content="{{ description || site.description }}">
+    <link rel="canonical" href="{{ site.url }}{{ url }}">
     <link rel="author" href="/humans.txt">
     <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
@@ -17,47 +16,41 @@
     <link rel="preload" href="/assets/fonts/outfit-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="/assets/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
 
-    {# ── Open Graph ──────────────────────────────────────────── #}
+    {{# ── Open Graph ──────────────────────────────────────────── #}}
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_ES">
     <meta property="og:site_name" content="{{ site.name }}">
-    <meta property="og:title" content="{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} · Web Factory{% endif %}">
-    <meta property="og:description" content="{{ description or site.description }}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    {% if ogImage %}
-      {% set ogImg = ogImage %}
-    {% elif heroImage %}
-      {% set ogImg = heroImage | imgUrl(1200, "jpg") %}
-    {% else %}
-      {% set ogImg = site.url + '/assets/img/og-default.png' %}
-    {% endif %}
+    <meta property="og:title" content="{{ if title }}{{ title }} — {{ site.name }}{{ else }}{{ site.name }} · Web Factory{{ /if }}">
+    <meta property="og:description" content="{{ description || site.description }}">
+    <meta property="og:url" content="{{ site.url }}{{ url }}">
+    {{ set ogImg = ogImage || (heroImage ? imgUrl(heroImage, 1200, "jpg") : site.url + "/assets/img/og-default.png") }}
     <meta property="og:image" content="{{ ogImg }}">
-    <meta property="og:image:alt" content="{{ title or site.name }} — {{ site.description }}">
+    <meta property="og:image:alt" content="{{ title || site.name }} — {{ site.description }}">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
 
-    {# ── Twitter Card ────────────────────────────────────────── #}
+    {{# ── Twitter Card ────────────────────────────────────────── #}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{% if title %}{{ title }} — {{ site.name }}{% else %}{{ site.name }} · Web Factory{% endif %}">
-    <meta name="twitter:description" content="{{ description or site.description }}">
+    <meta name="twitter:title" content="{{ if title }}{{ title }} — {{ site.name }}{{ else }}{{ site.name }} · Web Factory{{ /if }}">
+    <meta name="twitter:description" content="{{ description || site.description }}">
     <meta name="twitter:image" content="{{ ogImg }}">
-    <meta name="twitter:image:alt" content="{{ title or site.name }} — {{ site.description }}">
+    <meta name="twitter:image:alt" content="{{ title || site.name }} — {{ site.description }}">
 
-    {% if heroImage %}
-      <link rel="preload" as="image" imagesrcset="{{ heroImage | imgUrl(480, 'avif') }} 480w, {{ heroImage | imgUrl(1200, 'avif') }} 1200w, {{ heroImage | imgUrl(1920, 'avif') }} 1920w" imagesizes="100vw" type="image/avif" fetchpriority="high">
-      <link rel="preload" as="image" imagesrcset="{{ heroImage | imgUrl(480, 'jpg') }} 480w, {{ heroImage | imgUrl(1200, 'jpg') }} 1200w, {{ heroImage | imgUrl(1920, 'jpg') }} 1920w" imagesizes="100vw" type="image/jpeg" fetchpriority="high">
-    {% endif %}
+    {{ if heroImage }}
+      <link rel="preload" as="image" imagesrcset="{{ imgUrl(heroImage, 480, 'avif') }} 480w, {{ imgUrl(heroImage, 1200, 'avif') }} 1200w, {{ imgUrl(heroImage, 1920, 'avif') }} 1920w" imagesizes="100vw" type="image/avif" fetchpriority="high">
+      <link rel="preload" as="image" imagesrcset="{{ imgUrl(heroImage, 480, 'jpg') }} 480w, {{ imgUrl(heroImage, 1200, 'jpg') }} 1200w, {{ imgUrl(heroImage, 1920, 'jpg') }} 1920w" imagesizes="100vw" type="image/jpeg" fetchpriority="high">
+    {{ /if }}
     <style>
-      {{inlineCSS | safe}}
+      {{ inlineCSS }}
     </style>
-    {% if hasCode %}
+    {{ if hasCode }}
     <style>
-      {{ syntaxCSS | safe }}
+      {{ syntaxCSS }}
     </style>
-    {% endif %}
+    {{ /if }}
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} — Blog" href="/feed.xml">
 
-    {# ── Structured Data (JSON-LD) ───────────────────────────── #}
+    {{# ── Structured Data (JSON-LD) ───────────────────────────── #}}
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -74,7 +67,7 @@
           "postalCode": "{{ site.address.zip }}",
           "addressCountry": "ES"
         },
-        "image": "{{ 'idenautas-web/idenautas-og.png' | imgUrl(1200, 'jpg') }}",
+        "image": "{{ imgUrl('idenautas-web/idenautas-og.png', 1200, 'jpg') }}",
         "priceRange": "$$",
         "foundingDate": "2005",
         "areaServed": {
@@ -84,7 +77,7 @@
         "knowsLanguage": ["es", "eu", "en"]
       }
     </script>
-    {% if breadcrumb %}
+    {{ if breadcrumb }}
       <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -95,16 +88,16 @@
               "position": 1,
               "name": "Inicio",
               "item": "{{ site.url }}/"
-            }{% for crumb in breadcrumb %}, {
+            }{{ for [i, crumb] of breadcrumb.entries() }}, {
                 "@type": "ListItem",
-                "position": {{ loop.index + 1 }},
+                "position": {{ i + 2 }},
                 "name": "{{ crumb.name }}",
                 "item": "{{ site.url }}{{ crumb.url }}"
-              }{% endfor %}
+              }{{ /for }}
           ]
         }
       </script>
-    {% endif %}
+    {{ /if }}
   </head>
   <body>
 
@@ -112,24 +105,24 @@
 
     <header class="site-header" data-header>
       <a href="/" class="logo" aria-label="Idenautas - Inicio">
-        {% include "svg/logo.svg" %}
+        {{ include "svg/logo.svg" }}
       </a>
       <nav class="nav-desktop" aria-label="Navegación principal">
-        <a href="/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url == '/' }}>Inicio</a>
-        <a href="/nosotros/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url == '/nosotros/' }}>Nosotros</a>
+        <a href="/" class="nav-desktop__link"{{ url == "/" ? ' aria-current="page"' : "" }}>Inicio</a>
+        <a href="/nosotros/" class="nav-desktop__link"{{ url == "/nosotros/" ? ' aria-current="page"' : "" }}>Nosotros</a>
         <div class="nav-desktop__dropdown" data-dropdown>
-          <a href="/servicios/" class="nav-desktop__link" aria-haspopup="true" aria-expanded="false"{{ ' aria-current="page"' | safe if page.url.startsWith('/servicios/') }}>Servicios</a>
+          <a href="/servicios/" class="nav-desktop__link" aria-haspopup="true" aria-expanded="false"{{ url.startsWith("/servicios/") ? ' aria-current="page"' : "" }}>Servicios</a>
           <div class="nav-desktop__submenu">
-            <a href="/servicios/desarrollo-web/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/desarrollo-web/' }}>Desarrollo web</a>
-            <a href="/servicios/desarrollo-web-jamstack/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/desarrollo-web-jamstack/' }}>Desarrollo Jamstack</a>
-            <a href="/servicios/identidad-corporativa/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/identidad-corporativa/' }}>Identidad corporativa</a>
-            <a href="/servicios/mantenimiento-web/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/mantenimiento-web/' }}>Mantenimiento web</a>
-            <a href="/servicios/gestion-contenidos/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/gestion-contenidos/' }}>Gestión de contenidos</a>
-            <a href="/servicios/alojamiento-web/" class="nav-desktop__sublink"{{ ' aria-current="page"' | safe if page.url == '/servicios/alojamiento-web/' }}>Alojamiento y dominios</a>
+            <a href="/servicios/desarrollo-web/" class="nav-desktop__sublink"{{ url == "/servicios/desarrollo-web/" ? ' aria-current="page"' : "" }}>Desarrollo web</a>
+            <a href="/servicios/desarrollo-web-jamstack/" class="nav-desktop__sublink"{{ url == "/servicios/desarrollo-web-jamstack/" ? ' aria-current="page"' : "" }}>Desarrollo Jamstack</a>
+            <a href="/servicios/identidad-corporativa/" class="nav-desktop__sublink"{{ url == "/servicios/identidad-corporativa/" ? ' aria-current="page"' : "" }}>Identidad corporativa</a>
+            <a href="/servicios/mantenimiento-web/" class="nav-desktop__sublink"{{ url == "/servicios/mantenimiento-web/" ? ' aria-current="page"' : "" }}>Mantenimiento web</a>
+            <a href="/servicios/gestion-contenidos/" class="nav-desktop__sublink"{{ url == "/servicios/gestion-contenidos/" ? ' aria-current="page"' : "" }}>Gestión de contenidos</a>
+            <a href="/servicios/alojamiento-web/" class="nav-desktop__sublink"{{ url == "/servicios/alojamiento-web/" ? ' aria-current="page"' : "" }}>Alojamiento y dominios</a>
           </div>
         </div>
-        <a href="/blog/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url.startsWith('/blog/') }}>Blog</a>
-        <a href="/contacto/" class="nav-desktop__link"{{ ' aria-current="page"' | safe if page.url == '/contacto/' }}>Contacto</a>
+        <a href="/blog/" class="nav-desktop__link"{{ url.startsWith("/blog/") ? ' aria-current="page"' : "" }}>Blog</a>
+        <a href="/contacto/" class="nav-desktop__link"{{ url == "/contacto/" ? ' aria-current="page"' : "" }}>Contacto</a>
       </nav>
       <button class="theme-toggle theme-toggle--header" data-theme-toggle aria-label="Cambiar tema">
         <svg class="theme-toggle__icon theme-toggle__icon--sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
@@ -144,39 +137,39 @@
     <nav class="nav-overlay" data-nav-overlay aria-label="Navegación móvil">
       <ul class="nav-overlay__list">
         <li>
-          <a href="/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/' }}>Inicio</a>
+          <a href="/" class="nav-overlay__link" data-nav-link{{ url == "/" ? ' aria-current="page"' : "" }}>Inicio</a>
         </li>
         <li>
-          <a href="/nosotros/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/nosotros/' }}>Nosotros</a>
+          <a href="/nosotros/" class="nav-overlay__link" data-nav-link{{ url == "/nosotros/" ? ' aria-current="page"' : "" }}>Nosotros</a>
         </li>
         <li>
-          <a href="/servicios/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url.startsWith('/servicios/') }}>Servicios</a>
+          <a href="/servicios/" class="nav-overlay__link" data-nav-link{{ url.startsWith("/servicios/") ? ' aria-current="page"' : "" }}>Servicios</a>
           <ul class="nav-overlay__sublist">
             <li>
-              <a href="/servicios/desarrollo-web/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/desarrollo-web/' }}>Desarrollo web</a>
+              <a href="/servicios/desarrollo-web/" class="nav-overlay__sublink" data-nav-link{{ url == "/servicios/desarrollo-web/" ? ' aria-current="page"' : "" }}>Desarrollo web</a>
             </li>
             <li>
-              <a href="/servicios/desarrollo-web-jamstack/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/desarrollo-web-jamstack/' }}>Desarrollo Jamstack</a>
+              <a href="/servicios/desarrollo-web-jamstack/" class="nav-overlay__sublink" data-nav-link{{ url == "/servicios/desarrollo-web-jamstack/" ? ' aria-current="page"' : "" }}>Desarrollo Jamstack</a>
             </li>
             <li>
-              <a href="/servicios/identidad-corporativa/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/identidad-corporativa/' }}>Identidad corporativa</a>
+              <a href="/servicios/identidad-corporativa/" class="nav-overlay__sublink" data-nav-link{{ url == "/servicios/identidad-corporativa/" ? ' aria-current="page"' : "" }}>Identidad corporativa</a>
             </li>
             <li>
-              <a href="/servicios/mantenimiento-web/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/mantenimiento-web/' }}>Mantenimiento web</a>
+              <a href="/servicios/mantenimiento-web/" class="nav-overlay__sublink" data-nav-link{{ url == "/servicios/mantenimiento-web/" ? ' aria-current="page"' : "" }}>Mantenimiento web</a>
             </li>
             <li>
-              <a href="/servicios/gestion-contenidos/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/gestion-contenidos/' }}>Gestión de contenidos</a>
+              <a href="/servicios/gestion-contenidos/" class="nav-overlay__sublink" data-nav-link{{ url == "/servicios/gestion-contenidos/" ? ' aria-current="page"' : "" }}>Gestión de contenidos</a>
             </li>
             <li>
-              <a href="/servicios/alojamiento-web/" class="nav-overlay__sublink" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/servicios/alojamiento-web/' }}>Alojamiento y dominios</a>
+              <a href="/servicios/alojamiento-web/" class="nav-overlay__sublink" data-nav-link{{ url == "/servicios/alojamiento-web/" ? ' aria-current="page"' : "" }}>Alojamiento y dominios</a>
             </li>
           </ul>
         </li>
         <li>
-          <a href="/blog/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url.startsWith('/blog/') }}>Blog</a>
+          <a href="/blog/" class="nav-overlay__link" data-nav-link{{ url.startsWith("/blog/") ? ' aria-current="page"' : "" }}>Blog</a>
         </li>
         <li>
-          <a href="/contacto/" class="nav-overlay__link" data-nav-link{{ ' aria-current="page"' | safe if page.url == '/contacto/' }}>Contacto</a>
+          <a href="/contacto/" class="nav-overlay__link" data-nav-link{{ url == "/contacto/" ? ' aria-current="page"' : "" }}>Contacto</a>
         </li>
       </ul>
       <div class="nav-overlay__theme">
@@ -193,12 +186,12 @@
     </nav>
 
     <main id="main">
-      {{ content | safe }}
+      {{ content }}
     </main>
 
     <footer class="site-footer">
       <div class="footer-bg" aria-hidden="true">
-        {% img "idenautas-web/pie.png", "", "hero" %}
+        {{ img("idenautas-web/pie.png", "", "hero") }}
       </div>
       <div class="footer-content">
         <div class="footer-content__top">
@@ -209,26 +202,26 @@
         </div>
         <div class="footer-content__bottom">
           <div class="footer-col">
-            {% include "svg/logo.svg" %}
+            {{ include "svg/logo.svg" }}
             <p class="footer-tagline">{{ site.tagline }}</p>
-            <p class="footer-copyright">&copy; {{ site.name }} S.L.U. 2005–{{ "" | year }}</p>
+            <p class="footer-copyright">&copy; {{ site.name }} S.L.U. 2005–{{ year() }}</p>
           </div>
           <div class="footer-col footer-col--contact">
             <p>
-              <span class="footer-icon" aria-hidden="true">{% include "svg/icon-location.svg" %}</span>
+              <span class="footer-icon" aria-hidden="true">{{ include "svg/icon-location.svg" }}</span>
               <span>{{ site.address.street }}<br>{{ site.address.zip }}
                 {{ site.address.city }}</span>
             </p>
             <p>
-              <span class="footer-icon" aria-hidden="true">{% include "svg/icon-email.svg" %}</span>
+              <span class="footer-icon" aria-hidden="true">{{ include "svg/icon-email.svg" }}</span>
               <a href="mailto:{{ site.email }}">{{ site.email }}</a>
             </p>
             <p>
-              <span class="footer-icon" aria-hidden="true">{% include "svg/icon-phone.svg" %}</span>
+              <span class="footer-icon" aria-hidden="true">{{ include "svg/icon-phone.svg" }}</span>
               <a href="tel:{{ site.phone }}">{{ site.phone }}</a>
             </p>
             <p>
-              <span class="footer-icon" aria-hidden="true">{% include "svg/icon-whatsapp.svg" %}</span>
+              <span class="footer-icon" aria-hidden="true">{{ include "svg/icon-whatsapp.svg" }}</span>
               <a href="https://wa.me/34605639214" target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </p>
           </div>

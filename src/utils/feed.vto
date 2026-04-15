@@ -1,0 +1,30 @@
+---
+url: /feed.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.name }} — Blog</title>
+    <description>{{ site.description }}</description>
+    <link>{{ site.url }}/blog/</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml"/>
+    <language>es</language>
+    {{ set posts = search.pages("blog", "date=desc") }}
+    {{ if posts.length > 0 }}
+    <lastBuildDate>{{ posts[0].date |> htmlDateString }}T00:00:00Z</lastBuildDate>
+    {{ /if }}
+    {{ for [i, post] of posts.entries() }}
+    {{ if i < 20 }}
+    <item>
+      <title>{{ post.title |> escape }}</title>
+      <link>{{ site.url }}{{ post.url }}</link>
+      <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+      <pubDate>{{ post.date |> htmlDateString }}T00:00:00Z</pubDate>
+      {{ if post.description }}
+      <description>{{ post.description |> escape }}</description>
+      {{ /if }}
+    </item>
+    {{ /if }}
+    {{ /for }}
+  </channel>
+</rss>
