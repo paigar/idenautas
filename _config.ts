@@ -207,8 +207,14 @@ site.preprocess([".md"], (pages) => {
   for (const page of pages) {
     // Markdown runs through Vento first, then markdown-it, so shortcodes
     // ({{ img() }}, {{ blogUrl() }}, etc.) can appear anywhere in content.
+    // A file can opt out by declaring its own `templateEngine` in frontmatter
+    // (e.g. posts that discuss Vento syntax itself and contain literal
+    // `{{ ... }}` examples inside code blocks).
     // deno-lint-ignore no-explicit-any
-    (page.data as any).templateEngine = ["vto", "md"];
+    const fmAny = page.data as any;
+    if (fmAny.templateEngine === undefined) {
+      fmAny.templateEngine = ["vto", "md"];
+    }
 
     const srcPath = page.src?.path ?? "";
     if (!srcPath.startsWith("/blog/")) continue;

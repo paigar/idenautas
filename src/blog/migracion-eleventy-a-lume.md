@@ -5,6 +5,11 @@ date: 2026-04-15
 heroImage: idenautas-web/blog/158.png
 description: "Durante tres años construí este sitio con Eleventy y estaba contento. En abril de 2026 lo he reconstruido entero sobre Lume 3 y Vento. Este es el relato honesto de por qué, qué he cambiado, qué he conservado y qué aprendí sobre migraciones que, en realidad, no lo son tanto."
 tags: ["desarrollo-tecnico"]
+# El cuerpo contiene ejemplos literales de sintaxis Vento ({{ … }}) dentro de
+# bloques de código. Deshabilitamos el motor Vento para este archivo para que
+# no intente ejecutar esos ejemplos como expresiones reales; el layout sigue
+# procesándose con Vento como siempre.
+templateEngine: md
 ---
 
 Hace ya unos años publiqué en este mismo blog [un artículo titulado «Abrazando el Jamstack en Idenautas»](/blog/abrazando-el-jamstack-en-idenautas/). Contaba cómo había elegido Eleventy para reconstruir mi web, por qué me parecía una herramienta honesta y qué esperaba de ella. No era un post promocional: era el diario de una decisión tomada después de mirar bastantes alternativas y descartar casi todas por exceso de complejidad.
@@ -25,7 +30,7 @@ Los motivos concretos, si hay que enumerarlos, son cuatro:
 
 3. **Vento en lugar de Nunjucks.** Este es el que más pesó. Lo explico un par de secciones más abajo, porque merece su propio apartado.
 
-4. **Un motivo algo menos racional pero real: es una herramienta española.** Lume la desarrolla [Óscar Otero](https://oscarotero.com/), un programador gallego con años de recorrido en el software libre. En un mundo donde casi todas las herramientas que uso cada día vienen de Silicon Valley, encontrarme con una que se construye desde aquí, en mi idioma, con documentación bilingüe y con la sensibilidad de quien trabaja el código como oficio, me produce un punto de orgullo patrio que no voy a fingir que no existe. No es un criterio que justifique una decisión técnica por sí solo, pero cuando lo que queda tras poner todo en la balanza es un empate, el orgullo de apoyar lo que se hace cerca inclina el plato.
+4. **Un motivo algo menos racional pero real: es una herramienta española.** Lume la desarrolla [Óscar Otero](https://oscarotero.com/), un programador gallego con años de recorrido en el software libre. En un mundo donde casi todas las herramientas que uso cada día vienen de Silicon Valley, encontrarme con una que se construye desde aquí, en mi idioma y con la sensibilidad de quien trabaja el código como oficio, me produce un punto de orgullo patrio que no voy a fingir que no existe. No es un criterio que justifique una decisión técnica por sí solo, pero cuando lo que queda tras poner todo en la balanza es un empate, el orgullo de apoyar lo que se hace cerca inclina el plato.
 
 No cambié porque Eleventy me decepcionara. Cambié porque apareció algo que, manteniéndose dentro de la misma familia de ideas, quitaba unas cuantas aristas que llevaba tiempo notando. Es una diferencia importante.
 
