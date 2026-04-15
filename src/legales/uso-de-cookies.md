@@ -1,9 +1,8 @@
 ---
 title: Uso de cookies
-permalink: /uso-de-cookies/
-layout: layouts/post.njk
+url: /uso-de-cookies/
+layout: layouts/post.vto
 label: Legal
-eleventyExcludeFromCollections: true
 ---
 
 La instalacion de cookies en el navegador requiere de tu consentimiento expreso a no ser que las cookies sean:

@@ -1,9 +1,8 @@
 ---
 title: Aviso Legal
-permalink: /aviso-legal/
-layout: layouts/post.njk
+url: /aviso-legal/
+layout: layouts/post.vto
 label: Legal
-eleventyExcludeFromCollections: true
 ---
 
 ## 1. Identidad del titular de la presente web

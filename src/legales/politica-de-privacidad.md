@@ -1,9 +1,8 @@
 ---
 title: Politica de privacidad
-permalink: /politica-de-privacidad/
-layout: layouts/post.njk
+url: /politica-de-privacidad/
+layout: layouts/post.vto
 label: Legal
-eleventyExcludeFromCollections: true
 ---
 
 La presente Politica de Privacidad tiene por objeto informarle del tratamiento que reciben sus datos de caracter personal, cuando navega o utiliza los servicios incluidos en nuestra pagina web, de forma que pueda decidir libremente si desea aportarlos con las finalidades que se recogen en el presente documento.

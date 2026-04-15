@@ -3,11 +3,14 @@ import vento from "lume/plugins/vento.ts";
 import code_highlight from "lume/plugins/code_highlight.ts";
 import terser from "lume/plugins/terser.ts";
 import { transform } from "npm:lightningcss";
+import { generateLQIP } from "./scripts/lqip.ts";
 
 // ─── Site metadata & LQIP cache (loaded once at config time) ──────────────
 const siteData = JSON.parse(await Deno.readTextFile("./src/_data/site.json"));
 const CDN: string = siteData.cdn;
 
+// Seeded at config time from the on-disk cache; refreshed (new images
+// downloaded from the CDN) via a beforeBuild hook further down.
 let lqipData: Record<string, string> = {};
 try {
   lqipData = JSON.parse(await Deno.readTextFile("./src/_data/lqip.json"));
@@ -99,7 +102,7 @@ function slugify(str: string): string {
 // ─── Lume site ────────────────────────────────────────────────────────────
 const site = lume({
   src: "./src",
-  dest: "./_lume_site",
+  dest: "./_site",
   includes: "_includes",
 });
 
@@ -108,6 +111,12 @@ site.use(code_highlight());
 site.use(terser({
   extensions: [".js"],
 }));
+
+// Regenerate the LQIP cache before every build; only new images trigger
+// an HTTP round-trip, so repeat builds stay fast.
+site.addEventListener("beforeBuild", async () => {
+  lqipData = await generateLQIP({ quiet: false });
+});
 
 // Assets: .js goes through terser, everything else is copied as-is.
 site.add("assets/js", "assets/js");
@@ -118,13 +127,6 @@ site.copy("assets/css");
 // During the migration: ignore Eleventy-only artifacts.
 // Markdown content directories still use .njk layouts, so exclude them until
 // each is ported to Vento.
-site.ignore(
-  // Eleventy-specific artifacts that Lume must not try to load
-  "blog/blog.json",
-  "blog/blog.11tydata.js",
-);
-// Any leftover .njk template is Eleventy-only during the migration.
-site.ignore((path) => path.endsWith(".njk"));
 
 // UTF-8 BOM on llms.txt / llms-full.txt for better ingestion by some LLM tools
 site.process([".txt"], (pages) => {
@@ -203,25 +205,10 @@ const blogSlugMap = new Map<string, string>();
 
 site.preprocess([".md"], (pages) => {
   for (const page of pages) {
-    // All markdown runs through Vento first, then markdown-it. This makes
-    // shortcodes ({{ img() }}, {{ blogUrl() }}, etc.) work inside content.
+    // Markdown runs through Vento first, then markdown-it, so shortcodes
+    // ({{ img() }}, {{ blogUrl() }}, etc.) can appear anywhere in content.
     // deno-lint-ignore no-explicit-any
     (page.data as any).templateEngine = ["vto", "md"];
-
-    // Rewrite any stray Eleventy layout references so the same .md files
-    // build under both Eleventy and Lume during the migration window.
-    if (typeof page.data.layout === "string") {
-      page.data.layout = page.data.layout.replace(/\.njk$/, ".vto");
-    }
-
-    // Eleventy uses `permalink`; Lume uses `url`. Translate if present.
-    // (Lume auto-computes a url from the source path, so we always override
-    // when a permalink is declared in frontmatter.)
-    // deno-lint-ignore no-explicit-any
-    const fmAny = page.data as any;
-    if (fmAny.permalink) {
-      page.data.url = fmAny.permalink;
-    }
 
     const srcPath = page.src?.path ?? "";
     if (!srcPath.startsWith("/blog/")) continue;
@@ -237,6 +224,8 @@ site.preprocess([".md"], (pages) => {
       page.data.tags = [...existingTags, "blog"];
     }
 
+    // URL generation mirrors the old Eleventy permalink:
+    //   permalink: "/blog/{{ title | slugify }}/"
     const title = page.data.title ?? "";
     const url = `/blog/${slugify(title)}/`;
     page.data.url = url;
@@ -244,8 +233,10 @@ site.preprocess([".md"], (pages) => {
     const fileSlug = srcPath.split("/").pop() ?? "";
     if (fileSlug) blogSlugMap.set(fileSlug, url);
 
-    // Rewrite legacy Eleventy shortcodes to Vento function calls so the
-    // original .md files can still be built by Eleventy during migration.
+    // Legacy Eleventy shortcodes inside the markdown body are rewritten
+    // to Vento function calls on the fly. The source files are kept in
+    // their original shape so the diff against pre-Lume history stays
+    // small, but everything Vento sees is already in its own syntax.
     //   {% img "x.png", "alt", "hero" %}  →  {{ img("x.png", "alt", "hero") }}
     //   {% cardPicture img, alt, true %}  →  {{ cardPicture(img, alt, true) }}
     //   {% blogUrl "file-slug" %}         →  {{ blogUrl("file-slug") }}
