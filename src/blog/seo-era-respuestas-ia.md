@@ -21,9 +21,8 @@ La consecuencia práctica: si tu estrategia digital dependía de producir artíc
 
 ## Lo que ha cambiado (y lo que no)
 
-**Ha cambiado** el SEO informativo corto. Las búsquedas tipo "qué es el óxido nítrico", "cuánto dura una pila" o "receta de sopa de ajo" las responde la IA en la propia página de resultados. El usuario no entra a tu web. También pierde sentido mucho del SEO de nicho basado en producir volúmenes enormes de contenido mediocre para cubrir long tail: la IA lo resume mejor y más rápido.
-
-**No ha cambiado** lo transaccional. Quien busca "abogado laboralista Madrid" o "comprar zapatillas running" sigue queriendo llegar a una web, comparar, contactar, comprar. El SEO local tampoco ha muerto; al contrario, es probablemente donde más sentido tiene invertir. Y las búsquedas de marca siguen intactas: si te conocen, te buscan por nombre.
+- **Ha cambiado** el SEO informativo corto. Las búsquedas tipo "qué es el óxido nítrico", "cuánto dura una pila" o "receta de sopa de ajo" las responde la IA en la propia página de resultados. El usuario no entra a tu web. También pierde sentido mucho del SEO de nicho basado en producir volúmenes enormes de contenido mediocre para cubrir long tail: la IA lo resume mejor y más rápido.
+- **No ha cambiado** lo transaccional. Quien busca "abogado laboralista Madrid" o "comprar zapatillas running" sigue queriendo llegar a una web, comparar, contactar, comprar. El SEO local tampoco ha muerto; al contrario, es probablemente donde más sentido tiene invertir. Y las búsquedas de marca siguen intactas: si te conocen, te buscan por nombre.
 
 Dicho de otro modo: el SEO como tráfico de descubrimiento informativo se contrae; el SEO como canal de intención comercial sigue tan vivo como siempre.
 
