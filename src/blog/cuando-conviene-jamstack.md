@@ -26,7 +26,7 @@ La mayoría de las webs que se construyen hoy encajan perfectamente en esta filo
 
 ## Qué ganas entrando en esta filosofía
 
-No se trata solo de usar una tecnología más moderna. Jamstack cambia cosas tangibles que el cliente nota: **velocidad real** (páginas que cargan en un pestañeo), **seguridad casi absoluta** (no hay panel de administración ni base de datos que atacar), **coste de alojamiento mínimo** (muchas veces gratis), **sostenibilidad** (menos consumo energético por visita) y **mucho menos mantenimiento** (no hay actualizaciones semanales que aplicar para no romper nada).
+No se trata solo de usar una tecnología más moderna. Jamstack cambia cosas tangibles que el cliente nota: **velocidad real** (páginas que cargan en un pestañeo), **seguridad casi absoluta** (no hay panel de administración ni base de datos que atacar), **coste de alojamiento mínimo**, **sostenibilidad** (menos consumo energético por visita) y **mucho menos mantenimiento** (no hay actualizaciones semanales que aplicar para no romper nada).
 
 Todo eso se traduce en menos sorpresas y más tranquilidad a lo largo de los años.
 
