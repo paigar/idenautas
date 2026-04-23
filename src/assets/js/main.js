@@ -255,7 +255,7 @@
   });
 
   // ── Form submission via Lettermint ─────────────────────────
-  const FORM_ENDPOINT = 'https://forms.idenautas.work/idenautas_com.php';
+  const FORM_ENDPOINT = 'https://ideforms.com/api/v1/s/k9m7fx2q.php';
 
   document.querySelectorAll('[data-form]').forEach(form => {
     const formName = form.dataset.form;
