@@ -6,6 +6,7 @@
 	"email": "info@idenautas.com",
 	"phone": "+34 944 130 535",
 	"cdn": "https://imagenes.paigar.es/",
+	"formEndpoint": "https://ideforms.com/user/idenautas.php",
 	"address": {
 		"street": "Avenida Maurice Ravel 16",
 		"city": "Bilbao",

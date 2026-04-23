@@ -251,6 +251,9 @@
     <script src="/assets/js/main.js?v={{ build }}" defer></script>
     <script src="/assets/js/cookieconsent.js?v={{ build }}" defer></script>
     <script src="/assets/js/cookieconsent-init.js?v={{ build }}" defer></script>
+    {{ if content.includes("data-ideforms-form") }}
+    <script src="https://ideforms.com/js/ideforms.js" defer></script>
+    {{ /if }}
 
     <!-- Matomo Image Tracker-->
     <img referrerpolicy="no-referrer-when-downgrade" src="https://stats.idenautas.work/matomo.php?idsite=1&amp;rec=1" style="border:0" alt="" />

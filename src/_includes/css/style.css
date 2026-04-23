@@ -3016,7 +3016,7 @@ body::after {
 	text-decoration: underline;
 }
 
-.form-error {
+.ideforms-error {
 	color: var(--color-accent);
 	font-size: var(--text-sm);
 	margin-bottom: var(--space-sm);
@@ -3288,7 +3288,12 @@ body::after {
 .prose hr {
 	border: none;
 	height: 1px;
-	background: linear-gradient(to right, transparent, var(--color-accent), transparent);
+	background: linear-gradient(
+		to right,
+		transparent,
+		var(--color-accent),
+		transparent
+	);
 	opacity: 0.4;
 	margin: 3rem auto;
 	width: 60%;
@@ -3616,7 +3621,9 @@ body::after {
 	color: var(--color-text-muted);
 	cursor: pointer;
 	border-radius: 50%;
-	transition: color 0.2s, background 0.2s;
+	transition:
+		color 0.2s,
+		background 0.2s;
 }
 
 .blog-search__clear svg {
