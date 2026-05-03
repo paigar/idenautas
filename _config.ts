@@ -303,7 +303,7 @@ site.data(
       imgUrl(imgPath, largest, "jpg")
     }" srcset="${
       srcsetFor("jpg")
-    }" sizes="${cfg.sizes}" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}"${priority} onload="this.parentNode.classList.add('loaded')"></picture></div>`;
+    }" sizes="${cfg.sizes}" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}"${priority} onload="this.closest('.lqip-wrap').classList.add('loaded')"></picture></div>`;
   },
 );
 
@@ -332,7 +332,7 @@ site.data(
         imgUrl(imgPath, largest, "webp")
       }"><img src="${
         imgUrl(imgPath, largest, "jpg")
-      }" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}" onload="this.parentNode.classList.add('loaded')"></picture></div>`;
+      }" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}" onload="this.closest('.lqip-wrap').classList.add('loaded')"></picture></div>`;
     }
 
     return `<div class="lqip-wrap" style="background-image:url('${lqip}')"><picture><source type="image/avif" srcset="${
@@ -343,7 +343,7 @@ site.data(
       imgUrl(imgPath, largest, "jpg")
     }" srcset="${
       srcsetFor("jpg")
-    }" sizes="(max-width: 768px) 100vw, 50vw" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}" onload="this.parentNode.classList.add('loaded')"></picture></div>`;
+    }" sizes="(max-width: 768px) 100vw, 50vw" alt="${safeAlt}" loading="${loading}" width="${width}" height="${height}" onload="this.closest('.lqip-wrap').classList.add('loaded')"></picture></div>`;
   },
 );
 
